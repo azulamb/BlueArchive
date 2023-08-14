@@ -115,6 +115,7 @@ button{ cursor: pointer; user-select: none; }
 #report_unique_gear_1::before { content: '★1'; }
 #report_unique_gear_2::before { content: '★2'; }
 #report_need_eligma_rarity::before { content: '全員★5'; }
+#students_header td, #students .name, #students .school { white-space: nowrap; }
 	</style>
 	<script>
 const ANOTHER_NAME = {
@@ -169,52 +170,54 @@ const SCHOOL = {
 						<button><label>インポート<input type="file" accept=".csv" id="import_students"></label></button>
 					</div>
 				</h2>
-				<table style="border-spacing:0">
-					<thead>
-						<tr id="students_header">
-							<td style="width:2rem;"><label data-type="boolean" data-key="has">所持<button></button></label></td>
-							<td><label data-type="string" data-key="name">名前<button></button></label></td>
-							<td style="width:1.2rem;"><label data-type="damage" data-key="damage">攻<button></button></label></td>
-							<td style="width:1.2rem;"><label data-type="armor" data-key="armor">防<button></button></label></td>
-							<td style="width:3rem;"><label data-type="combat" data-key="combat">クラス<button></button></label></td>
-							<td style="width:2rem;"><label data-type="role" data-key="role">役割<button></button></label></td>
-							<td style="width:2rem;"><label data-type="position" data-key="position">場所<button></button></label></td>
-							<td style="width:2rem;"><label data-type="gun" data-key="gun">武器<button></button></label></td>
-							<td style="width:3rem;"><label data-type="number" data-key="base_rarity">初期★<button></button></label></td>
-							<td style="width:4rem;"><label data-type="number" data-key="rarity">現在の★<button></button></label></td>
-							<td style="width:3rem;"><label data-type="number" data-key="unique_weapon">固有<button></button></label></td>
-							<td style="width:3rem;"><label data-type="number" data-key="unique_gear">愛用品<button></button></label></td>
-							<td style="width:3rem;"><label data-type="number" data-key="eligma">欠片<button></button></label></td>
-							<td style="width:3rem;"><label data-type="boolean" data-key="use_cover">障害物<button></button></label></td>
-							<td style="width:3rem;"><label data-type="affinity" data-key="urban">市街地<button></button></label></td>
-							<td style="width:3rem;"><label data-type="affinity" data-key="outdoors">屋外<button></button></label></td>
-							<td style="width:3rem;"><label data-type="affinity" data-key="indoors">屋内<button></button></label></td>
-							<td><label data-type="school" data-key="school">学校<button></button></label></td>
-						</tr>
-					</thead>
-					<tbody id="students">
-						<template>
-							<td class="has"><label><input type="checkbox"></label></td>
-							<td class="name"></td>
-							<td class="damage"></td>
-							<td class="armor"></td>
-							<td class="combat"></td>
-							<td class="role"></td>
-							<td class="position"></td>
-							<td class="gun"></td>
-							<td class="base_rarity"><input-star min="1" max="3" readonly></input-star></td>
-							<td class="rarity"><input-star min="1" max="5" disabled></input-star></td>
-							<td class="unique_weapon"><input-star min="0" max="3" disabled></input-star></td>
-							<td class="unique_gear"><input-star min="0" max="2" disabled></input-star></td>
-							<td class="eligma"><input type="number" step="1" min="0" max="999" value="0"></td>
-							<td class="use_cover"></td>
-							<td class="urban"></td>
-							<td class="outdoors"></td>
-							<td class="indoors"></td>
-							<td class="school"></td>
-						</template>
-					</tbody>
-				</table>
+				<div style="overflow-x:auto">
+					<table style="border-spacing:0;margin:auto">
+						<thead>
+							<tr id="students_header">
+								<td><label data-type="boolean" data-key="has">所持<button></button></label></td>
+								<td><label data-type="string" data-key="name">名前<button></button></label></td>
+								<td><label data-type="damage" data-key="damage">攻<button></button></label></td>
+								<td><label data-type="armor" data-key="armor">防<button></button></label></td>
+								<td><label data-type="combat" data-key="combat">クラス<button></button></label></td>
+								<td><label data-type="role" data-key="role">役割<button></button></label></td>
+								<td><label data-type="position" data-key="position">場所<button></button></label></td>
+								<td><label data-type="gun" data-key="gun">武器<button></button></label></td>
+								<td><label data-type="number" data-key="base_rarity">初期★<button></button></label></td>
+								<td><label data-type="number" data-key="rarity">現在の★<button></button></label></td>
+								<td><label data-type="number" data-key="unique_weapon">固有<button></button></label></td>
+								<td><label data-type="number" data-key="unique_gear">愛用品<button></button></label></td>
+								<td><label data-type="number" data-key="eligma">欠片<button></button></label></td>
+								<td><label data-type="boolean" data-key="use_cover">障害物<button></button></label></td>
+								<td><label data-type="affinity" data-key="urban">市街地<button></button></label></td>
+								<td><label data-type="affinity" data-key="outdoors">屋外<button></button></label></td>
+								<td><label data-type="affinity" data-key="indoors">屋内<button></button></label></td>
+								<td><label data-type="school" data-key="school">学校<button></button></label></td>
+							</tr>
+						</thead>
+						<tbody id="students">
+							<template>
+								<td class="has"><label><input type="checkbox"></label></td>
+								<td class="name"></td>
+								<td class="damage"></td>
+								<td class="armor"></td>
+								<td class="combat"></td>
+								<td class="role"></td>
+								<td class="position"></td>
+								<td class="gun"></td>
+								<td class="base_rarity"><input-star min="1" max="3" readonly></input-star></td>
+								<td class="rarity"><input-star min="1" max="5" disabled></input-star></td>
+								<td class="unique_weapon"><input-star min="0" max="3" disabled></input-star></td>
+								<td class="unique_gear"><input-star min="0" max="2" disabled></input-star></td>
+								<td class="eligma"><input type="number" step="1" min="0" max="999" value="0"></td>
+								<td class="use_cover"></td>
+								<td class="urban"></td>
+								<td class="outdoors"></td>
+								<td class="indoors"></td>
+								<td class="school"></td>
+							</template>
+						</tbody>
+					</table>
+				</div>
 			</div>
 			<dialog id="filter_dialog">
 				<div>
