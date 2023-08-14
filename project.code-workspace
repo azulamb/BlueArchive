@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "./"
+		}
+	],
+	"settings": {
+		"deno.enablePaths": [
+			"./tools"
+		],
+		"cSpell.words": [
+			"eligma",
+			"hatsune_miku",
+			"hyakkiyako",
+			"shanhaijing"
+		]
+	}
+}

@@ -1,0 +1,4795 @@
+{
+  "profile": {
+    "airi": {
+      "name": "アイリ",
+      "last": "栗村",
+      "school": "trinity",
+      "gun": "SMG",
+      "uniqueWeapon": "fresh_choco-mint",
+      "club": "after_school_sweets_club",
+      "age": 15,
+      "birthday": "1/30",
+      "height": 160,
+      "hobby": [
+        "美味しいスイーツ探し",
+        "お茶会"
+      ],
+      "profile": "トリニティ総合学園所属、放課後スイーツ部の朗らかな部員。\n\nゆったりとした性格の持ち主で、友達とスイーツを食べながらお喋りをする時間を何より大切にしている。\n好きなものはアイスクリームで、最近はチョコミント味にハマっている。"
+    },
+    "akane": {
+      "name": "アカネ",
+      "last": "",
+      "school": "millennium",
+      "gun": "HG",
+      "uniqueWeapon": "silent_solution",
+      "club": "cleaning_and_clearing",
+      "age": 16,
+      "birthday": "",
+      "height": 164,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "bunny_girl"
+      ]
+    },
+    "akari": {
+      "name": "アカリ",
+      "last": "鰐淵",
+      "school": "gehenna",
+      "gun": "AR",
+      "uniqueWeapon": "bottomless",
+      "club": "gourmet_research_society",
+      "age": 17,
+      "birthday": "12/9",
+      "height": 167,
+      "hobby": [
+        "大食い"
+      ],
+      "profile": "ゲヘナ学園所属、美食研究会の部員。\n\nおとなしい少女かと思いきや、キヴォトスの大食い大会で常にチャンピオンの座に座り続けるフードファイター。\n基本的には穏やかで善良な正確だが、ゲヘナ学園の生徒らしくときには他人をひどい目に合わせることも辞さない一面も持ち合わせている。"
+    },
+    "ako": {
+      "name": "アコ",
+      "last": "天雨",
+      "school": "gehenna",
+      "gun": "HG",
+      "uniqueWeapon": "hotshot",
+      "club": "disciplinary_committee",
+      "age": 17,
+      "birthday": "12/22",
+      "height": 165,
+      "hobby": [],
+      "profile": ""
+    },
+    "azusa": {
+      "name": "アズサ",
+      "last": "",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "et_omnia_vanitas",
+      "club": "supplemental_lessons_club",
+      "age": 16,
+      "birthday": "12/26",
+      "height": 149,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "asuna": {
+      "name": "アスナ",
+      "last": "",
+      "school": "millennium",
+      "gun": "AR",
+      "uniqueWeapon": "surprise_party",
+      "club": "cleaning_and_clearing",
+      "age": 17,
+      "birthday": "",
+      "height": 167,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "bunny_girl"
+      ]
+    },
+    "atsuko": {
+      "name": "アツコ",
+      "last": "",
+      "school": "",
+      "gun": "SMG",
+      "uniqueWeapon": "scorpius",
+      "club": "arius_squad",
+      "age": 15,
+      "birthday": "1/20",
+      "height": 158,
+      "hobby": [],
+      "profile": ""
+    },
+    "ayane": {
+      "name": "アヤネ",
+      "last": "",
+      "school": "abydos",
+      "gun": "HG",
+      "uniqueWeapon": "common_sense",
+      "club": "countermeasure_council",
+      "age": 15,
+      "birthday": "",
+      "height": 153,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "arisu": {
+      "name": "アリス",
+      "last": "天童",
+      "school": "millennium",
+      "gun": "RG",
+      "uniqueWeapon": "sword_of_light_supernova",
+      "club": "game_development_club",
+      "age": 0,
+      "birthday": "3/25",
+      "height": 152,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "maid"
+      ]
+    },
+    "aru": {
+      "name": "アル",
+      "last": "陸八魔",
+      "school": "gehenna",
+      "gun": "SR",
+      "uniqueWeapon": "wine_red_admire",
+      "uniqueGear": "arus_treasured_wallet",
+      "club": "problem_solver_68",
+      "age": 16,
+      "birthday": "3/12",
+      "height": 160,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "new_year"
+      ]
+    },
+    "iori": {
+      "name": "イオリ",
+      "last": "銀鏡",
+      "school": "gehenna",
+      "gun": "SR",
+      "uniqueWeapon": "crack_shot",
+      "club": "disciplinary_committee",
+      "age": 16,
+      "birthday": "11/8",
+      "height": 157,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "izuna": {
+      "name": "イズナ",
+      "last": "久田",
+      "school": "hyakkiyako",
+      "gun": "SMG",
+      "uniqueWeapon": "izuna-style_super_ninja_apparatus",
+      "club": "ninjutsu_research_club",
+      "age": 15,
+      "birthday": "12/16",
+      "height": 155,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "izumi": {
+      "name": "イズミ",
+      "last": "獅子堂",
+      "school": "gehenna",
+      "gun": "MG",
+      "uniqueWeapon": "daily_cutlery",
+      "club": "gourmet_research_society",
+      "age": 16,
+      "birthday": "5/11",
+      "height": 161,
+      "hobby": [
+        "ゲテモノ料理を食べること",
+        "作ること"
+      ],
+      "profile": "ゲヘナ学園所属、美食研究会のメンバーであり、何でもよく食べる食いしん坊少女。\n\n食べ物を愛しすぎた結果、他の人からすると勘弁してほしいと思うようなゲテモノも好んで食べるようになった。",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "iroha": {
+      "name": "イロハ",
+      "last": "棗",
+      "school": "gehenna",
+      "gun": "HG",
+      "uniqueWeapon": "pandemonium_service_pistol",
+      "club": "pandemonium_society",
+      "age": 16,
+      "birthday": "11/16",
+      "height": 151,
+      "hobby": [],
+      "profile": ""
+    },
+    "ui": {
+      "name": "ウイ",
+      "last": "古関",
+      "school": "trinity",
+      "gun": "SR",
+      "uniqueWeapon": "volume_suppressor",
+      "club": "library_committee",
+      "age": 17,
+      "birthday": "4/23",
+      "height": 165,
+      "hobby": [
+        "読書",
+        "書籍の管理",
+        "古書の研究"
+      ],
+      "profile": "トリニティ総合学園所属、図書委員会の委員長。\\n\\nこよなく本を愛する少女であり、鶏が先か卵が先かは不明なものの、同時になかなかの人嫌いでもある。本の中でも特に古書を好んでおり、彼女自身も日々「古書館」と呼ばれる場所で古書の解読や管理を行いつつ、引きこもるようにして日々を過ごしている。その知的好奇心や、古書に関する知識及び技術は一級品であり、周囲から二つ名として「古書感の魔術師」と呼ばれるほど。",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "utaha": {
+      "name": "ウタハ",
+      "last": "白石",
+      "school": "millennium",
+      "gun": "SMG",
+      "uniqueWeapon": "meister_zero",
+      "club": "engineering_dept",
+      "age": 17,
+      "birthday": "11/13",
+      "height": 162,
+      "hobby": [
+        "発明や修理全般"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、エンジニア部の部長。\n\nその肩書に違わず、多種多様なロボットを発明し続けている。特に彼女がいつも連れているロボット「雷ちゃん」はPMCの戦闘用オートマタ数百台に匹敵するほどの戦闘能力を持っているとされている。",
+      "another": [
+        "cheerleader"
+      ]
+    },
+    "eimi": {
+      "name": "エイミ",
+      "last": "和泉元",
+      "school": "millennium",
+      "gun": "SG",
+      "uniqueWeapon": "multi-tactical",
+      "club": "paranormal_affairs_department",
+      "age": 15,
+      "birthday": "5/1",
+      "height": 167,
+      "hobby": [
+        "ボーっとすること",
+        "音楽鑑賞"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、特異現象捜査部のメンバー。\n\n口数が少ない、考えを読みづらい少女。特に理由もなくぼーっと立っていることも多い。しかしセミナーの依頼を受けて任務を遂行するときだけは、誰よりも効率的に動き、迅速に目標を達成させる。"
+    },
+    "kaede": {
+      "name": "カエデ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "HG",
+      "uniqueWeapon": "funny_fireworks",
+      "club": "inner_discipline_club",
+      "age": 15,
+      "birthday": "7/9",
+      "height": 142,
+      "hobby": [],
+      "profile": ""
+    },
+    "kazusa": {
+      "name": "カズサ",
+      "last": "杏山",
+      "school": "trinity",
+      "gun": "MG",
+      "uniqueWeapon": "mabinogion",
+      "club": "after_school_sweets_club",
+      "age": 15,
+      "birthday": "8/5",
+      "height": 155,
+      "hobby": [],
+      "profile": ""
+    },
+    "kaho": {
+      "name": "カホ",
+      "last": "桑上",
+      "school": "hyakkiyako",
+      "gun": "AR",
+      "uniqueWeapon": "strategic_leader_know-how",
+      "club": "yin_yang_club",
+      "age": 17,
+      "birthday": "10/9",
+      "height": 173,
+      "hobby": [],
+      "profile": ""
+    },
+    "kayoko": {
+      "name": "カヨコ",
+      "last": "鬼方",
+      "school": "gehenna",
+      "gun": "HG",
+      "uniqueWeapon": "demon's_roar",
+      "club": "problem_solver_68",
+      "age": 18,
+      "birthday": "3/17",
+      "height": 157,
+      "hobby": [
+        "音楽CD収集"
+      ],
+      "profile": "ゲヘナ学園所属、便利屋68の課長。\n\n他の便利屋68のメンバーとは異なり悪意がないのにも関わらず、生まれ持った顔つきが怖いという理由だけで不良と誤解される少女。\nカヨコ本人はそんな後階に対して沈黙を貫いているが、むしろそのせいで怖い人というイメージがより強まる悪循環である。",
+      "another": [
+        "new_year"
+      ]
+    },
+    "karin": {
+      "name": "カリン",
+      "last": "角楯",
+      "school": "millennium",
+      "gun": "SR",
+      "uniqueWeapon": "hawkeye",
+      "club": "cleaning_and_clearing",
+      "age": 16,
+      "birthday": "2/2",
+      "height": 170,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "bunny_girl"
+      ]
+    },
+    "kanna": {
+      "playable": true,
+      "rarity": 3,
+      "name": "カンナ",
+      "last": "尾刃",
+      "school": "valkyrie",
+      "gun": "HG",
+      "uniqueWeapon": "no_17_valkyrie_standard_handgun",
+      "club": "public_safety_bureau",
+      "age": 17,
+      "birthday": "9/7",
+      "height": 166,
+      "hobby": [],
+      "profile": ""
+    },
+    "kirino": {
+      "name": "キリノ",
+      "last": "中務",
+      "school": "valkyrie",
+      "gun": "HG",
+      "uniqueWeapon": "no_3_valkyrie_standard_handgun",
+      "club": "community_safety_bureau",
+      "age": 15,
+      "birthday": "10/22",
+      "height": 161,
+      "hobby": [
+        "食べ歩き"
+      ],
+      "profile": "ヴァルキューレ警察学校所属、生活安全局の熱血系生徒。\n\n学園都市の治安を維持する警察の姿に憧れてヴァルキューレ警察学校に入学したものの、射撃の腕前が致命的だったために生活安全局の女速になってしまった。\nそれでも彼女は諦めず、犯人を鮮やかに制圧できるような警察になろうと、夢を諦めることなく日々努力を続けている。"
+    },
+    "kokona": {
+      "name": "ココナ",
+      "last": "春原",
+      "school": "shanhaijing",
+      "gun": "AR",
+      "uniqueWeapon": "ladies_grace",
+      "club": "plum_blossom_garden",
+      "age": 11,
+      "birthday": "6/1",
+      "height": 139,
+      "hobby": [],
+      "profile": ""
+    },
+    "kotama": {
+      "name": "コタマ",
+      "last": "",
+      "school": "millennium",
+      "gun": "HG",
+      "uniqueWeapon": "echolink",
+      "club": "veritas",
+      "age": 17,
+      "birthday": "",
+      "height": 158,
+      "hobby": [],
+      "profile": ""
+    },
+    "kotori": {
+      "name": "コトリ",
+      "last": "豊見",
+      "school": "millennium",
+      "gun": "MG",
+      "uniqueWeapon": "professor_k",
+      "club": "engineering_dept",
+      "age": 15,
+      "birthday": "12/31",
+      "height": 151,
+      "hobby": [
+        "おしゃべり"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、エンジニア部の部員。\n\n物理学や機械のメカニズムについて話すと止まらない、おしゃべり好きな女の子。ミレニアムで機械と関連したトラブルが発生売ると、いの一番に現場へと現れて状況解説を始める。"
+    },
+    "koharu": {
+      "name": "コハル",
+      "last": "下江",
+      "school": "trinity",
+      "gun": "SR",
+      "uniqueWeapon": "justice_black",
+      "club": "supplemental_lessons_club",
+      "age": 15,
+      "birthday": "4/16",
+      "height": 148,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "koyuki": {
+      "name": "コユキ",
+      "last": "黒崎",
+      "school": "millennium",
+      "gun": "MG",
+      "uniqueWeapon": "mulli_gun",
+      "club": "seminar",
+      "age": 15,
+      "birthday": "2/14",
+      "height": 149,
+      "hobby": [],
+      "profile": ""
+    },
+    "saori": {
+      "name": "サオリ",
+      "last": "",
+      "school": "arius",
+      "gun": "AR",
+      "uniqueWeapon": "arius_assault_rifle",
+      "club": "arius_squad",
+      "age": 17,
+      "birthday": "",
+      "height": 167,
+      "hobby": [],
+      "profile": ""
+    },
+    "saki": {
+      "name": "サキ",
+      "last": "空井",
+      "school": "srt",
+      "gun": "MG",
+      "uniqueWeapon": "rabbit_type-26_machine_gun",
+      "club": "rabbit_platoon",
+      "age": 15,
+      "birthday": "4/9",
+      "height": 161,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "sakurako": {
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "purification_weaver",
+      "club": "sisterhood",
+      "age": 17,
+      "birthday": "",
+      "height": 160,
+      "hobby": [],
+      "profile": ""
+    },
+    "saya": {
+      "name": "サヤ",
+      "last": "",
+      "school": "shanhaijing",
+      "gun": "HG",
+      "uniqueWeapon": "my_special_pistol",
+      "club": "chinese_alchemy_study_group",
+      "age": 16,
+      "birthday": "",
+      "height": 149,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "casual"
+      ]
+    },
+    "shigure": {
+      "name": "シグレ",
+      "last": "",
+      "school": "redwinter",
+      "gun": "GL",
+      "uniqueWeapon": "spring_punch",
+      "club": "class_no_227",
+      "age": 16,
+      "birthday": "",
+      "height": 156,
+      "hobby": [],
+      "profile": ""
+    },
+    "shizuko": {
+      "name": "シズコ",
+      "last": "河和",
+      "school": "hyakkiyako",
+      "gun": "SG",
+      "uniqueWeapon": "sakura_bonbon",
+      "club": "festival_management_committee",
+      "age": 16,
+      "birthday": "7/7",
+      "height": 153,
+      "hobby": [
+        "可愛く接客すること",
+        "看板娘パンチ"
+      ],
+      "profile": "百鬼夜行連合学院所属、お祭り運営委員会の委員長。\n\n同時に、伝統的な喫茶店「白夜堂」の看板娘兼オーナーでもある。\n普段は「白夜堂で働いているドジっ子な女の子」だが、それはあくまでも看板娘としての一面に過ぎない。\n実際はお祭りの成功と白夜堂の売上のためなら何でも成し遂げてみせる、プロフェッショナル気質な少女。\nただし油断すると感情表現が素直に出てしまうため、親しい友人はもちろん、先生にも全てバレてしまっている。",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "shimiko": {
+      "name": "シミコ",
+      "last": "円堂",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "library_ruler",
+      "club": "library_committee",
+      "age": 15,
+      "birthday": "11/30",
+      "height": 157,
+      "hobby": [
+        "読書",
+        "しおりづくり"
+      ],
+      "profile": "トリニティ総合学園所属、図書委員会の司書。\n\n本が大好きな読書マニアで、トリニティの図書館に所蔵されている膨大な蔵書を全て読破したという数少ない生徒の一人。本を酔うのと同じくらい本を勧めることも好きで、誰かに出会うとまず最初に「この人の好みに合う本はなんだろうか」と考えてしまう。"
+    },
+    "juri": {
+      "name": "ジュリ",
+      "last": "牛牧",
+      "school": "gehenna",
+      "gun": "SG",
+      "uniqueWeapon": "school_lunch_club_self-defense_gun_type_b",
+      "club": "school_lunch_club",
+      "age": 15,
+      "birthday": "10, 20",
+      "height": 170,
+      "hobby": [
+        "自己流の料理研究"
+      ],
+      "profile": "ゲヘナ学園所属、学生食堂の管理を担当する給食部のメンバー。\n\nフウカと同じく、生徒たちのため頑張って食事を作っている少女なのだが、彼女の料理の腕前は悪いという水準を超えて破滅的であるため、給食づくりにはあまり役に立たずにいる。しかしフウカの励ましと指導を受け、彼女は今日より良い勝利を作るために努力を重ねている。"
+    },
+    "shun": {
+      "name": "シュン",
+      "last": "",
+      "school": "shanhaijing",
+      "gun": "SR",
+      "uniqueWeapon": "whip_of_love",
+      "club": "plum_blossom_garden",
+      "age": null,
+      "birthday": "",
+      "height": 174,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "kid"
+      ]
+    },
+    "junko": {
+      "name": "ジュンコ",
+      "last": "赤司",
+      "school": "gehenna",
+      "gun": "AR",
+      "uniqueWeapon": "diners_outlaw",
+      "club": "gourmet_research_society",
+      "age": 15,
+      "birthday": "12/27",
+      "height": 149,
+      "hobby": [
+        "グルメ巡り"
+      ],
+      "profile": "ゲヘナ学園所属、美食研究会のお澄ましさんな暴食家。\n\nゲテモノを食べたり暴食を繰り返す他の美食研究会の部員達と違い、ある程度常識的な美食を楽しむ方だが、おいしい食べ物を目の前にすると理性を失ってしまうこともある。",
+      "another": [
+        "new_year"
+      ]
+    },
+    "shiroko": {
+      "name": "シロコ",
+      "last": "",
+      "school": "abydos",
+      "gun": "AR",
+      "uniqueWeapon": "white_fang_465",
+      "club": "countermeasure_council",
+      "age": 16,
+      "birthday": "",
+      "height": 156,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "riding",
+        "swimsuit"
+      ]
+    },
+    "suzumi": {
+      "name": "スズミ",
+      "last": "森月",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "safety",
+      "club": "trinity_vigilante_crew",
+      "age": 16,
+      "birthday": "8/31",
+      "height": 162,
+      "hobby": [
+        "巡回",
+        "散策"
+      ],
+      "profile": "トリニティ総合学園所属、生徒たちの安全を守る自警団のメンバー。\n\nトリニティの生徒が他の学園に襲われる事件が頻繁に発生したため、これらを防ぐためにまちなかの巡回を初めた。\n燃え上がる正義感のせいで冷たい正確だと誤解されがちだが、本当は優しい女の子。"
+    },
+    "sumire": {
+      "name": "スミレ",
+      "last": "乙花",
+      "school": "millennium",
+      "gun": "SG",
+      "uniqueWeapon": "millennium_made_dumbbell_latest_model",
+      "club": "training_club",
+      "age": 16,
+      "birthday": "8/20",
+      "height": 167,
+      "hobby": [
+        "トレーニング",
+        "ガーデニング"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、トレーニング部のリーダー。\n\n常にトレーニングに邁進するスポーツ少女。世の中の全ての問題は筋肉と運動とで解決できると信じている脳筋少女でもある。"
+    },
+    "sena": {
+      "name": "セナ",
+      "last": "",
+      "school": "gehenna",
+      "gun": "GL",
+      "uniqueWeapon": "emergency_entry_kit",
+      "club": "emergency_medicine_department",
+      "age": 17,
+      "birthday": "",
+      "height": 155,
+      "hobby": [],
+      "profile": ""
+    },
+    "serika": {
+      "name": "セリカ",
+      "last": "",
+      "school": "abydos",
+      "gun": "AR",
+      "uniqueWeapon": "sincerity",
+      "club": "countermeasure_council",
+      "age": 15,
+      "birthday": "",
+      "height": 153,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "new_year"
+      ]
+    },
+    "serina": {
+      "name": "セリナ",
+      "last": "",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "tactical_therapy",
+      "club": "remedial_knights",
+      "age": 16,
+      "birthday": "",
+      "height": 15,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "christmas"
+      ]
+    },
+    "cherino": {
+      "name": "チェリノ",
+      "last": "",
+      "school": "",
+      "gun": "HG",
+      "uniqueWeapon": "chistka",
+      "club": "red_winter_secretariat",
+      "age": 0,
+      "birthday": "10/27",
+      "height": 128,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "hot_spring"
+      ]
+    },
+    "chise": {
+      "name": "チセ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "GL",
+      "uniqueWeapon": "type_575_howitzer",
+      "club": "yin_yang_club",
+      "age": 16,
+      "birthday": "",
+      "height": 159,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "chinatsu": {
+      "name": "チナツ",
+      "last": "",
+      "school": "gehenna",
+      "gun": "HG",
+      "uniqueWeapon": "support_pointer",
+      "club": "disciplinary_committee",
+      "age": 15,
+      "birthday": "",
+      "height": 159,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "hot_spring"
+      ]
+    },
+    "chihiro": {
+      "name": "チヒロ",
+      "last": "各務",
+      "school": "millennium",
+      "gun": "AR",
+      "uniqueWeapon": "backdoor",
+      "club": "veritas",
+      "age": 17,
+      "birthday": "4/26",
+      "height": 160,
+      "hobby": [
+        "電子機器類の買い物"
+      ],
+      "profile": "ミレニアムサイエンススクールあよOku ,ハッカー集団「ヴェリタス」の副部長\n\n卓越したプログラミング能力を持つハッカーであり、同時にその能力をなるべく乱用しないようにと心がける常識人。いたずらっ子の多いベリタスにおける良心的な存在で、常日頃から部員たちに「正しいハッカー倫理」について熱弁しているものの、いざと慣れば現場への潜入も辞さないアクティブなタイプでもある。"
+    },
+    "tsukuyo": {
+      "name": "ツクヨ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "SMG",
+      "uniqueWeapon": "tsukuyo-style_submachine_gun",
+      "club": "ninjutsu_research_club",
+      "age": 15,
+      "birthday": "",
+      "height": 180,
+      "hobby": [],
+      "profile": ""
+    },
+    "tsubaki": {
+      "name": "ツバキ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "SMG",
+      "uniqueWeapon": "sleeping_companion_ⅱ",
+      "club": "inner_discipline_club",
+      "age": 16,
+      "birthday": "",
+      "height": 162,
+      "hobby": [],
+      "profile": ""
+    },
+    "tsurugi": {
+      "name": "ツルギ",
+      "last": "",
+      "school": "trinity",
+      "gun": "SG",
+      "uniqueWeapon": "blood_and_gunpowder",
+      "club": "justice_actualization_committee",
+      "age": 17,
+      "birthday": "",
+      "height": 162,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "toki": {
+      "name": "トキ",
+      "last": "",
+      "school": "millennium",
+      "gun": "AR",
+      "uniqueWeapon": "secret_time",
+      "club": "cleaning_and_clearing",
+      "age": 16,
+      "birthday": "",
+      "height": 165,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "bunny_girl"
+      ]
+    },
+    "tomoe": {
+      "name": "トモエ",
+      "last": "佐城",
+      "school": "redwinter",
+      "gun": "SR",
+      "uniqueWeapon": "vernost",
+      "club": "red_winter_secretariat",
+      "age": 17,
+      "birthday": "11/10",
+      "height": 165,
+      "hobby": [
+        "アジテーション"
+      ],
+      "profile": "レッドウィンター連邦学園所属、レッドウィンター事務局の支所室長にしてチェりのの側近筆頭。\n\nどんなことでも彼女が話すともっともらしく聞こえるという話術の達人的な存在で、チェリの会長に対する忠誠心を定期的に様々な場所で吹き込んでいる。チェリノ自信は「トモエは自分のカリスマに感化されて忠誠心を持っているんだ」と考えているが、その実トモエはチェリノを盲目的に可愛がっているだけだったりする。"
+    },
+    "nagisa": {
+      "name": "ナギサ",
+      "last": "桐藤",
+      "school": "trinity",
+      "gun": "HG",
+      "uniqueWeapon": "royal_blend",
+      "club": "tea_party",
+      "age": 17,
+      "birthday": "7/4",
+      "height": 160,
+      "hobby": [],
+      "profile": ""
+    },
+    "natsu": {
+      "name": "ナツ",
+      "last": "柚鳥",
+      "school": "trinity",
+      "gun": "SMG",
+      "uniqueWeapon": "beyond_the_rumination",
+      "club": "after_school_sweets_club",
+      "age": 15,
+      "birthday": "12/4",
+      "height": 152,
+      "hobby": [],
+      "profile": ""
+    },
+    "neru": {
+      "name": "ネル",
+      "last": "美甘",
+      "school": "millennium",
+      "gun": "SMG",
+      "uniqueWeapon": "twin_dragon",
+      "club": "cleaning_and_clearing",
+      "age": 17,
+      "birthday": "8/17",
+      "height": 146,
+      "hobby": [
+        "勝利"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、エージェント組織「C&C」のリーダー。\n\n一見してメイド服の上にスカジャンを着たチンピラの子供にしか見えないが、実はミレニアム最強の戦闘能力を持ったエージェントである。\nそのため彼女のコールサイン「ダブルオー」は、界隈では約束された勝利の象徴とされている。",
+      "another": [
+        "bunny_girl"
+      ]
+    },
+    "noa": {
+      "name": "ノア",
+      "last": "生塩",
+      "school": "millennium",
+      "gun": "HG",
+      "uniqueWeapon": "secretary's_vote",
+      "club": "seminar",
+      "age": 16,
+      "birthday": "4/13",
+      "height": 161,
+      "hobby": [],
+      "profile": ""
+    },
+    "nodoka": {
+      "name": "ノドカ",
+      "last": "天見",
+      "school": "redwinter",
+      "gun": "SMG",
+      "uniqueWeapon": "sagittarius_night",
+      "club": "class_no_227",
+      "age": 16,
+      "birthday": "2/20",
+      "height": 147,
+      "hobby": [
+        "天体観測"
+      ],
+      "profile": "レッドウィンター連邦学園所属、ただし停学処分を受けて現在は旧校舎227号特別クラスで謹慎中の生徒。\n\n停学の理由は「望遠鏡などを使ったストーキング好意」とのこと。\n世の中の美しいものを直接その目で観察したいという欲求が強く、先生もその対象の一つ。227号特別クラスで長い間苦労をしてきたせいで、貧乏性が染みついている。",
+      "another": [
+        "hot_spring"
+      ]
+    },
+    "nonomi": {
+      "name": "ノノミ",
+      "last": "",
+      "school": "abydos",
+      "gun": "MG",
+      "uniqueWeapon": "little_machine_gun_v",
+      "club": "countermeasure_council",
+      "age": 16,
+      "birthday": "",
+      "height": 160,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "hasumi": {
+      "name": "ハスミ",
+      "last": "",
+      "school": "trinity",
+      "gun": "SR",
+      "uniqueWeapon": "impalement",
+      "club": "justice_actualization_committee",
+      "age": 17,
+      "birthday": "",
+      "height": 179,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "sportswear"
+      ]
+    },
+    "hanae": {
+      "name": "ハナエ",
+      "last": "",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "happy_smiley",
+      "club": "remedial_knights",
+      "age": 15,
+      "birthday": "",
+      "height": 150,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "christmas"
+      ]
+    },
+    "hanako": {
+      "name": "ハナコ",
+      "last": "",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "honest_wish",
+      "club": "supplemental_lessons_club",
+      "age": 16,
+      "birthday": "",
+      "height": 161,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "haruka": {
+      "name": "ハルカ",
+      "last": "",
+      "school": "gehenna",
+      "gun": "SG",
+      "uniqueWeapon": "blow_away",
+      "club": "problem_solver_68",
+      "age": 15,
+      "birthday": "",
+      "height": 157,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "new_year"
+      ]
+    },
+    "haruna": {
+      "name": "ハルナ",
+      "last": "黒舘",
+      "school": "gehenna",
+      "gun": "SR",
+      "uniqueWeapon": "ideal",
+      "club": "gourmet_research_society",
+      "age": 17,
+      "birthday": "3/1",
+      "height": 163,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "new_year"
+      ]
+    },
+    "hare": {
+      "name": "ハレ",
+      "last": "小鈎",
+      "school": "millennium",
+      "gun": "AR",
+      "uniqueWeapon": "auto_aimer",
+      "club": "veritas",
+      "age": 16,
+      "birthday": "4/19",
+      "height": 153,
+      "hobby": [
+        "ゲーム",
+        "映画鑑賞"
+      ],
+      "profile": "ミレニアムサイエンススクー所属、ハッカー集団「ヴェリタス」のエンジニア。\n\n頭の良い人が多いことで有名なミレニアムにおいても頭一つ抜けている屈指の天才少女。ミレニアムで生み出される最先端の危機のほとんどは、彼女の手によって開発されている。\nしかしその実力や成果にも関わらす、自慢したり威張ったりすることなく、他の生徒達とも交流し、よく話を聞いてくれる優しい女の子である。"
+    },
+    "hina": {
+      "name": "ヒナ",
+      "last": "空崎",
+      "school": "gehenna",
+      "gun": "MG",
+      "uniqueWeapon": "the_end:_destroyer",
+      "club": "disciplinary_committee",
+      "age": 17,
+      "birthday": "2/19",
+      "height": 142,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "hinata": {
+      "name": "ヒナタ",
+      "last": "若葉",
+      "school": "trinity",
+      "gun": "HG",
+      "uniqueWeapon": "blessing",
+      "club": "sisterhood",
+      "age": 17,
+      "birthday": "5/17",
+      "height": 166,
+      "hobby": [
+        "お祈り",
+        "整理整頓"
+      ],
+      "profile": "トリニティ総合学園所属、シスターフッドの真面目でひたむきな少女。\n\nシスターフッドにおいて「聖堂などの物品管理」という責務を担っており、その仕事も日々誠実にこなしている。しかしながら少々おっちょこちょいな部分があり、ミスを重ねては自信を失うこともしばしば。普段から持ち歩いている大きなカバンにはグレネードランチャーなどがいろいろはいっているものの、彼女はそれを軽々と運んでいる。",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "hibiki": {
+      "name": "ヒビキ",
+      "last": "猫塚",
+      "school": "millennium",
+      "gun": "MT",
+      "uniqueWeapon": "fancy_light",
+      "club": "engineering_dept",
+      "age": 15,
+      "birthday": "4/2",
+      "height": 154,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "cheerleader"
+      ]
+    },
+    "hifumi": {
+      "name": "ヒフミ",
+      "last": "阿慈谷",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "my_necessity",
+      "club": "supplemental_lessons_club",
+      "age": 16,
+      "birthday": "11/27",
+      "height": 158,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "himari": {
+      "name": "ヒマリ",
+      "last": "",
+      "school": "millennium",
+      "gun": "HG",
+      "uniqueWeapon": "clifftop_flower",
+      "club": "paranormal_affairs_department",
+      "age": 17,
+      "birthday": "12/10",
+      "height": 162,
+      "hobby": [],
+      "profile": ""
+    },
+    "hiyori": {
+      "name": "ヒヨリ",
+      "last": "",
+      "school": "arius",
+      "gun": "SR",
+      "uniqueWeapon": "identity",
+      "club": "arius_squad",
+      "age": 16,
+      "birthday": "1/8",
+      "height": 155,
+      "hobby": [],
+      "profile": ""
+    },
+    "pina": {
+      "name": "フィーナ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "MG",
+      "uniqueWeapon": "indiscriminate_shooter",
+      "club": "festival_management_committee",
+      "age": 17,
+      "birthday": "",
+      "height": 165,
+      "hobby": [],
+      "profile": ""
+    },
+    "fuuka": {
+      "name": "フウカ",
+      "last": "",
+      "school": "gehenna",
+      "gun": "SMG",
+      "uniqueWeapon": "school_lunch_club_self-defense_gun_type_a",
+      "club": "school_lunch_club",
+      "age": 16,
+      "birthday": "",
+      "height": 159,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "new_year"
+      ]
+    },
+    "fubuki": {
+      "name": "フブキ",
+      "last": "合歓垣",
+      "school": "valkyrie",
+      "gun": "SR",
+      "uniqueWeapon": "no_14_valkyrie_standard_rifle",
+      "club": "community_safety_bureau",
+      "age": 15,
+      "birthday": "10/21",
+      "height": 148,
+      "hobby": [
+        "クロスワード",
+        "ラジオ"
+      ],
+      "profile": "ヴァルキューレ警察学校所属、生活安全局の怠け者の生徒。\n\nのんびりした公務員の生活に憧れ、ヴァルキューレ警察学校に入学した。生活安全局に何か苦情等が舞い込んできても、基本的には一貫して誠意のない態度で処理し、金や名誉に振り回されない窓際族の生活を楽しんでいる。一番好きなことはドーナッツを食べながらラジオを聞くこと。"
+    },
+    "hoshino": {
+      "name": "ホシノ",
+      "last": "",
+      "school": "abydos",
+      "gun": "SG",
+      "uniqueWeapon": "eye_of_horus",
+      "club": "countermeasure_council",
+      "age": 17,
+      "birthday": "1/2",
+      "height": 145,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "maki": {
+      "name": "マキ",
+      "last": "小塗",
+      "school": "millennium",
+      "gun": "MG",
+      "uniqueWeapon": "auto_lacquer",
+      "club": "veritas",
+      "age": 15,
+      "birthday": "8/1",
+      "height": 149,
+      "hobby": [],
+      "profile": ""
+    },
+    "mashiro": {
+      "name": "マシロ",
+      "last": "静山",
+      "school": "trinity",
+      "gun": "SR",
+      "uniqueWeapon": "revelation_of_justice",
+      "club": "justice_actualization_committee",
+      "age": 15,
+      "birthday": "6/5",
+      "height": 155,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "mari": {
+      "name": "マリー",
+      "last": "",
+      "school": "trinity",
+      "gun": "HG",
+      "uniqueWeapon": "piety",
+      "club": "sisterhood",
+      "age": 15,
+      "birthday": "",
+      "height": 151,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "sportswear"
+      ]
+    },
+    "marina": {
+      "name": "マリナ",
+      "last": "池倉",
+      "school": "redwinter",
+      "gun": "SMG",
+      "uniqueWeapon": "balalaika",
+      "club": "security_committee",
+      "age": 16,
+      "birthday": "11/4",
+      "height": 166,
+      "hobby": [],
+      "profile": ""
+    },
+    "mika": {
+      "name": "ミカ",
+      "last": "聖園",
+      "school": "trinity",
+      "gun": "SMG",
+      "uniqueWeapon": "quis_ut_deus",
+      "club": "tea_party",
+      "age": 17,
+      "birthday": "5/8",
+      "height": 157,
+      "hobby": [],
+      "profile": ""
+    },
+    "misaki": {
+      "name": "ミサキ",
+      "last": "戒野",
+      "school": "arius",
+      "gun": "RL",
+      "uniqueWeapon": "saint_predator",
+      "club": "arius_squad",
+      "age": 16,
+      "birthday": "1/13",
+      "height": 163,
+      "hobby": [],
+      "profile": ""
+    },
+    "michiru": {
+      "name": "ミチル",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "SG",
+      "uniqueWeapon": "michiru-style_overflow_shotgun",
+      "club": "ninjutsu_research_club",
+      "age": 17,
+      "birthday": "",
+      "height": 153,
+      "hobby": [],
+      "profile": ""
+    },
+    "midori": {
+      "name": "ミドリ",
+      "last": "才羽",
+      "school": "millennium",
+      "gun": "SR",
+      "uniqueWeapon": "fresh_inspiration",
+      "club": "game_development_club",
+      "age": 15,
+      "birthday": "12/8",
+      "height": 143,
+      "hobby": [],
+      "profile": ""
+    },
+    "mina": {
+      "name": "ミナ",
+      "last": "近衛",
+      "school": "shanhaijing",
+      "gun": "HG",
+      "uniqueWeapon": "black_dragon_and_white_tiger",
+      "club": "black_tortoise",
+      "age": 16,
+      "birthday": "9/9",
+      "height": 166,
+      "hobby": [],
+      "profile": ""
+    },
+    "mine": {
+      "name": "ミネ",
+      "last": "蒼森",
+      "school": "trinity",
+      "gun": "SG",
+      "uniqueWeapon": "proof_of_rescue",
+      "club": "remedial_knights",
+      "age": 17,
+      "birthday": "11/23",
+      "height": 168,
+      "hobby": [],
+      "profile": ""
+    },
+    "minori": {
+      "name": "ミノリ",
+      "last": "安守",
+      "school": "redwinter",
+      "gun": "AR",
+      "uniqueWeapon": "steel_torch",
+      "club": "engineering_department",
+      "age": 17,
+      "birthday": "7/14",
+      "height": 158,
+      "hobby": [],
+      "profile": ""
+    },
+    "mimori": {
+      "name": "ミモリ",
+      "last": "水羽",
+      "school": "hyakkiyako",
+      "gun": "HG",
+      "uniqueWeapon": "gentle_strength",
+      "club": "inner_discipline_club",
+      "age": 16,
+      "birthday": "3/15",
+      "height": 156,
+      "hobby": [
+        "少女漫画",
+        "家事全般"
+      ],
+      "profile": "百鬼夜行連合学院所属、修行部の優しい副部長。\n\nいつも朗らかな笑顔と穏やかなもお腰で、みんなからの人望が非常に厚い。幼い頃に呼んだ少女漫画の影響で「大和撫子」になりたいという夢をいだき、修行部へと入った、幼馴染であり部長でもある椿とともに、料理や掃除などの修行に日々邁進している。"
+    },
+    "miyako": {
+      "name": "ミヤコ",
+      "last": "月雪",
+      "school": "srt",
+      "gun": "SMG",
+      "uniqueWeapon": "rabbit_type-31_submachine_gun",
+      "club": "rabbit_platoon",
+      "age": 15,
+      "birthday": "1/7",
+      "height": 156,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "miyu": {
+      "name": "ミユ",
+      "last": "霞沢",
+      "school": "srt",
+      "gun": "SR",
+      "uniqueWeapon": "rabbit_type-39_rifle",
+      "club": "rabbit_platoon",
+      "age": 15,
+      "birthday": "7/12",
+      "height": 149,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "mutsuki": {
+      "name": "ムツキ",
+      "last": "",
+      "school": "gehenna",
+      "gun": "MG",
+      "uniqueWeapon": "trick_or_trick",
+      "club": "problem_solver_68",
+      "age": 16,
+      "birthday": "",
+      "height": 144,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "new_year"
+      ]
+    },
+    "megu": {
+      "name": "メグ",
+      "last": "下倉",
+      "school": "gehenna",
+      "gun": "FT",
+      "uniqueWeapon": "megumapower",
+      "club": "hot_springs_development_department",
+      "age": 17,
+      "birthday": "4/25",
+      "height": 164,
+      "hobby": [],
+      "profile": ""
+    },
+    "moe": {
+      "name": "モエ",
+      "last": "風倉",
+      "school": "srt",
+      "gun": "HG",
+      "uniqueWeapon": "rabbit_type-224_pistol",
+      "club": "rabbit_platoon",
+      "age": 15,
+      "birthday": "9/13",
+      "height": 163,
+      "hobby": [],
+      "profile": ""
+    },
+    "momoi": {
+      "name": "モモイ",
+      "last": "",
+      "school": "millennium",
+      "gun": "AR",
+      "uniqueWeapon": "unique_idea",
+      "club": "game_development_club",
+      "age": 15,
+      "birthday": "",
+      "height": 143,
+      "hobby": [],
+      "profile": ""
+    },
+    "yuuka": {
+      "name": "ユウカ",
+      "last": "",
+      "school": "millennium",
+      "gun": "SMG",
+      "uniqueWeapon": "logic_and_reason",
+      "club": "seminar",
+      "age": 16,
+      "birthday": "",
+      "height": 156,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "sportswear"
+      ]
+    },
+    "yuzu": {
+      "name": "ユズ",
+      "last": "花岡",
+      "school": "millennium",
+      "gun": "GL",
+      "uniqueWeapon": "nyan's_dash",
+      "club": "game_development_club",
+      "age": 16,
+      "birthday": "8/12",
+      "height": 150,
+      "hobby": [
+        "ゲーム制作"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、ゲーム開発部の部長。\n\n誰かと会話したり接することを非常に苦手としており、そのため外に出ることもほとんど泣く、大半の時間をゲーム開発部の部室にあるロッカーの中で過ごしている。\nゲームを作ることもプレイすることも好きで、ゲームに対する情熱は並大抵のものではない。",
+      "another": [
+        "maid"
+      ]
+    },
+    "yoshimi": {
+      "name": "ヨシミ",
+      "last": "伊原木",
+      "school": "trinity",
+      "gun": "AR",
+      "uniqueWeapon": "sweets_driver",
+      "club": "after_school_sweets_club",
+      "age": 15,
+      "birthday": "8/29",
+      "height": 146,
+      "hobby": [
+        "イベントごと",
+        "限定スイーツ巡り"
+      ],
+      "profile": "トリニティ総合学園所属、放課後スイーツ部の部員。\n\n身長と体型がコンプレックスの、常に威嚇しっぱなしの小動物のような少女。"
+    },
+    "rumi": {
+      "name": "ルミ",
+      "last": "朱城",
+      "school": "shanhaijing",
+      "gun": "SMG",
+      "uniqueWeapon": "learning_from_the_past",
+      "club": "black_tortoise_promenade",
+      "age": 17,
+      "birthday": "3/5",
+      "height": 168,
+      "hobby": [],
+      "profile": ""
+    },
+    "reisa": {
+      "name": "レイサ",
+      "last": "宇沢",
+      "school": "trinity",
+      "gun": "SG",
+      "uniqueWeapon": "shooting_star",
+      "club": "trinity_vigilante_crew",
+      "age": 15,
+      "birthday": "5/31",
+      "height": 153,
+      "hobby": [],
+      "profile": ""
+    },
+    "wakamo": {
+      "name": "ワカモ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "SR",
+      "uniqueWeapon": "crimson_calamity",
+      "club": "none",
+      "age": 18,
+      "birthday": "",
+      "height": 161,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "swimsuit"
+      ]
+    },
+    "hatsune_miku": {
+      "name": "初音ミク",
+      "last": "",
+      "school": "etc",
+      "gun": "GL",
+      "uniqueWeapon": "live_concert_t-shirt_cannon",
+      "club": "none",
+      "age": 16,
+      "birthday": "8/31",
+      "height": 158,
+      "hobby": [],
+      "profile": ""
+    }
+  },
+  "normal": {
+    "airi": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "akane": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "akari": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "ako": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "azusa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "asuna": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      }
+    },
+    "atsuko": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "ayane": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      }
+    },
+    "arisu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "aru": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "uniqueGear": "arus_treasured_wallet"
+    },
+    "iori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "SS"
+      }
+    },
+    "izuna": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      }
+    },
+    "izumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "uniqueGear": "lucky_hot_dog_model"
+    },
+    "iroha": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "tactical_support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "ui": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "utaha": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "uniqueGear": "meisters_toolset"
+    },
+    "eimi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "uniqueGear": "super_cooling_fan"
+    },
+    "kaede": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "kazusa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "kaho": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "kayoko": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "karin": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "kanna": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "kirino": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      }
+    },
+    "kokona": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "healer",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      }
+    },
+    "kotama": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "C",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      }
+    },
+    "kotori": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "koharu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "koyuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "saori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "saki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "sakurako": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "saya": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "shigure": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "shizuko": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "A"
+      }
+    },
+    "shimiko": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "juri": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "shun": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      }
+    },
+    "junko": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "uniqueGear": "gourmet_notebook"
+    },
+    "shiroko": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "uniqueGear": "shirokos_drone"
+    },
+    "suzumi": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      }
+    },
+    "sumire": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "sena": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "tactical_support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "serika": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "uniqueGear": "serikas_sports_bag"
+    },
+    "serina": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "C",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      }
+    },
+    "cherino": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "chise": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "chinatsu": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "chihiro": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "tsukuyo": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "tsubaki": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "tsurugi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "uniqueGear": "tsurugis_special_box"
+    },
+    "toki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "elastic",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "obtain": "limited"
+    },
+    "tomoe": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "obtain": "event"
+    },
+    "nagisa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "obtain": "limited"
+    },
+    "natsu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "neru": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "uniqueGear": "nerus_sukajan"
+    },
+    "noa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "nodoka": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "nonomi": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "obtain": "event"
+    },
+    "hasumi": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "uniqueWeapon": "impalement"
+    },
+    "hanae": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "uniqueWeapon": "happy_smiley"
+    },
+    "hanako": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "haruka": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "haruna": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "hare": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "uniqueGear": "Athena_3"
+    },
+    "hina": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "C",
+        "indoors": "C"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "C",
+        "indoors": "C"
+      }
+    },
+    "hinata": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "uniqueGear": "goods_management_ledger"
+    },
+    "hibiki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "B"
+      }
+    },
+    "hifumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "himari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      }
+    },
+    "hiyori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "pina": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "C"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      }
+    },
+    "fuuka": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "fubuki": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "C"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "obtain": "event"
+    },
+    "hoshino": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "maki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "S",
+        "indoors": "C"
+      },
+      "affinityMax": {
+        "urban": "C",
+        "outdoors": "SS",
+        "indoors": "C"
+      }
+    },
+    "mashiro": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "mari": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      }
+    },
+    "marina": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "mika": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "SS"
+      },
+      "obtain": "limited"
+    },
+    "misaki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      }
+    },
+    "michiru": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "obtain": "event"
+    },
+    "midori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "mina": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "mine": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      }
+    },
+    "minori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "mimori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "uniqueGear": "cherry_blossom_apron_full_of_dreams"
+    },
+    "miyako": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      }
+    },
+    "miyu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "obtain": "event"
+    },
+    "mutsuki": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "megu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      }
+    },
+    "moe": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "momoi": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      }
+    },
+    "yuuka": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "uniqueGear": "yuukas_scientific_calculator"
+    },
+    "yuzu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      }
+    },
+    "yoshimi": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      }
+    },
+    "rumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "SS"
+      }
+    },
+    "reisa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      }
+    },
+    "wakamo": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "uniqueGear": "mysterious_fox_mask",
+      "obtain": "limited"
+    },
+    "hatsune_miku": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "uniqueWeapon": "live_concert_t-shirt_cannon",
+      "club": "none",
+      "age": 16,
+      "birthday": "8/31",
+      "height": 158,
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    }
+  },
+  "swimsuit": {
+    "azusa": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "ayane": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "HG",
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "tacticalsupport",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "iori": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "izuna": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "izumi": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "MG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "C"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "ui": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "elastic",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "koharu": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "saki": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "MG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "support",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "shizuko": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "SG",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "shiroko": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "chise": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "GL",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "uniqueGear": "treasure_filled_pouch",
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "tsurugi": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "SG",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "C",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "nonomi": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "MG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "hanako": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "hina": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "MG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "uniqueGear": "disciplinary_committee_flotation_device",
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "hinata": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "hifumi": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "tacticalsupport",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "uniqueGear": "momo_friends_special_teapot",
+      "hobby": [],
+      "profile": ""
+    },
+    "hoshino": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "support",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "mashiro": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "miyako": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "miyu": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "SR",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "wakamo": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": ""
+    }
+  },
+  "riding": {
+    "shiroko": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": ""
+    }
+  },
+  "bunny_girl": {
+    "akane": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "asuna": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "uniqueGear": "bunny_tail_grenade",
+      "hobby": [],
+      "profile": ""
+    },
+    "karin": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "toki": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "neru": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "SS",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    }
+  },
+  "new_year": {
+    "serika": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "C",
+        "outdoors": "C",
+        "indoors": "SS"
+      },
+      "hobby": [
+        "貯金",
+        "アルバイト"
+      ],
+      "profile": "アビドス対策委員会所属、巫女さん姿のしっかり者（？）の会計担当。\n\n少しでも対策委員会の役に立つために、これまでも色々とアルバイトを掛け持ちして真面目に頑張ってきたセリカ。新年を迎えて彼女が選んだのは巫女さんのアルバイトだった。特別巫女さんが浮きだったり造詣が深いわけではないものの、基本的に任せられればしっかりやり遂げようとする彼女の性格もあって、今回もまた全力で頑張っている様子（どうやら、より巫女っぽく振る舞えば時給が上がるという裏事情もある模様）。"
+    },
+    "aru": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "kayoko": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "junko": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "B",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "haruka": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "C",
+        "outdoors": "S",
+        "indoors": "C"
+      },
+      "affinityMax": {
+        "urban": "C",
+        "outdoors": "SS",
+        "indoors": "C"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "haruna": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "fuuka": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "mutsuki": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "MG",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    }
+  },
+  "casual": {
+    "saya": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "uniqueGear": "sayas_skateboard",
+      "hobby": [],
+      "profile": ""
+    }
+  },
+  "kid": {
+    "shun": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "D",
+        "indoors": "B"
+      },
+      "uniqueGear": "shuns_childhood_memories",
+      "hobby": [],
+      "profile": ""
+    }
+  },
+  "hot_spring": {
+    "cherino": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "tacticalsupport",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "uniqueGear": "bath_adjutant",
+      "hobby": [],
+      "profile": ""
+    },
+    "chinatsu": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "nodoka": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    }
+  },
+  "sportswear": {
+    "hasumi": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "SR",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "C",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "mari": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "HG",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "healer",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "yuuka": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    }
+  },
+  "cheerleader": {
+    "utaha": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "SMG",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "hibiki": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "MT",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "C",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    }
+  },
+  "maid": {
+    "arisu": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "RG",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "yuzu": {
+      "playable": true,
+      "rarity": 1,
+      "gun": "GL",
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "elastic",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "C",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "A",
+        "indoors": "A"
+      },
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    }
+  },
+  "christmas": {
+    "serina": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "hobby": [],
+      "profile": ""
+    },
+    "hanae": {
+      "playable": true,
+      "rarity": 3,
+      "gun": "AR",
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "hobby": [],
+      "profile": ""
+    }
+  }
+}

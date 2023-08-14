@@ -1,0 +1,26 @@
+{
+	"tasks": {
+		"students": "deno run --allow-run --allow-read --allow-write tools/students.ts",
+		"build_main": "tsc -p ./src/main",
+		"build": "deno task build_main",
+		"install_server": "deno install --allow-net --allow-read https://deno.land/std@0.65.0/http/file_server.ts",
+		"server": "file_server docs"
+	},
+	"lint": {
+		"files": {
+			"include": ["./src", "./tools"]
+		},
+		"rules": {
+			"tags": ["recommended"],
+			"include": [],
+			"exclude": ["require-await"]
+		}
+	},
+	"fmt": {
+		"include": ["./src", "./tools"],
+		"useTabs": true,
+		"indentWidth": 4,
+		"lineWidth": 160,
+		"singleQuote": true
+	}
+}
