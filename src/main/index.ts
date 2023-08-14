@@ -193,6 +193,16 @@ Promise.all([
 		'srt',
 		'etc',
 	];
+	const RARITY_ELIGMA = {
+		rarity1: 0,
+		rarity2: 30,
+		rarity3: 80,
+		rarity4: 100,
+		rarity5: 120,
+		gear1: 0,
+		gear2: 120,
+		gear3: 180,
+	};
 
 	const studentsManager = new StudentsManager();
 
@@ -412,6 +422,74 @@ Promise.all([
 			}
 			return result;
 		}
+		((dialog) => {
+			const report = {
+				hasStudents: <HTMLElement> document.getElementById('report_has_students'),
+				allStudents: <HTMLElement> document.getElementById('report_all_students'),
+				rarity1: <HTMLElement> document.getElementById('report_rarity_1'),
+				rarity2: <HTMLElement> document.getElementById('report_rarity_2'),
+				rarity3: <HTMLElement> document.getElementById('report_rarity_3'),
+				rarity4: <HTMLElement> document.getElementById('report_rarity_4'),
+				rarity5: <HTMLElement> document.getElementById('report_rarity_5'),
+				uniqueWeapon0: <HTMLElement> document.getElementById('report_unique_weapon_0'),
+				uniqueWeapon1: <HTMLElement> document.getElementById('report_unique_weapon_1'),
+				uniqueWeapon2: <HTMLElement> document.getElementById('report_unique_weapon_2'),
+				uniqueWeapon3: <HTMLElement> document.getElementById('report_unique_weapon_3'),
+				uniqueGear0: <HTMLElement> document.getElementById('report_unique_gear_0'),
+				uniqueGear1: <HTMLElement> document.getElementById('report_unique_gear_1'),
+				uniqueGear2: <HTMLElement> document.getElementById('report_unique_gear_2'),
+				needEligmaRarity: <HTMLElement> document.getElementById('report_need_eligma_rarity'),
+			};
+			(<HTMLButtonElement> document.getElementById('report')).addEventListener('click', () => {
+				const data = {
+					hasStudents: 0,
+					allStudents: 0,
+					rarity1: 0,
+					rarity2: 0,
+					rarity3: 0,
+					rarity4: 0,
+					rarity5: 0,
+					uniqueWeapon0: 0,
+					uniqueWeapon1: 0,
+					uniqueWeapon2: 0,
+					uniqueWeapon3: 0,
+					uniqueGear0: 0,
+					uniqueGear1: 0,
+					uniqueGear2: 0,
+					needEligmaRarity: 0,
+				};
+				students.forEach((tr) => {
+					++data.allStudents;
+					if (tr.dataset.has) {
+						++data.hasStudents;
+						let eligma = 0;
+						for (let i = parseInt(tr.dataset.rarity || '') + 1; i <= 5; ++i) {
+							eligma += RARITY_ELIGMA[`rarity${<1> i}`];
+						}
+						/*for (let i = parseInt(tr.dataset.unique_weapon || '') + 1; i <= 3; ++i) {
+							eligma += RARITY_ELIGMA[`gear${<1> i}`];
+						}*/
+						data.needEligmaRarity += Math.max(0, eligma - parseInt(tr.dataset.eligma || '0'));
+					}
+					++data[`rarity${<'1'> tr.dataset.rarity}`];
+					++data[`uniqueWeapon${<'1'> tr.dataset.unique_weapon}`];
+					if (tr.dataset.unique_gear) {
+						++data[`uniqueGear${<'1'> tr.dataset.unique_gear}`];
+					}
+				});
+				data.needEligmaRarity *= 5;
+				Object.keys(report).forEach((key: 'hasStudents') => {
+					report[key].textContent = `${data[key]}`;
+				});
+				dialog.showModal();
+			});
+			dialog.addEventListener('click', (e) => {
+				dialog.close();
+			});
+			(<HTMLElement> dialog.querySelector('div')).addEventListener('click', (event) => {
+				event.stopPropagation();
+			});
+		})(<HTMLDialogElement> document.getElementById('report_dialog'));
 		((dialog) => {
 			(<HTMLButtonElement> document.getElementById('filter')).addEventListener('click', () => {
 				dialog.showModal();

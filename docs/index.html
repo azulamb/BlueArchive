@@ -85,6 +85,7 @@ button{ cursor: pointer; user-select: none; }
 .option_buttons { display: flex; }
 .option_buttons button { position: relative; border: none; background: transparent; background: transparent; padding: 0 1.5em; cursor: pointer; height: 2em; }
 .option_buttons button > * { position: relative; z-index: 2; cursor: pointer; }
+.option_buttons button > input { background: transparent; border: none; outline: none; }
 .option_buttons button::before { content: ''; display: block; transform: skewX(-20deg); background: #fff; width: 81%; height: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; border-radius: 0.25em; }
 .option_buttons button + button { margin-left: -0.8rem; }
 .option_buttons button label input { display: none; }
@@ -97,6 +98,23 @@ button{ cursor: pointer; user-select: none; }
 #students_header label button::before { content: '－'; display: inline; }
 #students_header label[data-order="asc"] button::before { content: '▲'; }
 #students_header label[data-order="desc"] button::before { content: '▼'; }
+#report_dialog dd::before { display: inline-block; }
+#report_dialog dd.wide { width: 100%; padding-left: 5rem; box-sizing: border-box; position: relative; }
+#report_dialog dd.wide::before { position: absolute; right: calc(100% - 4rem); }
+#report_all_students::before { content: '/'; }
+#report_rarity_1::before { content: '★1'; }
+#report_rarity_2::before { content: '★2'; }
+#report_rarity_3::before { content: '★3'; }
+#report_rarity_4::before { content: '★4'; }
+#report_rarity_5::before { content: '★5'; }
+#report_unique_weapon_0::before { content: '未所持'; }
+#report_unique_weapon_1::before { content: '★1'; }
+#report_unique_weapon_2::before { content: '★2'; }
+#report_unique_weapon_3::before { content: '★3'; }
+#report_unique_gear_0::before { content: '未所持'; }
+#report_unique_gear_1::before { content: '★1'; }
+#report_unique_gear_2::before { content: '★2'; }
+#report_need_eligma_rarity::before { content: '全員★5'; }
 	</style>
 	<script>
 const ANOTHER_NAME = {
@@ -144,7 +162,9 @@ const SCHOOL = {
 				<h2>
 					生徒一覧
 					<div class="option_buttons">
+						<button><input type="text" placeholder="名前"></button>
 						<button id="filter"><span>フィルター</span></button>
+						<button id="report"><span>レポート</span></button>
 						<button id="download_students"><span>ダウンロード</span></button>
 						<button><label>インポート<input type="file" accept=".csv" id="import_students"></label></button>
 					</div>
@@ -271,6 +291,35 @@ const SCHOOL = {
 					<div class="buttons">
 						<button class="ok"><span>確認</span></button>
 					</div>
+				</div>
+			</dialog>
+			<dialog id="report_dialog">
+				<div>
+					<h3>
+						レポート
+					</h3>
+					<dl>
+						<dt>所持生徒</dt>
+						<dd id="report_has_students" style="width:4rem;text-align:right"></dd>
+						<dd id="report_all_students" style="font-size:0.8rem;line-height:1.6rem;overflow:hidden;height:1.2rem;"></dd>
+						<dt>レアリティ</dt>
+						<dd id="report_rarity_1" class="wide"></dd>
+						<dd id="report_rarity_2" class="wide"></dd>
+						<dd id="report_rarity_3" class="wide"></dd>
+						<dd id="report_rarity_4" class="wide"></dd>
+						<dd id="report_rarity_5" class="wide"></dd>
+						<dt>固有武器</dt>
+						<dd id="report_unique_weapon_0" class="wide"></dd>
+						<dd id="report_unique_weapon_1" class="wide"></dd>
+						<dd id="report_unique_weapon_2" class="wide"></dd>
+						<dd id="report_unique_weapon_3" class="wide"></dd>
+						<dt>愛用品</dt>
+						<dd id="report_unique_gear_0" class="wide"></dd>
+						<dd id="report_unique_gear_1" class="wide"></dd>
+						<dd id="report_unique_gear_2" class="wide"></dd>
+						<dt>必要神名の欠片数（レートは欠片5=1神名文字）</dt>
+						<dd id="report_need_eligma_rarity" class="wide"></dd>
+					</dl>
 				</div>
 			</dialog>
 		</section>
