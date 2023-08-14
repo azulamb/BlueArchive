@@ -528,6 +528,42 @@ Promise.all([
 				});
 			});
 		})(<HTMLDialogElement> document.getElementById('filter_dialog'));
+		((input) => {
+			function check(student: HTMLTableRowElement, word: string) {
+				const expHiragana = new RegExp(
+					`.*${
+						word.replace(/[\u30A1-\u30FA]/g, (char) => {
+							return String.fromCharCode(char.charCodeAt(0) - 0x60);
+						})
+					}.*`,
+					'i',
+				);
+				const expKatakana = new RegExp(
+					`.*${
+						word.replace(/[\u3041-\u3096]/g, (char) => {
+							return String.fromCharCode(char.charCodeAt(0) + 0x60);
+						})
+					}.*`,
+					'i',
+				);
+				if (expHiragana.test(student.dataset.name || '') || expKatakana.test(student.dataset.name || '')) {
+					return true;
+				}
+				return false;
+			}
+			input.addEventListener('input', () => {
+				const word = input.value.trim();
+				if (!word) {
+					for (const student of students) {
+						student.classList.remove('hide');
+					}
+				} else {
+					for (const student of students) {
+						student.classList[check(student, word) ? 'remove' : 'add']('hide');
+					}
+				}
+			});
+		})(<HTMLInputElement> document.getElementById('search_students'));
 		(<HTMLButtonElement> document.getElementById('download_students')).addEventListener('click', () => {
 			const data = studentsManager.exportCSV();
 			const link = document.createElement('a');
