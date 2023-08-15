@@ -107,7 +107,7 @@
     "atsuko": {
       "name": "アツコ",
       "last": "",
-      "school": "",
+      "school": "arius",
       "gun": "SMG",
       "uniqueWeapon": "scorpius",
       "club": "arius_squad",
@@ -571,7 +571,7 @@
     "shigure": {
       "name": "シグレ",
       "last": "",
-      "school": "redwinter",
+      "school": "red_winter",
       "gun": "GL",
       "uniqueWeapon": "spring_punch",
       "club": "class_no_227",
@@ -921,7 +921,7 @@
     "tomoe": {
       "name": "トモエ",
       "last": "佐城",
-      "school": "redwinter",
+      "school": "red_winter",
       "gun": "SR",
       "uniqueWeapon": "vernost",
       "club": "red_winter_secretariat",
@@ -1006,7 +1006,7 @@
     "nodoka": {
       "name": "ノドカ",
       "last": "天見",
-      "school": "redwinter",
+      "school": "red_winter",
       "gun": "SMG",
       "uniqueWeapon": "sagittarius_night",
       "club": "class_no_227",
@@ -1368,7 +1368,7 @@
     "marina": {
       "name": "マリナ",
       "last": "池倉",
-      "school": "redwinter",
+      "school": "red_winter",
       "gun": "SMG",
       "uniqueWeapon": "balalaika",
       "club": "security_committee",
@@ -1480,7 +1480,7 @@
     "minori": {
       "name": "ミノリ",
       "last": "安守",
-      "school": "redwinter",
+      "school": "red_winter",
       "gun": "AR",
       "uniqueWeapon": "steel_torch",
       "club": "engineering_department",
@@ -1633,7 +1633,7 @@
       "last": "花岡",
       "school": "millennium",
       "gun": "GL",
-      "uniqueWeapon": "nyan's_dash",
+      "uniqueWeapon": "nyans_dash",
       "club": "game_development_club",
       "age": 16,
       "birthday": "8/12",

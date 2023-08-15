@@ -12,3 +12,9 @@ https://azulamb.github.io/BlueArchive/
   * ローカルサーバーの起動
 * `students`
   * 生徒のJSONを更新
+
+## 今後追加したい機能
+
+* URLに検索やソートのオプション
+* 装備ドロップ
+* 好感度上限警告
