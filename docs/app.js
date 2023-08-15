@@ -311,6 +311,7 @@ class StudentsManager {
             unique_weapon: 0,
             unique_gear: 0,
             eligma: 0,
+            affection: 0,
         };
     }
     exportCSV() {
@@ -321,6 +322,7 @@ class StudentsManager {
             'unique_weapon',
             'unique_gear',
             'eligma',
+            'affection',
         ];
         const data = [
             header.join(','),
@@ -360,6 +362,7 @@ class StudentsManager {
                     unique_weapon: parseInt(data.unique_weapon) || 0,
                     unique_gear: parseInt(data.unique_gear) || 0,
                     eligma: parseInt(data.eligma) || 0,
+                    affection: parseInt(data.affection) || 0,
                 };
                 students[data.student] = student;
             }
@@ -520,6 +523,7 @@ Promise.all([
             const uniqueWeapon = tr.querySelector('.unique_weapon input-star');
             const uniqueGear = tr.querySelector('.unique_gear input-star');
             const eligma = tr.querySelector('.eligma input');
+            const affection = tr.querySelector('.affection input');
             const useCover = tr.querySelector('.use_cover');
             const urban = tr.querySelector('.urban');
             const outdoors = tr.querySelector('.outdoors');
@@ -549,6 +553,7 @@ Promise.all([
                     unique_weapon: uniqueWeapon.value,
                     unique_gear: uniqueGear.value,
                     eligma: parseInt(eligma.value),
+                    affection: parseInt(affection.value),
                 };
                 studentsManager.update(student.key, data);
                 studentsManager.save();
@@ -591,6 +596,7 @@ Promise.all([
                     rarity.disabled = false;
                     tr.dataset.has = 'true';
                     tr.dataset.eligma = eligma.value;
+                    tr.dataset.affection = affection.value;
                     changeRarity();
                 }
                 else {
@@ -599,6 +605,7 @@ Promise.all([
                     uniqueGear.disabled = true;
                     delete tr.dataset.has;
                     tr.dataset.eligma = '0';
+                    tr.dataset.affection = '0';
                     tr.dataset.urban = student.affinity.urban;
                     tr.dataset.outdoors = student.affinity.outdoors;
                     tr.dataset.indoors = student.affinity.indoors;
@@ -613,6 +620,7 @@ Promise.all([
                 uniqueWeapon.value = data.unique_weapon;
                 uniqueGear.value = data.unique_gear;
                 eligma.value = `${data.eligma}`;
+                affection.value = `${data.affection}`;
                 openUnique(has.checked);
             })(studentsManager.get(student.key, student.rarity));
             has.addEventListener('change', () => {
@@ -635,6 +643,9 @@ Promise.all([
                 save();
             });
             eligma.addEventListener('change', () => {
+                save();
+            });
+            affection.addEventListener('change', () => {
                 save();
             });
         }
