@@ -86,6 +86,15 @@ interface Student {
 	uniqueWeapon?: string;
 	uniqueGear?: string;
 	suffix?: string;
+	eligma: {
+		hard?: string[];
+		tactical?: number;
+		raid?: number;
+		rareRaid?: number;
+		// daikessenn?: number;
+		firepower?: number;
+		mastery?: number;
+	};
 }
 
 interface Profile {
