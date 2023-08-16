@@ -79,6 +79,7 @@ function createEmptyStudent(): Student {
 			outdoors: <any> '',
 			indoors: <any> '',
 		},
+		eligma: {},
 	};
 
 	return student;

@@ -1509,7 +1509,8 @@
       ],
       "profile": "百鬼夜行連合学院所属、修行部の優しい副部長。\n\nいつも朗らかな笑顔と穏やかなもお腰で、みんなからの人望が非常に厚い。幼い頃に呼んだ少女漫画の影響で「大和撫子」になりたいという夢をいだき、修行部へと入った、幼馴染であり部長でもある椿とともに、料理や掃除などの修行に日々邁進している。",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "miyako": {
@@ -1751,7 +1752,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "akane": {
       "playable": true,
@@ -1771,7 +1773,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "akari": {
       "playable": true,
@@ -1791,7 +1794,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "ako": {
       "playable": true,
@@ -1811,7 +1815,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "azusa": {
       "playable": true,
@@ -1831,7 +1836,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "asuna": {
       "playable": true,
@@ -1851,7 +1857,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "atsuko": {
       "playable": true,
@@ -1871,7 +1878,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "ayane": {
       "playable": true,
@@ -1891,7 +1899,8 @@
         "urban": "B",
         "outdoors": "A",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "arisu": {
       "playable": true,
@@ -1911,7 +1920,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "aru": {
       "playable": true,
@@ -1932,6 +1942,7 @@
         "outdoors": "B",
         "indoors": "D"
       },
+      "eligma": {},
       "uniqueGear": "arus_treasured_wallet"
     },
     "iori": {
@@ -1952,7 +1963,8 @@
         "urban": "C",
         "outdoors": "C",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "izuna": {
       "playable": true,
@@ -1972,7 +1984,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "izumi": {
       "playable": true,
@@ -1993,6 +2006,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueGear": "lucky_hot_dog_model"
     },
     "iroha": {
@@ -2013,7 +2027,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "ui": {
       "playable": true,
@@ -2033,7 +2048,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "utaha": {
       "playable": true,
@@ -2054,6 +2070,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "uniqueGear": "meisters_toolset"
     },
     "eimi": {
@@ -2075,6 +2092,7 @@
         "outdoors": "B",
         "indoors": "D"
       },
+      "eligma": {},
       "uniqueGear": "super_cooling_fan"
     },
     "kaede": {
@@ -2095,7 +2113,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "kazusa": {
       "playable": true,
@@ -2115,7 +2134,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "kaho": {
       "playable": true,
@@ -2135,7 +2155,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "kayoko": {
       "playable": true,
@@ -2155,7 +2176,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "karin": {
       "playable": true,
@@ -2175,7 +2197,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "kanna": {
       "playable": true,
@@ -2195,7 +2218,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "kirino": {
       "playable": true,
@@ -2215,7 +2239,8 @@
         "urban": "B",
         "outdoors": "A",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "kokona": {
       "playable": true,
@@ -2235,7 +2260,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "kotama": {
       "playable": true,
@@ -2255,7 +2281,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "kotori": {
       "playable": true,
@@ -2275,7 +2302,8 @@
         "urban": "B",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "koharu": {
       "playable": true,
@@ -2295,7 +2323,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "koyuki": {
       "playable": true,
@@ -2315,7 +2344,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "saori": {
       "playable": true,
@@ -2335,7 +2365,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "saki": {
       "playable": true,
@@ -2355,7 +2386,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "sakurako": {
       "playable": true,
@@ -2375,7 +2407,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "saya": {
       "playable": true,
@@ -2395,7 +2428,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "shigure": {
       "playable": true,
@@ -2415,7 +2449,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "shizuko": {
       "playable": true,
@@ -2435,7 +2470,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "shimiko": {
       "playable": true,
@@ -2455,7 +2491,8 @@
         "urban": "B",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "juri": {
       "playable": true,
@@ -2475,7 +2512,8 @@
         "urban": "B",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "shun": {
       "playable": true,
@@ -2495,7 +2533,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "junko": {
       "playable": true,
@@ -2516,6 +2555,7 @@
         "outdoors": "A",
         "indoors": "A"
       },
+      "eligma": {},
       "uniqueGear": "gourmet_notebook"
     },
     "shiroko": {
@@ -2537,6 +2577,7 @@
         "outdoors": "B",
         "indoors": "D"
       },
+      "eligma": {},
       "uniqueGear": "shirokos_drone"
     },
     "suzumi": {
@@ -2558,6 +2599,7 @@
         "outdoors": "B",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueGear": "patrol_headphones"
     },
     "sumire": {
@@ -2578,7 +2620,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "sena": {
       "playable": true,
@@ -2598,7 +2641,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "serika": {
       "playable": true,
@@ -2619,6 +2663,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "uniqueGear": "serikas_sports_bag"
     },
     "serina": {
@@ -2639,7 +2684,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "cherino": {
       "playable": true,
@@ -2659,7 +2705,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "chise": {
       "playable": true,
@@ -2679,7 +2726,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "chinatsu": {
       "playable": true,
@@ -2699,7 +2747,8 @@
         "urban": "B",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "chihiro": {
       "playable": true,
@@ -2719,7 +2768,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "tsukuyo": {
       "playable": true,
@@ -2739,7 +2789,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "tsubaki": {
       "playable": true,
@@ -2759,7 +2810,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "tsurugi": {
       "playable": true,
@@ -2780,6 +2832,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "uniqueGear": "tsurugis_special_box"
     },
     "toki": {
@@ -2801,6 +2854,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "obtain": "limited"
     },
     "tomoe": {
@@ -2822,6 +2876,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "obtain": "event"
     },
     "nagisa": {
@@ -2843,6 +2898,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "obtain": "limited"
     },
     "natsu": {
@@ -2863,7 +2919,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "neru": {
       "playable": true,
@@ -2884,6 +2941,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueGear": "nerus_sukajan"
     },
     "noa": {
@@ -2904,7 +2962,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "nodoka": {
       "playable": true,
@@ -2924,7 +2983,8 @@
         "urban": "B",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "nonomi": {
       "playable": true,
@@ -2945,6 +3005,7 @@
         "outdoors": "A",
         "indoors": "B"
       },
+      "eligma": {},
       "obtain": "event"
     },
     "hasumi": {
@@ -2966,6 +3027,7 @@
         "outdoors": "A",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueWeapon": "impalement"
     },
     "hanae": {
@@ -2987,6 +3049,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "uniqueWeapon": "happy_smiley"
     },
     "hanako": {
@@ -3007,7 +3070,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "haruka": {
       "playable": true,
@@ -3027,7 +3091,8 @@
         "urban": "B",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "haruna": {
       "playable": true,
@@ -3047,7 +3112,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "hare": {
       "playable": true,
@@ -3068,6 +3134,7 @@
         "outdoors": "B",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueGear": "Athena_3"
     },
     "hina": {
@@ -3088,7 +3155,8 @@
         "urban": "SS",
         "outdoors": "C",
         "indoors": "C"
-      }
+      },
+      "eligma": {}
     },
     "hinata": {
       "playable": true,
@@ -3109,6 +3177,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueGear": "goods_management_ledger"
     },
     "hibiki": {
@@ -3129,7 +3198,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "hifumi": {
       "playable": true,
@@ -3149,7 +3219,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "himari": {
       "playable": true,
@@ -3169,7 +3240,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "hiyori": {
       "playable": true,
@@ -3189,7 +3261,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "pina": {
       "playable": true,
@@ -3209,7 +3282,8 @@
         "urban": "A",
         "outdoors": "B",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "fuuka": {
       "playable": true,
@@ -3229,7 +3303,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "fubuki": {
       "playable": true,
@@ -3250,6 +3325,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "obtain": "event"
     },
     "hoshino": {
@@ -3270,7 +3346,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "maki": {
       "playable": true,
@@ -3290,7 +3367,8 @@
         "urban": "C",
         "outdoors": "SS",
         "indoors": "C"
-      }
+      },
+      "eligma": {}
     },
     "mashiro": {
       "playable": true,
@@ -3310,7 +3388,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "mari": {
       "playable": true,
@@ -3330,7 +3409,8 @@
         "urban": "B",
         "outdoors": "A",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "marina": {
       "playable": true,
@@ -3350,7 +3430,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "mika": {
       "playable": true,
@@ -3371,6 +3452,7 @@
         "outdoors": "A",
         "indoors": "SS"
       },
+      "eligma": {},
       "obtain": "limited"
     },
     "misaki": {
@@ -3391,7 +3473,8 @@
         "urban": "B",
         "outdoors": "D",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "michiru": {
       "playable": true,
@@ -3412,6 +3495,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "obtain": "event"
     },
     "midori": {
@@ -3432,7 +3516,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "mina": {
       "playable": true,
@@ -3452,7 +3537,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "mine": {
       "playable": true,
@@ -3472,7 +3558,8 @@
         "urban": "B",
         "outdoors": "SS",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "minori": {
       "playable": true,
@@ -3492,7 +3579,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "mimori": {
       "playable": true,
@@ -3513,6 +3601,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueGear": "cherry_blossom_apron_full_of_dreams"
     },
     "miyako": {
@@ -3533,7 +3622,8 @@
         "urban": "SS",
         "outdoors": "D",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "miyu": {
       "playable": true,
@@ -3553,7 +3643,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "mutsuki": {
       "playable": true,
@@ -3573,7 +3664,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "megu": {
       "playable": true,
@@ -3593,7 +3685,8 @@
         "urban": "D",
         "outdoors": "SS",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "moe": {
       "playable": true,
@@ -3613,7 +3706,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "momoi": {
       "playable": true,
@@ -3633,7 +3727,8 @@
         "urban": "A",
         "outdoors": "A",
         "indoors": "B"
-      }
+      },
+      "eligma": {}
     },
     "yuuka": {
       "playable": true,
@@ -3654,6 +3749,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "uniqueGear": "yuukas_scientific_calculator"
     },
     "yuzu": {
@@ -3674,7 +3770,8 @@
         "urban": "SS",
         "outdoors": "B",
         "indoors": "D"
-      }
+      },
+      "eligma": {}
     },
     "yoshimi": {
       "playable": true,
@@ -3694,7 +3791,8 @@
         "urban": "B",
         "outdoors": "B",
         "indoors": "A"
-      }
+      },
+      "eligma": {}
     },
     "rumi": {
       "playable": true,
@@ -3714,7 +3812,8 @@
         "urban": "C",
         "outdoors": "C",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "reisa": {
       "playable": true,
@@ -3734,7 +3833,8 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
-      }
+      },
+      "eligma": {}
     },
     "wakamo": {
       "playable": true,
@@ -3755,6 +3855,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "uniqueGear": "mysterious_fox_mask",
       "obtain": "limited"
     },
@@ -3777,6 +3878,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "uniqueWeapon": "live_concert_t-shirt_cannon",
       "club": "none",
       "age": 16,
@@ -3807,6 +3909,7 @@
         "outdoors": "C",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": "",
@@ -3831,6 +3934,7 @@
         "outdoors": "A",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "HG",
       "hobby": [],
       "profile": "",
@@ -3855,6 +3959,7 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -3879,6 +3984,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -3903,6 +4009,7 @@
         "outdoors": "A",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "MG",
       "hobby": [],
       "profile": "",
@@ -3927,6 +4034,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -3951,6 +4059,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -3975,6 +4084,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "MG",
       "hobby": [],
       "profile": ""
@@ -3998,6 +4108,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "SG",
       "hobby": [],
       "profile": "",
@@ -4022,6 +4133,7 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": ""
@@ -4045,6 +4157,7 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "GL",
       "uniqueGear": "treasure_filled_pouch",
       "hobby": [],
@@ -4070,6 +4183,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "SG",
       "hobby": [],
       "profile": "",
@@ -4094,6 +4208,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "MG",
       "hobby": [],
       "profile": ""
@@ -4117,6 +4232,7 @@
         "outdoors": "A",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": "",
@@ -4141,6 +4257,7 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "MG",
       "uniqueGear": "disciplinary_committee_flotation_device",
       "hobby": [],
@@ -4166,6 +4283,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "HG",
       "hobby": [],
       "profile": "",
@@ -4190,6 +4308,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "AR",
       "uniqueGear": "momo_friends_special_teapot",
       "hobby": [],
@@ -4214,6 +4333,7 @@
         "outdoors": "A",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "SG",
       "hobby": [],
       "profile": "",
@@ -4238,10 +4358,35 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "mimori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
+      },
+      "eligma": {},
+      "gun": "HG",
+      "hobby": [],
+      "profile": ""
     },
     "miyako": {
       "playable": true,
@@ -4262,6 +4407,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": ""
@@ -4285,6 +4431,7 @@
         "outdoors": "B",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": ""
@@ -4308,6 +4455,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": ""
@@ -4333,6 +4481,7 @@
         "outdoors": "B",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": ""
@@ -4358,6 +4507,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "HG",
       "hobby": [],
       "profile": ""
@@ -4381,6 +4531,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "AR",
       "uniqueGear": "bunny_tail_grenade",
       "hobby": [],
@@ -4405,6 +4556,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -4429,6 +4581,7 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": ""
@@ -4452,6 +4605,7 @@
         "outdoors": "SS",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -4478,6 +4632,7 @@
         "outdoors": "C",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [
         "貯金",
@@ -4504,6 +4659,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -4528,6 +4684,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "HG",
       "hobby": [],
       "profile": ""
@@ -4551,6 +4708,7 @@
         "outdoors": "B",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": "",
@@ -4575,6 +4733,7 @@
         "outdoors": "SS",
         "indoors": "C"
       },
+      "eligma": {},
       "gun": "SG",
       "hobby": [],
       "profile": ""
@@ -4598,6 +4757,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -4622,6 +4782,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -4646,6 +4807,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "MG",
       "hobby": [],
       "profile": "",
@@ -4672,6 +4834,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "HG",
       "uniqueGear": "sayas_skateboard",
       "hobby": [],
@@ -4698,6 +4861,7 @@
         "outdoors": "D",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "SR",
       "uniqueGear": "shuns_childhood_memories",
       "hobby": [],
@@ -4724,6 +4888,7 @@
         "outdoors": "B",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "HG",
       "uniqueGear": "bath_adjutant",
       "hobby": [],
@@ -4748,6 +4913,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "HG",
       "hobby": [],
       "profile": ""
@@ -4771,6 +4937,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": ""
@@ -4796,6 +4963,7 @@
         "outdoors": "A",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -4820,6 +4988,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "HG",
       "hobby": [],
       "profile": "",
@@ -4844,6 +5013,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -4870,6 +5040,7 @@
         "outdoors": "B",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "SMG",
       "hobby": [],
       "profile": ""
@@ -4893,6 +5064,7 @@
         "outdoors": "A",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "MT",
       "hobby": [],
       "profile": "",
@@ -4919,6 +5091,7 @@
         "outdoors": "B",
         "indoors": "D"
       },
+      "eligma": {},
       "gun": "RG",
       "hobby": [],
       "profile": ""
@@ -4942,6 +5115,7 @@
         "outdoors": "A",
         "indoors": "A"
       },
+      "eligma": {},
       "gun": "GL",
       "hobby": [],
       "profile": "",
@@ -4968,6 +5142,7 @@
         "outdoors": "SS",
         "indoors": "B"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": ""
@@ -4991,6 +5166,7 @@
         "outdoors": "D",
         "indoors": "SS"
       },
+      "eligma": {},
       "gun": "AR",
       "hobby": [],
       "profile": ""
