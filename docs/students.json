@@ -1580,6 +1580,22 @@
         "normal"
       ]
     },
+    "meru": {
+      "name": "メル",
+      "last": "姫木",
+      "school": "red_winter",
+      "gun": "HG",
+      "uniqueWeapon": "",
+      "club": "knowledge_liberation_front",
+      "age": 16,
+      "birthday": "12/21",
+      "height": 137,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "moe": {
       "name": "モエ",
       "last": "風倉",
@@ -1590,6 +1606,22 @@
       "age": 15,
       "birthday": "9/13",
       "height": 163,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "momiji": {
+      "name": "モミジ",
+      "last": "秋泉",
+      "school": "red_winter",
+      "gun": "RL",
+      "uniqueWeapon": "",
+      "club": "knowledge_liberation_front",
+      "age": 15,
+      "birthday": "8/7",
+      "height": 135,
       "hobby": [],
       "profile": "",
       "another": [
@@ -3688,6 +3720,27 @@
       },
       "eligma": {}
     },
+    "meru": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "B",
+        "outdoors": "S",
+        "indoors": "D"
+      },
+      "eligma": {}
+    },
     "moe": {
       "playable": true,
       "rarity": 3,
@@ -3706,6 +3759,27 @@
         "urban": "D",
         "outdoors": "B",
         "indoors": "SS"
+      },
+      "eligma": {}
+    },
+    "momiji": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "A",
+        "outdoors": "A",
+        "indoors": "B"
       },
       "eligma": {}
     },
