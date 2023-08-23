@@ -3736,7 +3736,7 @@
       },
       "affinityMax": {
         "urban": "B",
-        "outdoors": "S",
+        "outdoors": "SS",
         "indoors": "D"
       },
       "eligma": {}
