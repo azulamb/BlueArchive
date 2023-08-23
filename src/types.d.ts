@@ -10,6 +10,7 @@ type CLUB_TYPE =
 	| 'security_committee'
 	| 'engineering_department'
 	| 'class_no_227'
+	| 'knowledge_liberation_front'
 	// Trinity
 	| 'tea_party'
 	| 'after_school_sweets_club'
