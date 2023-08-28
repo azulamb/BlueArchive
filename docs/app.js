@@ -19,7 +19,7 @@
             const style = document.createElement('style');
             style.innerHTML = [
                 ':host { --header: 2rem; --front-color: black; --back-color: white; --tab-back: lightgray; --tab-active: white; --tab-inactive: gray; --home-size: 2rem; --home-icon: ""; display: block; width: 100%; height: 100%; }',
-                ':host > div { display: grid; grid-template-rows: var(--header) calc(100% - var(--header)); width: 100%; height: 100%; background: var(--back-color); color: var(--front-color); }',
+                ':host > div { display: grid; grid-template-rows: var(--header) calc(100% - var(--header)); width: 100%; height: 100%; background: var(--back-color); color: var(--front-color); overflow: hidden; }',
                 ':host > div > header { display: flex; background: var(--tab-back); }',
                 ':host > div > header > a#home { display: block; width: var(--home-size); height: 100%; background-image: var(--home-icon); background-size: cover; }',
                 ':host > div > header > a:not(#home) { text-decoration: none; color: var(--front-color); }',
