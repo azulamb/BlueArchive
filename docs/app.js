@@ -25,7 +25,6 @@
                 ':host > div > header > a:not(#home) { text-decoration: none; color: var(--front-color); }',
                 ':host > div > header > button, :host > div > header > a:not(#home) { display: block; cursor: pointer; border: 0; border-radius: 0.5em 0.5em 0 0; padding: 0 1em; background:var(--tab-inactive); font-size: 1em; line-height: var(--header); }',
                 ':host > div > header > button.show, :host > div > header > a:not(#home).show { background: var(--tab-active); }',
-                ':host > div > div { overflow: auto; }',
                 '::slotted(*) { display: none; }',
                 '::slotted(section.show) { display: block; }',
             ].join('');
