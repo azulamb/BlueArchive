@@ -117,6 +117,7 @@ button{ cursor: pointer; user-select: none; }
 #report_unique_gear_2::before { content: '★2'; }
 #report_need_eligma_rarity::before { content: '全員★5'; }
 #students_header td, #students .name, #students .school { white-space: nowrap; }
+input.warning { background: #eb5757; color: white; }
 	</style>
 	<script>
 const ANOTHER_NAME = {
@@ -211,7 +212,7 @@ const SCHOOL = {
 								<td class="unique_weapon"><input-star min="0" max="3" disabled></input-star></td>
 								<td class="unique_gear"><input-star min="0" max="2" disabled></input-star></td>
 								<td class="eligma"><input type="number" step="1" min="0" max="999" value="0"></td>
-								<td class="affection"><input type="number" step="1" min="0" max="999" value="0"></td>
+								<td class="affection"><input type="number" step="1" min="0" max="100" value="0"></td>
 								<td class="use_cover"></td>
 								<td class="urban"></td>
 								<td class="outdoors"></td>
