@@ -466,7 +466,8 @@
       ],
       "profile": "ミレニアムサイエンススクール所属、エンジニア部の部員。\n\n物理学や機械のメカニズムについて話すと止まらない、おしゃべり好きな女の子。ミレニアムで機械と関連したトラブルが発生売ると、いの一番に現場へと現れて状況解説を始める。",
       "another": [
-        "normal"
+        "normal",
+        "cheerleader"
       ]
     },
     "koharu": {
@@ -5143,6 +5144,27 @@
       "hobby": [],
       "profile": "",
       "obtain": "event"
+    },
+    "kotori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "eligma": {}
     }
   },
   "maid": {
