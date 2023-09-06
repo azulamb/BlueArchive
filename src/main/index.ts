@@ -314,8 +314,9 @@ Promise.all([
 				studentsManager.save();
 			}
 
-			function changeRarity() {
-				if (rarity.value === 5) {
+			function changeValue() {
+				const rarityValue = rarity.value;
+				if (rarityValue === 5) {
 					uniqueWeapon.disabled = false;
 					if (student.uniqueGear) {
 						uniqueGear.disabled = false;
@@ -324,7 +325,15 @@ Promise.all([
 					uniqueWeapon.disabled = true;
 					uniqueGear.disabled = true;
 				}
-				tr.dataset.rarity = rarity.value.toString();
+				if (rarityValue < 3) {
+					affection.max = '10';
+				} else if (rarityValue < 5) {
+					affection.max = '20';
+				} else {
+					affection.max = '100';
+				}
+				affection.classList[parseInt(affection.max) <= parseInt(affection.value) ? 'add' : 'remove']('warning');
+				tr.dataset.rarity = rarityValue.toString();
 				tr.dataset.urban = student.affinity.urban;
 				tr.dataset.outdoors = student.affinity.outdoors;
 				tr.dataset.indoors = student.affinity.indoors;
@@ -351,7 +360,7 @@ Promise.all([
 					tr.dataset.has = 'true';
 					tr.dataset.eligma = eligma.value;
 					tr.dataset.affection = affection.value;
-					changeRarity();
+					changeValue();
 				} else {
 					rarity.disabled = true;
 					uniqueWeapon.disabled = true;
@@ -383,24 +392,25 @@ Promise.all([
 				save();
 			});
 			rarity.addEventListener('change', () => {
-				changeRarity();
+				changeValue();
 				save();
 			});
 			uniqueWeapon.addEventListener('change', () => {
-				changeRarity();
+				changeValue();
 				save();
 			});
 			if (!student.uniqueGear) {
 				uniqueGear.max = 0;
 			}
 			uniqueGear.addEventListener('change', () => {
-				changeRarity();
+				changeValue();
 				save();
 			});
 			eligma.addEventListener('change', () => {
 				save();
 			});
 			affection.addEventListener('change', () => {
+				changeValue();
 				save();
 			});
 		}
