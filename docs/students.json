@@ -1122,7 +1122,8 @@
       "profile": "",
       "another": [
         "normal",
-        "new_year"
+        "new_year",
+        "sportswear"
       ]
     },
     "hare": {
@@ -5093,6 +5094,30 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "haruna": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "eligma": {},
+      "gun": "SR",
+      "hobby": [],
+      "profile": ""
     }
   },
   "cheerleader": {
