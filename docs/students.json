@@ -225,6 +225,22 @@
         "swimsuit"
       ]
     },
+    "ichika": {
+      "name": "イチカ",
+      "last": "",
+      "school": "trinity",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "justice_actualization_committee",
+      "age": 0,
+      "birthday": "",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "iroha": {
       "name": "イロハ",
       "last": "棗",
@@ -326,6 +342,22 @@
       "age": 15,
       "birthday": "8/5",
       "height": 155,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "kasumi": {
+      "name": "カスミ",
+      "last": "",
+      "school": "gehenna",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "hot_springs_development_department",
+      "age": 0,
+      "birthday": "",
+      "height": 0,
       "hobby": [],
       "profile": "",
       "another": [
@@ -3963,6 +3995,48 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "ichika": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {}
+    },
+    "kasumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {}
     }
   },
   "swimsuit": {
