@@ -614,7 +614,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "hot_spring"
       ]
     },
     "shizuko": {
@@ -5091,6 +5092,27 @@
       "gun": "SMG",
       "hobby": [],
       "profile": ""
+    },
+    "shigure": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {}
     }
   },
   "sportswear": {
