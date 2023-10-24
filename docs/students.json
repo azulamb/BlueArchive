@@ -1798,6 +1798,54 @@
       "another": [
         "normal"
       ]
+    },
+    "saten_ruiko": {
+      "name": "佐天涙子",
+      "last": "",
+      "school": "etc",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "none",
+      "age": 0,
+      "birthday": "0/0",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "misaka_mikoto": {
+      "name": "御坂美琴",
+      "last": "",
+      "school": "etc",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "none",
+      "age": 0,
+      "birthday": "0/0",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "shokuhou_misaki": {
+      "name": "食蜂操祈",
+      "last": "",
+      "school": "etc",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "none",
+      "age": 0,
+      "birthday": "0/0",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
     }
   },
   "normal": {
@@ -4038,6 +4086,72 @@
         "indoors": ""
       },
       "eligma": {}
+    },
+    "saten_ruiko": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {},
+      "obtain": "event"
+    },
+    "misaka_mikoto": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {},
+      "obtain": "limited"
+    },
+    "shokuhou_misaki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   },
   "swimsuit": {
