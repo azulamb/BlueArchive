@@ -229,12 +229,12 @@
       "name": "イチカ",
       "last": "",
       "school": "trinity",
-      "gun": "",
-      "uniqueWeapon": "",
+      "gun": "AR",
+      "uniqueWeapon": "red_dragon",
       "club": "justice_actualization_committee",
-      "age": 0,
-      "birthday": "",
-      "height": 0,
+      "age": 16,
+      "birthday": "11/11",
+      "height": 163,
       "hobby": [],
       "profile": "",
       "another": [
@@ -352,12 +352,12 @@
       "name": "カスミ",
       "last": "",
       "school": "gehenna",
-      "gun": "",
-      "uniqueWeapon": "",
+      "gun": "HG",
+      "uniqueWeapon": "red_rector",
       "club": "hot_springs_development_department",
-      "age": 0,
-      "birthday": "",
-      "height": 0,
+      "age": 16,
+      "birthday": "5/24",
+      "height": 148,
       "hobby": [],
       "profile": "",
       "another": [
@@ -1783,6 +1783,38 @@
         "swimsuit"
       ]
     },
+    "misaka_mikoto": {
+      "name": "御坂美琴",
+      "last": "",
+      "school": "sakugawa",
+      "gun": "AR",
+      "uniqueWeapon": "gunvolt",
+      "club": "none",
+      "age": 14,
+      "birthday": "5/12",
+      "height": 161,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "saten_ruiko": {
+      "name": "佐天涙子",
+      "last": "",
+      "school": "sakugawa",
+      "gun": "SMG",
+      "uniqueWeapon": "bullet_swinger",
+      "club": "none",
+      "age": 12,
+      "birthday": "",
+      "height": 160,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "hatsune_miku": {
       "name": "初音ミク",
       "last": "",
@@ -1799,47 +1831,15 @@
         "normal"
       ]
     },
-    "saten_ruiko": {
-      "name": "佐天涙子",
-      "last": "",
-      "school": "etc",
-      "gun": "",
-      "uniqueWeapon": "",
-      "club": "none",
-      "age": 0,
-      "birthday": "0/0",
-      "height": 0,
-      "hobby": [],
-      "profile": "",
-      "another": [
-        "normal"
-      ]
-    },
-    "misaka_mikoto": {
-      "name": "御坂美琴",
-      "last": "",
-      "school": "etc",
-      "gun": "",
-      "uniqueWeapon": "",
-      "club": "none",
-      "age": 0,
-      "birthday": "0/0",
-      "height": 0,
-      "hobby": [],
-      "profile": "",
-      "another": [
-        "normal"
-      ]
-    },
     "shokuhou_misaki": {
       "name": "食蜂操祈",
       "last": "",
-      "school": "etc",
-      "gun": "",
+      "school": "sakugawa",
+      "gun": "HG",
       "uniqueWeapon": "",
       "club": "none",
-      "age": 0,
-      "birthday": "0/0",
+      "age": 14,
+      "birthday": "",
       "height": 0,
       "hobby": [],
       "profile": "",
@@ -2736,7 +2736,8 @@
         "outdoors": "D",
         "indoors": "SS"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "training_sandbag"
     },
     "sena": {
       "playable": true,
@@ -3186,7 +3187,8 @@
         "outdoors": "B",
         "indoors": "A"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "dubious_literature"
     },
     "haruka": {
       "playable": true,
@@ -3738,7 +3740,8 @@
         "outdoors": "D",
         "indoors": "B"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "tattered_name_tag"
     },
     "miyu": {
       "playable": true,
@@ -4055,14 +4058,14 @@
       "position": "middle",
       "combat": "striker",
       "affinity": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
       },
       "eligma": {}
     },
@@ -4076,14 +4079,14 @@
       "position": "middle",
       "combat": "striker",
       "affinity": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
       },
       "eligma": {}
     },
@@ -4097,14 +4100,14 @@
       "position": "back",
       "combat": "special",
       "affinity": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "C",
+        "outdoors": "A",
+        "indoors": "B"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "C",
+        "outdoors": "A",
+        "indoors": "A"
       },
       "eligma": {},
       "obtain": "event"
@@ -4119,14 +4122,14 @@
       "position": "middle",
       "combat": "striker",
       "affinity": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
       },
       "eligma": {},
       "obtain": "limited"
@@ -4141,14 +4144,14 @@
       "position": "middle",
       "combat": "striker",
       "affinity": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "S",
+        "outdoors": "C",
+        "indoors": "C"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "SS",
+        "outdoors": "C",
+        "indoors": "C"
       },
       "eligma": {},
       "obtain": "limited"
@@ -4278,7 +4281,8 @@
       "gun": "MG",
       "hobby": [],
       "profile": "",
-      "obtain": "event"
+      "obtain": "event",
+      "uniqueGear": "midsummer_cooler_box"
     },
     "ui": {
       "playable": true,
@@ -5217,14 +5221,14 @@
       "position": "back",
       "combat": "special",
       "affinity": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "S"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "B",
+        "outdoors": "D",
+        "indoors": "SS"
       },
       "eligma": {}
     }
