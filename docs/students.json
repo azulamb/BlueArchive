@@ -1786,7 +1786,7 @@
     "misaka_mikoto": {
       "name": "御坂美琴",
       "last": "",
-      "school": "sakugawa",
+      "school": "tokiwadai",
       "gun": "AR",
       "uniqueWeapon": "gunvolt",
       "club": "none",
@@ -1834,7 +1834,7 @@
     "shokuhou_misaki": {
       "name": "食蜂操祈",
       "last": "",
-      "school": "sakugawa",
+      "school": "tokiwadai",
       "gun": "HG",
       "uniqueWeapon": "",
       "club": "none",
@@ -4051,7 +4051,7 @@
     "ichika": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "sonic",
       "armor": "heavy",
       "role": "attacker",
@@ -4072,7 +4072,7 @@
     "kasumi": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "sonic",
       "armor": "heavy",
       "role": "attacker",
@@ -4093,7 +4093,7 @@
     "saten_ruiko": {
       "playable": true,
       "rarity": 1,
-      "useCover": null,
+      "useCover": false,
       "damage": "penetration",
       "armor": "special",
       "role": "attacker",
@@ -4115,7 +4115,7 @@
     "misaka_mikoto": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "penetration",
       "armor": "heavy",
       "role": "attacker",
@@ -4137,7 +4137,7 @@
     "shokuhou_misaki": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
       "role": "support",
@@ -5214,7 +5214,7 @@
     "shigure": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": false,
       "damage": "penetration",
       "armor": "special",
       "role": "healer",
