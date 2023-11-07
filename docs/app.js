@@ -561,13 +561,12 @@ Promise.all([
                 const rarityValue = rarity.value;
                 if (rarityValue === 5) {
                     uniqueWeapon.disabled = false;
-                    if (student.uniqueGear) {
-                        uniqueGear.disabled = false;
-                    }
                 }
                 else {
                     uniqueWeapon.disabled = true;
-                    uniqueGear.disabled = true;
+                }
+                if (student.uniqueGear) {
+                    uniqueGear.disabled = rarityValue < 4;
                 }
                 if (rarityValue < 3) {
                     affection.max = '10';
