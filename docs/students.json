@@ -1696,6 +1696,22 @@
         "sportswear"
       ]
     },
+    "yukari": {
+      "name": "ユカリ",
+      "last": "",
+      "school": "hyakkiyako",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "",
+      "age": null,
+      "birthday": "",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "yuzu": {
       "name": "ユズ",
       "last": "花岡",
@@ -4155,6 +4171,27 @@
       },
       "eligma": {},
       "obtain": "limited"
+    },
+    "yukari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "eligma": {}
     }
   },
   "swimsuit": {
@@ -4703,7 +4740,8 @@
       "eligma": {},
       "gun": "SR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "obtain": "event"
     },
     "wakamo": {
       "playable": true,
