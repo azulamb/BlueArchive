@@ -433,6 +433,26 @@
         "normal"
       ]
     },
+    "kikyo": {
+      "name": "キキョウ",
+      "last": "桐生",
+      "school": "hyakkiyako",
+      "gun": "SR",
+      "uniqueWeapon": null,
+      "club": "hyakkayouran",
+      "age": 16,
+      "birthday": "8/8",
+      "height": 160,
+      "hobby": [
+        "あやとり",
+        "兵法書を読むこと",
+        "日光浴"
+      ],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "kirino": {
       "name": "キリノ",
       "last": "中務",
@@ -1700,13 +1720,16 @@
       "name": "ユカリ",
       "last": "",
       "school": "hyakkiyako",
-      "gun": "",
+      "gun": "SR",
       "uniqueWeapon": "",
-      "club": "",
-      "age": null,
-      "birthday": "",
-      "height": 0,
-      "hobby": [],
+      "club": "hyakkayouran",
+      "age": 15,
+      "birthday": "6/16",
+      "height": 155,
+      "hobby": [
+        "お祈り",
+        "駄菓子屋巡り"
+      ],
       "profile": "",
       "another": [
         "normal"
@@ -1777,6 +1800,25 @@
       "birthday": "5/31",
       "height": 153,
       "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "renge": {
+      "name": "レンゲ",
+      "last": "不破",
+      "school": "hyakkiyako",
+      "gun": "SR",
+      "uniqueWeapon": null,
+      "club": "hyakkayouran",
+      "age": 16,
+      "birthday": "7/23",
+      "height": 157,
+      "hobby": [
+        "ライトノベルを読むこと",
+        "鍛錬"
+      ],
       "profile": "",
       "another": [
         "normal"
@@ -4175,10 +4217,52 @@
     "yukari": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": false,
       "damage": "sonic",
       "armor": "heavy",
       "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "eligma": {}
+    },
+    "renge": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "S",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "affinityMax": {
+        "urban": "SS",
+        "outdoors": "B",
+        "indoors": "D"
+      },
+      "eligma": {}
+    },
+    "kikyo": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "support",
       "position": "back",
       "combat": "striker",
       "affinity": {
