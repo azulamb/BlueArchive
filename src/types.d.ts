@@ -5,6 +5,7 @@ type CLUB_TYPE =
 	| 'festival_management_committee'
 	| 'inner_discipline_club'
 	| 'ninjutsu_research_club'
+	| 'hyakkayouran'
 	// RedWinter
 	| 'red_winter_secretariat'
 	| 'security_committee'
