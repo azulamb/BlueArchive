@@ -313,7 +313,8 @@
       ],
       "profile": "ミレニアムサイエンススクール所属、特異現象捜査部のメンバー。\n\n口数が少ない、考えを読みづらい少女。特に理由もなくぼーっと立っていることも多い。しかしセミナーの依頼を受けて任務を遂行するときだけは、誰よりも効率的に動き、迅速に目標を達成させる。",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "kaede": {
@@ -4850,6 +4851,27 @@
       "gun": "SR",
       "hobby": [],
       "profile": ""
+    },
+    "eimi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "eligma": {}
     }
   },
   "riding": {
