@@ -5677,7 +5677,7 @@
     },
     "kotama": {
       "playable": true,
-      "rarity": 0,
+      "rarity": 3,
       "useCover": true,
       "damage": "penetration",
       "armor": "heavy",
