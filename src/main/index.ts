@@ -646,8 +646,8 @@ Promise.all([
 					return valueA.localeCompare(valueB);
 				},
 				number: (a: HTMLTableRowElement, b: HTMLTableRowElement, key: string) => {
-					const valueA = parseFloat(a.dataset[key] || '0');
-					const valueB = parseFloat(b.dataset[key] || '0');
+					const valueA = parseInt(a.dataset[key] || '0');
+					const valueB = parseInt(b.dataset[key] || '0');
 					return valueA - valueB;
 				},
 				damage: (a: HTMLTableRowElement, b: HTMLTableRowElement, key: string) => {
