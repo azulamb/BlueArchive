@@ -64,10 +64,13 @@
       "age": 17,
       "birthday": "12/22",
       "height": 165,
-      "hobby": [],
+      "hobby": [
+        "ヒナ委員長"
+      ],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "dress"
       ]
     },
     "azusa": {
@@ -236,6 +239,25 @@
       "birthday": "11/11",
       "height": 163,
       "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "ibuki": {
+      "name": "イブキ",
+      "last": "丹花",
+      "school": "gehenna",
+      "gun": "AR",
+      "uniqueWeapon": null,
+      "club": "pandemonium_society",
+      "age": 11,
+      "birthday": "4/14",
+      "height": 128,
+      "hobby": [
+        "予習・復讐",
+        "ぬいぐるみ集め"
+      ],
       "profile": "",
       "another": [
         "normal"
@@ -1384,6 +1406,26 @@
       "birthday": "8/1",
       "height": 149,
       "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
+    "makoto": {
+      "name": "マコト",
+      "last": "羽沼",
+      "school": "gehenna",
+      "gun": "SR",
+      "uniqueWeapon": null,
+      "club": "pandemonium_society",
+      "age": 18,
+      "birthday": "3/19",
+      "height": 169,
+      "hobby": [
+        "計略",
+        "悪巧み",
+        "イブキと遊ぶこと"
+      ],
       "profile": "",
       "another": [
         "normal"
@@ -3183,7 +3225,8 @@
         "indoors": "B"
       },
       "eligma": {},
-      "obtain": "event"
+      "obtain": "event",
+      "uniqueGear": "_"
     },
     "hasumi": {
       "playable": true,
@@ -3652,7 +3695,8 @@
         "outdoors": "D",
         "indoors": "SS"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "_"
     },
     "michiru": {
       "playable": true,
@@ -4279,6 +4323,50 @@
         "indoors": "D"
       },
       "eligma": {}
+    },
+    "ibuki": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "A"
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {},
+      "obtain": "event"
+    },
+    "makoto": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "B",
+        "indoors": "SS"
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   },
   "swimsuit": {
@@ -5648,9 +5736,7 @@
         "indoors": "SS"
       },
       "eligma": {},
-      "gun": "AR",
-      "hobby": [],
-      "profile": ""
+      "uniqueGear": "_"
     }
   },
   "camp": {
@@ -5695,6 +5781,30 @@
         "indoors": "D"
       },
       "eligma": {}
+    }
+  },
+  "dress": {
+    "ako": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "support",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "S",
+        "indoors": "B"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "SS",
+        "indoors": "B"
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   }
 }
