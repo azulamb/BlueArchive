@@ -531,6 +531,7 @@ Promise.all([
             const outdoors = tr.querySelector('.outdoors');
             const indoors = tr.querySelector('.indoors');
             tr.querySelector('.school').textContent = SCHOOL[student.school];
+            const age = tr.querySelector('.age');
             const birthday = tr.querySelector('.birthday');
             const height = tr.querySelector('.height');
             combat.title = student.combat;
@@ -549,6 +550,7 @@ Promise.all([
             indoors.textContent = student.affinity.indoors === student.affinityMax.indoors
                 ? student.affinity.indoors
                 : `${student.affinity.indoors}→${student.affinityMax.indoors}`;
+            age.textContent = typeof student.age === 'number' ? student.age.toString() : '-';
             birthday.textContent = student.birthday ? student.birthday.replace(/([0-9]{2})([0-9]{2})/, '$1/$2') : '-';
             height.textContent = student.height ? student.height.toString() : '-';
             studentsBody.appendChild(tr);
@@ -927,6 +929,14 @@ Promise.all([
                 school: (a, b, key) => {
                     const valueA = SCHOOLS.indexOf(a.dataset[key] || 'etc');
                     const valueB = SCHOOLS.indexOf(b.dataset[key] || 'etc');
+                    return valueA - valueB;
+                },
+                age: (a, b, key) => {
+                    const valueA = parseInt(a.dataset[key] || '0');
+                    const valueB = parseInt(b.dataset[key] || '0');
+                    if (valueA === valueB) {
+                        return compare.string(a, b, 'birthday');
+                    }
                     return valueA - valueB;
                 },
             };

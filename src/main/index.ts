@@ -284,6 +284,7 @@ Promise.all([
 			const outdoors = <HTMLTableCellElement> tr.querySelector('.outdoors');
 			const indoors = <HTMLTableCellElement> tr.querySelector('.indoors');
 			(<HTMLTableCellElement> tr.querySelector('.school')).textContent = SCHOOL[student.school];
+			const age = <HTMLTableCellElement> tr.querySelector('.age');
 			const birthday = <HTMLTableCellElement> tr.querySelector('.birthday');
 			const height = <HTMLTableCellElement> tr.querySelector('.height');
 
@@ -303,6 +304,7 @@ Promise.all([
 			indoors.textContent = student.affinity.indoors === student.affinityMax.indoors
 				? student.affinity.indoors
 				: `${student.affinity.indoors}→${student.affinityMax.indoors}`;
+			age.textContent = typeof student.age === 'number' ? student.age.toString() : '-';
 			birthday.textContent = student.birthday ? student.birthday.replace(/([0-9]{2})([0-9]{2})/, '$1/$2') : '-';
 			height.textContent = student.height ? student.height.toString() : '-';
 
@@ -695,6 +697,14 @@ Promise.all([
 				school: (a: HTMLTableRowElement, b: HTMLTableRowElement, key: string) => {
 					const valueA = SCHOOLS.indexOf(<SCHOOL_TYPE> a.dataset[key] || 'etc');
 					const valueB = SCHOOLS.indexOf(<SCHOOL_TYPE> b.dataset[key] || 'etc');
+					return valueA - valueB;
+				},
+				age: (a: HTMLTableRowElement, b: HTMLTableRowElement, key: string) => {
+					const valueA = parseInt(a.dataset[key] || '0');
+					const valueB = parseInt(b.dataset[key] || '0');
+					if (valueA === valueB) {
+						return compare.string(a, b, 'birthday');
+					}
 					return valueA - valueB;
 				},
 			};
