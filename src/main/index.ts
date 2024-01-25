@@ -252,6 +252,7 @@ Promise.all([
 			tr.dataset.armor = student.armor;
 			tr.dataset.birthday = student.birthday;
 			tr.dataset.height = student.height.toString();
+			tr.dataset.age = student.age.toString();
 			if (student.useCover) {
 				tr.dataset.use_cover = 'true';
 			}
