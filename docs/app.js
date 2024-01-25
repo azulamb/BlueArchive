@@ -497,6 +497,8 @@ Promise.all([
             tr.dataset.gun = student.gun;
             tr.dataset.damage = student.damage;
             tr.dataset.armor = student.armor;
+            tr.dataset.birthday = student.birthday;
+            tr.dataset.height = student.height.toString();
             if (student.useCover) {
                 tr.dataset.use_cover = 'true';
             }
@@ -528,6 +530,8 @@ Promise.all([
             const outdoors = tr.querySelector('.outdoors');
             const indoors = tr.querySelector('.indoors');
             tr.querySelector('.school').textContent = SCHOOL[student.school];
+            const birthday = tr.querySelector('.birthday');
+            const height = tr.querySelector('.height');
             combat.title = student.combat;
             role.title = student.role;
             position.title = student.position;
@@ -544,6 +548,8 @@ Promise.all([
             indoors.textContent = student.affinity.indoors === student.affinityMax.indoors
                 ? student.affinity.indoors
                 : `${student.affinity.indoors}→${student.affinityMax.indoors}`;
+            birthday.textContent = student.birthday.replace(/([0-9]{2})([0-9]{2})/, '$1/$2');
+            height.textContent = student.height.toString();
             studentsBody.appendChild(tr);
             function save() {
                 const data = {
