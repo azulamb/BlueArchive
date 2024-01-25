@@ -1943,7 +1943,7 @@
       "club": "none",
       "age": 14,
       "birthday": "",
-      "height": 0,
+      "height": null,
       "hobby": [],
       "profile": "",
       "another": [
@@ -5361,7 +5361,8 @@
       "gun": "SR",
       "uniqueGear": "shuns_childhood_memories",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "height": null
     }
   },
   "hot_spring": {
