@@ -9,6 +9,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon-precomposed.png">
+	<link rel="stylesheet" href="./style.css">
 	<script src="./app.js" defer></script>
 	<style>
 :root {
@@ -17,10 +18,7 @@
 --light-front: var(--explosive-front); --heavy-front: var(--penetration-front); --special-front: var(--mystic-front); --elastic-front: var(--sonic-front);
 --light-back: var(--explosive-back); --heavy-back: var(--penetration-back); --special-back: var(--mystic-back); --elastic-back: var(--sonic-back);
 }
-html { height: 100%; }
-body { margin:0;background:#d5ecfd; height: 100%; }
-section-pages{--home-icon: url(./favicon.svg);--back-color:#d5ecfd;--tab-back:transparent;--tab-active:#62d1ff;--tab-inactive:#4e83bb;--tab-back:rgba(20,39,59,.8);}
-section { width: 100%; height: 100%; }
+section-pages{--home-icon: url(./favicon.svg);}
 section > div { display: flex; flex-direction: column; width: 100vw; height: 100%; overflow: auto; }
 td label{display:flex;align-items:center;justify-content:center;}
 tr[data-damage="explosive"] { --row-back: var(--explosive-back); }
@@ -64,10 +62,6 @@ tr:not([data-has]) .rarity input-star, tr:not([data-has]) .uniqueWeapon input-st
 tr[data-obtain] .base_rarity input-star {--enable: #ee6d6d; }
 tr.hide { display: none; }
 .role, .gun, .use_cover, .urban, .outdoors, .indoors, .school { text-align: center; }
-dialog::backdrop{ background: rgba(0,0,0,0.8); }
-dialog { padding: 0; border: none; background: transparent; }
-dialog > div{ background: #e4e4e4; display: flex; flex-direction: column; border-radius: 0.5rem; overflow: hidden; max-height: 80vh; }
-dialog h3, h2 { background:#8ca6bb; margin: 0; padding: 0.5rem 1rem; display: flex; justify-content: space-between; align-items: center; }
 dialog dl { display: flex; flex-wrap: wrap; gap: 0.5rem; user-select: none; overflow: auto; padding: 0.5rem 1rem 1rem;}
 dialog dt { border-bottom: dotted 2px #ced5db; width: 100%; }
 dialog dt::before { content: ''; height: 0.8rem; width:4px; background: #92d8fa; display: inline-block; margin-right: 0.2rem; }
@@ -78,7 +72,6 @@ input-check.w9 { width: 10rem; }
 input-check img { width: 3rem; height: 1rem; display: block; }
 input-check[group="base_rarity"] input-star {--enable: #fdfd0d;}
 input-check[group="unique_weapon"] input-star {--enable: #3dd6e3;}
-button{ cursor: pointer; user-select: none; }
 .buttons { display: flex; justify-content: center; padding: 0.5rem; }
 .buttons button.ok { font-size: 2rem; position: relative; border: none; background: transparent; background: transparent; padding: 0 1.5em; cursor: pointer; }
 .buttons button.ok > * { position: relative; z-index: 2;}
@@ -340,6 +333,7 @@ const SCHOOL = {
 				</div>
 			</dialog>
 		</section>
+		<a href="./silhouette/">身長</a>
 	</section-pages>
 </body>
 </html>
