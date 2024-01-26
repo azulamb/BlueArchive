@@ -2,7 +2,8 @@
 	"tasks": {
 		"students": "deno run --allow-run --allow-read --allow-write tools/students.ts",
 		"build_main": "tsc -p ./src/main",
-		"build": "deno task build_main",
+		"build_silhouette": "tsc -p ./src/silhouette",
+		"build": "deno task build_main & deno task build_silhouette",
 		"install_server": "deno install --allow-net --allow-read https://deno.land/std@0.65.0/http/file_server.ts",
 		"server": "file_server docs"
 	},
