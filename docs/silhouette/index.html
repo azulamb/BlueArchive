@@ -12,14 +12,15 @@
 	<link rel="stylesheet" href="../style.css">
 	<script src="./app.js" defer></script>
 	<style>
+body { --student-opacity: 1; }
 section { display: grid; grid-template-columns: 30% 70%; grid-template-rows: 1.2rem 30% auto; grid-template-areas: 'menu menu' 'select main' 'list main';}
-#menu { display: flex; grid-area: menu; }
+#menu { display: flex; grid-area: menu; gap: 0.8rem; }
 #select { grid-area: select; overflow-y: auto; }
 #list { grid-area: list; overflow-y: auto; }
 #main { grid-area: main; overflow-x: auto; overflow-y: hidden; position: relative; background: rgba(0,0,0,0.1); }
 #main img { width: auto; height: 100%; user-select: none; display: block; }
 #students { display: flex; height: 100%; position: absolute; top: 0; left: 0; background: url(back.svg); background-size: contain; min-width: 100%; }
-.student img { pointer-events: none; }
+.student img { pointer-events: none; opacity: var(--student-opacity);}
 body[data-stack] #students { justify-content: space-evenly; overflow: hidden; }
 body[data-stack] .student img { position: absolute; transform: translateX(-50%); }
 label > span { user-select: none; }
@@ -50,6 +51,10 @@ const STUDENTS = [
 				<label>
 					<input type="checkbox" id="stack" checked>
 					<span>重ねて表示</span>
+				</label>
+				<label>
+					<span>生徒の不透明度</span>
+					<input type="range" min="0" max="255" value="255" id="opacity">
 				</label>
 			</div>
 			<div id="select">

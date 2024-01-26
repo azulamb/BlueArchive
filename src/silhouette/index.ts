@@ -29,21 +29,21 @@ Promise.all([
 			item.classList.add('item');
 			item.innerHTML = template.innerHTML;
 			item.title = student.name;
-			(<HTMLElement>item.querySelector('.name')).textContent = `${student.name} (${student.height}cm)`;
-			(<HTMLElement>item.querySelector('button')).addEventListener('click', () => {
+			(<HTMLElement> item.querySelector('.name')).textContent = `${student.name} (${student.height}cm)`;
+			(<HTMLElement> item.querySelector('button')).addEventListener('click', () => {
 				add(student);
 			});
 			parent.appendChild(item);
 		}
 	});
 	const add = ((list, template) => {
-		return (student: StudentData) =>{
+		return (student: StudentData) => {
 			const item = document.createElement('div');
 			item.classList.add('item');
 			item.innerHTML = template.innerHTML;
 			item.title = student.name;
-			(<HTMLElement>item.querySelector('.name')).textContent = `${student.name} (${student.height}cm)`;
-			(<HTMLElement>item.querySelector('button')).addEventListener('click', () => {
+			(<HTMLElement> item.querySelector('.name')).textContent = `${student.name} (${student.height}cm)`;
+			(<HTMLElement> item.querySelector('button')).addEventListener('click', () => {
 				list.removeChild(item);
 				remove();
 			});
@@ -67,7 +67,7 @@ Promise.all([
 		};
 	})(document.getElementById('students') as HTMLElement);
 	((dialog) => {
-		(<HTMLElement>document.getElementById('help')).addEventListener('click', () => {
+		(<HTMLElement> document.getElementById('help')).addEventListener('click', () => {
 			dialog.showModal();
 		});
 		dialog.addEventListener('click', (e) => {
@@ -77,11 +77,15 @@ Promise.all([
 			event.stopPropagation();
 		});
 	})(document.getElementById('help_dialog') as HTMLDialogElement);
-	(<HTMLInputElement>document.getElementById('stack')).addEventListener('change', (event) => {
-		if ((<HTMLInputElement>event.target).checked) {
+	(<HTMLInputElement> document.getElementById('stack')).addEventListener('change', (event) => {
+		if ((<HTMLInputElement> event.target).checked) {
 			document.body.dataset.stack = '';
 		} else {
 			delete document.body.dataset.stack;
 		}
+	});
+	(<HTMLInputElement> document.getElementById('opacity')).addEventListener('change', (event) => {
+		const input = <HTMLInputElement> event.target;
+		document.body.style.setProperty('--student-opacity', `${parseInt(input.value) / 255}`);
 	});
 });

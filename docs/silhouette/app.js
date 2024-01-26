@@ -179,4 +179,8 @@ Promise.all([
             delete document.body.dataset.stack;
         }
     });
+    document.getElementById('opacity').addEventListener('change', (event) => {
+        const input = event.target;
+        document.body.style.setProperty('--student-opacity', `${parseInt(input.value) / 255}`);
+    });
 });
