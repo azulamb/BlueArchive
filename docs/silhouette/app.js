@@ -156,7 +156,7 @@ Promise.all([
             parent.appendChild(img);
             students.appendChild(parent);
             return () => {
-                students.removeChild(img);
+                students.removeChild(parent);
             };
         };
     })(document.getElementById('students'));
