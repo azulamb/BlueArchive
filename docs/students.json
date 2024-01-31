@@ -1233,11 +1233,15 @@
       "age": 17,
       "birthday": "0219",
       "height": 142,
-      "hobby": [],
+      "hobby": [
+        "睡眠",
+        "休憩"
+      ],
       "profile": "",
       "another": [
         "normal",
-        "swimsuit"
+        "swimsuit",
+        "dress"
       ]
     },
     "hinata": {
@@ -5799,6 +5803,27 @@
       },
       "eligma": {},
       "obtain": "limited"
+    },
+    "hina": {
+      "playable": true,
+      "rarity": 0,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "elastic",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "S"
+      },
+      "affinityMax": {
+        "urban": "D",
+        "outdoors": "A",
+        "indoors": "SS"
+      },
+      "eligma": {}
     }
   }
 }
