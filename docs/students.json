@@ -5806,8 +5806,8 @@
     },
     "hina": {
       "playable": true,
-      "rarity": 0,
-      "useCover": null,
+      "rarity": 3,
+      "useCover": false,
       "damage": "explosive",
       "armor": "elastic",
       "role": "attacker",
@@ -5823,7 +5823,8 @@
         "outdoors": "A",
         "indoors": "SS"
       },
-      "eligma": {}
+      "eligma": {},
+      "obtain": "limited"
     }
   }
 }
