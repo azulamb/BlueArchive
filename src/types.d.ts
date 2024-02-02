@@ -61,7 +61,7 @@ type ARMOR_TYPE = 'normal' | 'light' | 'heavy' | 'special' | 'elastic';
 type ROLE_TYPE = 'tank' | 'attacker' | 'healer' | 'support' | 'tactical_support';
 type ROLE_POSITION = 'front' | 'middle' | 'back';
 type COMBAT_CLASS = 'striker' | 'special';
-type AFFINITY_GRADE = 'D' | 'C' | 'B' | 'A' | 'S' | 'SS';
+type AFFINITY_GRADE = 'd' | 'c' | 'b' | 'a' | 's' | 'ss';
 type OBTAIN_TYPE = 'limited' | 'event';
 
 interface Student {

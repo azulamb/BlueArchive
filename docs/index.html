@@ -61,7 +61,8 @@ tr[data-use_cover] .use_cover::before { content: ''; display:block; width:1.2rem
 tr:not([data-has]) .rarity input-star, tr:not([data-has]) .uniqueWeapon input-star, tr:not([data-has]) .uniqueGear input-star { --enable: gray; }
 tr[data-obtain] .base_rarity input-star {--enable: #ee6d6d; }
 tr.hide { display: none; }
-.role, .gun, .use_cover, .urban, .outdoors, .indoors, .school { text-align: center; }
+.role, .gun, .use_cover, .urban, .outdoors, .indoors, .school, .age, .birthday, .height { text-align: center; }
+.urban, .outdoors, .indoors { font-size: 0; }
 dialog dl { display: flex; flex-wrap: wrap; gap: 0.5rem; user-select: none; overflow: auto; padding: 0.5rem 1rem 1rem;}
 dialog dt { border-bottom: dotted 2px #ced5db; width: 100%; }
 dialog dt::before { content: ''; height: 0.8rem; width:4px; background: #92d8fa; display: inline-block; margin-right: 0.2rem; }
@@ -111,6 +112,14 @@ input-check[group="unique_weapon"] input-star {--enable: #3dd6e3;}
 #report_need_eligma_rarity::before { content: '全員★5'; }
 #students_header td, #students .name, #students .school { white-space: nowrap; }
 input.warning { background: #eb5757; color: white; }
+td[data-affinity]::before { content: ''; display: block; width: 1rem; height: 1rem; background-size: contain; background-repeat: no-repeat; background-image: var(--affinity-icon); margin: auto; }
+[data-affinity="d"] { --affinity-icon: url(resources/affinity_d.svg); }
+[data-affinity="c"] { --affinity-icon: url(resources/affinity_c.svg); }
+[data-affinity="b"] { --affinity-icon: url(resources/affinity_b.svg); }
+[data-affinity="a"] { --affinity-icon: url(resources/affinity_a.svg); }
+[data-affinity="s"] { --affinity-icon: url(resources/affinity_s.svg); }
+[data-affinity="ss"] { --affinity-icon: url(resources/affinity_ss.svg); }
+td[data-affinity].diff { background: rgba(255,255,255,0.9); }
 	</style>
 	<script>
 const ANOTHER_NAME = {
