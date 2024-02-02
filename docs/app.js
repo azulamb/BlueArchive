@@ -426,13 +426,21 @@ Promise.all([
         'FT',
     ];
     const AFFINITY_GRADES = [
-        'SS',
-        'S',
-        'A',
-        'B',
-        'C',
-        'D',
+        'ss',
+        's',
+        'a',
+        'b',
+        'c',
+        'd',
     ];
+    const AFFINITY_GRADE_NAMES = {
+        d: 'D',
+        c: 'C',
+        b: 'B',
+        a: 'A',
+        s: 'S',
+        ss: 'SS',
+    };
     const SCHOOLS = [
         'hyakkiyako',
         'red_winter',
@@ -541,15 +549,16 @@ Promise.all([
                 useCover.title = 'Use';
             }
             gun.textContent = student.gun;
-            urban.textContent = student.affinity.urban === student.affinityMax.urban
-                ? student.affinity.urban
-                : `${student.affinity.urban}→${student.affinityMax.urban}`;
-            outdoors.textContent = student.affinity.outdoors === student.affinityMax.outdoors
-                ? student.affinity.outdoors
-                : `${student.affinity.outdoors}→${student.affinityMax.outdoors}`;
-            indoors.textContent = student.affinity.indoors === student.affinityMax.indoors
-                ? student.affinity.indoors
-                : `${student.affinity.indoors}→${student.affinityMax.indoors}`;
+            if (student.affinity.urban !== student.affinityMax.urban) {
+                urban.classList.add('diff');
+            }
+            if (student.affinity.outdoors !== student.affinityMax.outdoors) {
+                outdoors.classList.add('diff');
+            }
+            if (student.affinity.indoors !== student.affinityMax.indoors) {
+                indoors.classList.add('diff');
+            }
+            changeAffinity(false);
             age.textContent = typeof student.age === 'number' ? student.age.toString() : '-';
             birthday.textContent = student.birthday ? student.birthday.replace(/([0-9]{2})([0-9]{2})/, '$1/$2') : '-';
             height.textContent = student.height ? student.height.toString() : '-';
@@ -565,6 +574,27 @@ Promise.all([
                 };
                 studentsManager.update(student.key, data);
                 studentsManager.save();
+            }
+            function changeAffinity(upgrade) {
+                const key = upgrade ? 'affinityMax' : 'affinity';
+                urban.dataset.affinity = student[key].urban;
+                outdoors.dataset.affinity = student[key].outdoors;
+                indoors.dataset.affinity = student[key].indoors;
+                urban.title = AFFINITY_GRADE_NAMES[student[key].urban];
+                outdoors.title = AFFINITY_GRADE_NAMES[student[key].outdoors];
+                indoors.title = AFFINITY_GRADE_NAMES[student[key].indoors];
+                urban.textContent = student.affinity.urban === student.affinityMax.urban
+                    ? student.affinity.urban
+                    : `${student.affinity.urban}→${student.affinityMax.urban}`;
+                outdoors.textContent = student.affinity.outdoors === student.affinityMax.outdoors
+                    ? student.affinity.outdoors
+                    : `${student.affinity.outdoors}→${student.affinityMax.outdoors}`;
+                indoors.textContent = student.affinity.indoors === student.affinityMax.indoors
+                    ? student.affinity.indoors
+                    : `${student.affinity.indoors}→${student.affinityMax.indoors}`;
+                tr.dataset.urban = student[key].urban;
+                tr.dataset.outdoors = student[key].outdoors;
+                tr.dataset.indoors = student[key].indoors;
             }
             function changeValue() {
                 const rarityValue = rarity.value;
@@ -588,18 +618,17 @@ Promise.all([
                 }
                 affection.classList[parseInt(affection.max) <= parseInt(affection.value) ? 'add' : 'remove']('warning');
                 tr.dataset.rarity = rarityValue.toString();
-                tr.dataset.urban = student.affinity.urban;
-                tr.dataset.outdoors = student.affinity.outdoors;
-                tr.dataset.indoors = student.affinity.indoors;
                 if (uniqueWeapon.disabled) {
                     tr.dataset.unique_weapon = '0';
+                    changeAffinity(false);
                 }
                 else {
                     tr.dataset.unique_weapon = uniqueWeapon.value.toString();
                     if (3 <= uniqueWeapon.value) {
-                        tr.dataset.urban = student.affinityMax.urban;
-                        tr.dataset.outdoors = student.affinityMax.outdoors;
-                        tr.dataset.indoors = student.affinityMax.indoors;
+                        changeAffinity(true);
+                    }
+                    else {
+                        changeAffinity(false);
                     }
                 }
                 if (uniqueGear.disabled) {
