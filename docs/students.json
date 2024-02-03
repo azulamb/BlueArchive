@@ -1996,7 +1996,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "raid": 50
+      }
     },
     "akari": {
       "playable": true,
@@ -2059,7 +2061,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {
+        "raidRare": 50
+      }
     },
     "asuna": {
       "playable": true,
@@ -2314,7 +2318,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "firepower": 50
+      },
       "uniqueGear": "super_cooling_fan"
     },
     "kaede": {
@@ -2504,7 +2510,9 @@
         "outdoors": "b",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "raid": 50
+      }
     },
     "kotori": {
       "playable": true,
@@ -2546,7 +2554,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "raidRare": 50
+      }
     },
     "koyuki": {
       "playable": true,
@@ -2651,7 +2661,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {
+        "tactical": 50
+      }
     },
     "shigure": {
       "playable": true,
@@ -2693,7 +2705,9 @@
         "outdoors": "a",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {
+        "tactical": 50
+      }
     },
     "shimiko": {
       "playable": true,
@@ -2843,7 +2857,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "firepower": 50
+      },
       "uniqueGear": "training_sandbag"
     },
     "sena": {
@@ -2865,7 +2881,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {
+        "eliminationRare": 50
+      }
     },
     "serika": {
       "playable": true,
@@ -2971,7 +2989,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {
+        "raid": 50
+      }
     },
     "chihiro": {
       "playable": true,
@@ -3055,7 +3075,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "firepower": 50
+      },
       "uniqueGear": "tsurugis_special_box"
     },
     "toki": {
@@ -3099,7 +3121,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "obtain": "event"
     },
     "nagisa": {
@@ -3121,7 +3145,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "obtain": "limited"
     },
     "natsu": {
@@ -3207,7 +3233,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "mastery": 1800
+      }
     },
     "nonomi": {
       "playable": true,
@@ -3228,7 +3256,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "obtain": "event",
       "uniqueGear": "_"
     },
@@ -3273,7 +3303,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {},
+      "eligma": {
+        "raid": 50
+      },
       "uniqueWeapon": "happy_smiley"
     },
     "hanako": {
@@ -3295,7 +3327,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {},
+      "eligma": {
+        "raid": 50
+      },
       "uniqueGear": "dubious_literature"
     },
     "haruka": {
@@ -3529,7 +3563,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "tactical": 50
+      }
     },
     "fubuki": {
       "playable": true,
@@ -3593,7 +3629,9 @@
         "outdoors": "ss",
         "indoors": "c"
       },
-      "eligma": {}
+      "eligma": {
+        "raid": 50
+      }
     },
     "mashiro": {
       "playable": true,
@@ -3614,7 +3652,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {
+        "tactical": 50
+      }
     },
     "mari": {
       "playable": true,
@@ -3677,7 +3717,9 @@
         "outdoors": "a",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 2400
+      },
       "obtain": "limited"
     },
     "misaki": {
@@ -3743,7 +3785,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {
+        "raidRare": 50
+      }
     },
     "mina": {
       "playable": true,
@@ -3827,7 +3871,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "elimination": 50
+      },
       "uniqueGear": "cherry_blossom_apron_full_of_dreams"
     },
     "miyako": {
@@ -3997,7 +4043,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "raid": 50
+      }
     },
     "yuuka": {
       "playable": true,
@@ -4040,7 +4088,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {
+        "elimination": 50
+      }
     },
     "yoshimi": {
       "playable": true,
@@ -4124,7 +4174,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 2400
+      },
       "uniqueGear": "mysterious_fox_mask",
       "obtain": "limited"
     },
@@ -4386,7 +4438,9 @@
         "outdoors": "c",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "AR",
       "hobby": [],
       "profile": "",
@@ -4436,7 +4490,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -4461,7 +4517,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -4486,7 +4544,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "MG",
       "hobby": [],
       "profile": "",
@@ -4512,7 +4572,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -4635,7 +4697,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "GL",
       "uniqueGear": "treasure_filled_pouch",
       "hobby": [],
@@ -4661,7 +4725,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SG",
       "hobby": [],
       "profile": "",
@@ -4710,7 +4776,9 @@
         "outdoors": "a",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 2400
+      },
       "gun": "AR",
       "hobby": [],
       "profile": "",
@@ -4735,7 +4803,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "MG",
       "uniqueGear": "disciplinary_committee_flotation_device",
       "hobby": [],
@@ -4761,7 +4831,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "HG",
       "hobby": [],
       "profile": "",
@@ -4811,7 +4883,9 @@
         "outdoors": "a",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 2400
+      },
       "gun": "SG",
       "hobby": [],
       "profile": "",
@@ -4836,7 +4910,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -5056,7 +5132,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -5081,7 +5159,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "AR",
       "hobby": [],
       "profile": ""
@@ -5105,7 +5185,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -5159,7 +5241,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -5257,7 +5341,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SR",
       "hobby": [],
       "profile": "",
@@ -5282,7 +5368,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SMG",
       "hobby": [],
       "profile": "",
@@ -5307,7 +5395,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "MG",
       "hobby": [],
       "profile": "",
@@ -5510,7 +5600,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "HG",
       "hobby": [],
       "profile": "",
@@ -5535,7 +5627,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SMG",
       "hobby": [],
       "profile": "",

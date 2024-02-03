@@ -89,13 +89,14 @@ interface Student {
 	uniqueGear?: string;
 	suffix?: string;
 	eligma: {
-		hard?: string[];
-		tactical?: number;
-		raid?: number;
-		rareRaid?: number;
-		// daikessenn?: number;
-		firepower?: number;
-		mastery?: number;
+		hard?: string[]; // 13-3
+		raid?: number; // 総力戦
+		raidRare?: number; // 総力戦レア
+		elimination?: number; // 大決戦
+		eliminationRare?: number; // 大決戦レア
+		tactical?: number; // 戦術対抗戦
+		firepower?: number; // 合同火力演習
+		mastery?: number; // 熟練証書
 	};
 }
 
