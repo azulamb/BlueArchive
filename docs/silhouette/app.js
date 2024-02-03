@@ -110,6 +110,19 @@ Promise.all([
         const template = document.getElementById('select_item');
         const parent = document.getElementById('select');
         const students = [];
+        data.profile.arona = {
+            name: 'アロナ',
+            last: '',
+            school: '',
+            gun: '',
+            uniqueWeapon: '',
+            club: '',
+            age: 0,
+            birthday: '',
+            height: 138,
+            hobby: [],
+            profile: '',
+        };
         for (const key of STUDENTS) {
             const student = data.profile[key];
             if (student) {

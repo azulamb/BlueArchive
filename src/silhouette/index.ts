@@ -15,6 +15,19 @@ Promise.all([
 		const template = document.getElementById('select_item') as HTMLTemplateElement;
 		const parent = document.getElementById('select') as HTMLElement;
 		const students: StudentData[] = [];
+		data.profile.arona = {
+			name: 'アロナ',
+			last: '',
+			school: <any>'',
+			gun: <any>'',
+			uniqueWeapon: '',
+			club: <any>'',
+			age: 0,
+			birthday: '',
+			height: 138,
+			hobby: [],
+			profile: '',
+		};
 		for (const key of STUDENTS) {
 			const student = data.profile[key];
 			if (student) {
