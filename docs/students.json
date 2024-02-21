@@ -171,7 +171,8 @@
       "profile": "",
       "another": [
         "normal",
-        "new_year"
+        "new_year",
+        "dress"
       ]
     },
     "iori": {
@@ -419,7 +420,8 @@
       "profile": "ゲヘナ学園所属、便利屋68の課長。\n\n他の便利屋68のメンバーとは異なり悪意がないのにも関わらず、生まれ持った顔つきが怖いという理由だけで不良と誤解される少女。\nカヨコ本人はそんな後階に対して沈黙を貫いているが、むしろそのせいで怖い人というイメージがより強まる悪循環である。",
       "another": [
         "normal",
-        "new_year"
+        "new_year",
+        "dress"
       ]
     },
     "karin": {
@@ -1962,7 +1964,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -1983,7 +1985,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -2027,7 +2029,7 @@
       "useCover": false,
       "damage": "mystic",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -2262,7 +2264,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -2329,7 +2331,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -2392,7 +2394,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -2455,7 +2457,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -2497,7 +2499,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -2520,7 +2522,7 @@
       "useCover": false,
       "damage": "penetration",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -2692,7 +2694,7 @@
       "useCover": false,
       "damage": "mystic",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -2715,7 +2717,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -2736,7 +2738,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -2822,7 +2824,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -3108,7 +3110,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -3199,7 +3201,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -3220,7 +3222,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -3380,7 +3382,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -3466,7 +3468,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -3487,7 +3489,7 @@
       "useCover": false,
       "damage": "penetration",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -3508,7 +3510,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -3662,7 +3664,7 @@
       "useCover": false,
       "damage": "mystic",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -3795,7 +3797,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -3858,7 +3860,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -3904,7 +3906,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -4186,7 +4188,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -4294,7 +4296,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -4358,7 +4360,7 @@
       "useCover": true,
       "damage": "sonic",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -4379,7 +4381,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -4531,7 +4533,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -4559,7 +4561,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "elastic",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -4611,7 +4613,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "striker",
       "affinity": {
@@ -4635,7 +4637,7 @@
       "useCover": false,
       "damage": "mystic",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -4684,7 +4686,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -4870,7 +4872,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "front",
       "combat": "striker",
       "affinity": {
@@ -4924,7 +4926,7 @@
       "useCover": false,
       "damage": "mystic",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -5021,7 +5023,7 @@
       "useCover": false,
       "damage": "mystic",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -5094,7 +5096,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5201,7 +5203,7 @@
       "useCover": false,
       "damage": "penetration",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -5255,7 +5257,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5304,7 +5306,7 @@
       "useCover": false,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -5355,7 +5357,7 @@
       "useCover": false,
       "damage": "penetration",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "back",
       "combat": "special",
       "affinity": {
@@ -5491,7 +5493,7 @@
       "useCover": true,
       "damage": "mystic",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5790,7 +5792,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5838,7 +5840,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "light",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5859,7 +5861,7 @@
       "useCover": true,
       "damage": "penetration",
       "armor": "heavy",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5882,7 +5884,7 @@
       "useCover": true,
       "damage": "explosive",
       "armor": "special",
-      "role": "support",
+      "role": "supporter",
       "position": "middle",
       "combat": "striker",
       "affinity": {
@@ -5919,6 +5921,48 @@
       },
       "eligma": {},
       "obtain": "limited"
+    },
+    "aru": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "supporter",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "a",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "a",
+        "indoors": "ss"
+      },
+      "eligma": {}
+    },
+    "kayoko": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "eligma": {}
     }
   }
 }

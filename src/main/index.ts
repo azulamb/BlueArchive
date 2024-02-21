@@ -155,7 +155,7 @@ Promise.all([
 		'tank',
 		'attacker',
 		'healer',
-		'support',
+		'supporter',
 		'tactical_support',
 	];
 	const POSITION_TYPES: ROLE_POSITION[] = [
