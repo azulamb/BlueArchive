@@ -51,7 +51,8 @@
       ],
       "profile": "ゲヘナ学園所属、美食研究会の部員。\n\nおとなしい少女かと思いきや、キヴォトスの大食い大会で常にチャンピオンの座に座り続けるフードファイター。\n基本的には穏やかで善良な正確だが、ゲヘナ学園の生徒らしくときには他人をひどい目に合わせることも辞さない一面も持ち合わせている。",
       "another": [
-        "normal"
+        "normal",
+        "new_year"
       ]
     },
     "ako": {
@@ -5404,6 +5405,27 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "akari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "tactical_support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {}
     }
   },
   "casual": {
