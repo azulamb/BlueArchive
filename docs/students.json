@@ -5947,7 +5947,7 @@
     "aru": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "penetration",
       "armor": "heavy",
       "role": "supporter",
