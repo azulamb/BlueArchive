@@ -241,6 +241,12 @@ Promise.all([
 				students.push(anotherStudent);
 			}
 		});
+		console.log(1);
+		console.log(students.map((v)=>{return v.name}).join(','));
+		students.sort((a, b) => {
+			return a.name.localeCompare(b.name);
+		});
+		console.log(students.map((v)=>{return v.name}).join(','));
 		return students;
 	}).then((students) => {
 		for (const student of students) {
