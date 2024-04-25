@@ -2371,7 +2371,7 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "uniqueGear": "_"
     },
     "kazusa": {
       "playable": true,
@@ -2414,7 +2414,7 @@
         "indoors": "d"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "uniqueGear": "_"
     },
     "kayoko": {
       "playable": true,
@@ -3948,7 +3948,7 @@
         "indoors": "d"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "uniqueGear": "_"
     },
     "mutsuki": {
       "playable": true,
@@ -4143,7 +4143,7 @@
         "indoors": "a"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "uniqueGear": "_"
     },
     "rumi": {
       "playable": true,
