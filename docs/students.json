@@ -16,7 +16,8 @@
       ],
       "profile": "トリニティ総合学園所属、放課後スイーツ部の朗らかな部員。\n\nゆったりとした性格の持ち主で、友達とスイーツを食べながらお喋りをする時間を何より大切にしている。\n好きなものはアイスクリームで、最近はチョコミント味にハマっている。",
       "another": [
-        "normal"
+        "normal",
+        "band"
       ]
     },
     "akane": {
@@ -389,7 +390,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "band"
       ]
     },
     "kasumi": {
@@ -1844,7 +1846,8 @@
       ],
       "profile": "トリニティ総合学園所属、放課後スイーツ部の部員。\n\n身長と体型がコンプレックスの、常に威嚇しっぱなしの小動物のような少女。",
       "another": [
-        "normal"
+        "normal",
+        "band"
       ]
     },
     "rumi": {
@@ -2367,7 +2370,8 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "kazusa": {
       "playable": true,
@@ -2409,7 +2413,8 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "kayoko": {
       "playable": true,
@@ -3942,7 +3947,8 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "mutsuki": {
       "playable": true,
@@ -4136,7 +4142,8 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "rumi": {
       "playable": true,
@@ -5260,7 +5267,9 @@
         "outdoors": "c",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "elimination": 50
+      },
       "gun": "AR",
       "hobby": [
         "貯金",
@@ -6052,6 +6061,74 @@
       },
       "eligma": {},
       "profile": "いつでも何処でも眠る修行をやめない百鬼夜行連合学院所属、修行部の部長。\n\n修学旅行を迎えギャッ機や光を案内するガイドの役割につくが、睡眠の修行も諦めない。時には居眠りをしたり、時には鋭く革新をついたりするなど、さりげなく療法をこなしている。"
+    }
+  },
+  "band": {
+    "airi": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "",
+        "outdoors": "",
+        "indoors": ""
+      },
+      "eligma": {},
+      "obtain": "event"
+    },
+    "kazusa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "obtain": "limited"
+    },
+    "yoshimi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   }
 }
