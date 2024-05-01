@@ -5160,7 +5160,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "eliminationRare": 50
+      },
       "gun": "AR",
       "uniqueGear": "bunny_tail_grenade",
       "hobby": [],
@@ -6020,7 +6022,7 @@
     "kayoko": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "penetration",
       "armor": "heavy",
       "role": "attacker",
@@ -6067,7 +6069,7 @@
     "airi": {
       "playable": true,
       "rarity": 1,
-      "useCover": null,
+      "useCover": true,
       "damage": "explosive",
       "armor": "special",
       "role": "attacker",
@@ -6089,7 +6091,7 @@
     "kazusa": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": false,
       "damage": "explosive",
       "armor": "special",
       "role": "attacker",
@@ -6111,7 +6113,7 @@
     "yoshimi": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "explosive",
       "armor": "special",
       "role": "attacker",
