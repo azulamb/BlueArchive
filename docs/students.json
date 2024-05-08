@@ -500,6 +500,24 @@
         "normal"
       ]
     },
+    "kirara": {
+      "name": "キララ",
+      "last": "夜桜",
+      "school": "gehenna",
+      "gun": "AR",
+      "uniqueWeapon": "_",
+      "club": "kirakira",
+      "age": 16,
+      "birthday": "0224",
+      "height": 159,
+      "hobby": [
+        "おしゃべり"
+      ],
+      "profile": "ゲヘナ学園所属、明るい性格の持ち主の女子高生。\n\nいつも目新しさやドキドキすることを待ち望んでいる少女。初めて出会った人とも仲良くおしゃべりできるくらい、社交性が高い性格。",
+      "another": [
+        "normal"
+      ]
+    },
     "kirino": {
       "name": "キリノ",
       "last": "中務",
@@ -4469,6 +4487,27 @@
         "indoors": "d"
       },
       "eligma": {}
+    },
+    "kirara": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "eligma": {}
     }
   },
   "swimsuit": {
@@ -5995,7 +6034,9 @@
         "outdoors": "a",
         "indoors": "ss"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 2400
+      },
       "obtain": "limited"
     },
     "aru": {
