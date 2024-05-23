@@ -1591,7 +1591,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "maid"
       ]
     },
     "mina": {
@@ -1790,7 +1791,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "maid"
       ]
     },
     "yuuka": {
@@ -5870,6 +5872,7 @@
         "indoors": "d"
       },
       "eligma": {},
+      "uniqueGear": "_",
       "gun": "RG",
       "hobby": [],
       "profile": ""
@@ -5898,6 +5901,48 @@
       "hobby": [],
       "profile": "",
       "obtain": "event"
+    },
+    "midori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {}
+    },
+    "momoi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {}
     }
   },
   "christmas": {
