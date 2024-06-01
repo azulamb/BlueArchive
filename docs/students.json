@@ -3836,7 +3836,8 @@
         "indoors": "d"
       },
       "eligma": {
-        "raidRare": 50
+        "raidRare": 50,
+        "mastery": 1800
       }
     },
     "mina": {
