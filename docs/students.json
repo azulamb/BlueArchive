@@ -883,7 +883,8 @@
       "profile": "",
       "another": [
         "normal",
-        "new_year"
+        "new_year",
+        "swimsuit"
       ]
     },
     "serina": {
@@ -5128,6 +5129,27 @@
         "urban": "d",
         "outdoors": "ss",
         "indoors": "b"
+      },
+      "eligma": {}
+    },
+    "serika": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
       },
       "eligma": {}
     }
