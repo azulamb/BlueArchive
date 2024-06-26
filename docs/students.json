@@ -477,10 +477,11 @@
       "profile": "",
       "playable": true,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
-    "kikyo": {
+    "kikyou": {
       "name": "キキョウ",
       "last": "桐生",
       "school": "hyakkiyako",
@@ -533,7 +534,8 @@
       ],
       "profile": "ヴァルキューレ警察学校所属、生活安全局の熱血系生徒。\n\n学園都市の治安を維持する警察の姿に憧れてヴァルキューレ警察学校に入学したものの、射撃の腕前が致命的だったために生活安全局の女速になってしまった。\nそれでも彼女は諦めず、犯人を鮮やかに制圧できるような警察になろうと、夢を諦めることなく日々努力を続けている。",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "kokona": {
@@ -1425,7 +1427,8 @@
       ],
       "profile": "ヴァルキューレ警察学校所属、生活安全局の怠け者の生徒。\n\nのんびりした公務員の生活に憧れ、ヴァルキューレ警察学校に入学した。生活安全局に何か苦情等が舞い込んできても、基本的には一貫して誠意のない態度で処理し、金や名誉に振り回されない窓際族の生活を楽しんでいる。一番好きなことはドーナッツを食べながらラジオを聞くこと。",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "hoshino": {
@@ -3019,7 +3022,8 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "_"
     },
     "chinatsu": {
       "playable": true,
@@ -3466,7 +3470,8 @@
         "outdoors": "c",
         "indoors": "c"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "_"
     },
     "hinata": {
       "playable": true,
@@ -3659,7 +3664,8 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "_"
     },
     "maki": {
       "playable": true,
@@ -4406,7 +4412,7 @@
       },
       "eligma": {}
     },
-    "kikyo": {
+    "kikyou": {
       "playable": true,
       "rarity": 3,
       "useCover": true,
@@ -5150,6 +5156,70 @@
         "urban": "d",
         "outdoors": "b",
         "indoors": "ss"
+      },
+      "eligma": {}
+    },
+    "kanna": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {}
+    },
+    "kirino": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "event"
+    },
+    "fubuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
       },
       "eligma": {}
     }
