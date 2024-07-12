@@ -1763,7 +1763,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "momiji": {
@@ -3820,7 +3821,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "obtain": "event"
     },
     "midori": {
@@ -4567,7 +4570,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "HG",
       "hobby": [],
       "profile": "",
@@ -4750,7 +4755,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
       "gun": "SG",
       "hobby": [],
       "profile": "",
@@ -5220,6 +5227,27 @@
         "urban": "b",
         "outdoors": "s",
         "indoors": "d"
+      },
+      "eligma": {}
+    },
+    "moe": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
       },
       "eligma": {}
     }
