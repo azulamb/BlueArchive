@@ -122,7 +122,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "ayane": {
@@ -817,6 +818,27 @@
         "swimsuit"
       ]
     },
+    "shiroko_terror": {
+      "name": "シロコ",
+      "last": "砂狼",
+      "school": "abydos",
+      "gun": "AR",
+      "uniqueWeapon": "black_fang_465",
+      "club": "countermeasure_council",
+      "age": 17,
+      "birthday": "0516",
+      "height": 165,
+      "hobby": [
+        "ジョギング",
+        "体力トレーニング",
+        "ロードバイク"
+      ],
+      "profile": "プレナパテスと共にやってきた別世界線のシロコ。\n\nこの世界のシロコと同じ存在ではあるが、少し成長した姿をしている。アビドスを大切にしており、学校や自治区の復興のためならどんな手段を厭わないが、たまに突拍子もない姿を見せる時も。",
+      "show_name": "シロコ＊テラー",
+      "another": [
+        "normal"
+      ]
+    },
     "suzumi": {
       "name": "スズミ",
       "last": "森月",
@@ -1445,7 +1467,8 @@
       "profile": "",
       "another": [
         "normal",
-        "swimsuit"
+        "swimsuit",
+        "combat"
       ]
     },
     "maki": {
@@ -4521,6 +4544,28 @@
         "indoors": "d"
       },
       "eligma": {}
+    },
+    "shiroko_terror": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "a"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "a"
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   },
   "swimsuit": {
@@ -5250,6 +5295,28 @@
         "indoors": "ss"
       },
       "eligma": {}
+    },
+    "atsuko": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "event"
     }
   },
   "riding": {
@@ -6335,6 +6402,30 @@
         "urban": "a",
         "outdoors": "ss",
         "indoors": "d"
+      },
+      "eligma": {},
+      "obtain": "limited"
+    }
+  },
+  "combat": {
+    "hoshino": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "ss",
+        "indoors": "b"
       },
       "eligma": {},
       "obtain": "limited"
