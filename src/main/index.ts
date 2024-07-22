@@ -276,7 +276,7 @@ Promise.all([
 			tr.innerHTML = template.innerHTML;
 			const has = <HTMLInputElement> tr.querySelector('input[type="checkbox"]');
 			has.value = student.key;
-			(<HTMLTableCellElement> tr.querySelector('.name')).textContent = student.name;
+			(<HTMLTableCellElement> tr.querySelector('.name')).textContent = student.show_name || student.name;
 			const baseRarity = <InputStarElement> tr.querySelector('.base_rarity input-star');
 			baseRarity.value = student.rarity;
 			baseRarity.max = student.rarity;
