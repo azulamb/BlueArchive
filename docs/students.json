@@ -637,7 +637,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "saki": {
@@ -806,7 +807,7 @@
       "school": "abydos",
       "gun": "AR",
       "uniqueWeapon": "white_fang_465",
-      "club": "countermeasure_council",
+      "club": "abydos_council",
       "age": 16,
       "birthday": "0516",
       "height": 156,
@@ -1397,7 +1398,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "pina": {
@@ -5317,6 +5319,50 @@
       },
       "eligma": {},
       "obtain": "event"
+    },
+    "saori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "limited"
+    },
+    "hiyori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   },
   "riding": {
