@@ -55,7 +55,7 @@ type CLUB_TYPE =
 	// Other
 	| 'none';
 type GUN_TYPE = 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT' | 'FT';
-type ANOTHER_TYPE = 'normal' | 'swimsuit' | 'riding' | 'bunny_girl' | 'maid' | 'new_year' | 'sportswear' | 'christmas' | 'hot_spring' | 'cheerleader' | 'kid' | 'casual' | 'camp' | 'dress' | 'guide' | 'band' | 'combat';
+type ANOTHER_TYPE = 'normal' | 'swimsuit' | 'riding' | 'bunny_girl' | 'maid' | 'new_year' | 'sportswear' | 'christmas' | 'hot_spring' | 'cheerleader' | 'kid' | 'casual' | 'camp' | 'dress' | 'guide' | 'band' | 'combat' | 'qipao';
 type DAMAGE_TYPE = 'normal' | 'explosive' | 'penetration' | 'mystic' | 'sonic';
 type ARMOR_TYPE = 'normal' | 'light' | 'heavy' | 'special' | 'elastic';
 type ROLE_TYPE = 'tank' | 'attacker' | 'healer' | 'supporter' | 'tactical_support';

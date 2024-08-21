@@ -1082,7 +1082,8 @@
       ],
       "profile": "レッドウィンター連邦学園所属、レッドウィンター事務局の支所室長にしてチェりのの側近筆頭。\n\nどんなことでも彼女が話すともっともらしく聞こえるという話術の達人的な存在で、チェリの会長に対する忠誠心を定期的に様々な場所で吹き込んでいる。チェリノ自信は「トモエは自分のカリスマに感化されて忠誠心を持っているんだ」と考えているが、その実トモエはチェリノを盲目的に可愛がっているだけだったりする。",
       "another": [
-        "normal"
+        "normal",
+        "qipao"
       ]
     },
     "nagisa": {
@@ -1556,7 +1557,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "qipao"
       ]
     },
     "mika": {
@@ -6475,6 +6477,50 @@
       },
       "eligma": {},
       "obtain": "limited"
+    }
+  },
+  "qipao": {
+    "tomoe": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "a",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "a",
+        "indoors": "ss"
+      },
+      "eligma": {}
+    },
+    "marina": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "a"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "a"
+      },
+      "eligma": {}
     }
   }
 }
