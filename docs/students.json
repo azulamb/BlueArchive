@@ -502,6 +502,22 @@
         "normal"
       ]
     },
+    "kisaki": {
+      "name": "キサキ",
+      "last": "龍華",
+      "school": "shanhaijing",
+      "gun": "SMG",
+      "uniqueWeapon": "_",
+      "club": "genryumon",
+      "age": 17,
+      "birthday": "0219",
+      "height": 142,
+      "hobby": ["茶道", "密行"],
+      "profile": "山海経高級中学校所属、生徒会「幻龍門」の門主。\n\n古風で威厳のある言葉遣いと、どこか神秘的にも感じられる印象が相まって、近寄りがたい雰囲気を漂わせる少女。本人はむしろ、そのイメージを職務に活用しているのだとか。彼女が時折「お忍び」で市井に降りる姿に気づく者がつくないが、その実態を知る者からは微笑ましく見守られている。",
+      "another": [
+        "normal"
+      ]
+    },
     "kirara": {
       "name": "キララ",
       "last": "夜桜",
@@ -2033,6 +2049,22 @@
       "another": [
         "normal"
       ]
+    },
+    "reijo": {
+      "name": "レイジョ",
+      "last": "",
+      "school": "shanhaijing",
+      "gun": "AR",
+      "uniqueWeapon": "_",
+      "club": "black_tortoise_promenade",
+      "age": 17,
+      "birthday": "0303",
+      "height": 169,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
     }
   },
   "normal": {
@@ -2789,7 +2821,8 @@
       },
       "eligma": {
         "tactical": 50
-      }
+      },
+      "uniqueGear": "_"
     },
     "shimiko": {
       "playable": true,
@@ -3542,7 +3575,8 @@
         "outdoors": "b",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "_"
     },
     "hifumi": {
       "playable": true,
@@ -3760,7 +3794,8 @@
         "outdoors": "a",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": "_"
     },
     "marina": {
       "playable": true,
@@ -4224,6 +4259,27 @@
       },
       "eligma": {}
     },
+    "reijo": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {}
+    },
     "reisa": {
       "playable": true,
       "rarity": 3,
@@ -4570,6 +4626,27 @@
       },
       "eligma": {},
       "obtain": "limited"
+    },
+    "kisaki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "elastic",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "ss"
+      },
+      "eligma": {}
     }
   },
   "swimsuit": {
@@ -4652,7 +4729,8 @@
       "gun": "SR",
       "hobby": [],
       "profile": "",
-      "obtain": "limited"
+      "obtain": "limited",
+      "uniqueGear": "_"
     },
     "izuna": {
       "playable": true,
