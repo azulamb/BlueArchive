@@ -41,6 +41,7 @@ type CLUB_TYPE =
 	| 'game_development_club'
 	| 'life_safety_bureau'
 	// Shanhaijing
+	| 'genryumon'
 	| 'plum_blossom_garden'
 	| 'black_tortoise'
 	| 'black_tortoise_promenade'
