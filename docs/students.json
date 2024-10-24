@@ -512,7 +512,10 @@
       "age": 17,
       "birthday": "0219",
       "height": 142,
-      "hobby": ["茶道", "密行"],
+      "hobby": [
+        "茶道",
+        "密行"
+      ],
       "profile": "山海経高級中学校所属、生徒会「幻龍門」の門主。\n\n古風で威厳のある言葉遣いと、どこか神秘的にも感じられる印象が相まって、近寄りがたい雰囲気を漂わせる少女。本人はむしろ、そのイメージを職務に活用しているのだとか。彼女が時折「お忍び」で市井に降りる姿に気づく者がつくないが、その実態を知る者からは微笑ましく見守られている。",
       "another": [
         "normal"
@@ -687,7 +690,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "idol"
       ]
     },
     "saya": {
@@ -1557,7 +1561,8 @@
       "profile": "",
       "another": [
         "normal",
-        "sportswear"
+        "sportswear",
+        "idol"
       ]
     },
     "marina": {
@@ -1671,7 +1676,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "idol"
       ]
     },
     "minori": {
@@ -6599,6 +6605,74 @@
         "indoors": "a"
       },
       "eligma": {}
+    }
+  },
+  "idol": {
+    "sakurako": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "limited"
+    },
+    "mari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "limited"
+    },
+    "mine": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "obtain": "event"
     }
   }
 }
