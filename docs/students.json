@@ -694,6 +694,22 @@
         "idol"
       ]
     },
+    "satsuki": {
+      "name": "サツキ",
+      "last": "京極",
+      "school": "gehenna",
+      "gun": null,
+      "uniqueWeapon": null,
+      "club": "pandemonium_society",
+      "age": 0,
+      "birthday": "",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "saya": {
       "name": "サヤ",
       "last": "薬子",
@@ -964,6 +980,22 @@
       "another": [
         "normal",
         "hot_spring"
+      ]
+    },
+    "chiaki": {
+      "name": "チアキ",
+      "last": "元宮",
+      "school": "gehenna",
+      "gun": null,
+      "uniqueWeapon": null,
+      "club": "pandemonium_society",
+      "age": 0,
+      "birthday": "",
+      "height": 0,
+      "hobby": [],
+      "profile": "",
+      "another": [
+        "normal"
       ]
     },
     "chise": {
@@ -4651,6 +4683,48 @@
         "urban": "b",
         "outdoors": "d",
         "indoors": "ss"
+      },
+      "eligma": {}
+    },
+    "satsuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {}
+    },
+    "chiaki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
       },
       "eligma": {}
     }
