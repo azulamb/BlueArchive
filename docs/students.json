@@ -1202,7 +1202,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "pajamas"
       ]
     },
     "nodoka": {
@@ -1895,7 +1896,8 @@
       "profile": "",
       "another": [
         "normal",
-        "sportswear"
+        "sportswear",
+        "pajamas"
       ]
     },
     "yukari": {
@@ -2685,7 +2687,8 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": null
     },
     "koharu": {
       "playable": true,
@@ -3254,7 +3257,8 @@
         "indoors": "b"
       },
       "eligma": {},
-      "obtain": "limited"
+      "obtain": "limited",
+      "uniqueGear": null
     },
     "tomoe": {
       "playable": true,
@@ -3811,7 +3815,8 @@
       },
       "eligma": {
         "tactical": 50
-      }
+      },
+      "uniqueGear": null
     },
     "mari": {
       "playable": true,
@@ -6747,6 +6752,50 @@
       },
       "eligma": {},
       "obtain": "event"
+    }
+  },
+  "pajamas": {
+    "yuuka": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "eligma": {}
+    },
+    "noa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "eligma": {}
     }
   }
 }

@@ -911,6 +911,11 @@ Promise.all([
                 return label.dataset.key === 'name';
             });
             const compare = {
+                name: (a, b, key) => {
+                    const valueA = a.dataset[key] || '';
+                    const valueB = b.dataset[key] || '';
+                    return valueA.localeCompare(valueB);
+                },
                 boolean: (a, b, key) => {
                     const valueA = a.dataset[key] !== undefined;
                     const valueB = b.dataset[key] !== undefined;

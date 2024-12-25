@@ -679,6 +679,11 @@ Promise.all([
 				return label.dataset.key === 'name';
 			});
 			const compare = {
+				name: (a: HTMLTableRowElement, b: HTMLTableRowElement, key: string) => {
+					const valueA = a.dataset[key] || '';
+					const valueB = b.dataset[key] || '';
+					return valueA.localeCompare(valueB);
+				},
 				boolean: (a: HTMLTableRowElement, b: HTMLTableRowElement, key: string) => {
 					const valueA = a.dataset[key] !== undefined;
 					const valueB = b.dataset[key] !== undefined;
