@@ -18,10 +18,10 @@ Promise.all([
 		data.profile.arona = {
 			name: 'アロナ',
 			last: '',
-			school: <any>'',
-			gun: <any>'',
+			school: <any> '',
+			gun: <any> '',
 			uniqueWeapon: '',
-			club: <any>'',
+			club: <any> '',
 			age: 0,
 			birthday: '',
 			height: 138,

@@ -24,7 +24,7 @@
 		"include": ["./src", "./tools"],
 		"useTabs": true,
 		"indentWidth": 4,
-		"lineWidth": 160,
+		"lineWidth": 200,
 		"singleQuote": true
 	}
 }
