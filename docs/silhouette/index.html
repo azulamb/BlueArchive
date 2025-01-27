@@ -1,92 +1,148 @@
 <!DOCTYPE html>
-<html lang="ja" style="font-size:20px;">
-<head>
-	<meta charset="utf-8">
-	<title>BlueArchive Support Tools</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="icon" href="../favicon.svg" type="image/svg+xml">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon-precomposed.png">
-	<link rel="stylesheet" href="../style.css">
-	<script src="./app.js" defer></script>
-	<style>
-body { --student-opacity: 1; }
-section { display: grid; grid-template-columns: 30% 70%; grid-template-rows: 1.2rem 30% auto; grid-template-areas: 'menu menu' 'select main' 'list main';}
-#menu { display: flex; grid-area: menu; gap: 0.8rem; }
-#select { grid-area: select; overflow-y: auto; }
-#list { grid-area: list; overflow-y: auto; }
-#main { grid-area: main; overflow-x: auto; overflow-y: hidden; position: relative; background: rgba(0,0,0,0.1); }
-#main img { width: auto; height: 100%; user-select: none; display: block; }
-#students { display: flex; height: 100%; position: absolute; top: 0; left: 0; background: url(back.svg); background-size: contain; min-width: 100%; }
-.student img { pointer-events: none; opacity: var(--student-opacity);}
-body[data-stack] #students { justify-content: space-evenly; overflow: hidden; }
-body[data-stack] .student img { position: absolute; transform: translateX(-50%); }
-label > span { user-select: none; }
-.item { display: grid; grid-template-columns: auto 1.2rem; grid-template-rows: 1.2rem; }
-.name { overflow: hidden; }
-	</style>
-	<script>
-const STUDENTS = [
-	'sena',
-	'chihiro',
-	'aru',
-	'wakamo',
-	'mine',
-	'yuuka',
-	'hasumi',
-	'chinatsu',
-	'shiroko',
-	'cherino',
-	'tsukuyo',
-	'ibuki',
-	'arona',
-];
-	</script>
-</head>
-<body data-page="silhouette" data-stack>
-	<section-pages main="page_silhouette" home="../">
-		<a href="../#page_home">このサイトについて</a>
-		<a href="../">生徒一覧</a>
-		<section id="page_silhouette" data-name="身長">
-			<div id="menu">
-				<button id="help">このページについて</button>
-				<label>
-					<input type="checkbox" id="stack" checked>
-					<span>重ねて表示</span>
-				</label>
-				<label>
-					<span>生徒の不透明度</span>
-					<input type="range" min="0" max="255" value="255" id="opacity">
-				</label>
-			</div>
-			<div id="select">
-				<template id="select_item">
-					<div class="name"></div>
-					<button>+</button>
-				</template>
-			</div>
-			<div id="list">
-				<template id="list_item">
-					<div class="name"></div>
-					<button>-</button>
-				</template>
-			</div>
-			<div id="main">
-				<div id="students"></div>
-				<img src="meter.svg" style="position:sticky;top:0;left:0;">
-			</div>
-			<dialog id="help_dialog">
-				<div>
-					<h2>このページについて</h2>
-					<p>生徒の立ち絵をシルエットにしてプロフィールの身長から大まかに比較できるようにしたページです。作るのが大変なので通常衣装のみです。</p>
-					<p>追加も不定期です。</p>
-					<h2>身長について</h2>
-					<p>大まかにかかとから頭の先までをプロフィールの身長に合わせて拡大縮小しています。膝や腰を曲げていたり帽子や角が大きい生徒もいますが、かかとと頭頂部を大まかに合わせているので体の大きさ合わせはあまり考えていません。あくまで身長の参考にしてください。特にブルアカはヘイローがあるので純粋な身長が見えにくいですが、その感覚を込みにして感じてもらうためヘイローなどは身長に含んでいません。</p>
-				</div>
-			</dialog>
-		</section>
-	</section-pages>
-</body>
+<html lang="ja" style="font-size: 20px">
+  <head>
+    <meta charset="utf-8">
+    <title>BlueArchive Support Tools</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="./app.js" defer></script>
+    <style>
+      body {
+        --student-opacity: 1;
+      }
+      section {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 1.2rem 30% auto;
+        grid-template-areas: 'menu menu' 'select main' 'list main';
+      }
+      #menu {
+        display: flex;
+        grid-area: menu;
+        gap: 0.8rem;
+      }
+      #select {
+        grid-area: select;
+        overflow-y: auto;
+      }
+      #list {
+        grid-area: list;
+        overflow-y: auto;
+      }
+      #main {
+        grid-area: main;
+        overflow-x: auto;
+        overflow-y: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.1);
+      }
+      #main img {
+        width: auto;
+        height: 100%;
+        user-select: none;
+        display: block;
+      }
+      #students {
+        display: flex;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(back.svg);
+        background-size: contain;
+        min-width: 100%;
+      }
+      .student img {
+        pointer-events: none;
+        opacity: var(--student-opacity);
+      }
+      body[data-stack] #students {
+        justify-content: space-evenly;
+        overflow: hidden;
+      }
+      body[data-stack] .student img {
+        position: absolute;
+        transform: translateX(-50%);
+      }
+      label > span {
+        user-select: none;
+      }
+      .item {
+        display: grid;
+        grid-template-columns: auto 1.2rem;
+        grid-template-rows: 1.2rem;
+      }
+      .name {
+        overflow: hidden;
+      }
+    </style>
+    <script>
+      const STUDENTS = [
+        'sena',
+        'chihiro',
+        'aru',
+        'wakamo',
+        'mine',
+        'yuuka',
+        'hasumi',
+        'chinatsu',
+        'shiroko',
+        'cherino',
+        'tsukuyo',
+        'ibuki',
+        'arona',
+      ];
+    </script>
+  </head>
+  <body data-page="silhouette" data-stack>
+    <section-pages main="page_silhouette" home="../">
+      <a href="../#page_home">このサイトについて</a>
+      <a href="../">生徒一覧</a>
+      <section id="page_silhouette" data-name="身長">
+        <div id="menu">
+          <button id="help">このページについて</button>
+          <label>
+            <input type="checkbox" id="stack" checked>
+            <span>重ねて表示</span>
+          </label>
+          <label>
+            <span>生徒の不透明度</span>
+            <input type="range" min="0" max="255" value="255" id="opacity">
+          </label>
+        </div>
+        <div id="select">
+          <template id="select_item">
+            <div class="name"></div>
+            <button>+</button>
+          </template>
+        </div>
+        <div id="list">
+          <template id="list_item">
+            <div class="name"></div>
+            <button>-</button>
+          </template>
+        </div>
+        <div id="main">
+          <div id="students"></div>
+          <img src="meter.svg" style="position: sticky; top: 0; left: 0">
+        </div>
+        <dialog id="help_dialog">
+          <div>
+            <h2>このページについて</h2>
+            <p>生徒の立ち絵をシルエットにしてプロフィールの身長から大まかに比較できるようにしたページです。作るのが大変なので通常衣装のみです。</p>
+            <p>追加も不定期です。</p>
+            <h2>身長について</h2>
+            <p>
+              大まかにかかとから頭の先までをプロフィールの身長に合わせて拡大縮小しています。膝や腰を曲げていたり帽子や角が大きい生徒もいますが、かかとと頭頂部を大まかに合わせているので体の大きさ合わせはあまり考えていません。あくまで身長の参考にしてください。特にブルアカはヘイローがあるので純粋な身長が見えにくいですが、その感覚を込みにして感じてもらうためヘイローなどは身長に含んでいません。
+            </p>
+          </div>
+        </dialog>
+      </section>
+    </section-pages>
+  </body>
 </html>

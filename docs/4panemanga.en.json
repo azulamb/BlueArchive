@@ -1,865 +1,890 @@
 {
-	"baseurl": "https://twitter.com/EN_BlueArchive/status/",
-	"list": [
-		{
-			"title": "Episode 1 features the Abydos Foreclosure Task Force!",
-			"main": "1448936707080871937",
-			"sub": "1448936712684531715"
-		},
-		{
-			"title": "Episode 2 is about a day in Problem Solver 68!",
-			"main": "1451473402095493126",
-			"sub": "1451474063495348225"
-		},
-		{
-			"title": "Episode 3 features the School Lunch Club, in charge of tirelessly preparing lunch for Gehenna!",
-			"main": "1454010147907379204",
-			"sub": "1454010154039402497"
-		},
-		{
-			"title": "Episode 4 is about cleaning with C&C...?",
-			"main": "1456546877004943366",
-			"sub": "1456546882977603585"
-		},
-		{
-			"title": "Episode 5 is about Hoshino's sleeping mask collection.",
-			"main": "1459083555741442050",
-			"sub": "1459083561449844739"
-		},
-		{
-			"title": "Episode 6 features the Justice Task Force!",
-			"main": "1461620262449807365",
-			"sub": "1461620780656066562"
-		},
-		{
-			"title": "Episode 7 features the Prefect Team!",
-			"main": "1464157027135938567",
-			"sub": "1464157033318420485"
-		},
-		{
-			"title": "The Allied Hyakkiyako Academy is excited for the Hyakkiyako Cherry Blossom Festival!",
-			"main": "1466693652449996803",
-			"sub": "1466693658477232130"
-		},
-		{
-			"title": "Episode 9 features the Millennium Science School Engineering Club!",
-			"main": "1469230422412652547",
-			"sub": "1469230428066582528"
-		},
-		{
-			"title": "Episode 10 features the main characters of the new story, the Game Development Department!",
-			"main": "1471767124314054662",
-			"sub": "1471767545246253059"
-		},
-		{
-			"title": "A continuation of episode 11 with Game Development Department!",
-			"main": "1474303851725750275",
-			"sub": "1474303857736183808"
-		},
-		{
-			"title": "Episode 12 features Sora from the Angel 24 convenience store!",
-			"main": "1476840557699911688",
-			"sub": "1476840813284200460"
-		},
-		{
-			"title": "Episode 13 features the After-School Sweets Club!",
-			"main": "1479377284343922694",
-			"sub": "1479377290501173251"
-		},
-		{
-			"title": "Episode 14 features a new setting: The Red Winter Academy!",
-			"main": "1481913989794000902",
-			"sub": "1481913995846365185"
-		},
-		{
-			"title": "Episode 15 continues on with the Red Winter Federal Academy!",
-			"main": "1484450722489913352",
-			"sub": "1484450728303214592"
-		},
-		{
-			"title": "The Make-Up Work Club members make their debut in Episode 16!",
-			"main": "1486987444494823433",
-			"sub": "1486987450253660165"
-		},
-		{
-			"title": "Episode 17 continues with the Make-Up Work Club!",
-			"main": "1489524153422008326",
-			"sub": "1489524158937501699"
-		},
-		{
-			"title": "Episode 18 is courtesy of the Tea Party, Trinity General School's student council!",
-			"main": "1492060882439864321",
-			"sub": "1492060888131506179"
-		},
-		{
-			"title": "Episode 19 features Problem Solver 68!",
-			"main": "1494597569070059520",
-			"sub": "1494597574405210113"
-		},
-		{
-			"title": "Trinity General School is in the Episode 20! The Trinity Justice Task Force & Make-Up Work Club are getting ready to depart for the beach!",
-			"main": "1497134279012278281",
-			"sub": "1497135557247307776"
-		},
-		{
-			"title": "A continuation of episode 21 from the summer beach.",
-			"main": "1500395830049579009",
-			"sub": "1500395835372146689"
-		},
-		{
-			"title": "Episode 22 is Hasumi's debut post-summer vacation!",
-			"main": "1502207722594267142",
-			"sub": "1502207727925301253"
-		},
-		{
-			"title": "Episode 23 is from the Game Development Department!",
-			"main": "1505469201716109316",
-			"sub": "1505469208536125446"
-		},
-		{
-			"title": "Ep. 24 features the Prefect Team busily preparing for training camp!",
-			"main": "1507281236380684288",
-			"sub": "1507281241673850880"
-		},
-		{
-			"title": "The Prefect Team's summer training continues, pero!",
-			"main": "1509817869269274628",
-			"sub": "1509817875237724163"
-		},
-		{
-			"title": "Long time no see, Abydos Foreclosure Task Force!",
-			"main": "1512354561477910528",
-			"sub": "1512355627989106688"
-		},
-		{
-			"title": "Episode 27 features the Make-Up Work Club!",
-			"main": "1514891299123388417",
-			"sub": "1514891304437649410"
-		},
-		{
-			"title": "Episode 28 is from Shanhaijing Senior Secondary School!",
-			"main": "1517428716753743872",
-			"sub": "1517428722856464384"
-		},
-		{
-			"title": "Episode 29 also features Shanhaijing!",
-			"main": "1519964707477606400",
-			"sub": "1519964712380686338"
-		},
-		{
-			"title": "Episode 30 is a sneak peek into C&C's cruise ship infiltration!",
-			"main": "1522501655257698304",
-			"sub": "1522501660446056449"
-		},
-		{
-			"title": "Episode 31 continues with C&C's wild adventures.",
-			"main": "1525038151139569664",
-			"sub": "1525038361894785024"
-		},
-		{
-			"title": "Episode 32 features the Gourmet Research Society!",
-			"main": "1527574863405252608",
-			"sub": "1527575066761777152"
-		},
-		{
-			"title": "The Make-Up Work Club’s Boot Camp continues! It looks like Hifumi brought along some Momo Friends to camp!",
-			"main": "1530111596088815616",
-			"sub": "1530111602027921408"
-		},
-		{
-			"title": "Episode 34 features the After-School Sweets Club!",
-			"main": "1532648307578658816",
-			"sub": "1532648313631035392"
-		},
-		{
-			"title": "Episode 35 continues with the After-School Sweets Club.",
-			"main": "1535185020205166592",
-			"sub": "1535185026286878720"
-		},
-		{
-			"title": "A continuation of episode 36 from Trinity General School!",
-			"main": "1537721543249129474",
-			"sub": "1537721550748626944"
-		},
-		{
-			"title": "Episode 37 is the first appearance of the President of Veritas, Himari!",
-			"main": "1540258443075825664",
-			"sub": "1540258449308524544"
-		},
-		{
-			"title": "Episode 38 features the flawless and trustworthy supporter, Ako!",
-			"main": "1542795244990738434",
-			"sub": "1542795251185684480"
-		},
-		{
-			"title": "Episode 39 features Veritas! What are they up to this time?",
-			"main": "1545331739068796929",
-			"sub": "1545331745154670592"
-		},
-		{
-			"title": "Episode 40 is from nowhere other than Hot Springs Resort No.227!",
-			"main": "1547868541675720707",
-			"sub": "1547868548554403841"
-		},
-		{
-			"title": "Continuing at the Hot Springs Resort No. 227 in Episode 41!",
-			"main": "1550405300338823168",
-			"sub": "1550405306290540545"
-		},
-		{
-			"title": "The story of Hot Springs Resort No.227 continues. Just what is Meru drawing?!",
-			"main": "1552942022318624768",
-			"sub": "1552942027934801920"
-		},
-		{
-			"title": "Episode 43 looks at Gehenna Academy’s Pandemonium Society!",
-			"main": "1555478730721570817",
-			"sub": "1555478736455077888"
-		},
-		{
-			"title": "It's been a while, Problem Solver 68! This shrine sure has a lot of cats!",
-			"main": "1558015451396861952",
-			"sub": "1558015456937512960"
-		},
-		{
-			"title": "Serika’s part-time gig as a miko continues!!",
-			"main": "1563088867355348995",
-			"sub": "1563089065112510467"
-		},
-		{
-			"title": "Hifumi's decided to meet up with the Foreclosure Task Force!",
-			"main": "1565625585489018881",
-			"sub": "1565626043888971776"
-		},
-		{
-			"title": "Episode 47 is set in the Public Safety Bureau!",
-			"main": "1568162310702911488",
-			"sub": "1568162317489303554"
-		},
-		{
-			"title": "Chihiro lays her eyes on the Gehenna Academy!?",
-			"main": "1570699037632000002",
-			"sub": "1570699043894067200"
-		},
-		{
-			"title": "Today's spotlight is on the Inner Discipline Club of the Allied Hyakkiyako Academy!",
-			"main": "1573235706348326912",
-			"sub": "1573235716469161985"
-		},
-		{
-			"title": "The Make-Up Work Club makes a return for Episode 50 ! Looks like Koharu has been keeping busy...",
-			"main": "1575772466353356800",
-			"sub": "1575772472518975488"
-		},
-		{
-			"title": "Episode 51 is about the Sisterhood!Hinata is always so kind~  (✿◡‿◡)",
-			"main": "1578309159660961800",
-			"sub": "1578309415954190340"
-		},
-		{
-			"title": "Episode 52 features Ui!Did anything exciting happen in the library today?",
-			"main": "1580845900376600576",
-			"sub": "1580845906106019840"
-		},
-		{
-			"title": "Episode 53 is from Red Winter!They say Marina is very skilled at cleaning🧹",
-			"main": "1583382656485425152",
-			"sub": "1583382662412050432"
-		},
-		{
-			"title": "Celebrate a year of memories with Sensei!",
-			"main": "1590177360464072705",
-			"sub": "1590179580379566084"
-		},
-		{
-			"title": "Today's main character is Miyu...",
-			"main": "1590992738643738624",
-			"sub": "1590997017194815495"
-		},
-		{
-			"title": "Episode 56 continues with the RABBIT Squad!",
-			"main": "1593529444869713920",
-			"sub": "1593529968918941696"
-		},
-		{
-			"title": "Episode 57 is from the Trinity General School!What is your wish, Sensei?",
-			"main": "1596066171572330497",
-			"sub": "1596066398249582593"
-		},
-		{
-			"title": "You would be okay with Ibuki too... Right, Sensei?",
-			"main": "1598602878100262914",
-			"sub": "1598603173526376449"
-		},
-		{
-			"title": "This one is all about the Justice Task Force! Who is the real thug?",
-			"main": "1601139588151459841",
-			"sub": "1601140589453451267"
-		},
-		{
-			"title": "Episode 60 is from Ninjutsu Research Club!Michiru has found out what videos to upload to increase her subscriber count...",
-			"main": "1603676317379174400",
-			"sub": "1603676706044121088"
-		},
-		{
-			"title": "In this episode, Hiyori musters up the courage to exchange a special coupon.",
-			"main": "1606213019700264962",
-			"sub": "1606213247610265600"
-		},
-		{
-			"title": "Episode 62 follows the Super Phenomenon Task Force! Himari is determined to be the best, most beautiful girl at the school...",
-			"main": "1608749865814695937",
-			"sub": "1608750111622066176"
-		},
-		{
-			"title": "Episode 63 is from Arius Squad! Atsuko's love for flowers successfully bloomed into blossoms.",
-			"main": "1611286451471224832",
-			"sub": "1611286658527428609"
-		},
-		{
-			"title": "In this episode, we find out if Hina from the Prefect Team can pull off pigtails.",
-			"main": "1613823289607995394",
-			"sub": "1613823394801410048"
-		},
-		{
-			"title": "Episode 65 is all about the Task Force! Will veteran fisher Shiroko get a big catch today?",
-			"main": "1616360005388705793",
-			"sub": "1616360070606127104"
-		},
-		{
-			"title": "Just how many masks does Wakamo have?",
-			"main": "1618896735345975301",
-			"sub": "1618896825041420293"
-		},
-		{
-			"title": "It's so much fun to tease Shizuko like that. She gets so flustered!",
-			"main": "1621433316162568192",
-			"sub": "1621433627514109953"
-		},
-		{
-			"title": "What? Mr. Crab is evolving!",
-			"main": "1623970033964572673",
-			"sub": "1623970230837084160"
-		},
-		{
-			"title": "Saori never backs down! But has she finally reached her limit?",
-			"main": "1626506752836395009",
-			"sub": "1626506958831513602"
-		},
-		{
-			"title": "Episode 70 takes us to the Game Development Department, and on that day, Schale received a grim reminder...",
-			"main": "1629043459469238274",
-			"sub": "1629043697420750850"
-		},
-		{
-			"title": "Episode 71 takes us to the After-School Sweets Club.So, \"anything\" and \"anything\" actually mean two completely different things...",
-			"main": "1631580180186648580",
-			"sub": "1631580587139153921"
-		},
-		{
-			"title": "Episode 72 comes straight from RABBIT Squad!Who's to say whether or not an explosion counts as art?💣",
-			"main": "1634116888673542144",
-			"sub": "1634117072983818240"
-		},
-		{
-			"title": "Episode 73 showcases the Prefect Team!It seems Iori has a bit of a clumsy side...",
-			"main": "1636653610074517505",
-			"sub": "1636653829184958464"
-		},
-		{
-			"title": "Episode 74 is sent to us from the Plum Blossom Garden!",
-			"main": "1639190324911415297",
-			"sub": "1639190571616202753"
-		},
-		{
-			"title": "You jinxed it.",
-			"main": "1641727035168145408",
-			"sub": "1641727260645560321"
-		},
-		{
-			"title": "Episode 76 is from the Seminar!What secrets are held by the water bottle that Yuuka's looking for?",
-			"main": "1644263760402554881",
-			"sub": "1644263918108545024"
-		},
-		{
-			"title": "Episode 77 is brought to you by C&C!For some inexplicable reason, the bomb exploded!",
-			"main": "1646800461834629120",
-			"sub": "1646800667565260800"
-		},
-		{
-			"title": "Koharu's always had an...active imagination, and these shadows aren't helping!",
-			"main": "1649337179146186752",
-			"sub": "1649337358612054016"
-		},
-		{
-			"title": "Ep. 79 Here's Blue Archive's official 4-panel manga with",
-			"main": "1651873901553565701",
-			"sub": "1651874049218453504"
-		},
-		{
-			"title": "Looks like the competitive fire of the Kivotos Halo Festival hasn't been put out yet. 🔥",
-			"main": "1654410609138728961",
-			"sub": "1654410865712549888"
-		},
-		{
-			"title": "When that last leaf falls, it will by my final...",
-			"main": "1656947324734648320",
-			"sub": "1656947522806628353"
-		},
-		{
-			"title": "Aris boosted her Appeal stat with a new skin! All she needs now is a manicure and she'll get a set bonus!",
-			"main": "1659484353712521216",
-			"sub": "1659484353712521216"
-		},
-		{
-			"title": "I suppose 20 km is easy for someone as amazing as Sumire!",
-			"main": "1662020751837351937",
-			"sub": "1662021113692704771"
-		},
-		{
-			"title": "Don't worry, Sensei, Shigure has a special drink ready for you too!",
-			"main": "1664557475608276993",
-			"sub": "1664558854410240000"
-		},
-		{
-			"title": "Wow, it's president Rio's fully automated barista machine!It must function with absolute perfection!",
-			"main": "1667094192315846657",
-			"sub": "1667094801211338753"
-		},
-		{
-			"title": "There's nothing more rewarding than charity work. You're awesome, Serina!",
-			"main": "1669630902102573056",
-			"sub": "1669632182426689536"
-		},
-		{
-			"title": "Chairman Makoto's charismatic ploy doesn't even phase Cherino. Red Winter is certainly a cut above when it comes to coup d'état!",
-			"main": "1672167621838372864",
-			"sub": "1672168720167469056"
-		},
-		{
-			"title": "Haruna has such a big personality that it's impossible for her scenes NOT to be dynamic! (Good thing it wasn't a bomb...)",
-			"main": "1674704334653911040",
-			"sub": "1674705285959798784"
-		},
-		{
-			"title": "Poor Fuuka! It seems the New Year's fresh start didn't help her neuroses much.",
-			"main": "1677241046420553729",
-			"sub": "1677243452361408513"
-		},
-		{
-			"title": "Captain Mine...You're not trying to say we should...eliminate them, are you? >_<",
-			"main": "1679777762276519938",
-			"sub": "1679778141374672896"
-		},
-		{
-			"title": "Maybe we can mass-produce and sell RABBIT Squad helmets and we'll finally be free from a life of expired bentos...",
-			"main": "1682316986821509121",
-			"sub": "1682317926299467776"
-		},
-		{
-			"title": "Mika is just as cheerful as ever—even in prison! And her friendship with Nagisa, who secretly worries for her, is evident.",
-			"main": "1684851198804054016",
-			"sub": "1684851445840183297"
-		},
-		{
-			"title": "They made a short interview even shorter in the worst possible way!If this bad press is any indicator, then the pen really is mightier than the sword..",
-			"main": "1687390901059084289",
-			"sub": "1687391045682954240"
-		},
-		{
-			"title": "Isn't it a bit suspicious that Noa agreed to send Koyuki to the 'sea' so easily? What's she up to?",
-			"main": "1689924628037173248",
-			"sub": "1689935446695112704"
-		},
-		{
-			"title": "Hanako may not have been the best person to ask for advice...But Sakurako's new profile picture is perfect! That was textbook gap moe! ^o^",
-			"main": "1692464440514625813",
-			"sub": "1692464561713279279"
-		},
-		{
-			"title": "Looks like it's moving day for the Kivotos Student Council!Even on moving day, Momoka is still lazing about...Well, if she falls asleep in a box, guess she'll get packed up too!",
-			"main": "1694998050333462674",
-			"sub": "1694998579759419647"
-		},
-		{
-			"title": "Toki takes lessons from her upperclassmen at C&C very seriously! Naturally she strives for absolute purrfection in everything she does, including this!",
-			"main": "1697537276945838568",
-			"sub": "1697537673727234554"
-		},
-		{
-			"title": "The Masked Swimsuit Gan—No. The Abydos Foreclosure Task Force is hard at work cleaning up the pool.Obviously some outfits are a little too comfortable for hard work... ^-^;",
-			"main": "1700071486877491521",
-			"sub": "1700078586039005385"
-		},
-		{
-			"title": "Koyuki! A little bad luck doesn't give you free license to attack a food company!Clearly the Seminar members have their hands full today...",
-			"main": "1702608195238461892",
-			"sub": "1702608403850567781"
-		},
-		{
-			"title": "Thanks to your fervent support, we've released 100 episodes of the Blue Archive Official 4-Panel Manga!",
-			"main": "1705147422551290086",
-			"sub": "1705148443734450532"
-		},
-		{
-			"title": "Is it really considered noise canceling if you're just drowning it out with metal? You can't argue with results, but it seems Aru isn't quite used to heavy metal just yet! ^-^;",
-			"main": "1707681632793383028",
-			"sub": "1707682406164251133"
-		},
-		{
-			"title": "It seems Haruka's completely freaking out again... Hopefully she'll gain a bit more perspective and confidence this new year.",
-			"main": "1710218342324146637",
-			"sub": "1710218906932318360"
-		},
-		{
-			"title": "It's tough not to indulge when there's a veritable feast in front of you! But don't hold back too much, or it could be bad for your health, Izuna!",
-			"main": "1712757567431057759",
-			"sub": "1712757991081177159"
-		},
-		{
-			"title": "As expected, Tomoe's single-minded dedication to President Cherino and her excellent speaking skills have captured the hearts of the Red Winter students!...Captured ...Right?",
-			"main": "1715291776473338317",
-			"sub": "1715292979286729062"
-		},
-		{
-			"title": "Hyakkiyako's professional ambassador, Kaho, got caught organizing all her Chise merch!",
-			"main": "1717830997419417935",
-			"sub": "1717831270582136937"
-		},
-		{
-			"title": "It seems Haruka's completely freaking out again... Hopefully she'll gain a bit more perspective and confidence this new year.",
-			"main": "1720365195888087452",
-			"sub": "1720365638349447480"
-		},
-		{
-			"title": "Toki is on an undercover mission with the Game Development Department!Wait, what happens if her opponent uses rock...?",
-			"main": "1722904427928186954",
-			"sub": "1722906408545554640"
-		},
-		{
-			"title": "Kazusa's compliment certainly caught Reisa off guard. She's so cute when she's flustered! *^-^*",
-			"main": "1725438639939678338",
-			"sub": "1725438863030755691"
-		},
-		{
-			"title": "Hifumi would travel to the ends of Kivotos to save Peroro!Too bad it was just Azusa's swimcap... ^^;",
-			"main": "1727977857979228324",
-			"sub": "1727978563058712838"
-		},
-		{
-			"title": "This painfully bright golden light seems familiar somehow…Bah! My eyes! >_<;",
-			"main": "1730512068623675425",
-			"sub": "1730512221481189711"
-		},
-		{
-			"title": "Ah, Mina! Remember, the whole point of fiction is that it isn't real!",
-			"main": "1733048788426834226",
-			"sub": "1733049166396571732"
-		},
-		{
-			"deleted": true,
-			"title": "The quickest way to find Minori? Just look for the nearest protest!",
-			"main": "1735588003177787613",
-			"sub": "1735588510038692244"
-		},
-		{
-			"title": "The quickest way to find Minori? Just look for the nearest protest!",
-			"main": "1735626377494446101",
-			"sub": "1735626451637125374"
-		},
-		{
-			"title": "It's so sweet that Niko takes the RABBIT Squad members under her wing and cares for them like her own!",
-			"main": "1738122209145844045",
-			"sub": "1738123024568824124"
-		},
-		{
-			"title": "When bait starts raining down from the sky, you know it's going to be a weird day...Will Miyu be all right?😢",
-			"main": "1740658916499816491",
-			"sub": "1740659426607112502"
-		},
-		{
-			"title": "Curse or no curse, if you come across something like that in the middle of the night, RUN!",
-			"main": "1743198148657639657",
-			"sub": "1743198860615594376"
-		},
-		{
-			"title": "Warm-up exercises are all well and good, Ako, but do you really need to record them? o_o;",
-			"main": "1745732352423215471",
-			"sub": "1745732594334085505"
-		},
-		{
-			"title": "Thanks to Saya's elixir, Shun looks as young as ever!Unfortunately, it made her smaller and weaker too. She doesn't stand a chance against Kokona!",
-			"main": "1748269073954373753",
-			"sub": "1748269784276533633"
-		},
-		{
-			"title": "What a great plan!Put in a little time following that fish, and there might be a big payoff!But...what's with the ribbon...?",
-			"main": "1750808293612900372",
-			"sub": "1750808718017769593"
-		},
-		{
-			"title": "Only Hanako would take every opportunity to make Koharu uncomfortable...",
-			"main": "1753342497101693028",
-			"sub": "1753343174591029694"
-		},
-		{
-			"title": "Reading and sunbathing are the perfect combo for a relaxing day...unless you're Ui. ^^;Still, you need plenty of sunshine to get enough Vitamin D!",
-			"main": "1755879220600004723",
-			"sub": "1755879489559724209"
-		},
-		{
-			"title": "It seems mere proximity to Sumire guarantees a healthier life!Of course, the process may be a little...uncomfortable.",
-			"main": "1758418438723338434",
-			"sub": "1758419624163762597"
-		},
-		{
-			"title": "Not even the tiniest detail escapes Mimori's notice. She's incredible!",
-			"main": "1760952642833117443",
-			"sub": "1760952849926856879"
-		},
-		{
-			"title": "Meru's creative anguish is palpable!Perhaps it helps keep the rivalry between Meru and Momiji alive.",
-			"main": "1763489363227218292",
-			"sub": "1763490704402378827"
-		},
-		{
-			"title": "Embracing cosplay is such an intriguing way to sell your fanfic!And when it comes to marketing, Yakumo knows best... ^^;",
-			"main": "1766028583678697667",
-			"sub": "1766028867297529912"
-		},
-		{
-			"title": "Kotori’s passion for cheering on her friends is incredible, but her endurance is off the charts!",
-			"main": "1768562793937010698",
-			"sub": "1768564037758177546"
-		},
-		{
-			"title": "No gold medal prize can compare to food in the eyes of the Gourmet Research Society!",
-			"main": "1771099507960222125",
-			"sub": "1771099837435453778"
-		},
-		{
-			"title": "Ah! Sensei! Don't misunderstand!It didn't stop because the robot's too weak to carry Yuuka!Nothing like that!",
-			"main": "1773638728788918734",
-			"sub": "1773639095220117581",
-			"fix": "1774044337506263426"
-		},
-		{
-			"title": "We'd tell you to work on your poker face Koharu, but it looks like a guilty conscience needs no accuser! ^-^",
-			"main": "1776172934295605547",
-			"sub": "1776175945990451546"
-		},
-		{
-			"title": "Leave it to Gehenna Academy to think up such mammoth ideas as using the hot springs as a giant hot pot!What imagination!",
-			"main": "1778712159050190977",
-			"sub": "1778712426374177158"
-		},
-		{
-			"title": "Shigure's tail looks so soft and fluffy! I totally understand why Nodoka mistook it for a pillow ^^;",
-			"main": "1781246366909370702",
-			"sub": "1781246665720312272"
-		},
-		{
-			"title": "It's just like Kasumi to shamelessly ask for help from one of her sworn enemies...How is she going to dig herself out of this one?!",
-			"main": "1783785589369930184",
-			"sub": "1783787570046058674"
-		},
-		{
-			"title": "It's a rare opportunity to listen to a duet between Utaha and Himari, who both love enka! (But what about fixing Himari's wheelchair?)",
-			"main": "1786319787431518714",
-			"sub": "1786320489331441957"
-		},
-		{
-			"title": "The Engineering Department members sure have an interesting idea of what \"cute\" means!",
-			"main": "1788859019206996139",
-			"sub": "1788859744373096940"
-		},
-		{
-			"title": "It may not be possible to turn back time, but these two are making memories where the happiness of their youth lives forever.",
-			"main": "1791393219487690755",
-			"sub": "1791393457719971906"
-		},
-		{
-			"title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
-			"main": "1793114563606679994",
-			"sub": ""
-		},
-		{
-			"title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
-			"main": "1793476957251723341",
-			"sub": ""
-		},
-		{
-			"title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
-			"main": "1793839337135562950",
-			"sub": ""
-		},
-		{
-			"title": "Misleading people to play tricks can have unintended consequences, you know!",
-			"main": "1793932449300529351",
-			"sub": "1793933003267473896"
-		},
-		{
-			"title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
-			"main": "1794201730004959646",
-			"sub": ""
-		},
-		{
-			"title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
-			"main": "1794564116419346925",
-			"sub": ""
-		},
-		{
-			"title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
-			"main": "1794926506096947345",
-			"sub": ""
-		},
-		{
-			"title": "Oh, Renge! How does one even get that tangled just from cat's cradle...? ^^;",
-			"main": "1796466655817576558",
-			"sub": "1796466895727755468"
-		},
-		{
-			"title": "Kikyou is carving chess pieces using her classmates as models!She seems to be working especially hard on one in particular…Wait, is that Yukari?",
-			"main": "1799005879687315599",
-			"sub": "1799006123703648760"
-		},
-		{
-			"title": "I guess the purpose of a suit...is what you use it for! 🤔",
-			"main": "1801540084312813952",
-			"sub": "1801541362518790167"
-		},
-		{
-			"title": "Hey, Neru? Can we just quickly review what \"stealth mission\" means?",
-			"main": "1804079309637980571",
-			"sub": "1804079643722682697"
-		},
-		{
-			"title": "Login rewards and daily quests are vital for mobile gamers!",
-			"main": "1806613513328119898",
-			"sub": "1806615397820440974"
-		},
-		{
-			"title": "They're difficult to cook, but homemade meals can be so delicious!",
-			"main": "1809152739613593667",
-			"sub": "1809153602004627605"
-		},
-		{
-			"title": "Aru's bib is so pretty, Sensei! It prevents stains and it steals my heart!",
-			"main": "1811686943727481207",
-			"sub": "1811688773274484865",
-			"_sub": "1811687178369683874"
-		},
-		{
-			"title": "The Arius Squad members are enjoying a rare and precious shopping trip!Seeing them happy brings a smile to my face.☘",
-			"main": "1814226169656496294",
-			"sub": "1814227170262433815"
-		},
-		{
-			"title": "Ibuki is pretty set on her preferences!You should take notes, Sensei. 🍮",
-			"main": "1816760368103825422",
-			"sub": "1816760819595759791"
-		},
-		{
-			"title": "Hina practices like it's the real thing, and makes the real thing look like practice!^^And if her fingers can't reach all the keys, well, blame the sheet music!",
-			"main": "1819299599829340459",
-			"sub": "1819300300504932694"
-		},
-		{
-			"title": "Er... Kirino, that's... not what happened.Well... Never mind. Keep up the good work.",
-			"main": "1821833810574766231",
-			"sub": "1821834117711065404"
-		},
-		{
-			"title": "The Remedial Knights and the Medical Emergency Club have joined forces to bring in the corpses... er, patients.🎵Medicine knows no borders!",
-			"main": "1824373030489034789",
-			"_main": "1824373030426120266",
-			"sub": "1824373692006048092",
-			"_sub": "1824375539584626887"
-		},
-		{
-			"title": "It's Kayoko, who is trusted by the members of Problem Solver 68.But Sensei, this infiltration mission seems a bit different from what I’m used to. @_@",
-			"main": "1829446460238078045",
-			"sub": "1829448023774232789"
-		},
-		{
-			"title": "It may have been an accident, but at least Fuuka got to see the sunrise! Thanks, Akari! ✨",
-			"main": "1831980830086123577",
-			"sub": "1831981119119745478"
-		},
-		{
-			"title": "Sensei! Junko got a Great Blessing, the rarest of the rare!Congratulations on your bright future—huh?!",
-			"main": "1834517438698033644",
-			"sub": "1834517689747882170"
-		},
-		{
-			"title": "Ui looks so cool in those glasses when she's hard at work!But what's with that look on Hanako's face❓❓",
-			"main": "1837056605608681668",
-			"sub": "1837056772655436084"
-		},
-		{
-			"title": "I want to hear Umika's singing too! ♬For your safety, please keep your seatbelt buckled while on the bus! 🚍",
-			"main": "1839590807583740297",
-			"sub": "1839591021832974363"
-		},
-		{
-			"title": "Sensei, are you enjoying the Hyakkiyako field trip?Let's take a breather and recharge during the break!",
-			"main": "1842128296106156295",
-			"sub": "1842128352976781820"
-		},
-		{
-			"title": "Uzawa tags along with the After-School Sweets Club!",
-			"main": "1844664917871501794",
-			"sub": "1844664976931442808"
-		},
-		{
-			"title": "It's the fighting game showdown of the century: Neru vs. Toki!One's a hardcore veteran, but the other can control the Abi-Eshuh. Who will win?",
-			"main": "1847203634079035466",
-			"sub": "1847203678501146875"
-		},
-		{
-			"title": "Ba-dum-TSS!Natsu's holding a lesson on all the different ways to utilize a broken stick today!😁",
-			"main": "1849737667245736206",
-			"sub": "1849738223133786605"
-		},
-		{
-			"title": "Airi says mint sweets can soothe a sore throat......but can they really?",
-			"main": "1852276895968121320",
-			"sub": "1852277208066486449"
-		},
-		{
-			"title": "Shall we check out the daily activities of Twinkle Twinkle Club? They could really use an extra few hours in the day!It seems like Kirara just never gets tired! @_@",
-			"main": "1854811103043203264",
-			"sub": "1854811415183515783"
-		},
-		{
-			"title": "We're witnesses to Mina's lucky♣ event! Her daily life is noir!The seasons must be changing, Sensei! I can see your breath in the air.Make sure you don't catch a cold! ☕",
-			"main": "1857350502465560734",
-			"sub": "1857350566445461866"
-		},
-		{
-			"title": "Nothing gets by Yuuka!In their defense, meeting deadlines sure is hard! (´·×·`)💦",
-			"main": "1859884524554932247",
-			"sub": "1859884731812524066"
-		},
-		{
-			"title": "Last episode, Yuzu fell asleep in her box and got trapped! What fate awaits her now?!Gah──!!",
-			"main": "1862423756393914818",
-			"sub": "1862424030424469722"
-		},
-		{
-			"title": "It's BBQ time for the Foreclosure Task Force!Serika's right, Sensei. It's important to keep a balanced diet!",
-			"main": "1864960809656553677",
-			"sub": "1864960953546346886"
-		},
-		{
-			"title": "It's okay, Serika! After all, discounts are life! 💳",
-			"main": "1867494677202513934",
-			"sub": "1867494886695649304"
-		},
-		{
-			"title": "Chise's ninjutsu is so cute, it's dangerous! ❤",
-			"main": "1870033901823111180",
-			"sub": "1870034066193690750"
-		}
-	]
+  "baseurl": "https://twitter.com/EN_BlueArchive/status/",
+  "list": [
+    {
+      "title": "Episode 1 features the Abydos Foreclosure Task Force!",
+      "main": "1448936707080871937",
+      "sub": "1448936712684531715"
+    },
+    {
+      "title": "Episode 2 is about a day in Problem Solver 68!",
+      "main": "1451473402095493126",
+      "sub": "1451474063495348225"
+    },
+    {
+      "title": "Episode 3 features the School Lunch Club, in charge of tirelessly preparing lunch for Gehenna!",
+      "main": "1454010147907379204",
+      "sub": "1454010154039402497"
+    },
+    {
+      "title": "Episode 4 is about cleaning with C&C...?",
+      "main": "1456546877004943366",
+      "sub": "1456546882977603585"
+    },
+    {
+      "title": "Episode 5 is about Hoshino's sleeping mask collection.",
+      "main": "1459083555741442050",
+      "sub": "1459083561449844739"
+    },
+    {
+      "title": "Episode 6 features the Justice Task Force!",
+      "main": "1461620262449807365",
+      "sub": "1461620780656066562"
+    },
+    {
+      "title": "Episode 7 features the Prefect Team!",
+      "main": "1464157027135938567",
+      "sub": "1464157033318420485"
+    },
+    {
+      "title": "The Allied Hyakkiyako Academy is excited for the Hyakkiyako Cherry Blossom Festival!",
+      "main": "1466693652449996803",
+      "sub": "1466693658477232130"
+    },
+    {
+      "title": "Episode 9 features the Millennium Science School Engineering Club!",
+      "main": "1469230422412652547",
+      "sub": "1469230428066582528"
+    },
+    {
+      "title": "Episode 10 features the main characters of the new story, the Game Development Department!",
+      "main": "1471767124314054662",
+      "sub": "1471767545246253059"
+    },
+    {
+      "title": "A continuation of episode 11 with Game Development Department!",
+      "main": "1474303851725750275",
+      "sub": "1474303857736183808"
+    },
+    {
+      "title": "Episode 12 features Sora from the Angel 24 convenience store!",
+      "main": "1476840557699911688",
+      "sub": "1476840813284200460"
+    },
+    {
+      "title": "Episode 13 features the After-School Sweets Club!",
+      "main": "1479377284343922694",
+      "sub": "1479377290501173251"
+    },
+    {
+      "title": "Episode 14 features a new setting: The Red Winter Academy!",
+      "main": "1481913989794000902",
+      "sub": "1481913995846365185"
+    },
+    {
+      "title": "Episode 15 continues on with the Red Winter Federal Academy!",
+      "main": "1484450722489913352",
+      "sub": "1484450728303214592"
+    },
+    {
+      "title": "The Make-Up Work Club members make their debut in Episode 16!",
+      "main": "1486987444494823433",
+      "sub": "1486987450253660165"
+    },
+    {
+      "title": "Episode 17 continues with the Make-Up Work Club!",
+      "main": "1489524153422008326",
+      "sub": "1489524158937501699"
+    },
+    {
+      "title": "Episode 18 is courtesy of the Tea Party, Trinity General School's student council!",
+      "main": "1492060882439864321",
+      "sub": "1492060888131506179"
+    },
+    {
+      "title": "Episode 19 features Problem Solver 68!",
+      "main": "1494597569070059520",
+      "sub": "1494597574405210113"
+    },
+    {
+      "title": "Trinity General School is in the Episode 20! The Trinity Justice Task Force & Make-Up Work Club are getting ready to depart for the beach!",
+      "main": "1497134279012278281",
+      "sub": "1497135557247307776"
+    },
+    {
+      "title": "A continuation of episode 21 from the summer beach.",
+      "main": "1500395830049579009",
+      "sub": "1500395835372146689"
+    },
+    {
+      "title": "Episode 22 is Hasumi's debut post-summer vacation!",
+      "main": "1502207722594267142",
+      "sub": "1502207727925301253"
+    },
+    {
+      "title": "Episode 23 is from the Game Development Department!",
+      "main": "1505469201716109316",
+      "sub": "1505469208536125446"
+    },
+    {
+      "title": "Ep. 24 features the Prefect Team busily preparing for training camp!",
+      "main": "1507281236380684288",
+      "sub": "1507281241673850880"
+    },
+    {
+      "title": "The Prefect Team's summer training continues, pero!",
+      "main": "1509817869269274628",
+      "sub": "1509817875237724163"
+    },
+    {
+      "title": "Long time no see, Abydos Foreclosure Task Force!",
+      "main": "1512354561477910528",
+      "sub": "1512355627989106688"
+    },
+    {
+      "title": "Episode 27 features the Make-Up Work Club!",
+      "main": "1514891299123388417",
+      "sub": "1514891304437649410"
+    },
+    {
+      "title": "Episode 28 is from Shanhaijing Senior Secondary School!",
+      "main": "1517428716753743872",
+      "sub": "1517428722856464384"
+    },
+    {
+      "title": "Episode 29 also features Shanhaijing!",
+      "main": "1519964707477606400",
+      "sub": "1519964712380686338"
+    },
+    {
+      "title": "Episode 30 is a sneak peek into C&C's cruise ship infiltration!",
+      "main": "1522501655257698304",
+      "sub": "1522501660446056449"
+    },
+    {
+      "title": "Episode 31 continues with C&C's wild adventures.",
+      "main": "1525038151139569664",
+      "sub": "1525038361894785024"
+    },
+    {
+      "title": "Episode 32 features the Gourmet Research Society!",
+      "main": "1527574863405252608",
+      "sub": "1527575066761777152"
+    },
+    {
+      "title": "The Make-Up Work Club’s Boot Camp continues! It looks like Hifumi brought along some Momo Friends to camp!",
+      "main": "1530111596088815616",
+      "sub": "1530111602027921408"
+    },
+    {
+      "title": "Episode 34 features the After-School Sweets Club!",
+      "main": "1532648307578658816",
+      "sub": "1532648313631035392"
+    },
+    {
+      "title": "Episode 35 continues with the After-School Sweets Club.",
+      "main": "1535185020205166592",
+      "sub": "1535185026286878720"
+    },
+    {
+      "title": "A continuation of episode 36 from Trinity General School!",
+      "main": "1537721543249129474",
+      "sub": "1537721550748626944"
+    },
+    {
+      "title": "Episode 37 is the first appearance of the President of Veritas, Himari!",
+      "main": "1540258443075825664",
+      "sub": "1540258449308524544"
+    },
+    {
+      "title": "Episode 38 features the flawless and trustworthy supporter, Ako!",
+      "main": "1542795244990738434",
+      "sub": "1542795251185684480"
+    },
+    {
+      "title": "Episode 39 features Veritas! What are they up to this time?",
+      "main": "1545331739068796929",
+      "sub": "1545331745154670592"
+    },
+    {
+      "title": "Episode 40 is from nowhere other than Hot Springs Resort No.227!",
+      "main": "1547868541675720707",
+      "sub": "1547868548554403841"
+    },
+    {
+      "title": "Continuing at the Hot Springs Resort No. 227 in Episode 41!",
+      "main": "1550405300338823168",
+      "sub": "1550405306290540545"
+    },
+    {
+      "title": "The story of Hot Springs Resort No.227 continues. Just what is Meru drawing?!",
+      "main": "1552942022318624768",
+      "sub": "1552942027934801920"
+    },
+    {
+      "title": "Episode 43 looks at Gehenna Academy’s Pandemonium Society!",
+      "main": "1555478730721570817",
+      "sub": "1555478736455077888"
+    },
+    {
+      "title": "It's been a while, Problem Solver 68! This shrine sure has a lot of cats!",
+      "main": "1558015451396861952",
+      "sub": "1558015456937512960"
+    },
+    {
+      "title": "Serika’s part-time gig as a miko continues!!",
+      "main": "1563088867355348995",
+      "sub": "1563089065112510467"
+    },
+    {
+      "title": "Hifumi's decided to meet up with the Foreclosure Task Force!",
+      "main": "1565625585489018881",
+      "sub": "1565626043888971776"
+    },
+    {
+      "title": "Episode 47 is set in the Public Safety Bureau!",
+      "main": "1568162310702911488",
+      "sub": "1568162317489303554"
+    },
+    {
+      "title": "Chihiro lays her eyes on the Gehenna Academy!?",
+      "main": "1570699037632000002",
+      "sub": "1570699043894067200"
+    },
+    {
+      "title": "Today's spotlight is on the Inner Discipline Club of the Allied Hyakkiyako Academy!",
+      "main": "1573235706348326912",
+      "sub": "1573235716469161985"
+    },
+    {
+      "title": "The Make-Up Work Club makes a return for Episode 50 ! Looks like Koharu has been keeping busy...",
+      "main": "1575772466353356800",
+      "sub": "1575772472518975488"
+    },
+    {
+      "title": "Episode 51 is about the Sisterhood!Hinata is always so kind~  (✿◡‿◡)",
+      "main": "1578309159660961800",
+      "sub": "1578309415954190340"
+    },
+    {
+      "title": "Episode 52 features Ui!Did anything exciting happen in the library today?",
+      "main": "1580845900376600576",
+      "sub": "1580845906106019840"
+    },
+    {
+      "title": "Episode 53 is from Red Winter!They say Marina is very skilled at cleaning🧹",
+      "main": "1583382656485425152",
+      "sub": "1583382662412050432"
+    },
+    {
+      "title": "Celebrate a year of memories with Sensei!",
+      "main": "1590177360464072705",
+      "sub": "1590179580379566084"
+    },
+    {
+      "title": "Today's main character is Miyu...",
+      "main": "1590992738643738624",
+      "sub": "1590997017194815495"
+    },
+    {
+      "title": "Episode 56 continues with the RABBIT Squad!",
+      "main": "1593529444869713920",
+      "sub": "1593529968918941696"
+    },
+    {
+      "title": "Episode 57 is from the Trinity General School!What is your wish, Sensei?",
+      "main": "1596066171572330497",
+      "sub": "1596066398249582593"
+    },
+    {
+      "title": "You would be okay with Ibuki too... Right, Sensei?",
+      "main": "1598602878100262914",
+      "sub": "1598603173526376449"
+    },
+    {
+      "title": "This one is all about the Justice Task Force! Who is the real thug?",
+      "main": "1601139588151459841",
+      "sub": "1601140589453451267"
+    },
+    {
+      "title": "Episode 60 is from Ninjutsu Research Club!Michiru has found out what videos to upload to increase her subscriber count...",
+      "main": "1603676317379174400",
+      "sub": "1603676706044121088"
+    },
+    {
+      "title": "In this episode, Hiyori musters up the courage to exchange a special coupon.",
+      "main": "1606213019700264962",
+      "sub": "1606213247610265600"
+    },
+    {
+      "title": "Episode 62 follows the Super Phenomenon Task Force! Himari is determined to be the best, most beautiful girl at the school...",
+      "main": "1608749865814695937",
+      "sub": "1608750111622066176"
+    },
+    {
+      "title": "Episode 63 is from Arius Squad! Atsuko's love for flowers successfully bloomed into blossoms.",
+      "main": "1611286451471224832",
+      "sub": "1611286658527428609"
+    },
+    {
+      "title": "In this episode, we find out if Hina from the Prefect Team can pull off pigtails.",
+      "main": "1613823289607995394",
+      "sub": "1613823394801410048"
+    },
+    {
+      "title": "Episode 65 is all about the Task Force! Will veteran fisher Shiroko get a big catch today?",
+      "main": "1616360005388705793",
+      "sub": "1616360070606127104"
+    },
+    {
+      "title": "Just how many masks does Wakamo have?",
+      "main": "1618896735345975301",
+      "sub": "1618896825041420293"
+    },
+    {
+      "title": "It's so much fun to tease Shizuko like that. She gets so flustered!",
+      "main": "1621433316162568192",
+      "sub": "1621433627514109953"
+    },
+    {
+      "title": "What? Mr. Crab is evolving!",
+      "main": "1623970033964572673",
+      "sub": "1623970230837084160"
+    },
+    {
+      "title": "Saori never backs down! But has she finally reached her limit?",
+      "main": "1626506752836395009",
+      "sub": "1626506958831513602"
+    },
+    {
+      "title": "Episode 70 takes us to the Game Development Department, and on that day, Schale received a grim reminder...",
+      "main": "1629043459469238274",
+      "sub": "1629043697420750850"
+    },
+    {
+      "title": "Episode 71 takes us to the After-School Sweets Club.So, \"anything\" and \"anything\" actually mean two completely different things...",
+      "main": "1631580180186648580",
+      "sub": "1631580587139153921"
+    },
+    {
+      "title": "Episode 72 comes straight from RABBIT Squad!Who's to say whether or not an explosion counts as art?💣",
+      "main": "1634116888673542144",
+      "sub": "1634117072983818240"
+    },
+    {
+      "title": "Episode 73 showcases the Prefect Team!It seems Iori has a bit of a clumsy side...",
+      "main": "1636653610074517505",
+      "sub": "1636653829184958464"
+    },
+    {
+      "title": "Episode 74 is sent to us from the Plum Blossom Garden!",
+      "main": "1639190324911415297",
+      "sub": "1639190571616202753"
+    },
+    {
+      "title": "You jinxed it.",
+      "main": "1641727035168145408",
+      "sub": "1641727260645560321"
+    },
+    {
+      "title": "Episode 76 is from the Seminar!What secrets are held by the water bottle that Yuuka's looking for?",
+      "main": "1644263760402554881",
+      "sub": "1644263918108545024"
+    },
+    {
+      "title": "Episode 77 is brought to you by C&C!For some inexplicable reason, the bomb exploded!",
+      "main": "1646800461834629120",
+      "sub": "1646800667565260800"
+    },
+    {
+      "title": "Koharu's always had an...active imagination, and these shadows aren't helping!",
+      "main": "1649337179146186752",
+      "sub": "1649337358612054016"
+    },
+    {
+      "title": "Ep. 79 Here's Blue Archive's official 4-panel manga with",
+      "main": "1651873901553565701",
+      "sub": "1651874049218453504"
+    },
+    {
+      "title": "Looks like the competitive fire of the Kivotos Halo Festival hasn't been put out yet. 🔥",
+      "main": "1654410609138728961",
+      "sub": "1654410865712549888"
+    },
+    {
+      "title": "When that last leaf falls, it will by my final...",
+      "main": "1656947324734648320",
+      "sub": "1656947522806628353"
+    },
+    {
+      "title": "Aris boosted her Appeal stat with a new skin! All she needs now is a manicure and she'll get a set bonus!",
+      "main": "1659484353712521216",
+      "sub": "1659484353712521216"
+    },
+    {
+      "title": "I suppose 20 km is easy for someone as amazing as Sumire!",
+      "main": "1662020751837351937",
+      "sub": "1662021113692704771"
+    },
+    {
+      "title": "Don't worry, Sensei, Shigure has a special drink ready for you too!",
+      "main": "1664557475608276993",
+      "sub": "1664558854410240000"
+    },
+    {
+      "title": "Wow, it's president Rio's fully automated barista machine!It must function with absolute perfection!",
+      "main": "1667094192315846657",
+      "sub": "1667094801211338753"
+    },
+    {
+      "title": "There's nothing more rewarding than charity work. You're awesome, Serina!",
+      "main": "1669630902102573056",
+      "sub": "1669632182426689536"
+    },
+    {
+      "title": "Chairman Makoto's charismatic ploy doesn't even phase Cherino. Red Winter is certainly a cut above when it comes to coup d'état!",
+      "main": "1672167621838372864",
+      "sub": "1672168720167469056"
+    },
+    {
+      "title": "Haruna has such a big personality that it's impossible for her scenes NOT to be dynamic! (Good thing it wasn't a bomb...)",
+      "main": "1674704334653911040",
+      "sub": "1674705285959798784"
+    },
+    {
+      "title": "Poor Fuuka! It seems the New Year's fresh start didn't help her neuroses much.",
+      "main": "1677241046420553729",
+      "sub": "1677243452361408513"
+    },
+    {
+      "title": "Captain Mine...You're not trying to say we should...eliminate them, are you? >_<",
+      "main": "1679777762276519938",
+      "sub": "1679778141374672896"
+    },
+    {
+      "title": "Maybe we can mass-produce and sell RABBIT Squad helmets and we'll finally be free from a life of expired bentos...",
+      "main": "1682316986821509121",
+      "sub": "1682317926299467776"
+    },
+    {
+      "title": "Mika is just as cheerful as ever—even in prison! And her friendship with Nagisa, who secretly worries for her, is evident.",
+      "main": "1684851198804054016",
+      "sub": "1684851445840183297"
+    },
+    {
+      "title": "They made a short interview even shorter in the worst possible way!If this bad press is any indicator, then the pen really is mightier than the sword..",
+      "main": "1687390901059084289",
+      "sub": "1687391045682954240"
+    },
+    {
+      "title": "Isn't it a bit suspicious that Noa agreed to send Koyuki to the 'sea' so easily? What's she up to?",
+      "main": "1689924628037173248",
+      "sub": "1689935446695112704"
+    },
+    {
+      "title": "Hanako may not have been the best person to ask for advice...But Sakurako's new profile picture is perfect! That was textbook gap moe! ^o^",
+      "main": "1692464440514625813",
+      "sub": "1692464561713279279"
+    },
+    {
+      "title": "Looks like it's moving day for the Kivotos Student Council!Even on moving day, Momoka is still lazing about...Well, if she falls asleep in a box, guess she'll get packed up too!",
+      "main": "1694998050333462674",
+      "sub": "1694998579759419647"
+    },
+    {
+      "title": "Toki takes lessons from her upperclassmen at C&C very seriously! Naturally she strives for absolute purrfection in everything she does, including this!",
+      "main": "1697537276945838568",
+      "sub": "1697537673727234554"
+    },
+    {
+      "title": "The Masked Swimsuit Gan—No. The Abydos Foreclosure Task Force is hard at work cleaning up the pool.Obviously some outfits are a little too comfortable for hard work... ^-^;",
+      "main": "1700071486877491521",
+      "sub": "1700078586039005385"
+    },
+    {
+      "title": "Koyuki! A little bad luck doesn't give you free license to attack a food company!Clearly the Seminar members have their hands full today...",
+      "main": "1702608195238461892",
+      "sub": "1702608403850567781"
+    },
+    {
+      "title": "Thanks to your fervent support, we've released 100 episodes of the Blue Archive Official 4-Panel Manga!",
+      "main": "1705147422551290086",
+      "sub": "1705148443734450532"
+    },
+    {
+      "title": "Is it really considered noise canceling if you're just drowning it out with metal? You can't argue with results, but it seems Aru isn't quite used to heavy metal just yet! ^-^;",
+      "main": "1707681632793383028",
+      "sub": "1707682406164251133"
+    },
+    {
+      "title": "It seems Haruka's completely freaking out again... Hopefully she'll gain a bit more perspective and confidence this new year.",
+      "main": "1710218342324146637",
+      "sub": "1710218906932318360"
+    },
+    {
+      "title": "It's tough not to indulge when there's a veritable feast in front of you! But don't hold back too much, or it could be bad for your health, Izuna!",
+      "main": "1712757567431057759",
+      "sub": "1712757991081177159"
+    },
+    {
+      "title": "As expected, Tomoe's single-minded dedication to President Cherino and her excellent speaking skills have captured the hearts of the Red Winter students!...Captured ...Right?",
+      "main": "1715291776473338317",
+      "sub": "1715292979286729062"
+    },
+    {
+      "title": "Hyakkiyako's professional ambassador, Kaho, got caught organizing all her Chise merch!",
+      "main": "1717830997419417935",
+      "sub": "1717831270582136937"
+    },
+    {
+      "title": "It seems Haruka's completely freaking out again... Hopefully she'll gain a bit more perspective and confidence this new year.",
+      "main": "1720365195888087452",
+      "sub": "1720365638349447480"
+    },
+    {
+      "title": "Toki is on an undercover mission with the Game Development Department!Wait, what happens if her opponent uses rock...?",
+      "main": "1722904427928186954",
+      "sub": "1722906408545554640"
+    },
+    {
+      "title": "Kazusa's compliment certainly caught Reisa off guard. She's so cute when she's flustered! *^-^*",
+      "main": "1725438639939678338",
+      "sub": "1725438863030755691"
+    },
+    {
+      "title": "Hifumi would travel to the ends of Kivotos to save Peroro!Too bad it was just Azusa's swimcap... ^^;",
+      "main": "1727977857979228324",
+      "sub": "1727978563058712838"
+    },
+    {
+      "title": "This painfully bright golden light seems familiar somehow…Bah! My eyes! >_<;",
+      "main": "1730512068623675425",
+      "sub": "1730512221481189711"
+    },
+    {
+      "title": "Ah, Mina! Remember, the whole point of fiction is that it isn't real!",
+      "main": "1733048788426834226",
+      "sub": "1733049166396571732"
+    },
+    {
+      "deleted": true,
+      "title": "The quickest way to find Minori? Just look for the nearest protest!",
+      "main": "1735588003177787613",
+      "sub": "1735588510038692244"
+    },
+    {
+      "title": "The quickest way to find Minori? Just look for the nearest protest!",
+      "main": "1735626377494446101",
+      "sub": "1735626451637125374"
+    },
+    {
+      "title": "It's so sweet that Niko takes the RABBIT Squad members under her wing and cares for them like her own!",
+      "main": "1738122209145844045",
+      "sub": "1738123024568824124"
+    },
+    {
+      "title": "When bait starts raining down from the sky, you know it's going to be a weird day...Will Miyu be all right?😢",
+      "main": "1740658916499816491",
+      "sub": "1740659426607112502"
+    },
+    {
+      "title": "Curse or no curse, if you come across something like that in the middle of the night, RUN!",
+      "main": "1743198148657639657",
+      "sub": "1743198860615594376"
+    },
+    {
+      "title": "Warm-up exercises are all well and good, Ako, but do you really need to record them? o_o;",
+      "main": "1745732352423215471",
+      "sub": "1745732594334085505"
+    },
+    {
+      "title": "Thanks to Saya's elixir, Shun looks as young as ever!Unfortunately, it made her smaller and weaker too. She doesn't stand a chance against Kokona!",
+      "main": "1748269073954373753",
+      "sub": "1748269784276533633"
+    },
+    {
+      "title": "What a great plan!Put in a little time following that fish, and there might be a big payoff!But...what's with the ribbon...?",
+      "main": "1750808293612900372",
+      "sub": "1750808718017769593"
+    },
+    {
+      "title": "Only Hanako would take every opportunity to make Koharu uncomfortable...",
+      "main": "1753342497101693028",
+      "sub": "1753343174591029694"
+    },
+    {
+      "title": "Reading and sunbathing are the perfect combo for a relaxing day...unless you're Ui. ^^;Still, you need plenty of sunshine to get enough Vitamin D!",
+      "main": "1755879220600004723",
+      "sub": "1755879489559724209"
+    },
+    {
+      "title": "It seems mere proximity to Sumire guarantees a healthier life!Of course, the process may be a little...uncomfortable.",
+      "main": "1758418438723338434",
+      "sub": "1758419624163762597"
+    },
+    {
+      "title": "Not even the tiniest detail escapes Mimori's notice. She's incredible!",
+      "main": "1760952642833117443",
+      "sub": "1760952849926856879"
+    },
+    {
+      "title": "Meru's creative anguish is palpable!Perhaps it helps keep the rivalry between Meru and Momiji alive.",
+      "main": "1763489363227218292",
+      "sub": "1763490704402378827"
+    },
+    {
+      "title": "Embracing cosplay is such an intriguing way to sell your fanfic!And when it comes to marketing, Yakumo knows best... ^^;",
+      "main": "1766028583678697667",
+      "sub": "1766028867297529912"
+    },
+    {
+      "title": "Kotori’s passion for cheering on her friends is incredible, but her endurance is off the charts!",
+      "main": "1768562793937010698",
+      "sub": "1768564037758177546"
+    },
+    {
+      "title": "No gold medal prize can compare to food in the eyes of the Gourmet Research Society!",
+      "main": "1771099507960222125",
+      "sub": "1771099837435453778"
+    },
+    {
+      "title": "Ah! Sensei! Don't misunderstand!It didn't stop because the robot's too weak to carry Yuuka!Nothing like that!",
+      "main": "1773638728788918734",
+      "sub": "1773639095220117581",
+      "fix": "1774044337506263426"
+    },
+    {
+      "title": "We'd tell you to work on your poker face Koharu, but it looks like a guilty conscience needs no accuser! ^-^",
+      "main": "1776172934295605547",
+      "sub": "1776175945990451546"
+    },
+    {
+      "title": "Leave it to Gehenna Academy to think up such mammoth ideas as using the hot springs as a giant hot pot!What imagination!",
+      "main": "1778712159050190977",
+      "sub": "1778712426374177158"
+    },
+    {
+      "title": "Shigure's tail looks so soft and fluffy! I totally understand why Nodoka mistook it for a pillow ^^;",
+      "main": "1781246366909370702",
+      "sub": "1781246665720312272"
+    },
+    {
+      "title": "It's just like Kasumi to shamelessly ask for help from one of her sworn enemies...How is she going to dig herself out of this one?!",
+      "main": "1783785589369930184",
+      "sub": "1783787570046058674"
+    },
+    {
+      "title": "It's a rare opportunity to listen to a duet between Utaha and Himari, who both love enka! (But what about fixing Himari's wheelchair?)",
+      "main": "1786319787431518714",
+      "sub": "1786320489331441957"
+    },
+    {
+      "title": "The Engineering Department members sure have an interesting idea of what \"cute\" means!",
+      "main": "1788859019206996139",
+      "sub": "1788859744373096940"
+    },
+    {
+      "title": "It may not be possible to turn back time, but these two are making memories where the happiness of their youth lives forever.",
+      "main": "1791393219487690755",
+      "sub": "1791393457719971906"
+    },
+    {
+      "title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
+      "main": "1793114563606679994",
+      "sub": ""
+    },
+    {
+      "title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
+      "main": "1793476957251723341",
+      "sub": ""
+    },
+    {
+      "title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
+      "main": "1793839337135562950",
+      "sub": ""
+    },
+    {
+      "title": "Misleading people to play tricks can have unintended consequences, you know!",
+      "main": "1793932449300529351",
+      "sub": "1793933003267473896"
+    },
+    {
+      "title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
+      "main": "1794201730004959646",
+      "sub": ""
+    },
+    {
+      "title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
+      "main": "1794564116419346925",
+      "sub": ""
+    },
+    {
+      "title": "Shall we take a look at how each zone for the 2.5-Year Anniversary Celebration was created?",
+      "main": "1794926506096947345",
+      "sub": ""
+    },
+    {
+      "title": "Oh, Renge! How does one even get that tangled just from cat's cradle...? ^^;",
+      "main": "1796466655817576558",
+      "sub": "1796466895727755468"
+    },
+    {
+      "title": "Kikyou is carving chess pieces using her classmates as models!She seems to be working especially hard on one in particular…Wait, is that Yukari?",
+      "main": "1799005879687315599",
+      "sub": "1799006123703648760"
+    },
+    {
+      "title": "I guess the purpose of a suit...is what you use it for! 🤔",
+      "main": "1801540084312813952",
+      "sub": "1801541362518790167"
+    },
+    {
+      "title": "Hey, Neru? Can we just quickly review what \"stealth mission\" means?",
+      "main": "1804079309637980571",
+      "sub": "1804079643722682697"
+    },
+    {
+      "title": "Login rewards and daily quests are vital for mobile gamers!",
+      "main": "1806613513328119898",
+      "sub": "1806615397820440974"
+    },
+    {
+      "title": "They're difficult to cook, but homemade meals can be so delicious!",
+      "main": "1809152739613593667",
+      "sub": "1809153602004627605"
+    },
+    {
+      "title": "Aru's bib is so pretty, Sensei! It prevents stains and it steals my heart!",
+      "main": "1811686943727481207",
+      "sub": "1811688773274484865",
+      "_sub": "1811687178369683874"
+    },
+    {
+      "title": "The Arius Squad members are enjoying a rare and precious shopping trip!Seeing them happy brings a smile to my face.☘",
+      "main": "1814226169656496294",
+      "sub": "1814227170262433815"
+    },
+    {
+      "title": "Ibuki is pretty set on her preferences!You should take notes, Sensei. 🍮",
+      "main": "1816760368103825422",
+      "sub": "1816760819595759791"
+    },
+    {
+      "title": "Hina practices like it's the real thing, and makes the real thing look like practice!^^And if her fingers can't reach all the keys, well, blame the sheet music!",
+      "main": "1819299599829340459",
+      "sub": "1819300300504932694"
+    },
+    {
+      "title": "Er... Kirino, that's... not what happened.Well... Never mind. Keep up the good work.",
+      "main": "1821833810574766231",
+      "sub": "1821834117711065404"
+    },
+    {
+      "title": "The Remedial Knights and the Medical Emergency Club have joined forces to bring in the corpses... er, patients.🎵Medicine knows no borders!",
+      "main": "1824373030489034789",
+      "_main": "1824373030426120266",
+      "sub": "1824373692006048092",
+      "_sub": "1824375539584626887"
+    },
+    {
+      "title": "It's Kayoko, who is trusted by the members of Problem Solver 68.But Sensei, this infiltration mission seems a bit different from what I’m used to. @_@",
+      "main": "1829446460238078045",
+      "sub": "1829448023774232789"
+    },
+    {
+      "title": "It may have been an accident, but at least Fuuka got to see the sunrise! Thanks, Akari! ✨",
+      "main": "1831980830086123577",
+      "sub": "1831981119119745478"
+    },
+    {
+      "title": "Sensei! Junko got a Great Blessing, the rarest of the rare!Congratulations on your bright future—huh?!",
+      "main": "1834517438698033644",
+      "sub": "1834517689747882170"
+    },
+    {
+      "title": "Ui looks so cool in those glasses when she's hard at work!But what's with that look on Hanako's face❓❓",
+      "main": "1837056605608681668",
+      "sub": "1837056772655436084"
+    },
+    {
+      "title": "I want to hear Umika's singing too! ♬For your safety, please keep your seatbelt buckled while on the bus! 🚍",
+      "main": "1839590807583740297",
+      "sub": "1839591021832974363"
+    },
+    {
+      "title": "Sensei, are you enjoying the Hyakkiyako field trip?Let's take a breather and recharge during the break!",
+      "main": "1842128296106156295",
+      "sub": "1842128352976781820"
+    },
+    {
+      "title": "Uzawa tags along with the After-School Sweets Club!",
+      "main": "1844664917871501794",
+      "sub": "1844664976931442808"
+    },
+    {
+      "title": "It's the fighting game showdown of the century: Neru vs. Toki!One's a hardcore veteran, but the other can control the Abi-Eshuh. Who will win?",
+      "main": "1847203634079035466",
+      "sub": "1847203678501146875"
+    },
+    {
+      "title": "Ba-dum-TSS!Natsu's holding a lesson on all the different ways to utilize a broken stick today!😁",
+      "main": "1849737667245736206",
+      "sub": "1849738223133786605"
+    },
+    {
+      "title": "Airi says mint sweets can soothe a sore throat......but can they really?",
+      "main": "1852276895968121320",
+      "sub": "1852277208066486449"
+    },
+    {
+      "title": "Shall we check out the daily activities of Twinkle Twinkle Club? They could really use an extra few hours in the day!It seems like Kirara just never gets tired! @_@",
+      "main": "1854811103043203264",
+      "sub": "1854811415183515783"
+    },
+    {
+      "title": "We're witnesses to Mina's lucky♣ event! Her daily life is noir!The seasons must be changing, Sensei! I can see your breath in the air.Make sure you don't catch a cold! ☕",
+      "main": "1857350502465560734",
+      "sub": "1857350566445461866"
+    },
+    {
+      "title": "Nothing gets by Yuuka!In their defense, meeting deadlines sure is hard! (´·×·`)💦",
+      "main": "1859884524554932247",
+      "sub": "1859884731812524066"
+    },
+    {
+      "title": "Last episode, Yuzu fell asleep in her box and got trapped! What fate awaits her now?!Gah──!!",
+      "main": "1862423756393914818",
+      "sub": "1862424030424469722"
+    },
+    {
+      "title": "It's BBQ time for the Foreclosure Task Force!Serika's right, Sensei. It's important to keep a balanced diet!",
+      "main": "1864960809656553677",
+      "sub": "1864960953546346886"
+    },
+    {
+      "title": "It's okay, Serika! After all, discounts are life! 💳",
+      "main": "1867494677202513934",
+      "sub": "1867494886695649304"
+    },
+    {
+      "title": "Chise's ninjutsu is so cute, it's dangerous! ❤",
+      "main": "1870033901823111180",
+      "sub": "1870034066193690750"
+    },
+    {
+      "title": "Water safety is important!Always wear life vest when going into the water, even if doing so is a bit of a...hefty task! 💦",
+      "main": "1872568491414557169",
+      "sub": "1872568581109751963"
+    },
+    {
+      "title": "Rabu... You enjoyed the festival food to the fullest! (^-^; )It's important to replenish your calories after playing the water anyways!",
+      "main": "1876193596824801364",
+      "sub": "1876193596824801364"
+    },
+    {
+      "title": "Moe's! Favorite! Game! Of! Chance! 🎇A ridiculously dangerous game of chance!",
+      "main": "1877642067611967907",
+      "sub": "1877642337553445360"
+    },
+    {
+      "title": "A cute side of Hina... How precious! 💘Thank you for the exclusive report, Chiaki!",
+      "main": "1880178256818892825",
+      "sub": "1880178663515378175"
+    },
+    {
+      "title": "Hoshino treated Shiroko with some cotton candy as appreciation!But... why was Shiroko wearing a mask? Could it be a secret? 🤔",
+      "main": "1882714965049561111",
+      "sub": "1882716251627418055"
+    }
+  ]
 }

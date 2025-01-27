@@ -1,354 +1,694 @@
 <!DOCTYPE html>
-<html lang="ja" style="font-size:20px;">
-<head>
-	<meta charset="utf-8">
-	<title>BlueArchive Support Tools</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="icon" href="./favicon.svg" type="image/svg+xml">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon-precomposed.png">
-	<link rel="stylesheet" href="./style.css">
-	<script src="./app.js" defer></script>
-	<style>
-:root {
---explosive-front: #8c030a; --penetration-front: #bb890b; --mystic-front: #246f99; --sonic-front: #7d5594;
---explosive-back: #f7d2d4; --penetration-back: #fff3d4; --mystic-back: #bae0f5; --sonic-back: #e1baf7;
---light-front: var(--explosive-front); --heavy-front: var(--penetration-front); --special-front: var(--mystic-front); --elastic-front: var(--sonic-front);
---light-back: var(--explosive-back); --heavy-back: var(--penetration-back); --special-back: var(--mystic-back); --elastic-back: var(--sonic-back);
-}
-section-pages{--home-icon: url(./favicon.svg);}
-section > div { display: flex; flex-direction: column; width: 100vw; height: 100%; overflow: auto; }
-td label{display:flex;align-items:center;justify-content:center;}
-tr[data-damage="explosive"] { --row-back: var(--explosive-back); }
-tr[data-damage="penetration"] { --row-back: var(--penetration-back); }
-tr[data-damage="mystic"] { --row-back: var(--mystic-back); }
-tr[data-damage="sonic"] { --row-back: var(--sonic-back); }
-tr[data-armor="light"] { --row-line: var(--light-front); }
-tr[data-armor="heavy"] { --row-line: var(--heavy-front); }
-tr[data-armor="special"] { --row-line: var(--special-front); }
-tr[data-armor="elastic"] { --row-line: var(--elastic-front); }
-tr{background: var(--row-back); }
-thead tr { position: sticky; z-index: 1; top: 0; background: #8ca6bb; }
-#students td { border-top: solid 4px var(--row-line); border-bottom: solid 4px var(--row-line); }
-#students_header td{text-align:center;}
-td input {background:rgba(255,255,255,0.5);border:none;outline:none;width:100%;box-sizing:border-box;}
-tr[data-damage] .damage::before, tr[data-armor] .armor::before, tr[data-role] .role::before { content:''; display: block; width: 1.2rem; height: 1.2rem; background-size: cover; background-repeat: no-repeat; margin: auto; }
-tr[data-damage="explosive"] .damage::before{background-image:url(resources/damage_explosive.svg);}
-tr[data-damage="penetration"] .damage::before{background-image:url(resources/damage_penetration.svg);}
-tr[data-damage="mystic"] .damage::before{background-image:url(resources/damage_mystic.svg);}
-tr[data-damage="sonic"] .damage::before{background-image:url(resources/damage_sonic.svg);}
-tr[data-armor="light"] .armor::before{background-image:url(resources/armor_light.svg);}
-tr[data-armor="heavy"] .armor::before{background-image:url(resources/armor_heavy.svg);}
-tr[data-armor="special"] .armor::before{background-image:url(resources/armor_special.svg);}
-tr[data-armor="elastic"] .armor::before{background-image:url(resources/armor_elastic.svg);}
-tr[data-combat] .combat::before{ content: ''; display: block; width: 3rem; height: 1.2rem; background-size: cover; background-repeat: no-repeat; margin: auto; }
-tr[data-combat="striker"] .combat::before{background-image:url(resources/combat_striker.svg);}
-tr[data-combat="special"] .combat::before{background-image:url(resources/combat_special.svg);}
-tr[data-role="tank"] .role::before{background-image:url(resources/role_tank.svg);}
-tr[data-role="attacker"] .role::before{background-image:url(resources/role_attacker.svg);}
-tr[data-role="healer"] .role::before{background-image:url(resources/role_healer.svg);}
-tr[data-role="supporter"] .role::before{background-image:url(resources/role_supporter.svg);}
-tr[data-role="tactical_support"] .role::before{background-image:url(resources/role_tactical_support.svg);}
-tr[data-position] .position::before { content: ''; display: block; width: 1.8rem; height: 1.2rem; background-size: cover; background-repeat: no-repeat; margin: auto; }
-tr[data-position="front"] .position::before{background-image:url(resources/position_front.svg);}
-tr[data-position="middle"] .position::before{background-image:url(resources/position_middle.svg);}
-tr[data-position="back"] .position::before{background-image:url(resources/position_back.svg);}
-tr[data-use_cover] .use_cover::before { content: ''; display:block; width:1.2rem; height:1.2rem; background-size:cover; background-repeat: no-repeat; background-image: url(resources/cover.svg); margin: auto; }
-.base_rarity input-star {--enable: #fdfd0d;}
-.unique_weapon input-star {--enable: #3dd6e3; --disable: #6f9092;}
-tr:not([data-has]) .rarity input-star, tr:not([data-has]) .uniqueWeapon input-star, tr:not([data-has]) .uniqueGear input-star { --enable: gray; }
-tr[data-obtain] .base_rarity input-star {--enable: #ee6d6d; }
-tr.hide { display: none; }
-.role, .gun, .use_cover, .urban, .outdoors, .indoors, .school, .age, .birthday, .height { text-align: center; }
-.urban, .outdoors, .indoors { font-size: 0; }
-dialog dl { display: flex; flex-wrap: wrap; gap: 0.5rem; user-select: none; overflow: auto; padding: 0.5rem 1rem 1rem;}
-dialog dt { border-bottom: dotted 2px #ced5db; width: 100%; }
-dialog dt::before { content: ''; height: 0.8rem; width:4px; background: #92d8fa; display: inline-block; margin-right: 0.2rem; }
-dialog dd + dt { border-top: solid 2px #ced5db; padding-top: 0.5rem; }
-dialog dd { margin: 0; }
-input-check.w4 { width: 5rem; }
-input-check.w9 { width: 10rem; }
-input-check img { width: 3rem; height: 1rem; display: block; }
-input-check[group="base_rarity"] input-star {--enable: #fdfd0d;}
-input-check[group="unique_weapon"] input-star {--enable: #3dd6e3;}
-.buttons { display: flex; justify-content: center; padding: 0.5rem; }
-.buttons button.ok { font-size: 2rem; position: relative; border: none; background: transparent; background: transparent; padding: 0 1.5em; cursor: pointer; }
-.buttons button.ok > * { position: relative; z-index: 2;}
-.buttons button.ok::before { content: ''; display: block; transform: skewX(-20deg); background: #91dcfb; width: 81%; height: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; border-radius: 0.25em; }
-.option_buttons { display: flex; }
-.option_buttons button { position: relative; border: none; background: transparent; background: transparent; padding: 0 1.5em; cursor: pointer; height: 2em; }
-.option_buttons button > * { position: relative; z-index: 2; cursor: pointer; }
-.option_buttons button > input { background: transparent; border: none; outline: none; }
-.option_buttons button::before { content: ''; display: block; transform: skewX(-20deg); background: #fff; width: 81%; height: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; border-radius: 0.25em; }
-.option_buttons button + button { margin-left: -0.8rem; }
-.option_buttons button label input { display: none; }
-#students_header label { overflow: hidden; display: block; width: 100%; height: 1.2rem; position: relative; }
-#students_header label:hover button { display: block; position: absolute; width: 100%; height: 100%; top: 0; left: 0; padding: 0; }
-#students_header label:not(:hover) button { display: none; }
-#students_header label[data-order] { background-size: auto 200%; background-repeat: no-repeat; background-position: center; background-image: url(./resources/sortback.svg); }
-#students_header label[data-order="asc"] { background-position: top; }
-#students_header label[data-order="desc"] { background-position: bottom; }
-#students_header label button::before { content: '－'; display: inline; }
-#students_header label[data-order="asc"] button::before { content: '▲'; }
-#students_header label[data-order="desc"] button::before { content: '▼'; }
-#report_dialog dd::before { display: inline-block; }
-#report_dialog dd.wide { width: 100%; padding-left: 5rem; box-sizing: border-box; position: relative; }
-#report_dialog dd.wide::before { position: absolute; right: calc(100% - 4rem); }
-#report_all_students::before { content: '/'; }
-#report_rarity_1::before { content: '★1'; }
-#report_rarity_2::before { content: '★2'; }
-#report_rarity_3::before { content: '★3'; }
-#report_rarity_4::before { content: '★4'; }
-#report_rarity_5::before { content: '★5'; }
-#report_unique_weapon_0::before { content: '未所持'; }
-#report_unique_weapon_1::before { content: '★1'; }
-#report_unique_weapon_2::before { content: '★2'; }
-#report_unique_weapon_3::before { content: '★3'; }
-#report_unique_gear_0::before { content: '未所持'; }
-#report_unique_gear_1::before { content: '★1'; }
-#report_unique_gear_2::before { content: '★2'; }
-#report_need_eligma_rarity::before { content: '全員★5'; }
-#students_header td, #students .name, #students .school { white-space: nowrap; }
-input.warning { background: #eb5757; color: white; }
-td[data-affinity]::before { content: ''; display: block; width: 1rem; height: 1rem; background-size: contain; background-repeat: no-repeat; background-image: var(--affinity-icon); margin: auto; }
-[data-affinity="d"] { --affinity-icon: url(resources/affinity_d.svg); }
-[data-affinity="c"] { --affinity-icon: url(resources/affinity_c.svg); }
-[data-affinity="b"] { --affinity-icon: url(resources/affinity_b.svg); }
-[data-affinity="a"] { --affinity-icon: url(resources/affinity_a.svg); }
-[data-affinity="s"] { --affinity-icon: url(resources/affinity_s.svg); }
-[data-affinity="ss"] { --affinity-icon: url(resources/affinity_ss.svg); }
-td[data-affinity].diff { background: rgba(255,255,255,0.9); }
-	</style>
-	<script>
-const ANOTHER_NAME = {
-	swimsuit: '水着',
-	riding: 'ライディング',
-	bunny_girl: 'バニーガール',
-	maid: 'メイド',
-	new_year: '正月',
-	sportswear: '体操服',
-	christmas: 'クリスマス',
-	hot_spring: '温泉',
-	cheerleader: '応援団',
-	kid: '幼女',
-	casual: '私服',
-	camp: 'キャンプ',
-	dress: 'ドレス',
-	guide: 'ガイド',
-	band: 'バンド',
-	combat: '臨戦',
-	qipao: 'チーパオ',
-	idol: 'アイドル',
-	pajamas: 'パジャマ',
-};
-const LABEL = {
-	limited: '限定',
-	event: 'イベント',
-};
-const SCHOOL = {
-	hyakkiyako: '百鬼夜行',
-	red_winter: 'レッドウィンター',
-	trinity: 'トリニティ',
-	gehenna: 'ゲヘナ',
-	abydos: 'アビドス',
-	millennium: 'ミレニアム',
-	arius: 'アリウス',
-	shanhaijing: '山海経',
-	valkyrie: 'ヴァルキューレ',
-	srt: 'SRT',
-	sakugawa: '柵川中学',
-	tokiwadai: '常盤台中学',
-	etc: 'その他',
-};
-	</script>
-</head>
-<body data-page="students">
-	<section-pages main="page_students" home="./">
-		<section id="page_home" data-name="このサイトについて">
-			<div>
-				<h1>ブルーアーカイブのツールとか</h1>
-				<p><a href="https://twitter.com/azulitenet">作者</a>がブルアカを日々プレイする上で必要な値やツールの一覧です。</p>
-			</div>
-		</section>
-		<section id="page_students" data-name="生徒一覧">
-			<div>
-				<h2>
-					生徒一覧
-					<div class="option_buttons">
-						<button><input type="text" placeholder="名前" id="search_students"></button>
-						<button id="filter"><span>フィルター</span></button>
-						<button id="report"><span>レポート</span></button>
-						<button id="download_students"><span>ダウンロード</span></button>
-						<button><label>インポート<input type="file" accept=".csv" id="import_students"></label></button>
-					</div>
-				</h2>
-				<div style="overflow-x:auto;padding-bottom:3rem;">
-					<table style="border-spacing:0;margin:auto">
-						<thead>
-							<tr id="students_header">
-								<td><label data-type="boolean" data-key="has">所持<button></button></label></td>
-								<td><label data-type="name" data-key="name">名前<button></button></label></td>
-								<td><label data-type="damage" data-key="damage">攻<button></button></label></td>
-								<td><label data-type="armor" data-key="armor">防<button></button></label></td>
-								<td><label data-type="combat" data-key="combat">クラス<button></button></label></td>
-								<td><label data-type="role" data-key="role">役割<button></button></label></td>
-								<td><label data-type="position" data-key="position">場所<button></button></label></td>
-								<td><label data-type="gun" data-key="gun">武器<button></button></label></td>
-								<td><label data-type="number" data-key="base_rarity">初期★<button></button></label></td>
-								<td><label data-type="number" data-key="rarity">現在の★<button></button></label></td>
-								<td><label data-type="number" data-key="unique_weapon">固有<button></button></label></td>
-								<td><label data-type="number" data-key="unique_gear">愛用品<button></button></label></td>
-								<td><label data-type="number" data-key="eligma">欠片<button></button></label></td>
-								<td><label data-type="number" data-key="affection">絆LV<button></button></label></td>
-								<td><label data-type="boolean" data-key="use_cover">障害物<button></button></label></td>
-								<td><label data-type="affinity" data-key="urban">市街地<button></button></label></td>
-								<td><label data-type="affinity" data-key="outdoors">屋外<button></button></label></td>
-								<td><label data-type="affinity" data-key="indoors">屋内<button></button></label></td>
-								<td><label data-type="school" data-key="school">学校<button></button></label></td>
-								<td><label data-type="age" data-key="age">年齢<button></button></label></td>
-								<td><label data-type="string" data-key="birthday">誕生日<button></button></label></td>
-								<td><label data-type="number" data-key="height">身長<button></button></label></td>
-							</tr>
-						</thead>
-						<tbody id="students">
-							<template>
-								<td class="has"><label><input type="checkbox"></label></td>
-								<td class="name"></td>
-								<td class="damage"></td>
-								<td class="armor"></td>
-								<td class="combat"></td>
-								<td class="role"></td>
-								<td class="position"></td>
-								<td class="gun"></td>
-								<td class="base_rarity"><input-star min="1" max="3" readonly></input-star></td>
-								<td class="rarity"><input-star min="1" max="5" disabled></input-star></td>
-								<td class="unique_weapon"><input-star min="0" max="3" disabled></input-star></td>
-								<td class="unique_gear"><input-star min="0" max="2" disabled></input-star></td>
-								<td class="eligma"><input type="number" step="1" min="0" max="999" value="0"></td>
-								<td class="affection"><input type="number" step="1" min="0" max="100" value="0"></td>
-								<td class="use_cover"></td>
-								<td class="urban"></td>
-								<td class="outdoors"></td>
-								<td class="indoors"></td>
-								<td class="school"></td>
-								<td class="age"></td>
-								<td class="birthday"></td>
-								<td class="height"></td>
-							</template>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<dialog id="filter_dialog">
-				<div>
-					<h3>
-						フィルター
-						<div class="option_buttons">
-							<button class="reset"><span>↻フィルタ初期化</span></button>
-						</div>
-					</h3>
-					<dl>
-						<dt>クラス</dt>
-						<dd><input-check class="w4" group="combat" value="striker"><img src="resources/combat_striker.svg"></input-check></dd>
-						<dd><input-check class="w4" group="combat" value="special"><img src="resources/combat_special.svg"></input-check></dd>
-						<dt>攻撃タイプ</dt>
-						<dd><input-check class="w4" group="damage" value="explosive"><img src="resources/damage_explosive.svg"></input-check></dd>
-						<dd><input-check class="w4" group="damage" value="penetration"><img src="resources/damage_penetration.svg"></input-check></dd>
-						<dd><input-check class="w4" group="damage" value="mystic"><img src="resources/damage_mystic.svg"></input-check></dd>
-						<dd><input-check class="w4" group="damage" value="sonic"><img src="resources/damage_sonic.svg"></input-check></dd>
-						<dt>防御タイプ</dt>
-						<dd><input-check class="w4" group="armor" value="light"><img src="resources/armor_light.svg"></input-check></dd>
-						<dd><input-check class="w4" group="armor" value="heavy"><img src="resources/armor_heavy.svg"></input-check></dd>
-						<dd><input-check class="w4" group="armor" value="special"><img src="resources/armor_special.svg"></input-check></dd>
-						<dd><input-check class="w4" group="armor" value="elastic"><img src="resources/armor_elastic.svg"></input-check></dd>
-						<dt>役割</dt>
-						<dd><input-check class="w4" group="role" value="tank"><img src="resources/role_tank.svg"></input-check></dd>
-						<dd><input-check class="w4" group="role" value="attacker"><img src="resources/role_attacker.svg"></input-check></dd>
-						<dd><input-check class="w4" group="role" value="healer"><img src="resources/role_healer.svg"></input-check></dd>
-						<dd><input-check class="w4" group="role" value="supporter"><img src="resources/role_supporter.svg"></input-check></dd>
-						<dd><input-check class="w4" group="role" value="tactical_support"><img src="resources/role_tactical_support.svg"></input-check></dd>
-						<dt>ポジション</dt>
-						<dd><input-check class="w4" group="position" value="back"><img src="resources/position_back_button.svg"></input-check></dd>
-						<dd><input-check class="w4" group="position" value="middle"><img src="resources/position_middle_button.svg"></input-check></dd>
-						<dd><input-check class="w4" group="position" value="front"><img src="resources/position_front_button.svg"></input-check></dd>
-						<dt>初期レアリティ</dt>
-						<dd><input-check class="w4" group="base_rarity" value="1"><input-star min="1" value="1"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="base_rarity" value="2"><input-star min="2" value="2"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="base_rarity" value="3"><input-star min="3" value="3"></input-star></input-check></dd>
-						<dt>レアリティ</dt>
-						<dd><input-check class="w4" group="rarity" value="1"><input-star min="1" value="1"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="rarity" value="2"><input-star min="2" value="2"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="rarity" value="3"><input-star min="3" value="3"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="rarity" value="4"><input-star min="4" value="4" style="--space:-0.2rem"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="rarity" value="5"><input-star min="5" value="5" style="--space:-0.4rem"></input-star></input-check></dd>
-						<dt>固有武器</dt>
-						<dd><input-check class="w4" group="unique_weapon" value="0">未装備</input-check></dd>
-						<dd><input-check class="w4" group="unique_weapon" value="1"><input-star min="1" value="1"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="unique_weapon" value="2"><input-star min="2" value="2"></input-star></input-check></dd>
-						<dd><input-check class="w4" group="unique_weapon" value="3"><input-star min="3" value="3"></input-star></input-check></dd>
-						<dt>武器タイプ</dt>
-						<dd><input-check class="w4" group="gun" value="SG">SG</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="SMG">SMG</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="AR">AR</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="GL">GL</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="HG">HG</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="RL">RL</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="SR">SR</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="RG">RG</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="MG">MG</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="MT">MT</input-check></dd>
-						<dd><input-check class="w4" group="gun" value="FT">FT</input-check></dd>
-						<dt>学園</dt>
-						<dd><input-check class="w9" group="school" value="hyakkiyako">百鬼夜行</input-check></dd>
-						<dd><input-check class="w9" group="school" value="red_winter">レッドウィンター</input-check></dd>
-						<dd><input-check class="w9" group="school" value="trinity">トリニティ</input-check></dd>
-						<dd><input-check class="w9" group="school" value="gehenna">ゲヘナ</input-check></dd>
-						<dd><input-check class="w9" group="school" value="abydos">アビドス</input-check></dd>
-						<dd><input-check class="w9" group="school" value="millennium">ミレニアム</input-check></dd>
-						<dd><input-check class="w9" group="school" value="arius">アリウス</input-check></dd>
-						<dd><input-check class="w9" group="school" value="shanhaijing">山海経</input-check></dd>
-						<dd><input-check class="w9" group="school" value="valkyrie">ヴァルキューレ</input-check></dd>
-						<dd><input-check class="w9" group="school" value="srt">SRT</input-check></dd>
-						<dd><input-check class="w9" group="school" value="etc">その他</input-check></dd>
-					</dl>
-					<div class="buttons">
-						<button class="ok"><span>確認</span></button>
-					</div>
-				</div>
-			</dialog>
-			<dialog id="report_dialog">
-				<div>
-					<h3>
-						レポート
-					</h3>
-					<dl>
-						<dt>所持生徒</dt>
-						<dd id="report_has_students" style="width:4rem;text-align:right"></dd>
-						<dd id="report_all_students" style="font-size:0.8rem;line-height:1.6rem;overflow:hidden;height:1.2rem;"></dd>
-						<dt>レアリティ</dt>
-						<dd id="report_rarity_1" class="wide"></dd>
-						<dd id="report_rarity_2" class="wide"></dd>
-						<dd id="report_rarity_3" class="wide"></dd>
-						<dd id="report_rarity_4" class="wide"></dd>
-						<dd id="report_rarity_5" class="wide"></dd>
-						<dt>固有武器</dt>
-						<dd id="report_unique_weapon_0" class="wide"></dd>
-						<dd id="report_unique_weapon_1" class="wide"></dd>
-						<dd id="report_unique_weapon_2" class="wide"></dd>
-						<dd id="report_unique_weapon_3" class="wide"></dd>
-						<dt>愛用品</dt>
-						<dd id="report_unique_gear_0" class="wide"></dd>
-						<dd id="report_unique_gear_1" class="wide"></dd>
-						<dd id="report_unique_gear_2" class="wide"></dd>
-						<dt>必要神名の欠片数（レートは欠片5=1神名文字）</dt>
-						<dd id="report_need_eligma_rarity" class="wide"></dd>
-					</dl>
-				</div>
-			</dialog>
-		</section>
-		<a href="./silhouette/">身長</a>
-	</section-pages>
-</body>
+<html lang="ja" style="font-size: 20px">
+  <head>
+    <meta charset="utf-8">
+    <title>BlueArchive Support Tools</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon-precomposed.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <style>
+      :root {
+        --explosive-front: #8c030a;
+        --penetration-front: #bb890b;
+        --mystic-front: #246f99;
+        --sonic-front: #7d5594;
+        --explosive-back: #f7d2d4;
+        --penetration-back: #fff3d4;
+        --mystic-back: #bae0f5;
+        --sonic-back: #e1baf7;
+        --light-front: var(--explosive-front);
+        --heavy-front: var(--penetration-front);
+        --special-front: var(--mystic-front);
+        --elastic-front: var(--sonic-front);
+        --light-back: var(--explosive-back);
+        --heavy-back: var(--penetration-back);
+        --special-back: var(--mystic-back);
+        --elastic-back: var(--sonic-back);
+      }
+      section-pages {
+        --home-icon: url(./favicon.svg);
+      }
+      section > div {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+        overflow: auto;
+      }
+      td label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      tr[data-damage='explosive'] {
+        --row-back: var(--explosive-back);
+      }
+      tr[data-damage='penetration'] {
+        --row-back: var(--penetration-back);
+      }
+      tr[data-damage='mystic'] {
+        --row-back: var(--mystic-back);
+      }
+      tr[data-damage='sonic'] {
+        --row-back: var(--sonic-back);
+      }
+      tr[data-armor='light'] {
+        --row-line: var(--light-front);
+      }
+      tr[data-armor='heavy'] {
+        --row-line: var(--heavy-front);
+      }
+      tr[data-armor='special'] {
+        --row-line: var(--special-front);
+      }
+      tr[data-armor='elastic'] {
+        --row-line: var(--elastic-front);
+      }
+      tr {
+        background: var(--row-back);
+      }
+      thead tr {
+        position: sticky;
+        z-index: 1;
+        top: 0;
+        background: #8ca6bb;
+      }
+      #students td {
+        border-top: solid 4px var(--row-line);
+        border-bottom: solid 4px var(--row-line);
+      }
+      #students_header td {
+        text-align: center;
+      }
+      td input {
+        background: rgba(255, 255, 255, 0.5);
+        border: none;
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      tr[data-damage] .damage::before, tr[data-armor] .armor::before, tr[data-role] .role::before {
+        content: '';
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+      }
+      tr[data-damage='explosive'] .damage::before {
+        background-image: url(resources/damage_explosive.svg);
+      }
+      tr[data-damage='penetration'] .damage::before {
+        background-image: url(resources/damage_penetration.svg);
+      }
+      tr[data-damage='mystic'] .damage::before {
+        background-image: url(resources/damage_mystic.svg);
+      }
+      tr[data-damage='sonic'] .damage::before {
+        background-image: url(resources/damage_sonic.svg);
+      }
+      tr[data-armor='light'] .armor::before {
+        background-image: url(resources/armor_light.svg);
+      }
+      tr[data-armor='heavy'] .armor::before {
+        background-image: url(resources/armor_heavy.svg);
+      }
+      tr[data-armor='special'] .armor::before {
+        background-image: url(resources/armor_special.svg);
+      }
+      tr[data-armor='elastic'] .armor::before {
+        background-image: url(resources/armor_elastic.svg);
+      }
+      tr[data-combat] .combat::before {
+        content: '';
+        display: block;
+        width: 3rem;
+        height: 1.2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+      }
+      tr[data-combat='striker'] .combat::before {
+        background-image: url(resources/combat_striker.svg);
+      }
+      tr[data-combat='special'] .combat::before {
+        background-image: url(resources/combat_special.svg);
+      }
+      tr[data-role='tank'] .role::before {
+        background-image: url(resources/role_tank.svg);
+      }
+      tr[data-role='attacker'] .role::before {
+        background-image: url(resources/role_attacker.svg);
+      }
+      tr[data-role='healer'] .role::before {
+        background-image: url(resources/role_healer.svg);
+      }
+      tr[data-role='supporter'] .role::before {
+        background-image: url(resources/role_supporter.svg);
+      }
+      tr[data-role='tactical_support'] .role::before {
+        background-image: url(resources/role_tactical_support.svg);
+      }
+      tr[data-position] .position::before {
+        content: '';
+        display: block;
+        width: 1.8rem;
+        height: 1.2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+      }
+      tr[data-position='front'] .position::before {
+        background-image: url(resources/position_front.svg);
+      }
+      tr[data-position='middle'] .position::before {
+        background-image: url(resources/position_middle.svg);
+      }
+      tr[data-position='back'] .position::before {
+        background-image: url(resources/position_back.svg);
+      }
+      tr[data-use_cover] .use_cover::before {
+        content: '';
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(resources/cover.svg);
+        margin: auto;
+      }
+      .base_rarity input-star {
+        --enable: #fdfd0d;
+      }
+      .unique_weapon input-star {
+        --enable: #3dd6e3;
+        --disable: #6f9092;
+      }
+      tr:not([data-has]) .rarity input-star, tr:not([data-has]) .uniqueWeapon input-star, tr:not([data-has]) .uniqueGear input-star {
+        --enable: gray;
+      }
+      tr[data-obtain] .base_rarity input-star {
+        --enable: #ee6d6d;
+      }
+      tr.hide {
+        display: none;
+      }
+      .role, .gun, .use_cover, .urban, .outdoors, .indoors, .school, .age, .birthday, .height {
+        text-align: center;
+      }
+      .urban, .outdoors, .indoors {
+        font-size: 0;
+      }
+      dialog dl {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        user-select: none;
+        overflow: auto;
+        padding: 0.5rem 1rem 1rem;
+      }
+      dialog dt {
+        border-bottom: dotted 2px #ced5db;
+        width: 100%;
+      }
+      dialog dt::before {
+        content: '';
+        height: 0.8rem;
+        width: 4px;
+        background: #92d8fa;
+        display: inline-block;
+        margin-right: 0.2rem;
+      }
+      dialog dd + dt {
+        border-top: solid 2px #ced5db;
+        padding-top: 0.5rem;
+      }
+      dialog dd {
+        margin: 0;
+      }
+      input-check.w4 {
+        width: 5rem;
+      }
+      input-check.w9 {
+        width: 10rem;
+      }
+      input-check img {
+        width: 3rem;
+        height: 1rem;
+        display: block;
+      }
+      input-check[group='base_rarity'] input-star {
+        --enable: #fdfd0d;
+      }
+      input-check[group='unique_weapon'] input-star {
+        --enable: #3dd6e3;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+      }
+      .buttons button.ok {
+        font-size: 2rem;
+        position: relative;
+        border: none;
+        background: transparent;
+        background: transparent;
+        padding: 0 1.5em;
+        cursor: pointer;
+      }
+      .buttons button.ok > * {
+        position: relative;
+        z-index: 2;
+      }
+      .buttons button.ok::before {
+        content: '';
+        display: block;
+        transform: skewX(-20deg);
+        background: #91dcfb;
+        width: 81%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 0.25em;
+      }
+      .option_buttons {
+        display: flex;
+      }
+      .option_buttons button {
+        position: relative;
+        border: none;
+        background: transparent;
+        background: transparent;
+        padding: 0 1.5em;
+        cursor: pointer;
+        height: 2em;
+      }
+      .option_buttons button > * {
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+      }
+      .option_buttons button > input {
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+      .option_buttons button::before {
+        content: '';
+        display: block;
+        transform: skewX(-20deg);
+        background: #fff;
+        width: 81%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 0.25em;
+      }
+      .option_buttons button + button {
+        margin-left: -0.8rem;
+      }
+      .option_buttons button label input {
+        display: none;
+      }
+      #students_header label {
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        height: 1.2rem;
+        position: relative;
+      }
+      #students_header label:hover button {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        padding: 0;
+      }
+      #students_header label:not(:hover) button {
+        display: none;
+      }
+      #students_header label[data-order] {
+        background-size: auto 200%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(./resources/sortback.svg);
+      }
+      #students_header label[data-order='asc'] {
+        background-position: top;
+      }
+      #students_header label[data-order='desc'] {
+        background-position: bottom;
+      }
+      #students_header label button::before {
+        content: '－';
+        display: inline;
+      }
+      #students_header label[data-order='asc'] button::before {
+        content: '▲';
+      }
+      #students_header label[data-order='desc'] button::before {
+        content: '▼';
+      }
+      #report_dialog dd::before {
+        display: inline-block;
+      }
+      #report_dialog dd.wide {
+        width: 100%;
+        padding-left: 5rem;
+        box-sizing: border-box;
+        position: relative;
+      }
+      #report_dialog dd.wide::before {
+        position: absolute;
+        right: calc(100% - 4rem);
+      }
+      #report_all_students::before {
+        content: '/';
+      }
+      #report_rarity_1::before {
+        content: '★1';
+      }
+      #report_rarity_2::before {
+        content: '★2';
+      }
+      #report_rarity_3::before {
+        content: '★3';
+      }
+      #report_rarity_4::before {
+        content: '★4';
+      }
+      #report_rarity_5::before {
+        content: '★5';
+      }
+      #report_unique_weapon_0::before {
+        content: '未所持';
+      }
+      #report_unique_weapon_1::before {
+        content: '★1';
+      }
+      #report_unique_weapon_2::before {
+        content: '★2';
+      }
+      #report_unique_weapon_3::before {
+        content: '★3';
+      }
+      #report_unique_gear_0::before {
+        content: '未所持';
+      }
+      #report_unique_gear_1::before {
+        content: '★1';
+      }
+      #report_unique_gear_2::before {
+        content: '★2';
+      }
+      #report_need_eligma_rarity::before {
+        content: '全員★5';
+      }
+      #students_header td, #students .name, #students .school {
+        white-space: nowrap;
+      }
+      input.warning {
+        background: #eb5757;
+        color: white;
+      }
+      td[data-affinity]::before {
+        content: '';
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: var(--affinity-icon);
+        margin: auto;
+      }
+      [data-affinity='d'] {
+        --affinity-icon: url(resources/affinity_d.svg);
+      }
+      [data-affinity='c'] {
+        --affinity-icon: url(resources/affinity_c.svg);
+      }
+      [data-affinity='b'] {
+        --affinity-icon: url(resources/affinity_b.svg);
+      }
+      [data-affinity='a'] {
+        --affinity-icon: url(resources/affinity_a.svg);
+      }
+      [data-affinity='s'] {
+        --affinity-icon: url(resources/affinity_s.svg);
+      }
+      [data-affinity='ss'] {
+        --affinity-icon: url(resources/affinity_ss.svg);
+      }
+      td[data-affinity].diff {
+        background: rgba(255, 255, 255, 0.9);
+      }
+    </style>
+    <script>
+      const ANOTHER_NAME = {
+        swimsuit: '水着',
+        riding: 'ライディング',
+        bunny_girl: 'バニーガール',
+        maid: 'メイド',
+        new_year: '正月',
+        sportswear: '体操服',
+        christmas: 'クリスマス',
+        hot_spring: '温泉',
+        cheerleader: '応援団',
+        kid: '幼女',
+        casual: '私服',
+        camp: 'キャンプ',
+        dress: 'ドレス',
+        guide: 'ガイド',
+        band: 'バンド',
+        combat: '臨戦',
+        qipao: 'チーパオ',
+        idol: 'アイドル',
+        pajamas: 'パジャマ',
+        uniform: '制服',
+      };
+      const LABEL = {
+        limited: '限定',
+        event: 'イベント',
+      };
+      const SCHOOL = {
+        hyakkiyako: '百鬼夜行',
+        red_winter: 'レッドウィンター',
+        trinity: 'トリニティ',
+        gehenna: 'ゲヘナ',
+        abydos: 'アビドス',
+        millennium: 'ミレニアム',
+        arius: 'アリウス',
+        shanhaijing: '山海経',
+        valkyrie: 'ヴァルキューレ',
+        srt: 'SRT',
+        sakugawa: '柵川中学',
+        tokiwadai: '常盤台中学',
+        etc: 'その他',
+      };
+    </script>
+  </head>
+  <body data-page="students">
+    <section-pages main="page_students" home="./">
+      <section id="page_home" data-name="このサイトについて">
+        <div>
+          <h1>ブルーアーカイブのツールとか</h1>
+          <p><a href="https://twitter.com/azulitenet">作者</a>がブルアカを日々プレイする上で必要な値やツールの一覧です。</p>
+        </div>
+      </section>
+      <section id="page_students" data-name="生徒一覧">
+        <div>
+          <h2>
+            生徒一覧
+            <div class="option_buttons">
+              <button><input type="text" placeholder="名前" id="search_students"></button>
+              <button id="filter"><span>フィルター</span></button>
+              <button id="report"><span>レポート</span></button>
+              <button id="download_students"><span>ダウンロード</span></button>
+              <button><label>インポート<input type="file" accept=".csv" id="import_students"></label></button>
+            </div>
+          </h2>
+          <div style="overflow-x: auto; padding-bottom: 3rem">
+            <table style="border-spacing: 0; margin: auto">
+              <thead>
+                <tr id="students_header">
+                  <td><label data-type="boolean" data-key="has">所持<button></button></label></td>
+                  <td><label data-type="name" data-key="name">名前<button></button></label></td>
+                  <td><label data-type="damage" data-key="damage">攻<button></button></label></td>
+                  <td><label data-type="armor" data-key="armor">防<button></button></label></td>
+                  <td><label data-type="combat" data-key="combat">クラス<button></button></label></td>
+                  <td><label data-type="role" data-key="role">役割<button></button></label></td>
+                  <td><label data-type="position" data-key="position">場所<button></button></label></td>
+                  <td><label data-type="gun" data-key="gun">武器<button></button></label></td>
+                  <td><label data-type="number" data-key="base_rarity">初期★<button></button></label></td>
+                  <td><label data-type="number" data-key="rarity">現在の★<button></button></label></td>
+                  <td><label data-type="number" data-key="unique_weapon">固有<button></button></label></td>
+                  <td><label data-type="number" data-key="unique_gear">愛用品<button></button></label></td>
+                  <td><label data-type="number" data-key="eligma">欠片<button></button></label></td>
+                  <td><label data-type="number" data-key="affection">絆LV<button></button></label></td>
+                  <td><label data-type="boolean" data-key="use_cover">障害物<button></button></label></td>
+                  <td><label data-type="affinity" data-key="urban">市街地<button></button></label></td>
+                  <td><label data-type="affinity" data-key="outdoors">屋外<button></button></label></td>
+                  <td><label data-type="affinity" data-key="indoors">屋内<button></button></label></td>
+                  <td><label data-type="school" data-key="school">学校<button></button></label></td>
+                  <td><label data-type="age" data-key="age">年齢<button></button></label></td>
+                  <td><label data-type="string" data-key="birthday">誕生日<button></button></label></td>
+                  <td><label data-type="number" data-key="height">身長<button></button></label></td>
+                </tr>
+              </thead>
+              <tbody id="students">
+                <template>
+                  <td class="has"><label><input type="checkbox"></label></td>
+                  <td class="name"></td>
+                  <td class="damage"></td>
+                  <td class="armor"></td>
+                  <td class="combat"></td>
+                  <td class="role"></td>
+                  <td class="position"></td>
+                  <td class="gun"></td>
+                  <td class="base_rarity"><input-star min="1" max="3" readonly></input-star></td>
+                  <td class="rarity"><input-star min="1" max="5" disabled></input-star></td>
+                  <td class="unique_weapon"><input-star min="0" max="3" disabled></input-star></td>
+                  <td class="unique_gear"><input-star min="0" max="2" disabled></input-star></td>
+                  <td class="eligma"><input type="number" step="1" min="0" max="999" value="0"></td>
+                  <td class="affection"><input type="number" step="1" min="0" max="100" value="0"></td>
+                  <td class="use_cover"></td>
+                  <td class="urban"></td>
+                  <td class="outdoors"></td>
+                  <td class="indoors"></td>
+                  <td class="school"></td>
+                  <td class="age"></td>
+                  <td class="birthday"></td>
+                  <td class="height"></td>
+                </template>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <dialog id="filter_dialog">
+          <div>
+            <h3>
+              フィルター
+              <div class="option_buttons">
+                <button class="reset"><span>↻フィルタ初期化</span></button>
+              </div>
+            </h3>
+            <dl>
+              <dt>クラス</dt>
+              <dd><input-check class="w4" group="combat" value="striker"><img src="resources/combat_striker.svg"></input-check></dd>
+              <dd><input-check class="w4" group="combat" value="special"><img src="resources/combat_special.svg"></input-check></dd>
+              <dt>攻撃タイプ</dt>
+              <dd><input-check class="w4" group="damage" value="explosive"><img src="resources/damage_explosive.svg"></input-check></dd>
+              <dd><input-check class="w4" group="damage" value="penetration"><img src="resources/damage_penetration.svg"></input-check></dd>
+              <dd><input-check class="w4" group="damage" value="mystic"><img src="resources/damage_mystic.svg"></input-check></dd>
+              <dd><input-check class="w4" group="damage" value="sonic"><img src="resources/damage_sonic.svg"></input-check></dd>
+              <dt>防御タイプ</dt>
+              <dd><input-check class="w4" group="armor" value="light"><img src="resources/armor_light.svg"></input-check></dd>
+              <dd><input-check class="w4" group="armor" value="heavy"><img src="resources/armor_heavy.svg"></input-check></dd>
+              <dd><input-check class="w4" group="armor" value="special"><img src="resources/armor_special.svg"></input-check></dd>
+              <dd><input-check class="w4" group="armor" value="elastic"><img src="resources/armor_elastic.svg"></input-check></dd>
+              <dt>役割</dt>
+              <dd><input-check class="w4" group="role" value="tank"><img src="resources/role_tank.svg"></input-check></dd>
+              <dd><input-check class="w4" group="role" value="attacker"><img src="resources/role_attacker.svg"></input-check></dd>
+              <dd><input-check class="w4" group="role" value="healer"><img src="resources/role_healer.svg"></input-check></dd>
+              <dd><input-check class="w4" group="role" value="supporter"><img src="resources/role_supporter.svg"></input-check></dd>
+              <dd><input-check class="w4" group="role" value="tactical_support"><img src="resources/role_tactical_support.svg"></input-check></dd>
+              <dt>ポジション</dt>
+              <dd><input-check class="w4" group="position" value="back"><img src="resources/position_back_button.svg"></input-check></dd>
+              <dd><input-check class="w4" group="position" value="middle"><img src="resources/position_middle_button.svg"></input-check></dd>
+              <dd><input-check class="w4" group="position" value="front"><img src="resources/position_front_button.svg"></input-check></dd>
+              <dt>初期レアリティ</dt>
+              <dd><input-check class="w4" group="base_rarity" value="1"><input-star min="1" value="1"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="base_rarity" value="2"><input-star min="2" value="2"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="base_rarity" value="3"><input-star min="3" value="3"></input-star></input-check></dd>
+              <dt>レアリティ</dt>
+              <dd><input-check class="w4" group="rarity" value="1"><input-star min="1" value="1"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="rarity" value="2"><input-star min="2" value="2"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="rarity" value="3"><input-star min="3" value="3"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="rarity" value="4"><input-star min="4" value="4" style="--space: -0.2rem"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="rarity" value="5"><input-star min="5" value="5" style="--space: -0.4rem"></input-star></input-check></dd>
+              <dt>固有武器</dt>
+              <dd><input-check class="w4" group="unique_weapon" value="0">未装備</input-check></dd>
+              <dd><input-check class="w4" group="unique_weapon" value="1"><input-star min="1" value="1"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="unique_weapon" value="2"><input-star min="2" value="2"></input-star></input-check></dd>
+              <dd><input-check class="w4" group="unique_weapon" value="3"><input-star min="3" value="3"></input-star></input-check></dd>
+              <dt>武器タイプ</dt>
+              <dd><input-check class="w4" group="gun" value="SG">SG</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="SMG">SMG</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="AR">AR</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="GL">GL</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="HG">HG</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="RL">RL</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="SR">SR</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="RG">RG</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="MG">MG</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="MT">MT</input-check></dd>
+              <dd><input-check class="w4" group="gun" value="FT">FT</input-check></dd>
+              <dt>学園</dt>
+              <dd><input-check class="w9" group="school" value="hyakkiyako">百鬼夜行</input-check></dd>
+              <dd><input-check class="w9" group="school" value="red_winter">レッドウィンター</input-check></dd>
+              <dd><input-check class="w9" group="school" value="trinity">トリニティ</input-check></dd>
+              <dd><input-check class="w9" group="school" value="gehenna">ゲヘナ</input-check></dd>
+              <dd><input-check class="w9" group="school" value="abydos">アビドス</input-check></dd>
+              <dd><input-check class="w9" group="school" value="millennium">ミレニアム</input-check></dd>
+              <dd><input-check class="w9" group="school" value="arius">アリウス</input-check></dd>
+              <dd><input-check class="w9" group="school" value="shanhaijing">山海経</input-check></dd>
+              <dd><input-check class="w9" group="school" value="valkyrie">ヴァルキューレ</input-check></dd>
+              <dd><input-check class="w9" group="school" value="srt">SRT</input-check></dd>
+              <dd><input-check class="w9" group="school" value="etc">その他</input-check></dd>
+            </dl>
+            <div class="buttons">
+              <button class="ok"><span>確認</span></button>
+            </div>
+          </div>
+        </dialog>
+        <dialog id="report_dialog">
+          <div>
+            <h3>
+              レポート
+            </h3>
+            <dl>
+              <dt>所持生徒</dt>
+              <dd id="report_has_students" style="width: 4rem; text-align: right"></dd>
+              <dd id="report_all_students" style="font-size: 0.8rem; line-height: 1.6rem; overflow: hidden; height: 1.2rem"></dd>
+              <dt>レアリティ</dt>
+              <dd id="report_rarity_1" class="wide"></dd>
+              <dd id="report_rarity_2" class="wide"></dd>
+              <dd id="report_rarity_3" class="wide"></dd>
+              <dd id="report_rarity_4" class="wide"></dd>
+              <dd id="report_rarity_5" class="wide"></dd>
+              <dt>固有武器</dt>
+              <dd id="report_unique_weapon_0" class="wide"></dd>
+              <dd id="report_unique_weapon_1" class="wide"></dd>
+              <dd id="report_unique_weapon_2" class="wide"></dd>
+              <dd id="report_unique_weapon_3" class="wide"></dd>
+              <dt>愛用品</dt>
+              <dd id="report_unique_gear_0" class="wide"></dd>
+              <dd id="report_unique_gear_1" class="wide"></dd>
+              <dd id="report_unique_gear_2" class="wide"></dd>
+              <dt>必要神名の欠片数（レートは欠片5=1神名文字）</dt>
+              <dd id="report_need_eligma_rarity" class="wide"></dd>
+            </dl>
+          </div>
+        </dialog>
+      </section>
+      <a href="./silhouette/">身長</a>
+    </section-pages>
+  </body>
 </html>
