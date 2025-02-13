@@ -1562,7 +1562,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "camp"
       ]
     },
     "makoto": {
@@ -6514,6 +6515,27 @@
         "urban": "b",
         "outdoors": "ss",
         "indoors": "d"
+      },
+      "eligma": {}
+    },
+    "maki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
       },
       "eligma": {}
     }
