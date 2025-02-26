@@ -77,7 +77,8 @@ type ANOTHER_TYPE =
   | 'qipao'
   | 'idol'
   | 'pajamas'
-  | 'uniform';
+  | 'uniform'
+  | 'part_time';
 type DAMAGE_TYPE = 'normal' | 'explosive' | 'penetration' | 'mystic' | 'sonic';
 type ARMOR_TYPE = 'normal' | 'light' | 'heavy' | 'special' | 'elastic';
 type ROLE_TYPE = 'tank' | 'attacker' | 'healer' | 'supporter' | 'tactical_support';

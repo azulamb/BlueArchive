@@ -800,7 +800,8 @@
       ],
       "profile": "ゲヘナ学園所属、学生食堂の管理を担当する給食部のメンバー。\n\nフウカと同じく、生徒たちのため頑張って食事を作っている少女なのだが、彼女の料理の腕前は悪いという水準を超えて破滅的であるため、給食づくりにはあまり役に立たずにいる。しかしフウカの励ましと指導を受け、彼女は今日より良い勝利を作るために努力を重ねている。",
       "another": [
-        "normal"
+        "normal",
+        "part_time"
       ]
     },
     "shun": {
@@ -948,7 +949,8 @@
       "hobby": [],
       "profile": "",
       "another": [
-        "normal"
+        "normal",
+        "casual"
       ]
     },
     "serika": {
@@ -6030,6 +6032,27 @@
       "uniqueGear": "sayas_skateboard",
       "hobby": [],
       "profile": ""
+    },
+    "sena": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "healer",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {}
     }
   },
   "kid": {
@@ -6968,6 +6991,29 @@
       },
       "eligma": {},
       "obtain": "limited"
+    }
+  },
+  "part_time": {
+    "juri": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {}
     }
   }
 }

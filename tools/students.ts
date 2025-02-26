@@ -46,6 +46,7 @@ const clubs: { [key in CLUB_TYPE]: number } = {
   community_safety_bureau: 0,
   rabbit_platoon: 0,
   none: 0,
+  genryumon: 0,
 };
 
 const data = <Students> JSON.parse(await Deno.readTextFile(OUTPUT));

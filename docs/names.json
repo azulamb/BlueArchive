@@ -1,24 +1,21 @@
 {
-	"school":
-	{
-		"gehenna": "ゲヘナ学園",
-		ab,
-		"millennium": "ミレニアムサイエンススクール",
-		"trinity": "トリニティ総合学園",
-		"hyakki": "百鬼夜行連合学院",
-		"redwinter": "レッドウィンター連邦学園",
-		"valkyrie": "ヴァルキューレ警察学校"
-	},
-	"circle":
-	{
-		"SchoolLunchClub": "給食部",
-		"GourmetResearchSociety": "美食研究会",
-		"ProblemSolver68": "便利屋68",
-		"Veritas": "ヴェリタス",
-		"EngineeringDept": "エンジニア部",
-		"ParanormalAffairsDepartment": "特異現象捜査部",
-		"Sisterhood": "シスターフッド",
-		"AfterSchoolSweets": "放課後スイーツ部",
-		"LifeSafetyBureau": "生活安全局"
-	}
+  "school": {
+    "gehenna": "ゲヘナ学園",
+    "millennium": "ミレニアムサイエンススクール",
+    "trinity": "トリニティ総合学園",
+    "hyakki": "百鬼夜行連合学院",
+    "redwinter": "レッドウィンター連邦学園",
+    "valkyrie": "ヴァルキューレ警察学校"
+  },
+  "circle": {
+    "SchoolLunchClub": "給食部",
+    "GourmetResearchSociety": "美食研究会",
+    "ProblemSolver68": "便利屋68",
+    "Veritas": "ヴェリタス",
+    "EngineeringDept": "エンジニア部",
+    "ParanormalAffairsDepartment": "特異現象捜査部",
+    "Sisterhood": "シスターフッド",
+    "AfterSchoolSweets": "放課後スイーツ部",
+    "LifeSafetyBureau": "生活安全局"
+  }
 }
