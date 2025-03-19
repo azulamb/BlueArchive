@@ -230,7 +230,8 @@
       "profile": "ゲヘナ学園所属、美食研究会のメンバーであり、何でもよく食べる食いしん坊少女。\n\n食べ物を愛しすぎた結果、他の人からすると勘弁してほしいと思うようなゲテモノも好んで食べるようになった。",
       "another": [
         "normal",
-        "swimsuit"
+        "swimsuit",
+        "new_year"
       ]
     },
     "ichika": {
@@ -6003,6 +6004,27 @@
         "urban": "b",
         "outdoors": "ss",
         "indoors": "d"
+      },
+      "eligma": {}
+    },
+    "izumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
       },
       "eligma": {}
     }
