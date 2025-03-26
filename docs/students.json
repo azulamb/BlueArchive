@@ -915,7 +915,8 @@
       ],
       "profile": "ミレニアムサイエンススクール所属、トレーニング部のリーダー。\n\n常にトレーニングに邁進するスポーツ少女。世の中の全ての問題は筋肉と運動とで解決できると信じている脳筋少女でもある。",
       "another": [
-        "normal"
+        "normal",
+        "part_time"
       ]
     },
     "seia": {
@@ -2016,6 +2017,25 @@
         "normal"
       ]
     },
+    "rei": {
+      "name": "レイ",
+      "last": "野正",
+      "school": "millennium",
+      "gun": "RL",
+      "uniqueWeapon": null,
+      "club": "training_club",
+      "age": 15,
+      "birthday": "0809",
+      "height": 159,
+      "hobby": [
+        "スポーツ観戦",
+        "年鑑分析"
+      ],
+      "profile": "",
+      "another": [
+        "normal"
+      ]
+    },
     "reisa": {
       "name": "レイサ",
       "last": "宇沢",
@@ -2795,7 +2815,8 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "saki": {
       "playable": true,
@@ -2816,7 +2837,8 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "sakurako": {
       "playable": true,
@@ -3190,7 +3212,8 @@
       },
       "eligma": {
         "raid": 50
-      }
+      },
+      "uniqueGear": ""
     },
     "chihiro": {
       "playable": true,
@@ -4231,7 +4254,8 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "uniqueGear": ""
     },
     "momoi": {
       "playable": true,
@@ -4818,6 +4842,27 @@
       },
       "eligma": {},
       "obtain": "limited"
+    },
+    "rei": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "ss"
+      },
+      "eligma": {}
     }
   },
   "swimsuit": {
@@ -7025,6 +7070,27 @@
       "role": "tank",
       "position": "front",
       "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {}
+    },
+    "sumire": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
       "affinity": {
         "urban": "b",
         "outdoors": "s",
