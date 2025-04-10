@@ -660,7 +660,8 @@
       "profile": "",
       "another": [
         "normal",
-        "swimsuit"
+        "swimsuit",
+        "dress"
       ]
     },
     "saki": {
@@ -6716,6 +6717,27 @@
         "urban": "ss",
         "outdoors": "a",
         "indoors": "d"
+      },
+      "eligma": {}
+    },
+    "saori": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
       },
       "eligma": {}
     }
