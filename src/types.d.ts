@@ -1,4 +1,4 @@
-type SCHOOL_TYPE = 'hyakkiyako' | 'red_winter' | 'trinity' | 'gehenna' | 'abydos' | 'millennium' | 'arius' | 'shanhaijing' | 'valkyrie' | 'srt' | 'etc';
+type SCHOOL_TYPE = 'hyakkiyako' | 'red_winter' | 'trinity' | 'gehenna' | 'abydos' | 'millennium' | 'arius' | 'shanhaijing' | 'valkyrie' | 'srt' | 'highlander' | 'etc';
 type CLUB_TYPE =
   // Hyakkiyako
   | 'yin_yang_club'
@@ -53,6 +53,9 @@ type CLUB_TYPE =
   | 'community_safety_bureau'
   // SRT
   | 'rabbit_platoon'
+  // Highlander
+  | 'central_control_center'
+  | 'highlander_supervision_office'
   // Other
   | 'none';
 type GUN_TYPE = 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT' | 'FT';

@@ -20,6 +20,25 @@
         "band"
       ]
     },
+    "aoba": {
+      "name": "アオバ",
+      "last": "内海",
+      "school": "highlander",
+      "gun": "SG",
+      "uniqueWeapon": null,
+      "club": null,
+      "age": 16,
+      "birthday": "0719",
+      "height": 151,
+      "hobby": [
+        "妄想",
+        "さりげない毒舌発言"
+      ],
+      "profile": "ハイランダー鉄道学園所属、貨物輸送管理部のエンジニア。\n\n内気で怖がりな正確だが、さり気なく毒舌発言をする一面も。声を落として喋るせいか、彼女の発する言葉が悪く地下どうか聞き分けるのは少々難しい。常に激務に追われ、理不尽な思いをすることが多く、この世の中に強い不満をいだいている。",
+      "another": [
+        "normal"
+      ]
+    },
     "akane": {
       "name": "アカネ",
       "last": "室笠",
@@ -1233,6 +1252,24 @@
         "pajamas"
       ]
     },
+    "nozomi": {
+      "name": "ノゾミ",
+      "last": "橘",
+      "school": "highlander",
+      "gun": "HG",
+      "uniqueWeapon": null,
+      "club": "central_control_center",
+      "age": 15,
+      "birthday": "0614",
+      "height": 147,
+      "hobby": [
+        "最速記録の更新"
+      ],
+      "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n容器かつハツラツとした正確で、細かいことは気にしない。そのせいか、双子の姉であるヒカリといっしょにトラブルを引き起こすこともしばしば。面白そうなものにはとりあえず飛び込む正確だが、列車運行に関しては責任を持って臨んでいる。",
+      "another": [
+        "normal"
+      ]
+    },
     "nodoka": {
       "name": "ノドカ",
       "last": "天見",
@@ -1373,6 +1410,25 @@
       "another": [
         "normal",
         "camp"
+      ]
+    },
+    "hikari": {
+      "name": "ヒカリ",
+      "last": "橘",
+      "school": "highlander",
+      "gun": "HG",
+      "uniqueWeapon": null,
+      "club": "central_control_center",
+      "age": 15,
+      "birthday": "0614",
+      "height": 147,
+      "hobby": [
+        "（奇怪な）運転練習",
+        "アリの観察"
+      ],
+      "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n列車の運転においてずば抜けた才能を持ち、双子の妹であるノゾミといっしょに幹部に選ばれた。しかし、書類や管理業務は大の苦手。その時々の欲求に忠実かつ、他人の視線を気にしないマイペースな正確のため、あらゆる事件を巻き起こす。",
+      "another": [
+        "normal"
       ]
     },
     "hina": {
@@ -4864,6 +4920,72 @@
         "indoors": "ss"
       },
       "eligma": {}
+    },
+    "aoba": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "a"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "a"
+      },
+      "eligma": {},
+      "obtain": "event"
+    },
+    "nozomi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "obtain": "limited"
+    },
+    "hikari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "obtain": "limited"
     }
   },
   "swimsuit": {
