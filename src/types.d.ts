@@ -29,6 +29,7 @@ type CLUB_TYPE =
   | 'problem_solver_68'
   | 'hot_springs_development_department'
   | 'school_lunch_club'
+  | 'kirakira'
   // Abydos
   | 'countermeasure_council'
   // Millennium
@@ -56,6 +57,7 @@ type CLUB_TYPE =
   // Highlander
   | 'central_control_center'
   | 'highlander_supervision_office'
+  | 'freight_logistics_department'
   // Other
   | 'none';
 type GUN_TYPE = 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT' | 'FT';
@@ -115,7 +117,7 @@ interface Student {
   uniqueGear?: string;
   suffix?: string;
   eligma: {
-    hard?: string[]; // 13-3
+    hard?: string[]; // ex: 13-3
     raid?: number; // 総力戦
     raidRare?: number; // 総力戦レア
     elimination?: number; // 大決戦
@@ -124,6 +126,8 @@ interface Student {
     firepower?: number; // 合同火力演習
     mastery?: number; // 熟練証書
   };
+  hobby: string[];
+  profile: string;
 }
 
 interface Profile {
@@ -137,8 +141,6 @@ interface Profile {
   age: number;
   birthday: string;
   height: number;
-  hobby: string[];
-  profile: string;
   another?: ANOTHER_TYPE[];
 }
 

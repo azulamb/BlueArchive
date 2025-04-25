@@ -45,10 +45,12 @@ const clubs: { [key in CLUB_TYPE]: number } = {
   public_safety_bureau: 0,
   community_safety_bureau: 0,
   rabbit_platoon: 0,
-  none: 0,
+  kirakira: 0,
   genryumon: 0,
   central_control_center: 0,
   highlander_supervision_office: 0,
+  freight_logistics_department: 0,
+  none: 0,
 };
 
 const data = <Students> JSON.parse(await Deno.readTextFile(OUTPUT));
@@ -85,6 +87,8 @@ function createEmptyStudent(): Student {
       indoors: <any> '',
     },
     eligma: {},
+    hobby: [],
+    profile: '',
   };
 
   return student;
@@ -102,30 +106,47 @@ function createEmptyProfile(): Profile {
     age: 0,
     birthday: '',
     height: 0,
-    hobby: [],
-    profile: '',
   };
 
   return student;
 }
 
 function checkProfile(student: Profile) {
-  return [];
+  const warnings: string[] = [];
+
+  if (!student.club) {
+    warnings.push('No club');
+  }
+  if (typeof clubs[student.club] !== 'number') {
+    warnings.push(`Invalid club "${student.club}"`);
+  }
+
+  return warnings;
 }
+
 function check(student: Student) {
   const warnings: string[] = [];
 
   if (
-    student.affinity.urban === student.affinityMax.urban && student.affinity.outdoors === student.affinityMax.outdoors &&
+    student.affinity.urban === student.affinityMax.urban &&
+    student.affinity.outdoors === student.affinityMax.outdoors &&
     student.affinity.indoors === student.affinityMax.indoors
   ) {
     warnings.push('Invalid affinity');
   }
   if (
-    !student.affinity.urban || !student.affinityMax.urban || !student.affinity.outdoors || !student.affinityMax.outdoors || !student.affinity.indoors ||
+    !student.affinity.urban ||
+    !student.affinityMax.urban ||
+    !student.affinity.outdoors ||
+    !student.affinityMax.outdoors ||
+    !student.affinity.indoors ||
     !student.affinityMax.indoors
   ) {
     warnings.push('Empty affinity');
+  }
+
+  if (typeof student.useCover !== 'boolean') {
+    warnings.push('Invalid useCover');
   }
 
   return warnings;
@@ -146,9 +167,6 @@ mapStudents<Profile>(data.profile, (key, student) => {
   });
 
   const warnings: string[] = checkProfile(newStudent);
-  if (!newStudent.club || typeof clubs[newStudent.club] !== 'number') {
-    warnings.push('No club');
-  }
 
   if (0 < warnings.length) {
     console.warn(`${key} has warnings: ${warnings.join(', ')}`);
@@ -168,7 +186,7 @@ for (const anotherType of types) {
     if (!data.profile[key].another?.includes(anotherType)) {
       data.profile[key].another?.push(anotherType);
     }
-    console.log(key, anotherType);
+    //console.log(key, anotherType);
     const warnings: string[] = check(student);
 
     if (0 < warnings.length) {

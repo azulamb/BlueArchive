@@ -10,11 +10,6 @@
       "age": 15,
       "birthday": "0130",
       "height": 160,
-      "hobby": [
-        "美味しいスイーツ探し",
-        "お茶会"
-      ],
-      "profile": "トリニティ総合学園所属、放課後スイーツ部の朗らかな部員。\n\nゆったりとした性格の持ち主で、友達とスイーツを食べながらお喋りをする時間を何より大切にしている。\n好きなものはアイスクリームで、最近はチョコミント味にハマっている。",
       "another": [
         "normal",
         "band"
@@ -25,16 +20,11 @@
       "last": "内海",
       "school": "highlander",
       "gun": "SG",
-      "uniqueWeapon": null,
-      "club": null,
+      "uniqueWeapon": "dashed_hope",
+      "club": "freight_logistics_department",
       "age": 16,
       "birthday": "0719",
       "height": 151,
-      "hobby": [
-        "妄想",
-        "さりげない毒舌発言"
-      ],
-      "profile": "ハイランダー鉄道学園所属、貨物輸送管理部のエンジニア。\n\n内気で怖がりな正確だが、さり気なく毒舌発言をする一面も。声を落として喋るせいか、彼女の発する言葉が悪く地下どうか聞き分けるのは少々難しい。常に激務に追われ、理不尽な思いをすることが多く、この世の中に強い不満をいだいている。",
       "another": [
         "normal"
       ]
@@ -49,8 +39,6 @@
       "age": 16,
       "birthday": "0401",
       "height": 164,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "bunny_girl"
@@ -66,10 +54,6 @@
       "age": 17,
       "birthday": "1209",
       "height": 167,
-      "hobby": [
-        "大食い"
-      ],
-      "profile": "ゲヘナ学園所属、美食研究会の部員。\n\nおとなしい少女かと思いきや、キヴォトスの大食い大会で常にチャンピオンの座に座り続けるフードファイター。\n基本的には穏やかで善良な正確だが、ゲヘナ学園の生徒らしくときには他人をひどい目に合わせることも辞さない一面も持ち合わせている。",
       "another": [
         "normal",
         "new_year"
@@ -85,10 +69,6 @@
       "age": 17,
       "birthday": "1222",
       "height": 165,
-      "hobby": [
-        "ヒナ委員長"
-      ],
-      "profile": "",
       "another": [
         "normal",
         "dress"
@@ -104,8 +84,6 @@
       "age": 16,
       "birthday": "1226",
       "height": 149,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -121,8 +99,6 @@
       "age": 17,
       "birthday": "0324",
       "height": 167,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "bunny_girl",
@@ -139,8 +115,6 @@
       "age": 15,
       "birthday": "0120",
       "height": 158,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -156,8 +130,6 @@
       "age": 15,
       "birthday": "1112",
       "height": 153,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -173,8 +145,6 @@
       "age": null,
       "birthday": "0325",
       "height": 152,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "maid"
@@ -190,8 +160,6 @@
       "age": 16,
       "birthday": "0312",
       "height": 160,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "new_year",
@@ -208,8 +176,6 @@
       "age": 16,
       "birthday": "1108",
       "height": 157,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -225,8 +191,6 @@
       "age": 15,
       "birthday": "1216",
       "height": 155,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -242,11 +206,6 @@
       "age": 16,
       "birthday": "0511",
       "height": 161,
-      "hobby": [
-        "ゲテモノ料理を食べること",
-        "作ること"
-      ],
-      "profile": "ゲヘナ学園所属、美食研究会のメンバーであり、何でもよく食べる食いしん坊少女。\n\n食べ物を愛しすぎた結果、他の人からすると勘弁してほしいと思うようなゲテモノも好んで食べるようになった。",
       "another": [
         "normal",
         "swimsuit",
@@ -263,8 +222,6 @@
       "age": 16,
       "birthday": "1111",
       "height": 163,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -274,16 +231,11 @@
       "last": "丹花",
       "school": "gehenna",
       "gun": "AR",
-      "uniqueWeapon": null,
+      "uniqueWeapon": "bang_bang_chan",
       "club": "pandemonium_society",
       "age": 11,
       "birthday": "0414",
       "height": 128,
-      "hobby": [
-        "予習・復讐",
-        "ぬいぐるみ集め"
-      ],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -298,8 +250,6 @@
       "age": 16,
       "birthday": "1116",
       "height": 151,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -314,12 +264,6 @@
       "age": 17,
       "birthday": "0423",
       "height": 165,
-      "hobby": [
-        "読書",
-        "書籍の管理",
-        "古書の研究"
-      ],
-      "profile": "トリニティ総合学園所属、図書委員会の委員長。\\n\\nこよなく本を愛する少女であり、鶏が先か卵が先かは不明なものの、同時になかなかの人嫌いでもある。本の中でも特に古書を好んでおり、彼女自身も日々「古書館」と呼ばれる場所で古書の解読や管理を行いつつ、引きこもるようにして日々を過ごしている。その知的好奇心や、古書に関する知識及び技術は一級品であり、周囲から二つ名として「古書感の魔術師」と呼ばれるほど。",
       "another": [
         "normal",
         "swimsuit"
@@ -335,10 +279,6 @@
       "age": 17,
       "birthday": "1113",
       "height": 162,
-      "hobby": [
-        "発明や修理全般"
-      ],
-      "profile": "ミレニアムサイエンススクール所属、エンジニア部の部長。\n\nその肩書に違わず、多種多様なロボットを発明し続けている。特に彼女がいつも連れているロボット「雷ちゃん」はPMCの戦闘用オートマタ数百台に匹敵するほどの戦闘能力を持っているとされている。",
       "another": [
         "normal",
         "cheerleader"
@@ -349,16 +289,11 @@
       "last": "里浜",
       "school": "hyakkiyako",
       "gun": "AR",
-      "uniqueWeapon": null,
+      "uniqueWeapon": "festival_fever",
       "club": "festival_management_committee",
       "age": 15,
       "birthday": "0701",
       "height": 165,
-      "hobby": [
-        "お祭り体験",
-        "お祭り関連グッズ（パンフレット）集め"
-      ],
-      "profile": "百鬼夜行連合学院所属、お祭り運営委員会の1年生部員。\n\n田舎出身で、昔から都会で開催されるお祭りに興味津々だという。キヴォトス全域で行われるお祭りはすべて覚えているほどの専門家。口を開けばマイナーなお祭りの話題で早口になりがちで、黙っていれば美人だとよく言われる。",
       "another": [
         "normal"
       ]
@@ -373,11 +308,6 @@
       "age": 15,
       "birthday": "0501",
       "height": 167,
-      "hobby": [
-        "ボーっとすること",
-        "音楽鑑賞"
-      ],
-      "profile": "ミレニアムサイエンススクール所属、特異現象捜査部のメンバー。\n\n口数が少ない、考えを読みづらい少女。特に理由もなくぼーっと立っていることも多い。しかしセミナーの依頼を受けて任務を遂行するときだけは、誰よりも効率的に動き、迅速に目標を達成させる。",
       "another": [
         "normal",
         "swimsuit"
@@ -393,8 +323,6 @@
       "age": 15,
       "birthday": "0709",
       "height": 142,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -409,8 +337,6 @@
       "age": 15,
       "birthday": "0805",
       "height": 155,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "band"
@@ -426,8 +352,6 @@
       "age": 16,
       "birthday": "0524",
       "height": 148,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -442,8 +366,6 @@
       "age": 17,
       "birthday": "1009",
       "height": 173,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -458,10 +380,6 @@
       "age": 18,
       "birthday": "0317",
       "height": 157,
-      "hobby": [
-        "音楽CD収集"
-      ],
-      "profile": "ゲヘナ学園所属、便利屋68の課長。\n\n他の便利屋68のメンバーとは異なり悪意がないのにも関わらず、生まれ持った顔つきが怖いという理由だけで不良と誤解される少女。\nカヨコ本人はそんな後階に対して沈黙を貫いているが、むしろそのせいで怖い人というイメージがより強まる悪循環である。",
       "another": [
         "normal",
         "new_year",
@@ -478,8 +396,6 @@
       "age": 16,
       "birthday": "0202",
       "height": 170,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "bunny_girl",
@@ -496,8 +412,6 @@
       "age": 17,
       "birthday": "0907",
       "height": 166,
-      "hobby": [],
-      "profile": "",
       "playable": true,
       "another": [
         "normal",
@@ -514,12 +428,6 @@
       "age": 16,
       "birthday": "0808",
       "height": 160,
-      "hobby": [
-        "あやとり",
-        "兵法書を読むこと",
-        "日光浴"
-      ],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -529,16 +437,11 @@
       "last": "龍華",
       "school": "shanhaijing",
       "gun": "SMG",
-      "uniqueWeapon": "_",
+      "uniqueWeapon": "know_the_enemy_and_know_yourself",
       "club": "genryumon",
       "age": 17,
       "birthday": "0219",
       "height": 142,
-      "hobby": [
-        "茶道",
-        "密行"
-      ],
-      "profile": "山海経高級中学校所属、生徒会「幻龍門」の門主。\n\n古風で威厳のある言葉遣いと、どこか神秘的にも感じられる印象が相まって、近寄りがたい雰囲気を漂わせる少女。本人はむしろ、そのイメージを職務に活用しているのだとか。彼女が時折「お忍び」で市井に降りる姿に気づく者がつくないが、その実態を知る者からは微笑ましく見守られている。",
       "another": [
         "normal"
       ]
@@ -548,15 +451,11 @@
       "last": "夜桜",
       "school": "gehenna",
       "gun": "AR",
-      "uniqueWeapon": "_",
+      "uniqueWeapon": "chocolate_and_strawberry",
       "club": "kirakira",
       "age": 16,
       "birthday": "0224",
       "height": 159,
-      "hobby": [
-        "おしゃべり"
-      ],
-      "profile": "ゲヘナ学園所属、明るい性格の持ち主の女子高生。\n\nいつも目新しさやドキドキすることを待ち望んでいる少女。初めて出会った人とも仲良くおしゃべりできるくらい、社交性が高い性格。",
       "another": [
         "normal"
       ]
@@ -571,10 +470,6 @@
       "age": 15,
       "birthday": "1022",
       "height": 161,
-      "hobby": [
-        "食べ歩き"
-      ],
-      "profile": "ヴァルキューレ警察学校所属、生活安全局の熱血系生徒。\n\n学園都市の治安を維持する警察の姿に憧れてヴァルキューレ警察学校に入学したものの、射撃の腕前が致命的だったために生活安全局の女速になってしまった。\nそれでも彼女は諦めず、犯人を鮮やかに制圧できるような警察になろうと、夢を諦めることなく日々努力を続けている。",
       "another": [
         "normal",
         "swimsuit"
@@ -590,8 +485,6 @@
       "age": 11,
       "birthday": "0601",
       "height": 139,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -606,8 +499,6 @@
       "age": 17,
       "birthday": "0105",
       "height": 158,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "camp"
@@ -623,10 +514,6 @@
       "age": 15,
       "birthday": "1231",
       "height": 151,
-      "hobby": [
-        "おしゃべり"
-      ],
-      "profile": "ミレニアムサイエンススクール所属、エンジニア部の部員。\n\n物理学や機械のメカニズムについて話すと止まらない、おしゃべり好きな女の子。ミレニアムで機械と関連したトラブルが発生売ると、いの一番に現場へと現れて状況解説を始める。",
       "another": [
         "normal",
         "cheerleader"
@@ -642,8 +529,6 @@
       "age": 15,
       "birthday": "0416",
       "height": 148,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -659,8 +544,6 @@
       "age": 15,
       "birthday": "0214",
       "height": 149,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -675,8 +558,6 @@
       "age": 17,
       "birthday": "0903",
       "height": 167,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit",
@@ -693,8 +574,6 @@
       "age": 15,
       "birthday": "0409",
       "height": 161,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -710,8 +589,6 @@
       "age": 17,
       "birthday": "1004",
       "height": 160,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "idol"
@@ -721,14 +598,12 @@
       "name": "サツキ",
       "last": "京極",
       "school": "gehenna",
-      "gun": null,
-      "uniqueWeapon": null,
+      "gun": "HG",
+      "uniqueWeapon": "nk_delta",
       "club": "pandemonium_society",
-      "age": 0,
-      "birthday": "",
-      "height": 0,
-      "hobby": [],
-      "profile": "",
+      "age": 17,
+      "birthday": "0410",
+      "height": 172,
       "another": [
         "normal"
       ]
@@ -743,8 +618,6 @@
       "age": 16,
       "birthday": "0103",
       "height": 149,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "casual"
@@ -760,8 +633,6 @@
       "age": 16,
       "birthday": "0122",
       "height": 156,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "hot_spring"
@@ -777,11 +648,6 @@
       "age": 16,
       "birthday": "0707",
       "height": 153,
-      "hobby": [
-        "可愛く接客すること",
-        "看板娘パンチ"
-      ],
-      "profile": "百鬼夜行連合学院所属、お祭り運営委員会の委員長。\n\n同時に、伝統的な喫茶店「白夜堂」の看板娘兼オーナーでもある。\n普段は「白夜堂で働いているドジっ子な女の子」だが、それはあくまでも看板娘としての一面に過ぎない。\n実際はお祭りの成功と白夜堂の売上のためなら何でも成し遂げてみせる、プロフェッショナル気質な少女。\nただし油断すると感情表現が素直に出てしまうため、親しい友人はもちろん、先生にも全てバレてしまっている。",
       "another": [
         "normal",
         "swimsuit"
@@ -797,11 +663,6 @@
       "age": 15,
       "birthday": "1130",
       "height": 157,
-      "hobby": [
-        "読書",
-        "しおりづくり"
-      ],
-      "profile": "トリニティ総合学園所属、図書委員会の司書。\n\n本が大好きな読書マニアで、トリニティの図書館に所蔵されている膨大な蔵書を全て読破したという数少ない生徒の一人。本を酔うのと同じくらい本を勧めることも好きで、誰かに出会うとまず最初に「この人の好みに合う本はなんだろうか」と考えてしまう。",
       "another": [
         "normal"
       ]
@@ -816,10 +677,6 @@
       "age": 15,
       "birthday": "1020",
       "height": 170,
-      "hobby": [
-        "自己流の料理研究"
-      ],
-      "profile": "ゲヘナ学園所属、学生食堂の管理を担当する給食部のメンバー。\n\nフウカと同じく、生徒たちのため頑張って食事を作っている少女なのだが、彼女の料理の腕前は悪いという水準を超えて破滅的であるため、給食づくりにはあまり役に立たずにいる。しかしフウカの励ましと指導を受け、彼女は今日より良い勝利を作るために努力を重ねている。",
       "another": [
         "normal",
         "part_time"
@@ -835,8 +692,6 @@
       "age": null,
       "birthday": "0205",
       "height": 174,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "kid"
@@ -852,10 +707,6 @@
       "age": 15,
       "birthday": "1227",
       "height": 149,
-      "hobby": [
-        "グルメ巡り"
-      ],
-      "profile": "ゲヘナ学園所属、美食研究会のお澄ましさんな暴食家。\n\nゲテモノを食べたり暴食を繰り返す他の美食研究会の部員達と違い、ある程度常識的な美食を楽しむ方だが、おいしい食べ物を目の前にすると理性を失ってしまうこともある。",
       "another": [
         "normal",
         "new_year"
@@ -867,12 +718,10 @@
       "school": "abydos",
       "gun": "AR",
       "uniqueWeapon": "white_fang_465",
-      "club": "abydos_council",
+      "club": "countermeasure_council",
       "age": 16,
       "birthday": "0516",
       "height": 156,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "riding",
@@ -889,12 +738,6 @@
       "age": 17,
       "birthday": "0516",
       "height": 165,
-      "hobby": [
-        "ジョギング",
-        "体力トレーニング",
-        "ロードバイク"
-      ],
-      "profile": "プレナパテスと共にやってきた別世界線のシロコ。\n\nこの世界のシロコと同じ存在ではあるが、少し成長した姿をしている。アビドスを大切にしており、学校や自治区の復興のためならどんな手段を厭わないが、たまに突拍子もない姿を見せる時も。",
       "show_name": "シロコ＊テラー",
       "another": [
         "normal"
@@ -910,11 +753,6 @@
       "age": 16,
       "birthday": "0831",
       "height": 162,
-      "hobby": [
-        "巡回",
-        "散策"
-      ],
-      "profile": "トリニティ総合学園所属、生徒たちの安全を守る自警団のメンバー。\n\nトリニティの生徒が他の学園に襲われる事件が頻繁に発生したため、これらを防ぐためにまちなかの巡回を初めた。\n燃え上がる正義感のせいで冷たい正確だと誤解されがちだが、本当は優しい女の子。",
       "another": [
         "normal"
       ]
@@ -929,11 +767,6 @@
       "age": 16,
       "birthday": "0820",
       "height": 167,
-      "hobby": [
-        "トレーニング",
-        "ガーデニング"
-      ],
-      "profile": "ミレニアムサイエンススクール所属、トレーニング部のリーダー。\n\n常にトレーニングに邁進するスポーツ少女。世の中の全ての問題は筋肉と運動とで解決できると信じている脳筋少女でもある。",
       "another": [
         "normal",
         "part_time"
@@ -944,16 +777,11 @@
       "last": "百合園",
       "school": "trinity",
       "gun": "HG",
-      "uniqueWeapon": "",
+      "uniqueWeapon": "keen_brilliance",
       "club": "tea_party",
       "age": 17,
       "birthday": "0929",
       "height": 149,
-      "hobby": [
-        "謎解き",
-        "読書"
-      ],
-      "profile": "トリニティ総合学園所属、トリニティを構成している生徒連合「サンクトゥス」のリーダー。\n\n衒学的で掴みどころのない口調で話す。本の虫で、大図書館にいることも多い。怪我が治ってからは、以前より子供っぽい一面を見せることも。",
       "another": [
         "normal"
       ]
@@ -968,8 +796,6 @@
       "age": 17,
       "birthday": "0407",
       "height": 155,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "casual"
@@ -985,8 +811,6 @@
       "age": 15,
       "birthday": "0625",
       "height": 153,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "new_year",
@@ -1003,8 +827,6 @@
       "age": 16,
       "birthday": "0106",
       "height": 156,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "christmas"
@@ -1020,8 +842,6 @@
       "age": null,
       "birthday": "1027",
       "height": 128,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "hot_spring"
@@ -1031,14 +851,12 @@
       "name": "チアキ",
       "last": "元宮",
       "school": "gehenna",
-      "gun": null,
-      "uniqueWeapon": null,
+      "gun": "AR",
+      "uniqueWeapon": "camera_blitz",
       "club": "pandemonium_society",
-      "age": 0,
-      "birthday": "",
-      "height": 0,
-      "hobby": [],
-      "profile": "",
+      "age": 16,
+      "birthday": "0922",
+      "height": 167,
       "another": [
         "normal"
       ]
@@ -1053,8 +871,6 @@
       "age": 16,
       "birthday": "0713",
       "height": 159,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1070,8 +886,6 @@
       "age": 15,
       "birthday": "0822",
       "height": 159,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "hot_spring"
@@ -1087,10 +901,6 @@
       "age": 17,
       "birthday": "0426",
       "height": 160,
-      "hobby": [
-        "電子機器類の買い物"
-      ],
-      "profile": "ミレニアムサイエンススクールあよOku ,ハッカー集団「ヴェリタス」の副部長\n\n卓越したプログラミング能力を持つハッカーであり、同時にその能力をなるべく乱用しないようにと心がける常識人。いたずらっ子の多いベリタスにおける良心的な存在で、常日頃から部員たちに「正しいハッカー倫理」について熱弁しているものの、いざと慣れば現場への潜入も辞さないアクティブなタイプでもある。",
       "another": [
         "normal"
       ]
@@ -1105,8 +915,6 @@
       "age": 15,
       "birthday": "0405",
       "height": 180,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1121,10 +929,6 @@
       "age": 16,
       "birthday": "0203",
       "height": 162,
-      "hobby": [
-        "昼寝"
-      ],
-      "profile": "百鬼夜行連合学院所属、修行部の部長。\n\n「より安らかで完璧な睡眠」を目指して常に修行している。その極めっぷりや、座っていても立っていても、更にはご飯を食べながらも寝ることができるほどである。ついた二つ名は「眠り姫」。いつもうとうとしているが、夜になると街を守るために密かに暗躍する。",
       "another": [
         "normal",
         "guide"
@@ -1140,8 +944,6 @@
       "age": 17,
       "birthday": "0624",
       "height": 162,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1157,8 +959,6 @@
       "age": 16,
       "birthday": "0816",
       "height": 165,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "bunny_girl"
@@ -1174,10 +974,6 @@
       "age": 17,
       "birthday": "1110",
       "height": 165,
-      "hobby": [
-        "アジテーション"
-      ],
-      "profile": "レッドウィンター連邦学園所属、レッドウィンター事務局の支所室長にしてチェりのの側近筆頭。\n\nどんなことでも彼女が話すともっともらしく聞こえるという話術の達人的な存在で、チェリの会長に対する忠誠心を定期的に様々な場所で吹き込んでいる。チェリノ自信は「トモエは自分のカリスマに感化されて忠誠心を持っているんだ」と考えているが、その実トモエはチェリノを盲目的に可愛がっているだけだったりする。",
       "another": [
         "normal",
         "qipao"
@@ -1193,8 +989,6 @@
       "age": 17,
       "birthday": "0704",
       "height": 160,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1209,8 +1003,6 @@
       "age": 15,
       "birthday": "1204",
       "height": 152,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1225,10 +1017,6 @@
       "age": 17,
       "birthday": "0817",
       "height": 146,
-      "hobby": [
-        "勝利"
-      ],
-      "profile": "ミレニアムサイエンススクール所属、エージェント組織「C&C」のリーダー。\n\n一見してメイド服の上にスカジャンを着たチンピラの子供にしか見えないが、実はミレニアム最強の戦闘能力を持ったエージェントである。\nそのため彼女のコールサイン「ダブルオー」は、界隈では約束された勝利の象徴とされている。",
       "another": [
         "normal",
         "bunny_girl",
@@ -1245,8 +1033,6 @@
       "age": 16,
       "birthday": "0413",
       "height": 161,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "pajamas"
@@ -1257,15 +1043,11 @@
       "last": "橘",
       "school": "highlander",
       "gun": "HG",
-      "uniqueWeapon": null,
+      "uniqueWeapon": "deadly_switch",
       "club": "central_control_center",
       "age": 15,
       "birthday": "0614",
       "height": 147,
-      "hobby": [
-        "最速記録の更新"
-      ],
-      "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n容器かつハツラツとした正確で、細かいことは気にしない。そのせいか、双子の姉であるヒカリといっしょにトラブルを引き起こすこともしばしば。面白そうなものにはとりあえず飛び込む正確だが、列車運行に関しては責任を持って臨んでいる。",
       "another": [
         "normal"
       ]
@@ -1280,10 +1062,6 @@
       "age": 16,
       "birthday": "0220",
       "height": 147,
-      "hobby": [
-        "天体観測"
-      ],
-      "profile": "レッドウィンター連邦学園所属、ただし停学処分を受けて現在は旧校舎227号特別クラスで謹慎中の生徒。\n\n停学の理由は「望遠鏡などを使ったストーキング好意」とのこと。\n世の中の美しいものを直接その目で観察したいという欲求が強く、先生もその対象の一つ。227号特別クラスで長い間苦労をしてきたせいで、貧乏性が染みついている。",
       "another": [
         "normal",
         "hot_spring"
@@ -1299,8 +1077,6 @@
       "age": 16,
       "birthday": "0901",
       "height": 160,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1316,8 +1092,6 @@
       "age": 17,
       "birthday": "1212",
       "height": 179,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "sportswear"
@@ -1333,8 +1107,6 @@
       "age": 15,
       "birthday": "0512",
       "height": 150,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "christmas"
@@ -1350,8 +1122,6 @@
       "age": 16,
       "birthday": "0103",
       "height": 161,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1367,8 +1137,6 @@
       "age": 15,
       "birthday": "0513",
       "height": 157,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "new_year"
@@ -1384,8 +1152,6 @@
       "age": 17,
       "birthday": "0301",
       "height": 163,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "new_year",
@@ -1402,11 +1168,6 @@
       "age": 16,
       "birthday": "0419",
       "height": 153,
-      "hobby": [
-        "ゲーム",
-        "映画鑑賞"
-      ],
-      "profile": "ミレニアムサイエンススクー所属、ハッカー集団「ヴェリタス」のエンジニア。\n\n頭の良い人が多いことで有名なミレニアムにおいても頭一つ抜けている屈指の天才少女。ミレニアムで生み出される最先端の危機のほとんどは、彼女の手によって開発されている。\nしかしその実力や成果にも関わらす、自慢したり威張ったりすることなく、他の生徒達とも交流し、よく話を聞いてくれる優しい女の子である。",
       "another": [
         "normal",
         "camp"
@@ -1417,16 +1178,11 @@
       "last": "橘",
       "school": "highlander",
       "gun": "HG",
-      "uniqueWeapon": null,
+      "uniqueWeapon": "ticket_punch",
       "club": "central_control_center",
       "age": 15,
       "birthday": "0614",
       "height": 147,
-      "hobby": [
-        "（奇怪な）運転練習",
-        "アリの観察"
-      ],
-      "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n列車の運転においてずば抜けた才能を持ち、双子の妹であるノゾミといっしょに幹部に選ばれた。しかし、書類や管理業務は大の苦手。その時々の欲求に忠実かつ、他人の視線を気にしないマイペースな正確のため、あらゆる事件を巻き起こす。",
       "another": [
         "normal"
       ]
@@ -1441,11 +1197,6 @@
       "age": 17,
       "birthday": "0219",
       "height": 142,
-      "hobby": [
-        "睡眠",
-        "休憩"
-      ],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit",
@@ -1462,11 +1213,6 @@
       "age": 17,
       "birthday": "0517",
       "height": 166,
-      "hobby": [
-        "お祈り",
-        "整理整頓"
-      ],
-      "profile": "トリニティ総合学園所属、シスターフッドの真面目でひたむきな少女。\n\nシスターフッドにおいて「聖堂などの物品管理」という責務を担っており、その仕事も日々誠実にこなしている。しかしながら少々おっちょこちょいな部分があり、ミスを重ねては自信を失うこともしばしば。普段から持ち歩いている大きなカバンにはグレネードランチャーなどがいろいろはいっているものの、彼女はそれを軽々と運んでいる。",
       "another": [
         "normal",
         "swimsuit"
@@ -1482,8 +1228,6 @@
       "age": 15,
       "birthday": "0402",
       "height": 154,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "cheerleader"
@@ -1499,8 +1243,6 @@
       "age": 16,
       "birthday": "1127",
       "height": 158,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1516,8 +1258,6 @@
       "age": 17,
       "birthday": "1210",
       "height": 162,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1532,8 +1272,6 @@
       "age": 16,
       "birthday": "0108",
       "height": 155,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1549,8 +1287,6 @@
       "age": 17,
       "birthday": "1103",
       "height": 165,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1565,8 +1301,6 @@
       "age": 16,
       "birthday": "0430",
       "height": 159,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "new_year"
@@ -1582,11 +1316,6 @@
       "age": 15,
       "birthday": "1021",
       "height": 148,
-      "hobby": [
-        "クロスワード",
-        "ラジオ"
-      ],
-      "profile": "ヴァルキューレ警察学校所属、生活安全局の怠け者の生徒。\n\nのんびりした公務員の生活に憧れ、ヴァルキューレ警察学校に入学した。生活安全局に何か苦情等が舞い込んできても、基本的には一貫して誠意のない態度で処理し、金や名誉に振り回されない窓際族の生活を楽しんでいる。一番好きなことはドーナッツを食べながらラジオを聞くこと。",
       "another": [
         "normal",
         "swimsuit"
@@ -1602,8 +1331,6 @@
       "age": 17,
       "birthday": "0102",
       "height": 145,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit",
@@ -1620,8 +1347,6 @@
       "age": 15,
       "birthday": "0801",
       "height": 149,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "camp"
@@ -1632,17 +1357,11 @@
       "last": "羽沼",
       "school": "gehenna",
       "gun": "SR",
-      "uniqueWeapon": null,
+      "uniqueWeapon": "i_alone_am_the_honored_one",
       "club": "pandemonium_society",
       "age": 18,
       "birthday": "0319",
       "height": 169,
-      "hobby": [
-        "計略",
-        "悪巧み",
-        "イブキと遊ぶこと"
-      ],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1657,8 +1376,6 @@
       "age": 15,
       "birthday": "0605",
       "height": 155,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1674,8 +1391,6 @@
       "age": 15,
       "birthday": "0912",
       "height": 151,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "sportswear",
@@ -1692,8 +1407,6 @@
       "age": 16,
       "birthday": "1104",
       "height": 166,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "qipao"
@@ -1709,8 +1422,6 @@
       "age": 17,
       "birthday": "0508",
       "height": 157,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1725,8 +1436,6 @@
       "age": 16,
       "birthday": "0113",
       "height": 163,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1741,8 +1450,6 @@
       "age": 17,
       "birthday": "0222",
       "height": 153,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1757,8 +1464,6 @@
       "age": 15,
       "birthday": "1208",
       "height": 143,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "maid"
@@ -1774,8 +1479,6 @@
       "age": 16,
       "birthday": "0909",
       "height": 166,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1790,8 +1493,6 @@
       "age": 17,
       "birthday": "1123",
       "height": 168,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "idol"
@@ -1807,8 +1508,6 @@
       "age": 17,
       "birthday": "0714",
       "height": 158,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1823,11 +1522,6 @@
       "age": 16,
       "birthday": "0315",
       "height": 156,
-      "hobby": [
-        "少女漫画",
-        "家事全般"
-      ],
-      "profile": "百鬼夜行連合学院所属、修行部の優しい副部長。\n\nいつも朗らかな笑顔と穏やかなもお腰で、みんなからの人望が非常に厚い。幼い頃に呼んだ少女漫画の影響で「大和撫子」になりたいという夢をいだき、修行部へと入った、幼馴染であり部長でもある椿とともに、料理や掃除などの修行に日々邁進している。",
       "another": [
         "normal",
         "swimsuit"
@@ -1843,8 +1537,6 @@
       "age": 15,
       "birthday": "0107",
       "height": 156,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1860,8 +1552,6 @@
       "age": 15,
       "birthday": "0712",
       "height": 149,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1877,8 +1567,6 @@
       "age": 16,
       "birthday": "0729",
       "height": 144,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "new_year"
@@ -1894,8 +1582,6 @@
       "age": 17,
       "birthday": "0425",
       "height": 164,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1910,8 +1596,6 @@
       "age": 16,
       "birthday": "1221",
       "height": 137,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1926,8 +1610,6 @@
       "age": 15,
       "birthday": "0913",
       "height": 163,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -1943,8 +1625,6 @@
       "age": 15,
       "birthday": "0807",
       "height": 135,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -1959,8 +1639,6 @@
       "age": 15,
       "birthday": "1208",
       "height": 143,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "maid"
@@ -1976,8 +1654,6 @@
       "age": 16,
       "birthday": "0314",
       "height": 156,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "sportswear",
@@ -1994,11 +1670,6 @@
       "age": 15,
       "birthday": "0616",
       "height": 155,
-      "hobby": [
-        "お祈り",
-        "駄菓子屋巡り"
-      ],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2013,10 +1684,6 @@
       "age": 16,
       "birthday": "0812",
       "height": 150,
-      "hobby": [
-        "ゲーム制作"
-      ],
-      "profile": "ミレニアムサイエンススクール所属、ゲーム開発部の部長。\n\n誰かと会話したり接することを非常に苦手としており、そのため外に出ることもほとんど泣く、大半の時間をゲーム開発部の部室にあるロッカーの中で過ごしている。\nゲームを作ることもプレイすることも好きで、ゲームに対する情熱は並大抵のものではない。",
       "another": [
         "normal",
         "maid"
@@ -2032,11 +1699,6 @@
       "age": 15,
       "birthday": "0829",
       "height": 146,
-      "hobby": [
-        "イベントごと",
-        "限定スイーツ巡り"
-      ],
-      "profile": "トリニティ総合学園所属、放課後スイーツ部の部員。\n\n身長と体型がコンプレックスの、常に威嚇しっぱなしの小動物のような少女。",
       "another": [
         "normal",
         "band"
@@ -2046,14 +1708,12 @@
       "name": "リオ",
       "last": "",
       "school": "millennium",
-      "gun": "",
-      "uniqueWeapon": "",
+      "gun": "HG",
+      "uniqueWeapon": "planner",
       "club": "seminar",
-      "age": 0,
-      "birthday": "",
-      "height": 0,
-      "hobby": [],
-      "profile": "",
+      "age": 17,
+      "birthday": "0606",
+      "height": 171,
       "another": [
         "normal"
       ]
@@ -2068,8 +1728,6 @@
       "age": 17,
       "birthday": "0305",
       "height": 168,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2079,16 +1737,11 @@
       "last": "野正",
       "school": "millennium",
       "gun": "RL",
-      "uniqueWeapon": null,
+      "uniqueWeapon": "moonshot",
       "club": "training_club",
       "age": 15,
       "birthday": "0809",
       "height": 159,
-      "hobby": [
-        "スポーツ観戦",
-        "年鑑分析"
-      ],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2103,8 +1756,6 @@
       "age": 15,
       "birthday": "0531",
       "height": 153,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2119,11 +1770,6 @@
       "age": 16,
       "birthday": "0723",
       "height": 157,
-      "hobby": [
-        "ライトノベルを読むこと",
-        "鍛錬"
-      ],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2138,8 +1784,6 @@
       "age": 18,
       "birthday": "0403",
       "height": 161,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal",
         "swimsuit"
@@ -2155,8 +1799,6 @@
       "age": 14,
       "birthday": "0512",
       "height": 161,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2171,8 +1813,6 @@
       "age": 12,
       "birthday": "",
       "height": 160,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2187,8 +1827,6 @@
       "age": 16,
       "birthday": "0831",
       "height": 158,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2203,8 +1841,6 @@
       "age": 14,
       "birthday": "",
       "height": null,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2214,13 +1850,11 @@
       "last": "",
       "school": "shanhaijing",
       "gun": "AR",
-      "uniqueWeapon": "_",
+      "uniqueWeapon": "serene_water",
       "club": "black_tortoise_promenade",
       "age": 17,
       "birthday": "0303",
       "height": 169,
-      "hobby": [],
-      "profile": "",
       "another": [
         "normal"
       ]
@@ -2246,7 +1880,12 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "美味しいスイーツ探し",
+        "お茶会"
+      ],
+      "profile": "トリニティ総合学園所属、放課後スイーツ部の朗らかな部員。\n\nゆったりとした性格の持ち主で、友達とスイーツを食べながらお喋りをする時間を何より大切にしている。\n好きなものはアイスクリームで、最近はチョコミント味にハマっている。"
     },
     "akane": {
       "playable": true,
@@ -2269,7 +1908,9 @@
       },
       "eligma": {
         "raid": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "akari": {
       "playable": true,
@@ -2290,7 +1931,11 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "大食い"
+      ],
+      "profile": "ゲヘナ学園所属、美食研究会の部員。\n\nおとなしい少女かと思いきや、キヴォトスの大食い大会で常にチャンピオンの座に座り続けるフードファイター。\n基本的には穏やかで善良な正確だが、ゲヘナ学園の生徒らしくときには他人をひどい目に合わせることも辞さない一面も持ち合わせている。"
     },
     "ako": {
       "playable": true,
@@ -2311,7 +1956,11 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "ヒナ委員長"
+      ],
+      "profile": ""
     },
     "azusa": {
       "playable": true,
@@ -2334,7 +1983,9 @@
       },
       "eligma": {
         "raidRare": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "asuna": {
       "playable": true,
@@ -2355,7 +2006,9 @@
         "outdoors": "b",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "atsuko": {
       "playable": true,
@@ -2376,7 +2029,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "ayane": {
       "playable": true,
@@ -2397,7 +2052,9 @@
         "outdoors": "a",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "arisu": {
       "playable": true,
@@ -2418,7 +2075,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "aru": {
       "playable": true,
@@ -2440,6 +2099,8 @@
         "indoors": "d"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "arus_treasured_wallet"
     },
     "iori": {
@@ -2461,7 +2122,9 @@
         "outdoors": "c",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "izuna": {
       "playable": true,
@@ -2482,7 +2145,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "izumi": {
       "playable": true,
@@ -2504,6 +2169,11 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [
+        "ゲテモノ料理を食べること",
+        "作ること"
+      ],
+      "profile": "ゲヘナ学園所属、美食研究会のメンバーであり、何でもよく食べる食いしん坊少女。\n\n食べ物を愛しすぎた結果、他の人からすると勘弁してほしいと思うようなゲテモノも好んで食べるようになった。",
       "uniqueGear": "lucky_hot_dog_model"
     },
     "iroha": {
@@ -2525,7 +2195,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "ui": {
       "playable": true,
@@ -2546,7 +2218,13 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "読書",
+        "書籍の管理",
+        "古書の研究"
+      ],
+      "profile": "トリニティ総合学園所属、図書委員会の委員長。\\n\\nこよなく本を愛する少女であり、鶏が先か卵が先かは不明なものの、同時になかなかの人嫌いでもある。本の中でも特に古書を好んでおり、彼女自身も日々「古書館」と呼ばれる場所で古書の解読や管理を行いつつ、引きこもるようにして日々を過ごしている。その知的好奇心や、古書に関する知識及び技術は一級品であり、周囲から二つ名として「古書感の魔術師」と呼ばれるほど。"
     },
     "utaha": {
       "playable": true,
@@ -2568,6 +2246,10 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [
+        "発明や修理全般"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、エンジニア部の部長。\n\nその肩書に違わず、多種多様なロボットを発明し続けている。特に彼女がいつも連れているロボット「雷ちゃん」はPMCの戦闘用オートマタ数百台に匹敵するほどの戦闘能力を持っているとされている。",
       "uniqueGear": "meisters_toolset"
     },
     "eimi": {
@@ -2592,6 +2274,11 @@
       "eligma": {
         "firepower": 50
       },
+      "hobby": [
+        "ボーっとすること",
+        "音楽鑑賞"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、特異現象捜査部のメンバー。\n\n口数が少ない、考えを読みづらい少女。特に理由もなくぼーっと立っていることも多い。しかしセミナーの依頼を受けて任務を遂行するときだけは、誰よりも効率的に動き、迅速に目標を達成させる。",
       "uniqueGear": "super_cooling_fan"
     },
     "kaede": {
@@ -2613,8 +2300,12 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {},
-      "uniqueGear": "_"
+      "eligma": {
+        "eliminationRare": 50
+      },
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "mushiqueen_card_sleeves"
     },
     "kazusa": {
       "playable": true,
@@ -2635,7 +2326,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kaho": {
       "playable": true,
@@ -2657,7 +2350,9 @@
         "indoors": "d"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "certificate_of_student_appreciation"
     },
     "kayoko": {
       "playable": true,
@@ -2678,7 +2373,11 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "音楽CD収集"
+      ],
+      "profile": "ゲヘナ学園所属、便利屋68の課長。\n\n他の便利屋68のメンバーとは異なり悪意がないのにも関わらず、生まれ持った顔つきが怖いという理由だけで不良と誤解される少女。\nカヨコ本人はそんな後階に対して沈黙を貫いているが、むしろそのせいで怖い人というイメージがより強まる悪循環である。"
     },
     "karin": {
       "playable": true,
@@ -2699,7 +2398,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kanna": {
       "playable": true,
@@ -2720,7 +2421,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kirino": {
       "playable": true,
@@ -2741,7 +2444,11 @@
         "outdoors": "a",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "食べ歩き"
+      ],
+      "profile": "ヴァルキューレ警察学校所属、生活安全局の熱血系生徒。\n\n学園都市の治安を維持する警察の姿に憧れてヴァルキューレ警察学校に入学したものの、射撃の腕前が致命的だったために生活安全局の女速になってしまった。\nそれでも彼女は諦めず、犯人を鮮やかに制圧できるような警察になろうと、夢を諦めることなく日々努力を続けている。"
     },
     "kokona": {
       "playable": true,
@@ -2762,7 +2469,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kotama": {
       "playable": true,
@@ -2785,7 +2494,9 @@
       },
       "eligma": {
         "raid": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "kotori": {
       "playable": true,
@@ -2807,7 +2518,11 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueGear": null
+      "hobby": [
+        "おしゃべり"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、エンジニア部の部員。\n\n物理学や機械のメカニズムについて話すと止まらない、おしゃべり好きな女の子。ミレニアムで機械と関連したトラブルが発生売ると、いの一番に現場へと現れて状況解説を始める。",
+      "uniqueGear": "teardrop_glasses"
     },
     "koharu": {
       "playable": true,
@@ -2830,7 +2545,9 @@
       },
       "eligma": {
         "raidRare": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "koyuki": {
       "playable": true,
@@ -2851,7 +2568,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "saori": {
       "playable": true,
@@ -2873,7 +2592,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "saoris_mask"
     },
     "saki": {
       "playable": true,
@@ -2895,7 +2616,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "srt_basic_manual"
     },
     "sakurako": {
       "playable": true,
@@ -2916,7 +2639,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "saya": {
       "playable": true,
@@ -2939,7 +2664,9 @@
       },
       "eligma": {
         "tactical": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "shigure": {
       "playable": true,
@@ -2960,7 +2687,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "shizuko": {
       "playable": true,
@@ -2984,7 +2713,12 @@
       "eligma": {
         "tactical": 50
       },
-      "uniqueGear": "_"
+      "hobby": [
+        "可愛く接客すること",
+        "看板娘パンチ"
+      ],
+      "profile": "百鬼夜行連合学院所属、お祭り運営委員会の委員長。\n\n同時に、伝統的な喫茶店「白夜堂」の看板娘兼オーナーでもある。\n普段は「白夜堂で働いているドジっ子な女の子」だが、それはあくまでも看板娘としての一面に過ぎない。\n実際はお祭りの成功と白夜堂の売上のためなら何でも成し遂げてみせる、プロフェッショナル気質な少女。\nただし油断すると感情表現が素直に出てしまうため、親しい友人はもちろん、先生にも全てバレてしまっている。",
+      "uniqueGear": "well_worn_tea_set"
     },
     "shimiko": {
       "playable": true,
@@ -3005,7 +2739,12 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "読書",
+        "しおりづくり"
+      ],
+      "profile": "トリニティ総合学園所属、図書委員会の司書。\n\n本が大好きな読書マニアで、トリニティの図書館に所蔵されている膨大な蔵書を全て読破したという数少ない生徒の一人。本を酔うのと同じくらい本を勧めることも好きで、誰かに出会うとまず最初に「この人の好みに合う本はなんだろうか」と考えてしまう。"
     },
     "juri": {
       "playable": true,
@@ -3026,7 +2765,11 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "自己流の料理研究"
+      ],
+      "profile": "ゲヘナ学園所属、学生食堂の管理を担当する給食部のメンバー。\n\nフウカと同じく、生徒たちのため頑張って食事を作っている少女なのだが、彼女の料理の腕前は悪いという水準を超えて破滅的であるため、給食づくりにはあまり役に立たずにいる。しかしフウカの励ましと指導を受け、彼女は今日より良い勝利を作るために努力を重ねている。"
     },
     "shun": {
       "playable": true,
@@ -3047,7 +2790,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "junko": {
       "playable": true,
@@ -3069,6 +2814,10 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [
+        "グルメ巡り"
+      ],
+      "profile": "ゲヘナ学園所属、美食研究会のお澄ましさんな暴食家。\n\nゲテモノを食べたり暴食を繰り返す他の美食研究会の部員達と違い、ある程度常識的な美食を楽しむ方だが、おいしい食べ物を目の前にすると理性を失ってしまうこともある。",
       "uniqueGear": "gourmet_notebook"
     },
     "shiroko": {
@@ -3091,6 +2840,8 @@
         "indoors": "d"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "shirokos_drone"
     },
     "suzumi": {
@@ -3113,6 +2864,11 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [
+        "巡回",
+        "散策"
+      ],
+      "profile": "トリニティ総合学園所属、生徒たちの安全を守る自警団のメンバー。\n\nトリニティの生徒が他の学園に襲われる事件が頻繁に発生したため、これらを防ぐためにまちなかの巡回を初めた。\n燃え上がる正義感のせいで冷たい正確だと誤解されがちだが、本当は優しい女の子。",
       "uniqueGear": "patrol_headphones"
     },
     "sumire": {
@@ -3137,6 +2893,11 @@
       "eligma": {
         "firepower": 50
       },
+      "hobby": [
+        "トレーニング",
+        "ガーデニング"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、トレーニング部のリーダー。\n\n常にトレーニングに邁進するスポーツ少女。世の中の全ての問題は筋肉と運動とで解決できると信じている脳筋少女でもある。",
       "uniqueGear": "training_sandbag"
     },
     "sena": {
@@ -3160,7 +2921,9 @@
       },
       "eligma": {
         "eliminationRare": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "serika": {
       "playable": true,
@@ -3182,6 +2945,8 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "serikas_sports_bag"
     },
     "serina": {
@@ -3203,7 +2968,9 @@
         "outdoors": "b",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "cherino": {
       "playable": true,
@@ -3224,7 +2991,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "chise": {
       "playable": true,
@@ -3246,7 +3015,9 @@
         "indoors": "a"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "the_sound_of_the_wind"
     },
     "chinatsu": {
       "playable": true,
@@ -3270,7 +3041,9 @@
       "eligma": {
         "raid": 50
       },
-      "uniqueGear": ""
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "chinatsus_medical_bag"
     },
     "chihiro": {
       "playable": true,
@@ -3291,7 +3064,13 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {
+        "raidRare": 50
+      },
+      "hobby": [
+        "電子機器類の買い物"
+      ],
+      "profile": "ミレニアムサイエンススクールあよOku ,ハッカー集団「ヴェリタス」の副部長\n\n卓越したプログラミング能力を持つハッカーであり、同時にその能力をなるべく乱用しないようにと心がける常識人。いたずらっ子の多いベリタスにおける良心的な存在で、常日頃から部員たちに「正しいハッカー倫理」について熱弁しているものの、いざと慣れば現場への潜入も辞さないアクティブなタイプでもある。"
     },
     "tsukuyo": {
       "playable": true,
@@ -3312,7 +3091,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "tsubaki": {
       "playable": true,
@@ -3333,7 +3114,11 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "昼寝"
+      ],
+      "profile": "百鬼夜行連合学院所属、修行部の部長。\n\n「より安らかで完璧な睡眠」を目指して常に修行している。その極めっぷりや、座っていても立っていても、更にはご飯を食べながらも寝ることができるほどである。ついた二つ名は「眠り姫」。いつもうとうとしているが、夜になると街を守るために密かに暗躍する。"
     },
     "tsurugi": {
       "playable": true,
@@ -3357,6 +3142,8 @@
       "eligma": {
         "firepower": 50
       },
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "tsurugis_special_box"
     },
     "toki": {
@@ -3379,8 +3166,10 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited",
-      "uniqueGear": null
+      "uniqueGear": "high_performance_headset"
     },
     "tomoe": {
       "playable": true,
@@ -3404,6 +3193,10 @@
       "eligma": {
         "mastery": 1800
       },
+      "hobby": [
+        "アジテーション"
+      ],
+      "profile": "レッドウィンター連邦学園所属、レッドウィンター事務局の支所室長にしてチェりのの側近筆頭。\n\nどんなことでも彼女が話すともっともらしく聞こえるという話術の達人的な存在で、チェリの会長に対する忠誠心を定期的に様々な場所で吹き込んでいる。チェリノ自信は「トモエは自分のカリスマに感化されて忠誠心を持っているんだ」と考えているが、その実トモエはチェリノを盲目的に可愛がっているだけだったりする。",
       "obtain": "event"
     },
     "nagisa": {
@@ -3428,6 +3221,8 @@
       "eligma": {
         "mastery": 1800
       },
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "natsu": {
@@ -3449,7 +3244,11 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {
+        "elimination": 50
+      },
+      "hobby": [],
+      "profile": ""
     },
     "neru": {
       "playable": true,
@@ -3471,6 +3270,10 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [
+        "勝利"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、エージェント組織「C&C」のリーダー。\n\n一見してメイド服の上にスカジャンを着たチンピラの子供にしか見えないが、実はミレニアム最強の戦闘能力を持ったエージェントである。\nそのため彼女のコールサイン「ダブルオー」は、界隈では約束された勝利の象徴とされている。",
       "uniqueGear": "nerus_sukajan"
     },
     "noa": {
@@ -3492,7 +3295,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "nodoka": {
       "playable": true,
@@ -3515,7 +3320,11 @@
       },
       "eligma": {
         "mastery": 1800
-      }
+      },
+      "hobby": [
+        "天体観測"
+      ],
+      "profile": "レッドウィンター連邦学園所属、ただし停学処分を受けて現在は旧校舎227号特別クラスで謹慎中の生徒。\n\n停学の理由は「望遠鏡などを使ったストーキング好意」とのこと。\n世の中の美しいものを直接その目で観察したいという欲求が強く、先生もその対象の一つ。227号特別クラスで長い間苦労をしてきたせいで、貧乏性が染みついている。"
     },
     "nonomi": {
       "playable": true,
@@ -3539,8 +3348,10 @@
       "eligma": {
         "mastery": 1800
       },
+      "hobby": [],
+      "profile": "",
       "obtain": "event",
-      "uniqueGear": "_"
+      "uniqueGear": "little_machine_gun_v"
     },
     "hasumi": {
       "playable": true,
@@ -3562,7 +3373,8 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueWeapon": "impalement"
+      "hobby": [],
+      "profile": ""
     },
     "hanae": {
       "playable": true,
@@ -3586,7 +3398,8 @@
       "eligma": {
         "raid": 50
       },
-      "uniqueWeapon": "happy_smiley"
+      "hobby": [],
+      "profile": ""
     },
     "hanako": {
       "playable": true,
@@ -3610,6 +3423,8 @@
       "eligma": {
         "raid": 50
       },
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "dubious_literature"
     },
     "haruka": {
@@ -3631,7 +3446,9 @@
         "outdoors": "b",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "haruna": {
       "playable": true,
@@ -3652,7 +3469,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "hare": {
       "playable": true,
@@ -3674,6 +3493,11 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [
+        "ゲーム",
+        "映画鑑賞"
+      ],
+      "profile": "ミレニアムサイエンススクー所属、ハッカー集団「ヴェリタス」のエンジニア。\n\n頭の良い人が多いことで有名なミレニアムにおいても頭一つ抜けている屈指の天才少女。ミレニアムで生み出される最先端の危機のほとんどは、彼女の手によって開発されている。\nしかしその実力や成果にも関わらす、自慢したり威張ったりすることなく、他の生徒達とも交流し、よく話を聞いてくれる優しい女の子である。",
       "uniqueGear": "Athena_3"
     },
     "hina": {
@@ -3696,7 +3520,12 @@
         "indoors": "c"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [
+        "睡眠",
+        "休憩"
+      ],
+      "profile": "",
+      "uniqueGear": "hinas_disciplinary_committee_armband"
     },
     "hinata": {
       "playable": true,
@@ -3718,6 +3547,11 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [
+        "お祈り",
+        "整理整頓"
+      ],
+      "profile": "トリニティ総合学園所属、シスターフッドの真面目でひたむきな少女。\n\nシスターフッドにおいて「聖堂などの物品管理」という責務を担っており、その仕事も日々誠実にこなしている。しかしながら少々おっちょこちょいな部分があり、ミスを重ねては自信を失うこともしばしば。普段から持ち歩いている大きなカバンにはグレネードランチャーなどがいろいろはいっているものの、彼女はそれを軽々と運んでいる。",
       "uniqueGear": "goods_management_ledger"
     },
     "hibiki": {
@@ -3740,7 +3574,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "meisters_goggles"
     },
     "hifumi": {
       "playable": true,
@@ -3761,7 +3597,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "himari": {
       "playable": true,
@@ -3782,7 +3620,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "hiyori": {
       "playable": true,
@@ -3803,7 +3643,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "pina": {
       "playable": true,
@@ -3824,7 +3666,9 @@
         "outdoors": "b",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "fuuka": {
       "playable": true,
@@ -3847,7 +3691,9 @@
       },
       "eligma": {
         "tactical": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "fubuki": {
       "playable": true,
@@ -3869,6 +3715,11 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [
+        "クロスワード",
+        "ラジオ"
+      ],
+      "profile": "ヴァルキューレ警察学校所属、生活安全局の怠け者の生徒。\n\nのんびりした公務員の生活に憧れ、ヴァルキューレ警察学校に入学した。生活安全局に何か苦情等が舞い込んできても、基本的には一貫して誠意のない態度で処理し、金や名誉に振り回されない窓際族の生活を楽しんでいる。一番好きなことはドーナッツを食べながらラジオを聞くこと。",
       "obtain": "event"
     },
     "hoshino": {
@@ -3891,7 +3742,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "universal_admission_ticket"
     },
     "maki": {
       "playable": true,
@@ -3914,7 +3767,9 @@
       },
       "eligma": {
         "raid": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "mashiro": {
       "playable": true,
@@ -3938,7 +3793,9 @@
       "eligma": {
         "tactical": 50
       },
-      "uniqueGear": null
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "learn_through_stories_proverbs_and_four_character_idioms"
     },
     "mari": {
       "playable": true,
@@ -3960,7 +3817,9 @@
         "indoors": "a"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "innocent_corsage"
     },
     "marina": {
       "playable": true,
@@ -3981,7 +3840,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "mika": {
       "playable": true,
@@ -4005,6 +3866,8 @@
       "eligma": {
         "mastery": 2400
       },
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "misaki": {
@@ -4027,7 +3890,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "wooden_statue"
     },
     "michiru": {
       "playable": true,
@@ -4051,6 +3916,8 @@
       "eligma": {
         "mastery": 1800
       },
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     },
     "midori": {
@@ -4075,7 +3942,9 @@
       "eligma": {
         "raidRare": 50,
         "mastery": 1800
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "mina": {
       "playable": true,
@@ -4096,7 +3965,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "mine": {
       "playable": true,
@@ -4117,7 +3988,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "minori": {
       "playable": true,
@@ -4138,7 +4011,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "mimori": {
       "playable": true,
@@ -4162,6 +4037,11 @@
       "eligma": {
         "elimination": 50
       },
+      "hobby": [
+        "少女漫画",
+        "家事全般"
+      ],
+      "profile": "百鬼夜行連合学院所属、修行部の優しい副部長。\n\nいつも朗らかな笑顔と穏やかなもお腰で、みんなからの人望が非常に厚い。幼い頃に呼んだ少女漫画の影響で「大和撫子」になりたいという夢をいだき、修行部へと入った、幼馴染であり部長でもある椿とともに、料理や掃除などの修行に日々邁進している。",
       "uniqueGear": "cherry_blossom_apron_full_of_dreams"
     },
     "miyako": {
@@ -4183,7 +4063,11 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "tactical": 50
+      },
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "tattered_name_tag"
     },
     "miyu": {
@@ -4206,7 +4090,9 @@
         "indoors": "d"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "sad_bunny_pot"
     },
     "mutsuki": {
       "playable": true,
@@ -4227,7 +4113,9 @@
         "outdoors": "a",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "megu": {
       "playable": true,
@@ -4248,7 +4136,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "meru": {
       "playable": true,
@@ -4269,7 +4159,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "moe": {
       "playable": true,
@@ -4290,7 +4182,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "momiji": {
       "playable": true,
@@ -4312,7 +4206,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "uniqueGear": ""
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "limited_reprint_collection"
     },
     "momoi": {
       "playable": true,
@@ -4335,7 +4231,9 @@
       },
       "eligma": {
         "raid": 50
-      }
+      },
+      "hobby": [],
+      "profile": ""
     },
     "yuuka": {
       "playable": true,
@@ -4357,6 +4255,8 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "yuukas_scientific_calculator"
     },
     "yuzu": {
@@ -4380,7 +4280,11 @@
       },
       "eligma": {
         "elimination": 50
-      }
+      },
+      "hobby": [
+        "ゲーム制作"
+      ],
+      "profile": "ミレニアムサイエンススクール所属、ゲーム開発部の部長。\n\n誰かと会話したり接することを非常に苦手としており、そのため外に出ることもほとんど泣く、大半の時間をゲーム開発部の部室にあるロッカーの中で過ごしている。\nゲームを作ることもプレイすることも好きで、ゲームに対する情熱は並大抵のものではない。"
     },
     "yoshimi": {
       "playable": true,
@@ -4402,7 +4306,12 @@
         "indoors": "a"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [
+        "イベントごと",
+        "限定スイーツ巡り"
+      ],
+      "profile": "トリニティ総合学園所属、放課後スイーツ部の部員。\n\n身長と体型がコンプレックスの、常に威嚇しっぱなしの小動物のような少女。",
+      "uniqueGear": "sweets_driver"
     },
     "rumi": {
       "playable": true,
@@ -4423,7 +4332,9 @@
         "outdoors": "c",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "reijo": {
       "playable": true,
@@ -4444,7 +4355,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "reisa": {
       "playable": true,
@@ -4465,7 +4378,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "wakamo": {
       "playable": true,
@@ -4489,6 +4404,8 @@
       "eligma": {
         "mastery": 2400
       },
+      "hobby": [],
+      "profile": "",
       "uniqueGear": "mysterious_fox_mask",
       "obtain": "limited"
     },
@@ -4512,6 +4429,8 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "ichika": {
@@ -4533,7 +4452,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kasumi": {
       "playable": true,
@@ -4554,7 +4475,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "saten_ruiko": {
       "playable": true,
@@ -4576,6 +4499,8 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     },
     "misaka_mikoto": {
@@ -4598,6 +4523,8 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "shokuhou_misaki": {
@@ -4620,6 +4547,8 @@
         "indoors": "c"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "yukari": {
@@ -4641,7 +4570,12 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "お祈り",
+        "駄菓子屋巡り"
+      ],
+      "profile": ""
     },
     "renge": {
       "playable": true,
@@ -4662,7 +4596,12 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "ライトノベルを読むこと",
+        "鍛錬"
+      ],
+      "profile": ""
     },
     "kikyou": {
       "playable": true,
@@ -4683,7 +4622,13 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "あやとり",
+        "兵法書を読むこと",
+        "日光浴"
+      ],
+      "profile": ""
     },
     "ibuki": {
       "playable": true,
@@ -4705,6 +4650,11 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [
+        "予習・復讐",
+        "ぬいぐるみ集め"
+      ],
+      "profile": "",
       "obtain": "event"
     },
     "makoto": {
@@ -4727,6 +4677,12 @@
         "indoors": "ss"
       },
       "eligma": {},
+      "hobby": [
+        "計略",
+        "悪巧み",
+        "イブキと遊ぶこと"
+      ],
+      "profile": "",
       "obtain": "limited"
     },
     "umika": {
@@ -4748,7 +4704,12 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "お祭り体験",
+        "お祭り関連グッズ（パンフレット）集め"
+      ],
+      "profile": "百鬼夜行連合学院所属、お祭り運営委員会の1年生部員。\n\n田舎出身で、昔から都会で開催されるお祭りに興味津々だという。キヴォトス全域で行われるお祭りはすべて覚えているほどの専門家。口を開けばマイナーなお祭りの話題で早口になりがちで、黙っていれば美人だとよく言われる。"
     },
     "kirara": {
       "playable": true,
@@ -4769,7 +4730,11 @@
         "outdoors": "a",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "おしゃべり"
+      ],
+      "profile": "ゲヘナ学園所属、明るい性格の持ち主の女子高生。\n\nいつも目新しさやドキドキすることを待ち望んでいる少女。初めて出会った人とも仲良くおしゃべりできるくらい、社交性が高い性格。"
     },
     "shiroko_terror": {
       "playable": true,
@@ -4791,6 +4756,12 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [
+        "ジョギング",
+        "体力トレーニング",
+        "ロードバイク"
+      ],
+      "profile": "プレナパテスと共にやってきた別世界線のシロコ。\n\nこの世界のシロコと同じ存在ではあるが、少し成長した姿をしている。アビドスを大切にしており、学校や自治区の復興のためならどんな手段を厭わないが、たまに突拍子もない姿を見せる時も。",
       "obtain": "limited"
     },
     "kisaki": {
@@ -4812,7 +4783,12 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "茶道",
+        "密行"
+      ],
+      "profile": "山海経高級中学校所属、生徒会「幻龍門」の門主。\n\n古風で威厳のある言葉遣いと、どこか神秘的にも感じられる印象が相まって、近寄りがたい雰囲気を漂わせる少女。本人はむしろ、そのイメージを職務に活用しているのだとか。彼女が時折「お忍び」で市井に降りる姿に気づく者がつくないが、その実態を知る者からは微笑ましく見守られている。"
     },
     "satsuki": {
       "playable": true,
@@ -4833,7 +4809,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "chiaki": {
       "playable": true,
@@ -4854,7 +4832,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "seia": {
       "playable": true,
@@ -4876,6 +4856,11 @@
         "indoors": "ss"
       },
       "eligma": {},
+      "hobby": [
+        "謎解き",
+        "読書"
+      ],
+      "profile": "トリニティ総合学園所属、トリニティを構成している生徒連合「サンクトゥス」のリーダー。\n\n衒学的で掴みどころのない口調で話す。本の虫で、大図書館にいることも多い。怪我が治ってからは、以前より子供っぽい一面を見せることも。",
       "obtain": "limited"
     },
     "rio": {
@@ -4898,6 +4883,8 @@
         "indoors": "ss"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "rei": {
@@ -4919,7 +4906,12 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [
+        "スポーツ観戦",
+        "年鑑分析"
+      ],
+      "profile": ""
     },
     "aoba": {
       "playable": true,
@@ -4937,10 +4929,15 @@
       },
       "affinityMax": {
         "urban": "b",
-        "outdoors": "d",
+        "outdoors": "a",
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [
+        "妄想",
+        "さりげない毒舌発言"
+      ],
+      "profile": "ハイランダー鉄道学園所属、貨物輸送管理部のエンジニア。\n\n内気で怖がりな正確だが、さり気なく毒舌発言をする一面も。声を落として喋るせいか、彼女の発する言葉が悪く地下どうか聞き分けるのは少々難しい。常に激務に追われ、理不尽な思いをすることが多く、この世の中に強い不満をいだいている。",
       "obtain": "event"
     },
     "nozomi": {
@@ -4963,6 +4960,10 @@
         "indoors": "ss"
       },
       "eligma": {},
+      "hobby": [
+        "最速記録の更新"
+      ],
+      "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n容器かつハツラツとした正確で、細かいことは気にしない。そのせいか、双子の姉であるヒカリといっしょにトラブルを引き起こすこともしばしば。面白そうなものにはとりあえず飛び込む正確だが、列車運行に関しては責任を持って臨んでいる。",
       "obtain": "limited"
     },
     "hikari": {
@@ -4985,6 +4986,11 @@
         "indoors": "ss"
       },
       "eligma": {},
+      "hobby": [
+        "（奇怪な）運転練習",
+        "アリの観察"
+      ],
+      "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n列車の運転においてずば抜けた才能を持ち、双子の妹であるノゾミといっしょに幹部に選ばれた。しかし、書類や管理業務は大の苦手。その時々の欲求に忠実かつ、他人の視線を気にしないマイペースな正確のため、あらゆる事件を巻き起こす。",
       "obtain": "limited"
     }
   },
@@ -5011,9 +5017,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "AR",
       "hobby": [],
       "profile": "",
+      "gun": "AR",
       "obtain": "limited"
     },
     "ayane": {
@@ -5038,9 +5044,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "HG",
       "hobby": [],
       "profile": "",
+      "gun": "HG",
       "obtain": "event"
     },
     "iori": {
@@ -5065,11 +5071,11 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "limited",
-      "uniqueGear": "_"
+      "uniqueGear": "fluffy_blanket"
     },
     "izuna": {
       "playable": true,
@@ -5093,9 +5099,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SMG",
       "hobby": [],
       "profile": "",
+      "gun": "SMG",
       "obtain": "limited"
     },
     "izumi": {
@@ -5120,9 +5126,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "MG",
       "hobby": [],
       "profile": "",
+      "gun": "MG",
       "obtain": "event",
       "uniqueGear": "midsummer_cooler_box"
     },
@@ -5148,9 +5154,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "limited"
     },
     "koharu": {
@@ -5173,9 +5179,9 @@
         "indoors": "a"
       },
       "eligma": {},
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "event"
     },
     "saki": {
@@ -5198,9 +5204,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "MG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "MG"
     },
     "shizuko": {
       "playable": true,
@@ -5222,11 +5228,12 @@
         "indoors": "a"
       },
       "eligma": {
+        "tactical": 50,
         "mastery": 1800
       },
-      "gun": "SG",
       "hobby": [],
       "profile": "",
+      "gun": "SG",
       "obtain": "event"
     },
     "shiroko": {
@@ -5249,9 +5256,9 @@
         "indoors": "d"
       },
       "eligma": {},
-      "gun": "AR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "AR"
     },
     "chise": {
       "playable": true,
@@ -5275,10 +5282,10 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "GL",
-      "uniqueGear": "treasure_filled_pouch",
       "hobby": [],
       "profile": "",
+      "gun": "GL",
+      "uniqueGear": "treasure_filled_pouch",
       "obtain": "limited"
     },
     "tsurugi": {
@@ -5303,9 +5310,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SG",
       "hobby": [],
       "profile": "",
+      "gun": "SG",
       "obtain": "event"
     },
     "nonomi": {
@@ -5328,9 +5335,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "gun": "MG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "MG"
     },
     "hanako": {
       "playable": true,
@@ -5354,9 +5361,9 @@
       "eligma": {
         "mastery": 2400
       },
-      "gun": "AR",
       "hobby": [],
       "profile": "",
+      "gun": "AR",
       "obtain": "limited"
     },
     "hina": {
@@ -5381,10 +5388,10 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "MG",
-      "uniqueGear": "disciplinary_committee_flotation_device",
       "hobby": [],
       "profile": "",
+      "gun": "MG",
+      "uniqueGear": "disciplinary_committee_flotation_device",
       "obtain": "limited"
     },
     "hinata": {
@@ -5409,9 +5416,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "HG",
       "hobby": [],
       "profile": "",
+      "gun": "HG",
       "obtain": "limited"
     },
     "hifumi": {
@@ -5434,10 +5441,10 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "AR",
-      "uniqueGear": "momo_friends_special_teapot",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "AR",
+      "uniqueGear": "momo_friends_special_teapot"
     },
     "hoshino": {
       "playable": true,
@@ -5461,9 +5468,9 @@
       "eligma": {
         "mastery": 2400
       },
-      "gun": "SG",
       "hobby": [],
       "profile": "",
+      "gun": "SG",
       "obtain": "limited"
     },
     "mashiro": {
@@ -5488,9 +5495,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "limited"
     },
     "mimori": {
@@ -5513,9 +5520,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "HG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "HG"
     },
     "miyako": {
       "playable": true,
@@ -5537,9 +5544,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "SMG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "SMG"
     },
     "miyu": {
       "playable": true,
@@ -5561,9 +5568,9 @@
         "indoors": "a"
       },
       "eligma": {},
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "event"
     },
     "wakamo": {
@@ -5586,9 +5593,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "gun": "SR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "SR"
     },
     "eimi": {
       "playable": true,
@@ -5609,7 +5616,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "serika": {
       "playable": true,
@@ -5630,7 +5639,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kanna": {
       "playable": true,
@@ -5651,7 +5662,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kirino": {
       "playable": true,
@@ -5669,10 +5682,12 @@
       },
       "affinityMax": {
         "urban": "b",
-        "outdoors": "b",
+        "outdoors": "a",
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     },
     "fubuki": {
@@ -5691,10 +5706,12 @@
       },
       "affinityMax": {
         "urban": "b",
-        "outdoors": "s",
+        "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "moe": {
       "playable": true,
@@ -5715,7 +5732,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "atsuko": {
       "playable": true,
@@ -5733,10 +5752,12 @@
       },
       "affinityMax": {
         "urban": "b",
-        "outdoors": "b",
+        "outdoors": "a",
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     },
     "saori": {
@@ -5759,12 +5780,14 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "hiyori": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "penetration",
       "armor": "heavy",
       "role": "attacker",
@@ -5780,7 +5803,11 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     }
   },
@@ -5805,9 +5832,9 @@
         "indoors": "d"
       },
       "eligma": {},
-      "gun": "AR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "AR"
     }
   },
   "bunny_girl": {
@@ -5831,9 +5858,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "HG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "HG"
     },
     "asuna": {
       "playable": true,
@@ -5857,10 +5884,10 @@
       "eligma": {
         "eliminationRare": 50
       },
-      "gun": "AR",
-      "uniqueGear": "bunny_tail_grenade",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "AR",
+      "uniqueGear": "bunny_tail_grenade"
     },
     "karin": {
       "playable": true,
@@ -5884,9 +5911,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "limited"
     },
     "toki": {
@@ -5911,9 +5938,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "AR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "AR"
     },
     "neru": {
       "playable": true,
@@ -5937,9 +5964,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SMG",
       "hobby": [],
       "profile": "",
+      "gun": "SMG",
       "obtain": "limited"
     }
   },
@@ -5966,12 +5993,12 @@
       "eligma": {
         "elimination": 50
       },
-      "gun": "AR",
       "hobby": [
         "貯金",
         "アルバイト"
       ],
-      "profile": "アビドス対策委員会所属、巫女さん姿のしっかり者（？）の会計担当。\n\n少しでも対策委員会の役に立つために、これまでも色々とアルバイトを掛け持ちして真面目に頑張ってきたセリカ。新年を迎えて彼女が選んだのは巫女さんのアルバイトだった。特別巫女さんが浮きだったり造詣が深いわけではないものの、基本的に任せられればしっかりやり遂げようとする彼女の性格もあって、今回もまた全力で頑張っている様子（どうやら、より巫女っぽく振る舞えば時給が上がるという裏事情もある模様）。"
+      "profile": "アビドス対策委員会所属、巫女さん姿のしっかり者（？）の会計担当。\n\n少しでも対策委員会の役に立つために、これまでも色々とアルバイトを掛け持ちして真面目に頑張ってきたセリカ。新年を迎えて彼女が選んだのは巫女さんのアルバイトだった。特別巫女さんが浮きだったり造詣が深いわけではないものの、基本的に任せられればしっかりやり遂げようとする彼女の性格もあって、今回もまた全力で頑張っている様子（どうやら、より巫女っぽく振る舞えば時給が上がるという裏事情もある模様）。",
+      "gun": "AR"
     },
     "aru": {
       "playable": true,
@@ -5995,9 +6022,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "limited"
     },
     "kayoko": {
@@ -6020,9 +6047,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "HG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "HG"
     },
     "junko": {
       "playable": true,
@@ -6043,10 +6070,12 @@
         "outdoors": "b",
         "indoors": "b"
       },
-      "eligma": {},
-      "gun": "AR",
+      "eligma": {
+        "mastery": 1800
+      },
       "hobby": [],
       "profile": "",
+      "gun": "AR",
       "obtain": "event"
     },
     "haruka": {
@@ -6069,9 +6098,9 @@
         "indoors": "c"
       },
       "eligma": {},
-      "gun": "SG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "SG"
     },
     "haruna": {
       "playable": true,
@@ -6095,9 +6124,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "limited"
     },
     "fuuka": {
@@ -6122,9 +6151,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SMG",
       "hobby": [],
       "profile": "",
+      "gun": "SMG",
       "obtain": "limited"
     },
     "mutsuki": {
@@ -6149,9 +6178,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "MG",
       "hobby": [],
       "profile": "",
+      "gun": "MG",
       "obtain": "limited"
     },
     "akari": {
@@ -6173,12 +6202,14 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "izumi": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": false,
       "damage": "explosive",
       "armor": "light",
       "role": "supporter",
@@ -6194,7 +6225,9 @@
         "outdoors": "d",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "casual": {
@@ -6218,15 +6251,15 @@
         "indoors": "b"
       },
       "eligma": {},
-      "gun": "HG",
-      "uniqueGear": "sayas_skateboard",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "HG",
+      "uniqueGear": "sayas_skateboard"
     },
     "sena": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "sonic",
       "armor": "heavy",
       "role": "healer",
@@ -6242,7 +6275,9 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "kid": {
@@ -6266,10 +6301,10 @@
         "indoors": "b"
       },
       "eligma": {},
-      "gun": "SR",
-      "uniqueGear": "shuns_childhood_memories",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
+      "uniqueGear": "shuns_childhood_memories",
       "height": null
     }
   },
@@ -6293,11 +6328,13 @@
         "outdoors": "b",
         "indoors": "d"
       },
-      "eligma": {},
-      "gun": "HG",
-      "uniqueGear": "bath_adjutant",
+      "eligma": {
+        "raid": 50
+      },
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "HG",
+      "uniqueGear": "bath_adjutant"
     },
     "chinatsu": {
       "playable": true,
@@ -6319,9 +6356,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "HG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "HG"
     },
     "nodoka": {
       "playable": true,
@@ -6343,9 +6380,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "SMG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "SMG"
     },
     "shigure": {
       "playable": true,
@@ -6366,7 +6403,9 @@
         "outdoors": "d",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "sportswear": {
@@ -6390,9 +6429,9 @@
         "indoors": "a"
       },
       "eligma": {},
-      "gun": "SR",
       "hobby": [],
       "profile": "",
+      "gun": "SR",
       "obtain": "event"
     },
     "mari": {
@@ -6417,9 +6456,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "HG",
       "hobby": [],
       "profile": "",
+      "gun": "HG",
       "obtain": "limited"
     },
     "yuuka": {
@@ -6444,9 +6483,9 @@
       "eligma": {
         "mastery": 1800
       },
-      "gun": "SMG",
       "hobby": [],
       "profile": "",
+      "gun": "SMG",
       "obtain": "limited"
     },
     "haruna": {
@@ -6469,9 +6508,9 @@
         "indoors": "d"
       },
       "eligma": {},
-      "gun": "SR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "SR"
     }
   },
   "cheerleader": {
@@ -6495,9 +6534,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "gun": "SMG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "SMG"
     },
     "hibiki": {
       "playable": true,
@@ -6518,10 +6557,12 @@
         "outdoors": "a",
         "indoors": "a"
       },
-      "eligma": {},
-      "gun": "MT",
+      "eligma": {
+        "mastery": 1800
+      },
       "hobby": [],
       "profile": "",
+      "gun": "MT",
       "obtain": "event"
     },
     "kotori": {
@@ -6543,7 +6584,9 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "maid": {
@@ -6567,10 +6610,10 @@
         "indoors": "d"
       },
       "eligma": {},
-      "uniqueGear": "_",
-      "gun": "RG",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": "maids_headband",
+      "gun": "RG"
     },
     "yuzu": {
       "playable": true,
@@ -6592,9 +6635,9 @@
         "indoors": "a"
       },
       "eligma": {},
-      "gun": "GL",
       "hobby": [],
       "profile": "",
+      "gun": "GL",
       "obtain": "event"
     },
     "midori": {
@@ -6616,7 +6659,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "momoi": {
       "playable": true,
@@ -6637,7 +6682,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "christmas": {
@@ -6661,9 +6708,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "gun": "AR",
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "gun": "AR"
     },
     "hanae": {
       "playable": true,
@@ -6685,7 +6732,9 @@
         "indoors": "ss"
       },
       "eligma": {},
-      "uniqueGear": "_"
+      "hobby": [],
+      "profile": "",
+      "uniqueGear": "hanaes_gift_bag"
     }
   },
   "camp": {
@@ -6708,7 +6757,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kotama": {
       "playable": true,
@@ -6729,7 +6780,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "maki": {
       "playable": true,
@@ -6750,7 +6803,9 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "dress": {
@@ -6773,7 +6828,11 @@
         "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {},
+      "eligma": {
+        "mastery": 1800
+      },
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "hina": {
@@ -6798,6 +6857,8 @@
       "eligma": {
         "mastery": 2400
       },
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "aru": {
@@ -6819,7 +6880,9 @@
         "outdoors": "a",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "kayoko": {
       "playable": true,
@@ -6840,7 +6903,9 @@
         "outdoors": "a",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "saori": {
       "playable": true,
@@ -6861,7 +6926,11 @@
         "outdoors": "b",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {
+        "mastery": 1800
+      },
+      "hobby": [],
+      "profile": ""
     }
   },
   "guide": {
@@ -6885,6 +6954,7 @@
         "indoors": "a"
       },
       "eligma": {},
+      "hobby": [],
       "profile": "いつでも何処でも眠る修行をやめない百鬼夜行連合学院所属、修行部の部長。\n\n修学旅行を迎えギャッ機や光を案内するガイドの役割につくが、睡眠の修行も諦めない。時には居眠りをしたり、時には鋭く革新をついたりするなど、さりげなく療法をこなしている。"
     }
   },
@@ -6904,11 +6974,13 @@
         "indoors": "d"
       },
       "affinityMax": {
-        "urban": "",
-        "outdoors": "",
-        "indoors": ""
+        "urban": "b",
+        "outdoors": "a",
+        "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     },
     "kazusa": {
@@ -6931,6 +7003,8 @@
         "indoors": "d"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "yoshimi": {
@@ -6953,6 +7027,8 @@
         "indoors": "d"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     }
   },
@@ -6977,6 +7053,8 @@
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     }
   },
@@ -7000,7 +7078,9 @@
         "outdoors": "a",
         "indoors": "ss"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "marina": {
       "playable": true,
@@ -7021,14 +7101,16 @@
         "outdoors": "ss",
         "indoors": "a"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "idol": {
     "sakurako": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
       "role": "supporter",
@@ -7041,16 +7123,18 @@
       },
       "affinityMax": {
         "urban": "d",
-        "outdoors": "s",
+        "outdoors": "ss",
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "mari": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": true,
       "damage": "explosive",
       "armor": "heavy",
       "role": "healer",
@@ -7063,16 +7147,18 @@
       },
       "affinityMax": {
         "urban": "d",
-        "outdoors": "s",
+        "outdoors": "ss",
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "mine": {
       "playable": true,
       "rarity": 1,
-      "useCover": null,
+      "useCover": false,
       "damage": "explosive",
       "armor": "heavy",
       "role": "tank",
@@ -7085,10 +7171,12 @@
       },
       "affinityMax": {
         "urban": "b",
-        "outdoors": "b",
+        "outdoors": "a",
         "indoors": "b"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     }
   },
@@ -7109,10 +7197,12 @@
       },
       "affinityMax": {
         "urban": "d",
-        "outdoors": "s",
+        "outdoors": "ss",
         "indoors": "b"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "noa": {
       "playable": true,
@@ -7130,10 +7220,12 @@
       },
       "affinityMax": {
         "urban": "b",
-        "outdoors": "s",
+        "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "uniform": {
@@ -7157,6 +7249,8 @@
         "indoors": "d"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     },
     "karin": {
@@ -7176,9 +7270,11 @@
       "affinityMax": {
         "urban": "b",
         "outdoors": "a",
-        "indoors": "c"
+        "indoors": "a"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "event"
     },
     "neru": {
@@ -7201,6 +7297,8 @@
         "indoors": "d"
       },
       "eligma": {},
+      "hobby": [],
+      "profile": "",
       "obtain": "limited"
     }
   },
@@ -7208,7 +7306,7 @@
     "juri": {
       "playable": true,
       "rarity": 3,
-      "useCover": null,
+      "useCover": false,
       "damage": "mystic",
       "armor": "light",
       "role": "tank",
@@ -7224,7 +7322,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     },
     "sumire": {
       "playable": true,
@@ -7245,7 +7345,9 @@
         "outdoors": "ss",
         "indoors": "d"
       },
-      "eligma": {}
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   }
 }
