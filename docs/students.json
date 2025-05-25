@@ -993,6 +993,20 @@
         "normal"
       ]
     },
+    "nagusa": {
+      "name": "ナグサ",
+      "last": "御稜",
+      "school": "hyakkiyako",
+      "gun": "SR",
+      "uniqueWeapon": null,
+      "club": "hyakkayouran",
+      "age": 17,
+      "birthday": "1207",
+      "height": 161,
+      "another": [
+        "normal"
+      ]
+    },
     "natsu": {
       "name": "ナツ",
       "last": "柚鳥",
@@ -1003,6 +1017,20 @@
       "age": 15,
       "birthday": "1204",
       "height": 152,
+      "another": [
+        "normal"
+      ]
+    },
+    "niya": {
+      "name": "ニヤ",
+      "last": "天地",
+      "school": "hyakkiyako",
+      "gun": "HG",
+      "uniqueWeapon": null,
+      "club": "yin_yang_club",
+      "age": 17,
+      "birthday": "0101",
+      "height": 166,
       "another": [
         "normal"
       ]
@@ -4993,6 +5021,58 @@
       ],
       "profile": "ハイランダー鉄道学園所属、CCC（中央管制センター）の幹部。\n\n列車の運転においてずば抜けた才能を持ち、双子の妹であるノゾミといっしょに幹部に選ばれた。しかし、書類や管理業務は大の苦手。その時々の欲求に忠実かつ、他人の視線を気にしないマイペースな正確のため、あらゆる事件を巻き起こす。",
       "obtain": "limited"
+    },
+    "nagusa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "elastic",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [
+        "瞑想",
+        "読書"
+      ],
+      "profile": "百鬼夜行連合学院所属、百花繚乱紛争調停委員会の少女。\n\nもとは百花繚乱の副委員長。川内の委員長であるアヤメが姿を消した後、白蓮を譲り受けた。臆病で自尊心が低く、優柔不断な性格ではあるが、それでも大切な者のためなら恐怖を乗り越え、前に進む強さを内に秘めている。"
+    },
+    "niya": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [
+        "後輩たちを可愛がること",
+        "陰謀"
+      ],
+      "profile": "百鬼夜行連合学院所属、陰陽部の部長。\n\n部外者には生徒会長としてシラれているが、連合学院の成り立ち上、より複雑な事情に縛られている。そのため、「働かない部長」として認知されている……と言い訳するが、仕事をしたがらない性格は天性のもの。いつも興味本位で事件を起こすように見えるが、その裏には他社に明かさない本音が秘められているようだ。"
     }
   },
   "swimsuit": {
@@ -6978,7 +7058,9 @@
         "indoors": "b"
       },
       "eligma": {},
-      "hobby": ["任侠映画鑑賞"],
+      "hobby": [
+        "任侠映画鑑賞"
+      ],
       "profile": "百鬼夜行連合学院所属、修学旅行を迎えガイド役を務めることになった少女。\n\nガイドになっても、彼女が持つ明朗快活さは失われない。むしろその性格を活かし、人一倍ガイドの仕事に熱中している。ただ、任侠体験と修学旅行を混同をしていないか、やや気を配って見守る必要はあるかもしれない……。"
     }
   },
