@@ -1018,7 +1018,8 @@
       "birthday": "1204",
       "height": 152,
       "another": [
-        "normal"
+        "normal",
+        "band"
       ]
     },
     "niya": {
@@ -7136,6 +7137,29 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "natsu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "healer",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "combat": {
