@@ -429,7 +429,8 @@
       "birthday": "0808",
       "height": 160,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "kisaki": {
@@ -1701,7 +1702,8 @@
       "birthday": "0616",
       "height": 155,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "yuzu": {
@@ -1801,7 +1803,8 @@
       "birthday": "0723",
       "height": 157,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "wakamo": {
@@ -3404,7 +3407,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "hanae": {
       "playable": true,
@@ -3974,7 +3978,8 @@
         "mastery": 1800
       },
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "mina": {
       "playable": true,
@@ -4631,7 +4636,8 @@
         "ライトノベルを読むこと",
         "鍛錬"
       ],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "kikyou": {
       "playable": true,
@@ -5677,7 +5683,8 @@
       "eligma": {},
       "hobby": [],
       "profile": "",
-      "gun": "SR"
+      "gun": "SR",
+      "uniqueGear": ""
     },
     "eimi": {
       "playable": true,
@@ -5891,6 +5898,85 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "kikyou": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "sonic",
+      "armor": "heavy",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [
+        "あやとり",
+        "兵法書を読むこと",
+        "日光浴"
+      ],
+      "profile": "夏を迎え水着に着替えた百鬼夜行連合学院所属、百花繚乱紛争調停員会の作戦参謀。\n\nこれまで見せてこなかった一面も見えてきたが、泳げないことは未だ心に秘めたまま。百夜水上祭には、流されて参加することに。"
+    },
+    "yukari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [
+        "お祈り",
+        "駄菓子屋巡り"
+      ],
+      "profile": "夏を迎え水着に着替えた百鬼夜行連合学院所属、百花繚乱紛争調停委員会の1年生。\n\n大好きな先輩と百夜水上祭に参加できると聞いて、普段よりテンションが高い。持ち前の明るさと行動力は海でも健在。"
+    },
+    "renge": {
+      "playable": true,
+      "rarity": 2,
+      "useCover": null,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "eligma": {},
+      "hobby": [
+        "ライトノベルを読むこと",
+        "鍛錬"
+      ],
+      "profile": "夏を迎え水着に着替えた百鬼夜行連合学院所属、百花繚乱紛争調停員会の切り込み隊長。\n\nみんなと夏の青春を楽しむべく、百夜水上祭に参加する。燃え上がる投資と熱き情熱は、誰も止められない。"
     }
   },
   "riding": {
