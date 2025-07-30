@@ -6041,13 +6041,13 @@
       "position": "back",
       "combat": "special",
       "affinity": {
-        "urban": "ss",
-        "outdoors": "s",
+        "urban": "s",
+        "outdoors": "a",
         "indoors": "d"
       },
       "affinityMax": {
-        "urban": "ss",
-        "outdoors": "s",
+        "urban": "s",
+        "outdoors": "a",
         "indoors": "d"
       },
       "eligma": {},
@@ -6081,7 +6081,7 @@
     },
     "mika": {
       "playable": true,
-      "rarity": 0,
+      "rarity": 3,
       "useCover": true,
       "damage": "sonic",
       "armor": "special",
@@ -6089,13 +6089,13 @@
       "position": "front",
       "combat": "striker",
       "affinity": {
-        "urban": "ss",
-        "outdoors": "s",
+        "urban": "s",
+        "outdoors": "a",
         "indoors": "d"
       },
       "affinityMax": {
-        "urban": "ss",
-        "outdoors": "s",
+        "urban": "s",
+        "outdoors": "a",
         "indoors": "d"
       },
       "eligma": {},
