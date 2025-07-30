@@ -223,7 +223,8 @@
       "birthday": "1111",
       "height": 163,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "ibuki": {
@@ -784,7 +785,8 @@
       "birthday": "0929",
       "height": 149,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "sena": {
@@ -991,7 +993,8 @@
       "birthday": "0704",
       "height": 160,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "nagusa": {
@@ -1124,7 +1127,8 @@
       "height": 179,
       "another": [
         "normal",
-        "sportswear"
+        "sportswear",
+        "swimsuit"
       ]
     },
     "hanae": {
@@ -1454,7 +1458,8 @@
       "birthday": "0508",
       "height": 157,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "misaki": {
@@ -5977,6 +5982,126 @@
         "鍛錬"
       ],
       "profile": "夏を迎え水着に着替えた百鬼夜行連合学院所属、百花繚乱紛争調停員会の切り込み隊長。\n\nみんなと夏の青春を楽しむべく、百夜水上祭に参加する。燃え上がる投資と熱き情熱は、誰も止められない。"
+    },
+    "ichika": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "seia": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "special",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "nagisa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "elastic",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "ss",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "hasumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "mika": {
+      "playable": true,
+      "rarity": 0,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "ss",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
     }
   },
   "riding": {
