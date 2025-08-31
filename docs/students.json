@@ -314,6 +314,20 @@
         "swimsuit"
       ]
     },
+    "eri": {
+      "name": "エリ",
+      "last": "白尾",
+      "school": "wildhunt",
+      "gun": "HG",
+      "uniqueWeapon": "arcana_wand",
+      "club": "occult_research_society",
+      "age": 16,
+      "birthday": "1031",
+      "height": 158,
+      "another": [
+        "normal"
+      ]
+    },
     "kaede": {
       "name": "カエデ",
       "last": "勇美",
@@ -324,6 +338,20 @@
       "age": 15,
       "birthday": "0709",
       "height": 142,
+      "another": [
+        "normal"
+      ]
+    },
+    "kanoe": {
+      "name": "カノエ",
+      "last": "板垣",
+      "school": "wildhunt",
+      "gun": "HG",
+      "uniqueWeapon": "trismegistus",
+      "club": "occult_research_society",
+      "age": 17,
+      "birthday": "1102",
+      "height": 144,
       "another": [
         "normal"
       ]
@@ -5085,6 +5113,52 @@
         "陰謀"
       ],
       "profile": "百鬼夜行連合学院所属、陰陽部の部長。\n\n部外者には生徒会長としてシラれているが、連合学院の成り立ち上、より複雑な事情に縛られている。そのため、「働かない部長」として認知されている……と言い訳するが、仕事をしたがらない性格は天性のもの。いつも興味本位で事件を起こすように見えるが、その裏には他社に明かさない本音が秘められているようだ。"
+    },
+    "eri": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "kanoe": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "swimsuit": {

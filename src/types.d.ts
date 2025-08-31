@@ -1,4 +1,4 @@
-type SCHOOL_TYPE = 'hyakkiyako' | 'red_winter' | 'trinity' | 'gehenna' | 'abydos' | 'millennium' | 'arius' | 'shanhaijing' | 'valkyrie' | 'srt' | 'highlander' | 'etc';
+type SCHOOL_TYPE = 'hyakkiyako' | 'red_winter' | 'trinity' | 'gehenna' | 'abydos' | 'millennium' | 'arius' | 'shanhaijing' | 'valkyrie' | 'srt' | 'highlander' | 'wildhunt' | 'etc';
 type CLUB_TYPE =
   // Hyakkiyako
   | 'yin_yang_club'
@@ -58,6 +58,8 @@ type CLUB_TYPE =
   | 'central_control_center'
   | 'highlander_supervision_office'
   | 'freight_logistics_department'
+  // WildHunt
+  | 'occult_research_society'
   // Other
   | 'none';
 type GUN_TYPE = 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT' | 'FT';
