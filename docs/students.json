@@ -1501,7 +1501,8 @@
       "birthday": "0113",
       "height": 163,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "michiru": {
@@ -6176,6 +6177,29 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "misaki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "riding": {
