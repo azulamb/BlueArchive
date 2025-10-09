@@ -60,6 +60,7 @@ type CLUB_TYPE =
   | 'freight_logistics_department'
   // WildHunt
   | 'occult_research_society'
+  | 'free_trade_cartel'
   // Other
   | 'none';
 type GUN_TYPE = 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT' | 'FT';
