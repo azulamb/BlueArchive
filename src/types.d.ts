@@ -62,6 +62,7 @@ type CLUB_TYPE =
   | 'occult_research_society'
   | 'free_trade_cartel'
   // Other
+  | 'splash_helmet_gang'
   | 'none';
 type GUN_TYPE = 'SG' | 'SMG' | 'AR' | 'GL' | 'HG' | 'RL' | 'SR' | 'RG' | 'MG' | 'MT' | 'FT';
 type ANOTHER_TYPE =
@@ -86,7 +87,8 @@ type ANOTHER_TYPE =
   | 'idol'
   | 'pajamas'
   | 'uniform'
-  | 'part_time';
+  | 'part_time'
+  | 'magical';
 type DAMAGE_TYPE = 'normal' | 'explosive' | 'penetration' | 'mystic' | 'sonic';
 type ARMOR_TYPE = 'normal' | 'light' | 'heavy' | 'special' | 'elastic';
 type ROLE_TYPE = 'tank' | 'attacker' | 'healer' | 'supporter' | 'tactical_support';
@@ -144,6 +146,7 @@ interface Profile {
   age: number;
   birthday: string;
   height: number;
+  dropout?: boolean;
   another?: ANOTHER_TYPE[];
 }
 

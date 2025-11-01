@@ -784,7 +784,8 @@
       "birthday": "0831",
       "height": 162,
       "another": [
-        "normal"
+        "normal",
+        "magical"
       ]
     },
     "sumire": {
@@ -1798,6 +1799,21 @@
         "band"
       ]
     },
+    "rabu": {
+      "name": "ラブ",
+      "last": "河駒風",
+      "school": "trinity",
+      "gun": "SG",
+      "uniqueWeapon": "",
+      "club": "splash_helmet_gang",
+      "age": 16,
+      "birthday": "0506",
+      "height": 161,
+      "dropout": true,
+      "another": [
+        "normal"
+      ]
+    },
     "rio": {
       "name": "リオ",
       "last": "",
@@ -1865,7 +1881,8 @@
       "birthday": "0531",
       "height": 153,
       "another": [
-        "normal"
+        "normal",
+        "magical"
       ]
     },
     "renge": {
@@ -5274,6 +5291,29 @@
       "eligma": {},
       "hobby": [],
       "profile": ""
+    },
+    "rabu": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "swimsuit": {
@@ -7898,6 +7938,54 @@
         "urban": "b",
         "outdoors": "ss",
         "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    }
+  },
+  "magical": {
+    "suzumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "reisa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "special",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
       },
       "eligma": {},
       "hobby": [],
