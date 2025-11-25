@@ -12,6 +12,7 @@ type CLUB_TYPE =
   | 'engineering_department'
   | 'class_no_227'
   | 'knowledge_liberation_front'
+  | 'publishing_department'
   // Trinity
   | 'tea_party'
   | 'after_school_sweets_club'
@@ -49,6 +50,7 @@ type CLUB_TYPE =
   | 'chinese_alchemy_study_group'
   // Arius
   | 'arius_squad'
+  | 'nicomedias_troop'
   // Valkyrie
   | 'public_safety_bureau'
   | 'community_safety_bureau'

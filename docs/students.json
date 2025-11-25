@@ -773,6 +773,20 @@
         "normal"
       ]
     },
+    "subaru": {
+      "name": "スバル",
+      "last": "梯",
+      "school": "arius",
+      "gun": "AR",
+      "uniqueWeapon": "",
+      "club": "nicomedias_troop",
+      "age": 17,
+      "birthday": "0309",
+      "height": 166,
+      "another": [
+        "normal"
+      ]
+    },
     "suzumi": {
       "name": "スズミ",
       "last": "森月",
@@ -862,6 +876,20 @@
       "another": [
         "normal",
         "christmas"
+      ]
+    },
+    "takane": {
+      "name": "タカネ",
+      "last": "三善",
+      "school": "red_winter",
+      "gun": "HG",
+      "uniqueWeapon": "",
+      "club": "publishing_department",
+      "age": 16,
+      "birthday": "0618",
+      "height": 148,
+      "another": [
+        "normal"
       ]
     },
     "cherino": {
@@ -1736,6 +1764,20 @@
       "another": [
         "normal",
         "maid"
+      ]
+    },
+    "yakumo": {
+      "name": "ヤクモ",
+      "last": "荒槇",
+      "school": "red_winter",
+      "gun": "HG",
+      "uniqueWeapon": "",
+      "club": "publishing_department",
+      "age": 17,
+      "birthday": "0518",
+      "height": 144,
+      "another": [
+        "normal"
       ]
     },
     "yuuka": {
@@ -5310,6 +5352,75 @@
         "urban": "a",
         "outdoors": "b",
         "indoors": "c"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "subaru": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "takane": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "healer",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "yakumo": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
       },
       "eligma": {},
       "hobby": [],
