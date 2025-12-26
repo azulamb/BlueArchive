@@ -976,7 +976,8 @@
       "birthday": "0405",
       "height": 180,
       "another": [
-        "normal"
+        "normal",
+        "dress"
       ]
     },
     "tsubaki": {
@@ -1559,7 +1560,8 @@
       "birthday": "0222",
       "height": 153,
       "another": [
-        "normal"
+        "normal",
+        "dress"
       ]
     },
     "midori": {
@@ -7586,6 +7588,52 @@
       "eligma": {
         "mastery": 1800
       },
+      "hobby": [],
+      "profile": ""
+    },
+    "tsukuyo": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "michiru": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": null,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "healer",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "b",
+        "indoors": "ss"
+      },
+      "eligma": {},
       "hobby": [],
       "profile": ""
     }
