@@ -25,8 +25,6 @@ Promise.all([
       age: 0,
       birthday: '',
       height: 138,
-      hobby: [],
-      profile: '',
     };
     for (const key of STUDENTS) {
       const student = data.profile[key];

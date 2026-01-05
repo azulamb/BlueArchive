@@ -375,7 +375,7 @@ Promise.all([
         if (rarityValue < 3) {
           affection.max = '10';
         } else if (rarityValue < 5) {
-          affection.max = '20';
+          affection.max = '30';
         } else {
           affection.max = '100';
         }
