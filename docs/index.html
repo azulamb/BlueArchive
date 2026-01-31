@@ -14,19 +14,23 @@
     <style>
       :root {
         --explosive-front: #8c030a;
-        --penetration-front: #bb890b;
-        --mystic-front: #246f99;
-        --sonic-front: #7d5594;
         --explosive-back: #f7d2d4;
+        --penetration-front: #bb890b;
         --penetration-back: #fff3d4;
+        --xxxxx-front: #4aa36f; /*TODO:分解*/
+        --xxxxx-back: #96c9ab; /*TODO:分解*/
+        --mystic-front: #246f99;
         --mystic-back: #bae0f5;
+        --sonic-front: #7d5594;
         --sonic-back: #e1baf7;
         --light-front: var(--explosive-front);
+        --light-back: var(--explosive-back);
         --heavy-front: var(--penetration-front);
+        --heavy-back: var(--penetration-back);
+        --composite-front: var(--xxxxx-front);
+        --composite-back: var(--xxxxx-back);
         --special-front: var(--mystic-front);
         --elastic-front: var(--sonic-front);
-        --light-back: var(--explosive-back);
-        --heavy-back: var(--penetration-back);
         --special-back: var(--mystic-back);
         --elastic-back: var(--sonic-back);
       }
@@ -59,6 +63,9 @@
       }
       tr[data-armor='light'] {
         --row-line: var(--light-front);
+      }
+      tr[data-armor='composite'] {
+        --row-line: var(--composite-front);
       }
       tr[data-armor='heavy'] {
         --row-line: var(--heavy-front);
