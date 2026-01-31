@@ -92,7 +92,7 @@ type ANOTHER_TYPE =
   | 'part_time'
   | 'magical';
 type DAMAGE_TYPE = 'normal' | 'explosive' | 'penetration' | 'mystic' | 'sonic';
-type ARMOR_TYPE = 'normal' | 'light' | 'heavy' | 'special' | 'elastic';
+type ARMOR_TYPE = 'normal' | 'light' | 'heavy' | 'special' | 'elastic' | 'composite';
 type ROLE_TYPE = 'tank' | 'attacker' | 'healer' | 'supporter' | 'tactical_support';
 type ROLE_POSITION = 'front' | 'middle' | 'back';
 type COMBAT_CLASS = 'striker' | 'special';

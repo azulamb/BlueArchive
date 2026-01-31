@@ -50,6 +50,11 @@ const clubs: { [key in CLUB_TYPE]: number } = {
   central_control_center: 0,
   highlander_supervision_office: 0,
   freight_logistics_department: 0,
+  publishing_department: 0,
+  nicomedias_troop: 0,
+  occult_research_society: 0,
+  free_trade_cartel: 0,
+  splash_helmet_gang: 0,
   none: 0,
 };
 

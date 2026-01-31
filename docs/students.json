@@ -147,7 +147,8 @@
       "height": 152,
       "another": [
         "normal",
-        "maid"
+        "maid",
+        "armed"
       ]
     },
     "aru": {
@@ -503,6 +504,20 @@
       "another": [
         "normal",
         "swimsuit"
+      ]
+    },
+    "kei": {
+      "name": "ケイ",
+      "last": "",
+      "school": "",
+      "gun": "",
+      "uniqueWeapon": "",
+      "club": "",
+      "age": 0,
+      "birthday": "",
+      "height": 0,
+      "another": [
+        "normal"
       ]
     },
     "kokona": {
@@ -1022,7 +1037,8 @@
       "height": 165,
       "another": [
         "normal",
-        "bunny_girl"
+        "bunny_girl",
+        "armed"
       ]
     },
     "tomoe": {
@@ -1351,7 +1367,8 @@
       "birthday": "1210",
       "height": 162,
       "another": [
-        "normal"
+        "normal",
+        "armed"
       ]
     },
     "hiyori": {
@@ -1441,7 +1458,7 @@
       "another": [
         "normal",
         "swimsuit",
-        "combat"
+        "armed"
       ]
     },
     "maki": {
@@ -1869,7 +1886,8 @@
       "birthday": "0606",
       "height": 171,
       "another": [
-        "normal"
+        "normal",
+        "armed"
       ]
     },
     "ritsu": {
@@ -5360,7 +5378,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "obtain": "event"
     },
     "subaru": {
       "playable": true,
@@ -5430,6 +5449,30 @@
       "eligma": {},
       "hobby": [],
       "profile": ""
+    },
+    "kei": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "composite",
+      "role": "supporter",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "a"
+      },
+      "affinityMax": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "a"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
     }
   },
   "swimsuit": {
@@ -7788,7 +7831,7 @@
       "profile": ""
     }
   },
-  "combat": {
+  "armed": {
     "hoshino": {
       "playable": true,
       "rarity": 3,
@@ -7812,6 +7855,102 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "arisu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "composite",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "a"
+      },
+      "affinityMax": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "a"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "himari": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "elastic",
+      "role": "tactical_support",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "rio": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "toki": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": false,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
     }
   },
   "qipao": {
