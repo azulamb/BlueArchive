@@ -509,13 +509,13 @@
     "kei": {
       "name": "ケイ",
       "last": "",
-      "school": "",
-      "gun": "",
+      "school": "millennium",
+      "gun": "RG",
       "uniqueWeapon": "",
       "club": "",
       "age": 0,
-      "birthday": "",
-      "height": 0,
+      "birthday": "0325",
+      "height": 152,
       "another": [
         "normal"
       ]
