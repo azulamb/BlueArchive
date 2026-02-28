@@ -312,7 +312,8 @@
       "height": 167,
       "another": [
         "normal",
-        "swimsuit"
+        "swimsuit",
+        "armed"
       ]
     },
     "eri": {
@@ -1842,7 +1843,8 @@
       "height": 150,
       "another": [
         "normal",
-        "maid"
+        "maid",
+        "armed"
       ]
     },
     "yoshimi": {
@@ -7951,6 +7953,52 @@
       "hobby": [],
       "profile": "",
       "obtain": "event"
+    },
+    "eimi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "yuzu": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "supporter",
+      "position": "back",
+      "combat": "",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "qipao": {
