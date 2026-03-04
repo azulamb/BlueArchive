@@ -591,7 +591,8 @@
       "birthday": "0214",
       "height": 149,
       "another": [
-        "normal"
+        "normal",
+        "pajamas"
       ]
     },
     "saori": {
@@ -8165,6 +8166,29 @@
         "urban": "b",
         "outdoors": "ss",
         "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "koyuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
       },
       "eligma": {},
       "hobby": [],
