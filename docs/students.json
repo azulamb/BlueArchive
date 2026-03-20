@@ -565,6 +565,20 @@
         "cheerleader"
       ]
     },
+    "konoka": {
+      "name": "コノカ",
+      "last": "志真",
+      "school": "valkyrie",
+      "gun": "SG",
+      "uniqueWeapon": "",
+      "club": "public_safety_bureau",
+      "age": 16,
+      "birthday": "0819",
+      "height": 165,
+      "another": [
+        "normal"
+      ]
+    },
     "koharu": {
       "name": "コハル",
       "last": "下江",
@@ -1948,6 +1962,20 @@
       "another": [
         "normal",
         "magical"
+      ]
+    },
+    "rena": {
+      "name": "レナ",
+      "last": "衣斐",
+      "school": "wildhunt",
+      "gun": "HG",
+      "uniqueWeapon": "",
+      "club": "occult_research_society",
+      "age": 15,
+      "birthday": "0921",
+      "height": 152,
+      "another": [
+        "normal"
       ]
     },
     "renge": {
@@ -5476,6 +5504,52 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "konoka": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "rena": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "swimsuit": {
