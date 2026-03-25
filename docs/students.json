@@ -2227,7 +2227,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "atsuko": {
       "playable": true,
@@ -4408,7 +4409,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "momiji": {
       "playable": true,
@@ -4962,7 +4964,8 @@
       "hobby": [
         "おしゃべり"
       ],
-      "profile": "ゲヘナ学園所属、明るい性格の持ち主の女子高生。\n\nいつも目新しさやドキドキすることを待ち望んでいる少女。初めて出会った人とも仲良くおしゃべりできるくらい、社交性が高い性格。"
+      "profile": "ゲヘナ学園所属、明るい性格の持ち主の女子高生。\n\nいつも目新しさやドキドキすることを待ち望んでいる少女。初めて出会った人とも仲良くおしゃべりできるくらい、社交性が高い性格。",
+      "uniqueGear": ""
     },
     "shiroko_terror": {
       "playable": true,
@@ -7858,7 +7861,8 @@
       "eligma": {},
       "hobby": [],
       "profile": "",
-      "obtain": "limited"
+      "obtain": "limited",
+      "uniqueGear": ""
     },
     "yoshimi": {
       "playable": true,
