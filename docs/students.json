@@ -41,7 +41,8 @@
       "height": 164,
       "another": [
         "normal",
-        "bunny_girl"
+        "bunny_girl",
+        "uniform"
       ]
     },
     "akari": {
@@ -306,7 +307,7 @@
       "school": "millennium",
       "gun": "SG",
       "uniqueWeapon": "multi-tactical",
-      "club": "paranormal_affairs_department",
+      "club": "supernatural_phenomenon_task_force",
       "age": 15,
       "birthday": "0501",
       "height": 167,
@@ -326,6 +327,20 @@
       "age": 16,
       "birthday": "1031",
       "height": 158,
+      "another": [
+        "normal"
+      ]
+    },
+    "otogi": {
+      "name": "オトギ",
+      "last": "天神山",
+      "school": "srt",
+      "gun": "SR",
+      "uniqueWeapon": null,
+      "club": "fox_platoon",
+      "age": 17,
+      "birthday": "0520",
+      "height": 150,
       "another": [
         "normal"
       ]
@@ -507,13 +522,27 @@
         "swimsuit"
       ]
     },
+    "kurumi": {
+      "name": "クルミ",
+      "last": "高倉",
+      "school": "srt",
+      "gun": "SMG",
+      "uniqueWeapon": null,
+      "club": "fox_platoon",
+      "age": 17,
+      "birthday": "0930",
+      "height": 151,
+      "another": [
+        "normal"
+      ]
+    },
     "kei": {
       "name": "ケイ",
-      "last": "",
+      "last": "天童",
       "school": "millennium",
       "gun": "RG",
       "uniqueWeapon": "",
-      "club": "",
+      "club": "supernatural_phenomenon_task_force",
       "age": 0,
       "birthday": "0325",
       "height": 152,
@@ -1116,6 +1145,20 @@
         "band"
       ]
     },
+    "niko": {
+      "name": "ニコ",
+      "last": "吉野",
+      "school": "srt",
+      "gun": "SG",
+      "uniqueWeapon": null,
+      "club": "fox_platoon",
+      "age": 17,
+      "birthday": "0211",
+      "height": 160,
+      "another": [
+        "normal"
+      ]
+    },
     "niya": {
       "name": "ニヤ",
       "last": "天地",
@@ -1378,7 +1421,7 @@
       "school": "millennium",
       "gun": "HG",
       "uniqueWeapon": "clifftop_flower",
-      "club": "paranormal_affairs_department",
+      "club": "supernatural_phenomenon_task_force",
       "age": 17,
       "birthday": "1210",
       "height": 162,
@@ -5553,6 +5596,77 @@
       "eligma": {},
       "hobby": [],
       "profile": ""
+    },
+    "otogi": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "b",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "kurumi": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "niko": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "elastic",
+      "role": "supporter",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
     }
   },
   "swimsuit": {
@@ -6428,7 +6542,7 @@
     "renge": {
       "playable": true,
       "rarity": 2,
-      "useCover": null,
+      "useCover": true,
       "damage": "sonic",
       "armor": "special",
       "role": "attacker",
@@ -8345,6 +8459,29 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "akane": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "part_time": {

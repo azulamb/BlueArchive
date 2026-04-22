@@ -36,7 +36,7 @@ type CLUB_TYPE =
   // Millennium
   | 'seminar'
   | 'engineering_dept'
-  | 'paranormal_affairs_department'
+  | 'supernatural_phenomenon_task_force'
   | 'training_club'
   | 'veritas'
   | 'cleaning_and_clearing'
@@ -56,6 +56,7 @@ type CLUB_TYPE =
   | 'community_safety_bureau'
   // SRT
   | 'rabbit_platoon'
+  | 'fox_platoon'
   // Highlander
   | 'central_control_center'
   | 'highlander_supervision_office'
