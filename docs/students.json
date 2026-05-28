@@ -331,6 +331,20 @@
         "normal"
       ]
     },
+    "erika": {
+      "name": "エリカ",
+      "last": "旗見",
+      "school": "gehenna",
+      "gun": "SG",
+      "uniqueWeapon": "",
+      "club": "kirakira",
+      "age": 16,
+      "birthday": "0201",
+      "height": 166,
+      "another": [
+        "normal"
+      ]
+    },
     "otogi": {
       "name": "オトギ",
       "last": "天神山",
@@ -1306,7 +1320,8 @@
       "height": 157,
       "another": [
         "normal",
-        "new_year"
+        "new_year",
+        "dress"
       ]
     },
     "haruna": {
@@ -1769,7 +1784,8 @@
       "height": 144,
       "another": [
         "normal",
-        "new_year"
+        "new_year",
+        "dress"
       ]
     },
     "megu": {
@@ -5667,6 +5683,29 @@
       "hobby": [],
       "profile": "",
       "obtain": "limited"
+    },
+    "erika": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "swimsuit": {
@@ -7872,6 +7911,52 @@
         "urban": "d",
         "outdoors": "b",
         "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "haruka": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "light",
+      "role": "attacker",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "mutsuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
       },
       "eligma": {},
       "hobby": [],
