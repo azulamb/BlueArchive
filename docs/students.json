@@ -1141,7 +1141,8 @@
       "birthday": "1207",
       "height": 161,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "natsu": {
@@ -6742,6 +6743,29 @@
         "urban": "b",
         "outdoors": "d",
         "indoors": "ss"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "nagusa": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "heavy",
+      "role": "supporter",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "d",
+        "outdoors": "s",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "d",
+        "outdoors": "ss",
+        "indoors": "b"
       },
       "eligma": {},
       "hobby": [],
