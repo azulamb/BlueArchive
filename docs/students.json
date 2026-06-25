@@ -504,7 +504,8 @@
       "birthday": "0219",
       "height": 142,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "kirara": {
@@ -798,7 +799,8 @@
       "height": 174,
       "another": [
         "normal",
-        "kid"
+        "kid",
+        "swimsuit"
       ]
     },
     "junko": {
@@ -2334,7 +2336,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "arisu": {
       "playable": true,
@@ -2478,7 +2481,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": ""
     },
     "ui": {
       "playable": true,
@@ -6770,6 +6774,52 @@
       "eligma": {},
       "hobby": [],
       "profile": ""
+    },
+    "kisaki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "elastic",
+      "role": "supporter",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "ss",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "shun": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "s",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "ss",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
     }
   },
   "riding": {
@@ -6875,7 +6925,8 @@
       "hobby": [],
       "profile": "",
       "gun": "SR",
-      "obtain": "limited"
+      "obtain": "limited",
+      "uniqueGear": ""
     },
     "toki": {
       "playable": true,
