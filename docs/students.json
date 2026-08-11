@@ -240,7 +240,8 @@
       "birthday": "0414",
       "height": 128,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "iroha": {
@@ -254,7 +255,8 @@
       "birthday": "1116",
       "height": 151,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "ui": {
@@ -710,7 +712,8 @@
       "birthday": "0410",
       "height": 172,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "saya": {
@@ -994,7 +997,8 @@
       "birthday": "0922",
       "height": 167,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "chise": {
@@ -1564,7 +1568,8 @@
       "birthday": "0319",
       "height": 169,
       "another": [
-        "normal"
+        "normal",
+        "swimsuit"
       ]
     },
     "mashiro": {
@@ -6820,6 +6825,126 @@
       "eligma": {},
       "hobby": [],
       "profile": ""
+    },
+    "satsuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "sonic",
+      "armor": "elastic",
+      "role": "healer",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "chiaki": {
+      "playable": true,
+      "rarity": 1,
+      "useCover": null,
+      "damage": "",
+      "armor": "",
+      "role": "",
+      "position": "",
+      "combat": "",
+      "affinity": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "affinityMax": {
+        "urban": "a",
+        "outdoors": "b",
+        "indoors": "c"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "event"
+    },
+    "makoto": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "mystic",
+      "armor": "heavy",
+      "role": "attacker",
+      "position": "back",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "ibuki": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "s",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
+    },
+    "iroha": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "affinityMax": {
+        "urban": "s",
+        "outdoors": "a",
+        "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": "",
+      "obtain": "limited"
     }
   },
   "riding": {
