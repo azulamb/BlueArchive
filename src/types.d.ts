@@ -1,4 +1,4 @@
-type SCHOOL_TYPE = 'hyakkiyako' | 'red_winter' | 'trinity' | 'gehenna' | 'abydos' | 'millennium' | 'arius' | 'shanhaijing' | 'valkyrie' | 'srt' | 'highlander' | 'wildhunt' | 'etc';
+type SCHOOL_TYPE = 'hyakkiyako' | 'red_winter' | 'trinity' | 'gehenna' | 'abydos' | 'millennium' | 'arius' | 'shanhaijing' | 'valkyrie' | 'wildhunt' | 'srt' | 'highlander' | 'odyssey' | 'etc';
 type CLUB_TYPE =
   // Hyakkiyako
   | 'yin_yang_club'
@@ -54,6 +54,9 @@ type CLUB_TYPE =
   // Valkyrie
   | 'public_safety_bureau'
   | 'community_safety_bureau'
+  // WildHunt
+  | 'occult_research_society'
+  | 'free_trade_cartel'
   // SRT
   | 'rabbit_platoon'
   | 'fox_platoon'
@@ -61,9 +64,13 @@ type CLUB_TYPE =
   | 'central_control_center'
   | 'highlander_supervision_office'
   | 'freight_logistics_department'
-  // WildHunt
-  | 'occult_research_society'
-  | 'free_trade_cartel'
+  // Odyssey
+  | 'island'
+  | 'trident'
+  | 'diving_club'
+  | 'cruise_operations_club'
+  | 'sick_bay'
+  | 'ryugu'
   // Other
   | 'splash_helmet_gang'
   | 'none';

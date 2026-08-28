@@ -581,6 +581,20 @@
         "normal"
       ]
     },
+    "kokoro": {
+      "name": "ココロ",
+      "last": "渡海",
+      "school": "odyssey",
+      "gun": "AR",
+      "uniqueWeapon": "",
+      "club": "diving_club",
+      "age": 16,
+      "birthday": "0611",
+      "height": 165,
+      "another": [
+        "normal"
+      ]
+    },
     "kotama": {
       "name": "コタマ",
       "last": "音瀬",
@@ -594,6 +608,20 @@
       "another": [
         "normal",
         "camp"
+      ]
+    },
+    "kotone": {
+      "name": "コトネ",
+      "last": "淵上",
+      "school": "odyssey",
+      "gun": "AR",
+      "uniqueWeapon": "",
+      "club": "diving_club",
+      "age": 16,
+      "birthday": "1016",
+      "height": 171,
+      "another": [
+        "normal"
       ]
     },
     "kotori": {
@@ -5712,6 +5740,52 @@
         "urban": "ss",
         "outdoors": "b",
         "indoors": "d"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "kokoro": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "mystic",
+      "armor": "special",
+      "role": "supporter",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "affinityMax": {
+        "urban": "s",
+        "outdoors": "d",
+        "indoors": "b"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "kotone": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "explosive",
+      "armor": "special",
+      "role": "tank",
+      "position": "front",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
       },
       "eligma": {},
       "hobby": [],
