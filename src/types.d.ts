@@ -13,6 +13,7 @@ type CLUB_TYPE =
   | 'class_no_227'
   | 'knowledge_liberation_front'
   | 'publishing_department'
+  | 'class_no_183'
   // Trinity
   | 'tea_party'
   | 'after_school_sweets_club'

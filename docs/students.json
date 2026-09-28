@@ -168,6 +168,20 @@
         "dress"
       ]
     },
+    "anna": {
+      "name": "アンナ",
+      "last": "仁木",
+      "school": "red_winter",
+      "gun": "HG",
+      "uniqueWeapon": "",
+      "club": "class_no_183",
+      "age": 16,
+      "birthday": "0310",
+      "height": 165,
+      "another": [
+        "normal"
+      ]
+    },
     "iori": {
       "name": "イオリ",
       "last": "銀鏡",
@@ -343,6 +357,20 @@
       "age": 16,
       "birthday": "0201",
       "height": 166,
+      "another": [
+        "normal"
+      ]
+    },
+    "erina": {
+      "name": "エリナ",
+      "last": "二木",
+      "school": "red_winter",
+      "gun": "HG",
+      "uniqueWeapon": "",
+      "club": "class_no_183",
+      "age": 15,
+      "birthday": "0208",
+      "height": 165,
       "another": [
         "normal"
       ]
@@ -2718,7 +2746,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": "_"
     },
     "kanna": {
       "playable": true,
@@ -3063,7 +3092,8 @@
         "読書",
         "しおりづくり"
       ],
-      "profile": "トリニティ総合学園所属、図書委員会の司書。\n\n本が大好きな読書マニアで、トリニティの図書館に所蔵されている膨大な蔵書を全て読破したという数少ない生徒の一人。本を酔うのと同じくらい本を勧めることも好きで、誰かに出会うとまず最初に「この人の好みに合う本はなんだろうか」と考えてしまう。"
+      "profile": "トリニティ総合学園所属、図書委員会の司書。\n\n本が大好きな読書マニアで、トリニティの図書館に所蔵されている膨大な蔵書を全て読破したという数少ない生徒の一人。本を酔うのと同じくらい本を勧めることも好きで、誰かに出会うとまず最初に「この人の好みに合う本はなんだろうか」と考えてしまう。",
+      "uniqueGear": "_"
     },
     "juri": {
       "playable": true,
@@ -5394,7 +5424,8 @@
       },
       "eligma": {},
       "hobby": [],
-      "profile": ""
+      "profile": "",
+      "uniqueGear": "_"
     },
     "kanoe": {
       "playable": true,
@@ -5777,6 +5808,52 @@
       "role": "tank",
       "position": "front",
       "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "anna": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": true,
+      "damage": "penetration",
+      "armor": "light",
+      "role": "attacker",
+      "position": "middle",
+      "combat": "striker",
+      "affinity": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "affinityMax": {
+        "urban": "b",
+        "outdoors": "d",
+        "indoors": "s"
+      },
+      "eligma": {},
+      "hobby": [],
+      "profile": ""
+    },
+    "erina": {
+      "playable": true,
+      "rarity": 3,
+      "useCover": false,
+      "damage": "sonic",
+      "armor": "light",
+      "role": "supporter",
+      "position": "back",
+      "combat": "special",
       "affinity": {
         "urban": "b",
         "outdoors": "d",
@@ -8537,7 +8614,7 @@
       "armor": "special",
       "role": "supporter",
       "position": "back",
-      "combat": "",
+      "combat": "special",
       "affinity": {
         "urban": "s",
         "outdoors": "d",
